@@ -1,0 +1,347 @@
+{
+  "food": [
+    {
+      "vi": "cốm dẹp",
+      "km": "អំបុក",
+      "km_romanized": "ambok",
+      "category": "traditional_food",
+      "context": "Flattened rice, used in Ok Om Bok festival"
+    },
+    {
+      "vi": "bánh gừng",
+      "km": "នំខ្ញី",
+      "km_romanized": "nom khgnei",
+      "category": "traditional_food",
+      "context": "Ginger-shaped cake for wedding ceremonies"
+    },
+    {
+      "vi": "bánh tét",
+      "km": "នំអន្សម",
+      "km_romanized": "nom ansom",
+      "category": "traditional_food",
+      "context": "Cylindrical sticky rice cake"
+    },
+    {
+      "vi": "bánh ít",
+      "km": "នំគម",
+      "km_romanized": "nom kom",
+      "category": "traditional_food",
+      "context": "Pyramid-shaped sticky rice cake"
+    },
+    {
+      "vi": "bánh ống tre",
+      "km": "នំបំពង់ឫស្សី",
+      "km_romanized": "nom bampong ruessei",
+      "category": "traditional_food",
+      "context": "Bamboo tube cake"
+    },
+    {
+      "vi": "bún nước lèo",
+      "km": "នំបញ្ចុកទឹកសម្ល",
+      "km_romanized": "nom banchok tuk samlor",
+      "category": "traditional_food",
+      "context": "Khmer rice noodle soup"
+    },
+    {
+      "vi": "Num banh chok",
+      "km": "នំបញ្ចុក",
+      "km_romanized": "nom banchok",
+      "category": "traditional_food",
+      "context": "Khmer rice noodles"
+    },
+    {
+      "vi": "mắm bò hóc",
+      "km": "ម៉ាំប្រហុក",
+      "km_romanized": "mam prahok",
+      "category": "traditional_food",
+      "context": "Fermented fish paste"
+    },
+    {
+      "vi": "Pro-hốc",
+      "km": "ប្រហុក",
+      "km_romanized": "prahok",
+      "category": "traditional_food",
+      "context": "Fermented fish paste (alternate name)"
+    },
+    {
+      "vi": "canh Som-lo Co Cô",
+      "km": "សម្លកកូរ",
+      "km_romanized": "samlor kakou",
+      "category": "traditional_food",
+      "context": "Traditional sour soup"
+    },
+    {
+      "vi": "Amok Trey",
+      "km": "អាម៉ុកត្រី",
+      "km_romanized": "amok trey",
+      "category": "traditional_food",
+      "context": "Steamed fish curry in banana leaf"
+    },
+    {
+      "vi": "nùm bong klanh",
+      "km": "នំបង់ខ្លាញ់",
+      "km_romanized": "nom bong klanh",
+      "category": "traditional_food",
+      "context": "Traditional Khmer Krom cake"
+    },
+    {
+      "vi": "đường thốt nốt",
+      "km": "ស្ករត្នោត",
+      "km_romanized": "skor tnaot",
+      "category": "ingredient",
+      "context": "Palm sugar from toddy palm"
+    },
+    {
+      "vi": "lạp",
+      "km": "ឡាប",
+      "km_romanized": "lab",
+      "category": "traditional_food",
+      "context": "Minced meat salad for ceremonies"
+    },
+    {
+      "vi": "cà ri Khmer",
+      "km": "សម្លការី",
+      "km_romanized": "samlor kari",
+      "category": "traditional_food",
+      "context": "Khmer-style curry"
+    }
+  ],
+  "festivals": [
+    {
+      "vi": "Chol Chnam Thmay",
+      "km": "ចូលឆ្នាំថ្មី",
+      "km_romanized": "chol chnam thmei",
+      "context": "Khmer New Year (April)"
+    },
+    {
+      "vi": "Ok Om Bok",
+      "km": "អកអំបុក",
+      "km_romanized": "ok ambok",
+      "context": "Moon Worship Festival"
+    },
+    {
+      "vi": "Sene Dolta",
+      "km": "សែនដូនតា",
+      "km_romanized": "saen don ta",
+      "context": "Ancestor Worship Festival"
+    },
+    {
+      "vi": "Kathina",
+      "km": "កឋិនទាន",
+      "km_romanized": "kathin tean",
+      "context": "Robe-offering ceremony"
+    }
+  ],
+  "religious": [
+    {
+      "vi": "Sư",
+      "km": "ព្រះសង្ឃ",
+      "km_romanized": "preah sangkh",
+      "context": "Buddhist monk (Theravada)"
+    },
+    {
+      "vi": "Achar",
+      "km": "អាចារ្យ",
+      "km_romanized": "achar",
+      "context": "Lay religious leader"
+    },
+    {
+      "vi": "chùa",
+      "km": "វត្ត",
+      "km_romanized": "wat",
+      "context": "Buddhist temple/pagoda"
+    },
+    {
+      "vi": "tụng kinh",
+      "km": "សូត្រមន្ត",
+      "km_romanized": "sot mon",
+      "context": "Chanting Buddhist scriptures"
+    },
+    {
+      "vi": "cúng dường",
+      "km": "ថ្វាយ",
+      "km_romanized": "thvay",
+      "context": "Making offerings to monks"
+    },
+    {
+      "vi": "xuất gia",
+      "km": "បួស",
+      "km_romanized": "buos",
+      "context": "To ordain as a monk"
+    },
+    {
+      "vi": "thọ giới",
+      "km": "សមាទានសីល",
+      "km_romanized": "samathean sel",
+      "context": "To take precepts"
+    },
+    {
+      "vi": "Phật Thích Ca",
+      "km": "ព្រះសម្មាសម្ពុទ្ធ",
+      "km_romanized": "preah somma somput",
+      "context": "Shakyamuni Buddha"
+    },
+    {
+      "vi": "tắm Phật",
+      "km": "ស្រង់ព្រះ",
+      "km_romanized": "srang preah",
+      "context": "Ritual of bathing the Buddha statue"
+    },
+    {
+      "vi": "đắp núi cát",
+      "km": "ពូនភ្នំខ្សាច់",
+      "km_romanized": "pun phnom khsach",
+      "context": "Building sand mountains (merit-making ritual)"
+    },
+    {
+      "vi": "cầu siêu",
+      "km": "បង្សុកូល",
+      "km_romanized": "bangsoukol",
+      "context": "Funeral prayer ceremony"
+    },
+    {
+      "vi": "bùa hộ mệnh",
+      "km": "ខ្សែបន្តោង",
+      "km_romanized": "khsae bontong",
+      "context": "Protective amulet/talisman"
+    },
+    {
+      "vi": "Neak Ta",
+      "km": "អ្នកតា",
+      "km_romanized": "neak ta",
+      "context": "Village guardian spirit"
+    },
+    {
+      "vi": "Bà La Môn",
+      "km": "ព្រាហ្មណ៍",
+      "km_romanized": "preamh",
+      "context": "Brahmanism/Hindu religion"
+    }
+  ],
+  "kinship": [
+    {
+      "vi": "ông ngoại",
+      "km": "តា (ខាងម្ដាយ)",
+      "km_romanized": "ta (khang mdaay)",
+      "context": "Maternal grandfather"
+    },
+    {
+      "vi": "bà ngoại",
+      "km": "យាយ (ខាងម្ដាយ)",
+      "km_romanized": "yeay (khang mdaay)",
+      "context": "Maternal grandmother"
+    },
+    {
+      "vi": "bác (anh/chị của cha)",
+      "km": "ធំ",
+      "km_romanized": "thom",
+      "context": "Elder sibling of father"
+    },
+    {
+      "vi": "cô (em gái của cha)",
+      "km": "មីង",
+      "km_romanized": "ming",
+      "context": "Younger sister of father"
+    },
+    {
+      "vi": "chú (em trai của cha)",
+      "km": "ពូ",
+      "km_romanized": "pu",
+      "context": "Younger brother of father"
+    },
+    {
+      "vi": "dì (chị/em gái của mẹ)",
+      "km": "មីង",
+      "km_romanized": "ming",
+      "context": "Sister of mother"
+    },
+    {
+      "vi": "dượng",
+      "km": "ពូថ្លៃ",
+      "km_romanized": "pu thlay",
+      "context": "Husband of aunt"
+    },
+    {
+      "vi": "con dâu",
+      "km": "កូនប្រសា",
+      "km_romanized": "kon prosa",
+      "context": "Daughter-in-law"
+    },
+    {
+      "vi": "con rể",
+      "km": "កូនប្រសា",
+      "km_romanized": "kon prosa",
+      "context": "Son-in-law"
+    },
+    {
+      "vi": "thông gia",
+      "km": "សំណាន់ជើង",
+      "km_romanized": "somnoan cheung",
+      "context": "In-law relationship between families"
+    }
+  ],
+  "cultural_practices": [
+    {
+      "vi": "phum sóc",
+      "km": "ភូមិសង្គម",
+      "km_romanized": "phum sangkum",
+      "context": "Khmer village/community (Krom-specific term)"
+    },
+    {
+      "vi": "rong vong",
+      "km": "រាំវង់",
+      "km_romanized": "roam vong",
+      "context": "Traditional circle dance"
+    },
+    {
+      "vi": "múa Ramvang",
+      "km": "រាំវង់",
+      "km_romanized": "roam vong",
+      "context": "Traditional circle dance (alternate spelling)"
+    },
+    {
+      "vi": "nằm than",
+      "km": "ដេកចង្ក្រានធ្យូង",
+      "km_romanized": "dek changkran thyung",
+      "context": "Postpartum practice of lying on charcoal bed"
+    },
+    {
+      "vi": "Dù Kê",
+      "km": "យីកេ/ល្ខោនបាសាក់",
+      "km_romanized": "yikee/lkhaon basak",
+      "context": "Traditional Khmer theater form"
+    },
+    {
+      "vi": "Ngũ Âm",
+      "km": "ពិណពាទ្យ",
+      "km_romanized": "pin peat",
+      "context": "Traditional five-instrument ensemble"
+    },
+    {
+      "vi": "trống Sadăm",
+      "km": "ស្គរសាដំ",
+      "km_romanized": "skor sadam",
+      "context": "Traditional drum used in temples"
+    },
+    {
+      "vi": "mẫu hệ",
+      "km": "មាតាធិបតេយ្យ",
+      "km_romanized": "meatea thippatey",
+      "context": "Matrilineal system in Khmer culture"
+    }
+  ],
+  "agriculture": [
+    {
+      "vi": "lúa mùa nổi",
+      "km": "ស្រូវវស្សាអណ្ដែត",
+      "km_romanized": "srov vossa andaet",
+      "context": "Floating rice variety adapted to floods"
+    },
+    {
+      "vi": "cây thốt nốt",
+      "km": "ដើមត្នោត",
+      "km_romanized": "daem tnaot",
+      "context": "Toddy/sugar palm tree, symbol of Khmer culture"
+    }
+  ]
+}
