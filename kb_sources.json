@@ -1,0 +1,139 @@
+{
+  "_description": "Academic source citations for Cultural Knowledge Base v3",
+  "_purpose": "For reproducibility and paper publication",
+  "sources": [
+    {
+      "id": "KKF_GEO",
+      "title": "Geography of Kampuchea-Krom",
+      "url": "https://khmerkrom.org/geography-of-kampuchea-krom/",
+      "publisher": "Khmers Kampuchea-Krom Federation (KKF)",
+      "type": "official_organization",
+      "data_used": "21 provinces + 2 islands + 1 port of Kampuchea Krom with Khmer script names",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "KKF_CULTURE",
+      "title": "The Culture of the Khmer-Krom",
+      "url": "https://khmerkrom.org/the-culture-of-the-khmer-krom/",
+      "publisher": "KKF Research Team",
+      "type": "official_organization",
+      "data_used": "Festival details (Chol Chnam Thmey, Don-Ta, Ork Ombok, Buddhist festivals), traditional sports (ox racing, boat racing), cultural practices",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PAGODA_ST",
+      "title": "Danh Sách 93 Ngôi Chùa Khmer Ở Sóc Trăng",
+      "url": "https://mientaycogi.com/danh-sach-chua-khmer-soc-trang-10212/",
+      "original_source": "Cổng Thông Tin Sóc Trăng (www.soctrang.gov.vn)",
+      "publisher": "Miền Tây Có Gì / Sóc Trăng Government Portal",
+      "type": "government_data",
+      "data_used": "93 pagoda names (Khmer Pali + common Khmer + Vietnamese), founding years, locations",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_KHMER_KROM",
+      "title": "Khmer Krom",
+      "url": "https://en.wikipedia.org/wiki/Khmer_Krom",
+      "type": "encyclopedia",
+      "data_used": "Demographics, distribution, historical context, cultural overview",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_SOC_TRANG",
+      "title": "Sóc Trăng province",
+      "url": "https://en.wikipedia.org/wiki/S%C3%B3c_Tr%C4%83ng_province",
+      "type": "encyclopedia",
+      "data_used": "Etymology (Srok Khleang), administrative divisions, Khmer name ខេត្តឃ្លាំង",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_TRA_VINH",
+      "title": "Trà Vinh province",
+      "url": "https://en.wikipedia.org/wiki/Tr%C3%A0_Vinh_province",
+      "type": "encyclopedia",
+      "data_used": "Etymology (Preah Trapeang), demographics (30% Khmer), Khmer name ព្រះត្រពាំង",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_AN_GIANG",
+      "title": "An Giang province",
+      "url": "https://en.wikipedia.org/wiki/An_Giang_province",
+      "type": "encyclopedia",
+      "data_used": "Historical place names (Moth Chrouk, Psar Dek), administrative history",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "OMNIGLOT_KINSHIP",
+      "title": "Family words in Khmer",
+      "url": "https://omniglot.com/language/kinship/khmer.htm",
+      "type": "linguistic_resource",
+      "data_used": "Complete Khmer kinship terminology with script + romanization + formal/informal variants",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_PINPEAT",
+      "title": "Pinpeat",
+      "url": "https://en.wikipedia.org/wiki/Pinpeat",
+      "type": "encyclopedia",
+      "data_used": "Pin Peat ensemble instruments: roneat, skor, samphor, sralai, chhing, chapey, khloy",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "SOUNDS_ANGKOR",
+      "title": "Pin peat ensemble",
+      "url": "https://www.soundsofangkor.org/english/orchestras/pin-peat-ensemble/",
+      "type": "cultural_archive",
+      "data_used": "Detailed instrument descriptions and Khmer script names",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "SOCTRANG_TOURISM",
+      "title": "Bánh tét cốm dẹp của bà con Khmer Nam Bộ",
+      "url": "https://soctrangtourism.vn/vi/detailnews/?t=banh-tet-com-dep-cua-ba-con-khmer-nam-bo&id=cuisine_59",
+      "type": "government_tourism",
+      "data_used": "Detailed preparation of cốm dẹp and bánh tét cốm dẹp",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "DANVIET_FOOD",
+      "title": "Những món bánh tuyệt ngon của đồng bào Khmer",
+      "url": "https://danviet.vn/nhung-mon-banh-tuyet-ngon-cua-dong-bao-khmer-7777191214-d308108.html",
+      "type": "news_media",
+      "data_used": "Traditional Khmer Krom cake names: num khnhay, banh cong",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "GLOSBE_KM_VI",
+      "title": "The Khmer-Vietnamese dictionary",
+      "url": "https://vi.glosbe.com/km/vi",
+      "type": "dictionary",
+      "data_used": "Cross-reference for Khmer-Vietnamese vocabulary",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PANGLOSS_KROM",
+      "title": "Pangloss Collection — Krom Khmer corpus",
+      "url": "https://pangloss.cnrs.fr/corpus/Krom_Khmer?lang=en",
+      "publisher": "CNRS (French National Centre for Scientific Research)",
+      "type": "academic_corpus",
+      "data_used": "Reference for Khmer Krom linguistic features",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PAGODA_AG",
+      "title": "Danh sách 37 ngôi chùa Khmer Nam Tông ở Tri Tôn - An Giang",
+      "url": "https://langthangangiang.net/2021/04/04/danh-sach-37-ngoi-chua-khmer-nam-tong-o-tri-ton-an-giang/",
+      "type": "cultural_blog",
+      "data_used": "37 Khmer Theravada pagodas in Tri Ton district, An Giang",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "KKF_MAP",
+      "title": "Map of Kampuchea Krom",
+      "url": "https://khmerkromngo.org/map/map.htm",
+      "type": "official_organization",
+      "data_used": "Geographic reference for Khmer Krom provinces",
+      "accessed": "2026-04-09"
+    }
+  ]
+}
