@@ -25,6 +25,9 @@ from collections import defaultdict
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+BASE_DIR = Path(__file__).parent
+MINED_ENTITIES_FILE = BASE_DIR / "experiment_results" / "mined_entities_20260417_185345.json"
+
 # ═══════════════════════════════════════════════════════════════════
 # GROUP C: VIETNAMIZED TOPONYMS (Địa danh Việt hóa)
 # These are Khmer place names that were transliterated into Vietnamese.
@@ -472,12 +475,83 @@ CULTURAL_KB = {
 }
 
 
+def _base_vi_terms():
+    terms = set()
+    for entry in TOPONYMS:
+        terms.add(entry["vi"].lower().strip())
+    for entry in LOANWORDS_VI_KM:
+        terms.add(entry["vi"].lower().strip())
+    for entry in ROMANIZED_KHMER:
+        terms.add(entry["romanized"].lower().strip())
+    for entries in CULTURAL_KB.values():
+        for entry in entries:
+            terms.add(entry["vi"].lower().strip())
+    return terms
+
+
+def load_mined_entities():
+    """
+    Load mined entities extracted from our 1,856-sample parallel dataset.
+    We keep only entries not already covered by the curated KB.
+    """
+    if not MINED_ENTITIES_FILE.exists():
+        return []
+
+    data = json.loads(MINED_ENTITIES_FILE.read_text(encoding="utf-8"))
+    unique_entities = data.get("unique_entities", [])
+    existing_terms = _base_vi_terms()
+    mined = []
+
+    category_map = {
+        "ceremony": "ceremony",
+        "food": "food",
+        "religious": "religious",
+        "practice": "practice",
+        "object": "object",
+        "kinship": "kinship",
+        "nature": "nature",
+        "musical": "musical",
+        "artistic": "artistic",
+        "proverb": "proverb",
+        "clothing": "clothing",
+        "place": "place",
+        "other": "other",
+    }
+
+    for entry in unique_entities:
+        vi = entry.get("vi", "").strip()
+        km = entry.get("km", "").strip()
+        if not vi or not km:
+            continue
+        key = vi.lower()
+        if key in existing_terms:
+            continue
+        existing_terms.add(key)
+        mined.append({
+            "vi": vi,
+            "km": km,
+            "km_romanized": entry.get("km_romanized", ""),
+            "context": entry.get("context", ""),
+            "category": category_map.get(entry.get("category", "other"), "other"),
+            "group": "A",  # mined from natural Vi-Km parallel data, treated as loanword/native mapping
+            "src": "DATA_MINING",
+            "source_topic": entry.get("source_topic", ""),
+            "source_file": MINED_ENTITIES_FILE.name,
+        })
+
+    return mined
+
+
+MINED_ENTITIES = load_mined_entities()
+
+
 def count_entries():
     """Count total entries across all KB sections."""
     total = 0
     total += len(TOPONYMS)
     total += len(LOANWORDS_VI_KM)
     total += len(ROMANIZED_KHMER)
+    total += len(MINED_ENTITIES)
     for cat, entries in CULTURAL_KB.items():
         total += len(entries)
     return total
@@ -502,6 +576,10 @@ def lookup(text, include_toponyms=True, include_romanized=True):
         for entry in ROMANIZED_KHMER:
             if entry["romanized"].lower() in text_lower:
                 found.append({**entry, "source": "romanized", "category": "romanized"})
+
+    for entry in MINED_ENTITIES:
+        if entry["vi"].lower() in text_lower:
+            found.append({**entry, "source": "mined", "category": entry.get("category", "other")})
 
     return found
 
@@ -548,21 +626,25 @@ def export_full_kb():
             },
             "sources_file": "kb_sources.json",
             "pagodas_file": "data_pagodas_soctrang.json",
+            "mined_entities_file": MINED_ENTITIES_FILE.name,
+            "mined_entities_count": len(MINED_ENTITIES),
         },
         "toponyms": TOPONYMS,
         "loanwords": LOANWORDS_VI_KM,
         "romanized": ROMANIZED_KHMER,
         "cultural": CULTURAL_KB,
+        "mined_data": MINED_ENTITIES,
     }
 
 
 if __name__ == "__main__":
     total = count_entries()
-    print(f"CKB v2 — Total entries: {total}")
+    print(f"CKB v3 — Total entries: {total}")
     print(f"\nBy section:")
     print(f"  Toponyms (Group C):     {len(TOPONYMS)}")
     print(f"  Loanwords (Group A):    {len(LOANWORDS_VI_KM)}")
     print(f"  Romanized (Group B):    {len(ROMANIZED_KHMER)}")
+    print(f"  Mined from data:        {len(MINED_ENTITIES)}")
     for cat, entries in CULTURAL_KB.items():
         groups = defaultdict(int)
         for e in entries:
@@ -581,6 +663,8 @@ if __name__ == "__main__":
         all_groups["A"] += 1
     for e in ROMANIZED_KHMER:
         all_groups["B"] += 1
+    for e in MINED_ENTITIES:
+        all_groups[e.get("group", "?")] += 1
     for g, c in sorted(all_groups.items()):
         label = {"A": "Loanwords", "B": "Romanized", "C": "Toponyms"}.get(g, g)
         print(f"  Group {g} ({label}): {c}")
@@ -607,7 +691,7 @@ if __name__ == "__main__":
             km = e.get("km", e.get("km_original", "?"))
             print(f"  [{e['category']:12s}] {e.get('vi', e.get('romanized', '?')):25s} → {km}")
 
-    out_path = Path(__file__).parent / "cultural_knowledge_base_v3.json"
+    out_path = BASE_DIR / "cultural_knowledge_base_v3.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(export_full_kb(), f, ensure_ascii=False, indent=2)
     print(f"\nExported to: {out_path}")

@@ -122,12 +122,30 @@ def compute_script_purity(text_km):
     Returns:
         dict with purity score (0-1), foreign character details
     """
+    text_km = text_km or ""
+
     if not text_km.strip():
-        return {"purity": 0, "foreign_chars": [], "details": {}}
+        return {
+            "purity": 0,
+            "is_pure": False,
+            "n_chinese_chars": 0,
+            "n_vietnamese_chars": 0,
+            "n_latin_words": 0,
+            "foreign_chars": [],
+            "details": {},
+        }
 
     chars = [c for c in text_km if not c.isspace() and c not in '.,;:!?()[]{}"-/\\\'']
     if not chars:
-        return {"purity": 1.0, "foreign_chars": [], "details": {}}
+        return {
+            "purity": 1.0,
+            "is_pure": True,
+            "n_chinese_chars": 0,
+            "n_vietnamese_chars": 0,
+            "n_latin_words": 0,
+            "foreign_chars": [],
+            "details": {},
+        }
 
     khmer_count = sum(1 for c in chars if KHMER_SCRIPT.match(c))
     chinese_found = CHINESE_CHARS.findall(text_km)
@@ -168,8 +186,21 @@ def classify_errors(source_vi, hypothesis_km, reference_km):
     """
     Classify translation errors by type.
     """
+    hypothesis_km = hypothesis_km or ""
+    reference_km = reference_km or ""
+
     cuea_result = compute_cuea(source_vi, hypothesis_km, reference_km)
     purity_result = compute_script_purity(hypothesis_km)
+    if "is_pure" not in purity_result:
+        purity_result = {
+            "purity": purity_result.get("purity", 0),
+            "is_pure": False,
+            "n_chinese_chars": purity_result.get("n_chinese_chars", 0),
+            "n_vietnamese_chars": purity_result.get("n_vietnamese_chars", 0),
+            "n_latin_words": purity_result.get("n_latin_words", 0),
+            "foreign_chars": purity_result.get("foreign_chars", []),
+            "details": purity_result.get("details", {}),
+        }
     standard = compute_sentence_metrics(hypothesis_km, reference_km)
 
     errors = []
