@@ -1,11 +1,10 @@
 """
-Run local SEA-LION-v1-3B on 50 Vietnamese→Khmer samples.
+Run local Llama-SEA-LION-v3.5-8B-R on all Vietnamese→Khmer samples.
 Outputs JSON results + summary metrics.
-Note: SEA-LION-v1-3B is a base causal LM, so translation quality may be poor.
+Note: SEA-LION is a causal LM prompted for translation.
 """
 
 import json
-import random
 import re
 import sys
 import time
@@ -14,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 import torch
-from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoConfig, AutoModelForCausalLM, PreTrainedTokenizerFast
 
 from cultural_kb_expanded import lookup
 from evaluation_framework import classify_errors, compute_standard_metrics
@@ -25,13 +24,14 @@ sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 BASE_DIR = Path(__file__).parent
 RESULTS_DIR = BASE_DIR / "experiment_results"
 RESULTS_DIR.mkdir(exist_ok=True)
-MODEL_DIR = Path(r"c:\Users\HOY9HC\Desktop\Code\Learning\models\SEA-LION-v1-3B")
+DATA_DIR = Path("/datastore/npl/luannt/IHSD/MT/data")
+MODEL_DIR = Path("/datastore/npl/luannt/IHSD/.cache/models/Llama-SEA-LION-v3.5-8B-R")
 
 
 def load_data():
     data = []
     for fname in ["all_1.jsonl", "all_2.jsonl"]:
-        fpath = BASE_DIR / fname
+        fpath = DATA_DIR / "khmer" / fname
         if not fpath.exists():
             continue
         with open(fpath, "r", encoding="utf-8") as f:
@@ -57,51 +57,48 @@ def get_clean_reference(labels):
     return best
 
 
-def select_samples(data, n=50):
-    samples_with_entities = []
+def prepare_samples(data):
+    selected = []
     for d in data:
         ref = get_clean_reference(d.get("label", []))
         if not ref:
             continue
         entities = lookup(d["text"])
-        if entities:
-            samples_with_entities.append(
-                {
-                    "sample": d,
-                    "ref": ref,
-                    "entities": entities,
-                    "n_entities": len(
-                        set(e.get("vi", e.get("romanized", "")) for e in entities)
-                    ),
-                }
-            )
+        selected.append(
+            {
+                "sample": d,
+                "ref": ref,
+                "entities": entities,
+            }
+        )
+    return selected
 
-    random.seed(42)
-    if len(samples_with_entities) > n:
-        samples_with_entities.sort(key=lambda x: -x["n_entities"])
-        top = samples_with_entities[: n // 2]
-        rest = samples_with_entities[n // 2 :]
-        random_rest = random.sample(rest, min(n - len(top), len(rest)))
-        selected = top + random_rest
-    else:
-        selected = samples_with_entities
-    return selected[:n]
+
+def save_checkpoint(checkpoint_path, per_sample, hypotheses, references, selected_len):
+    with open(checkpoint_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "per_sample": per_sample,
+                "hypotheses": hypotheses,
+                "references": references,
+                "progress": f"{len(per_sample)}/{selected_len}",
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
 
 
 def load_model():
     print(f"Loading SEA-LION from: {MODEL_DIR}")
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_DIR,
-        trust_remote_code=True,
-        use_fast=False,
-    )
+    tokenizer = PreTrainedTokenizerFast.from_pretrained(MODEL_DIR)
     config = AutoConfig.from_pretrained(MODEL_DIR, trust_remote_code=True)
     config.tie_word_embeddings = True
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_DIR,
         trust_remote_code=True,
         config=config,
-        torch_dtype=torch.float32,
+        dtype=torch.float32,
         low_cpu_mem_usage=True,
     )
     model.eval()
@@ -143,19 +140,32 @@ def translate(tokenizer, model, device, text):
     return text_out
 
 
-def main():
+def main(resume_from=None):
     print("Loading data...")
     data = load_data()
-    selected = select_samples(data, n=50)
-    print(f"Selected {len(selected)} samples")
+    print(f"Loaded {len(data)} raw samples from all_1.jsonl and all_2.jsonl")
+    selected = prepare_samples(data)
+    print(f"Selected {len(selected)} samples with valid references")
 
     tokenizer, model, device = load_model()
 
     hypotheses, references = [], []
     per_sample = []
+    start_idx = 0
+
+    if resume_from and Path(resume_from).exists():
+        print(f"Resuming from checkpoint: {resume_from}")
+        with open(resume_from, "r", encoding="utf-8") as f:
+            checkpoint_data = json.load(f)
+        per_sample = checkpoint_data.get("per_sample", [])
+        hypotheses = checkpoint_data.get("hypotheses", [])
+        references = checkpoint_data.get("references", [])
+        start_idx = len(per_sample)
+        print(f"Resuming from sample {start_idx + 1}/{len(selected)}")
 
     start = time.time()
-    for i, item in enumerate(selected, 1):
+    checkpoint_path = RESULTS_DIR / "sealion_all_checkpoint_latest.json"
+    for i, item in enumerate(selected[start_idx:], start=start_idx + 1):
         source = item["sample"]["text"]
         ref = item["ref"]
         ent_names = [e.get("vi", e.get("romanized", "?")) for e in item["entities"]]
@@ -174,6 +184,15 @@ def main():
             }
         )
 
+        if i % 100 == 0:
+            save_checkpoint(
+                checkpoint_path,
+                per_sample,
+                hypotheses,
+                references,
+                len(selected),
+            )
+
     elapsed = round(time.time() - start, 2)
     corpus = compute_standard_metrics(hypotheses, references)
     cueas = [
@@ -189,12 +208,12 @@ def main():
 
     results = {
         "metadata": {
-            "model": "SEA-LION-v1-3B",
+            "model": "Llama-SEA-LION-v3.5-8B-R",
             "model_dir": str(MODEL_DIR),
             "n_samples": len(selected),
             "elapsed_sec": elapsed,
             "device": device,
-            "note": "Base causal LM prompted for translation",
+            "note": "Causal LM prompted for translation",
         },
         "corpus_results": {
             **corpus,
@@ -206,9 +225,17 @@ def main():
     }
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    outpath = RESULTS_DIR / f"sealion_50_{timestamp}.json"
+    outpath = RESULTS_DIR / f"sealion_all_{timestamp}.json"
     with open(outpath, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
+
+    save_checkpoint(
+        checkpoint_path,
+        per_sample,
+        hypotheses,
+        references,
+        len(selected),
+    )
 
     print("\n=== SEA-LION SUMMARY ===")
     print(f"chrF++: {corpus['chrf++']}")
@@ -220,4 +247,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    resume_from = None
+
+    for arg in sys.argv[1:]:
+        if arg == "--all":
+            continue
+        if arg.startswith("--resume="):
+            resume_from = arg.split("=", 1)[1]
+
+    main(resume_from=resume_from)
