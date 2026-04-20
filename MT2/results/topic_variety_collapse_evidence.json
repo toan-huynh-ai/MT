@@ -1,0 +1,785 @@
+{
+  "total_samples": 1856,
+  "ref_with_krom_marker": 181,
+  "gpt4o_dropped": 139,
+  "drop_rate_percent": 76.8,
+  "dropped_by_category": {
+    "food_krom": 63,
+    "kinship_colloq": 20,
+    "krom_religious": 12,
+    "toponym_krom": 3,
+    "ethnonym_kinh": 7,
+    "festival_krom": 40,
+    "boat_racing": 5,
+    "krom_ethno_label": 10,
+    "nam_bo_vn_translit": 15,
+    "vn_loanword": 2
+  },
+  "per_topic": {
+    "(no topic / Q&A)": {
+      "total": 352,
+      "ref_has_krom": 95,
+      "gpt4o_dropped": 70,
+      "drop_rate": 73.7,
+      "categories_dropped": {
+        "food_krom": 40,
+        "kinship_colloq": 17,
+        "krom_religious": 4,
+        "toponym_krom": 2,
+        "ethnonym_kinh": 5,
+        "festival_krom": 9,
+        "vn_loanword": 2,
+        "krom_ethno_label": 2,
+        "nam_bo_vn_translit": 2
+      },
+      "examples": [
+        {
+          "source": "Bữa ăn tối thời ông bà khác hơn nhiều so với bây giờ, trước đây mọi ngường thường ăn mùm bong khlanh uống trà bây giờ các món ăn cầu kì đa dạng hơn.",
+          "reference": "អាហារពេលល្ងាចនៅសម័យជីដូនជីតារបស់យើងគឺខុសពីពេលនេះទៅទៀត ពីមុនប្រជាជនតែងតែហូបនំបង់ខ្លាញ់ផឹកទឹកតែ តែឥឡូវមុខម្ហូបមានភាពចម្រុះនិងទំនើបជាង។",
+          "hyp_plain": "អាហារពេលល្ងាចនៅសម័យបុរាណខុសប្លែកពីសព្វថ្ងៃយ៉ាងខ្លាំង។ មុននេះមនុស្សភាគច្រើនតែងតែញ៉ាំម្ហូបសាមញ្ញ និងផឹកតែ ប៉ុន្តែឥឡូវនេះម្ហូបមានភាពសម្បូរបែប និងស្មុគស្មាញជាងមុន។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        },
+        {
+          "source": "Với đặc điểm đơn giản, dễ bảo quản, làm bởi gạo, nếp ngon lại no lâu. Do đó Nùm bong khlanh là được người dân Khmer yêu thích.",
+          "reference": "ដោយមានលក្ខណៈសាមញ្ញ ងាយស្រួលរក្សាទុក ផលិតពីអង្ករ ឬដំណើប ឆ្ងាញ់ឆ្អែតបានយូរ។ អាស្រ័យហេតុនេះ នំបង់ខ្លាញ់ត្រូវបានប្រជាជនខ្មែរចូលចិត្តហូប។",
+          "hyp_plain": "ដោយមានលក្ខណៈសាមញ្ញ ងាយស្រួលរក្សាទុក ធ្វើពីអង្ករ អង្ករដំណើបឆ្ងាញ់ ហើយធ្វើឲ្យឆ្អែតបានយូរ។ ដូច្នេះ នំបុងខ្លាញ់ គឺជាអ្វីដែលប្រជាជនខ្មែរចូលចិត្ត។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        }
+      ]
+    },
+    "PHONG TỤC KHI KẾT HÔN": {
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "festival_krom": 2
+      },
+      "examples": [
+        {
+          "source": "- Khi về nhà chồng, ngoài việc đôi tân hôn được rải nước thơm và lời chúc phúc cô dâu sẽ thực hiện một số nghi thức truyền thống, bao gồm: lễ rửa chân cho con dâu, lễ buộc chỉ tay,",
+          "reference": "ពេលទៅដល់ផ្ទះប្ដី គូស្វាមីភរិយាថ្មីក្រៅពីបានស្រោចទឹកអប់និងសុំដៃជូនពរ កូនប្រសាស្រីនឹងធ្វើពិធីប្រពៃណីមួយចំនួន រួមមានៈ ពិធីលាងជើងកូនប្រសា ពិធីចងដៃ និងពិធីចូលរោង។ និងពិធីផ្សេងៗដូចជា ពិធ",
+          "hyp_plain": "- នៅពេលដែលត្រឡប់ទៅផ្ទះប្ដី បន្ថែមពីការដែលគូស្វាម៉ីភរិយាថ្មីត្រូវបានបាញ់ទឹកក្រអូប និងទទួលពរជ័យសិរីមង្គល កូនក្រមុំនឹងអនុវត្តពិធីសាសនាបុរាណមួយចំនួន រួមមាន៖ ពិធីលាងជើងឲ្យកូនស្រីក្រមុំ,",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "- Trong ngày đón cô dâu về, nhà trai chuẩn bị sẵn một mâm cơm vừa đủ có bánh và trái cây để cúng đến ông bà, cũng như nhằm để thông báo nhà đã có thêm thành viên mới trong gia đình",
+          "reference": "នៅថ្ងៃទទួលកូនប្រសាចូលផ្ទះ គ្រួសារខាងប្រុស បានរៀបចំស្ពកអាហរសំល្មម មាននំ និងផ្លែឈើ ដើម្បីថ្វាយសែនដូនតា ក៏ដូចជាប្រកាសថាគ្រួសារមានសមាជិកថ្មី។",
+          "hyp_plain": "- នៅថ្ងៃដែលទទួលកូនប្រសារមកផ្ទះ បុរសបានរៀបចំតុអាហារមួយដែលមាននំ និងផ្លែឈើដើម្បីបូជាឲ្យជីដូនជីតា និងជាការជូនដំណឹងថាមានសមាជិកថ្មីម្នាក់ទៀតក្នុងគ្រួសារ។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "House, household and transportation": {
+      "total": 48,
+      "ref_has_krom": 4,
+      "gpt4o_dropped": 4,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "boat_racing": 1,
+        "kinship_colloq": 1,
+        "food_krom": 1,
+        "festival_krom": 1,
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Nó vừa là phương tiện buôn bán, vận chuyển nông sản, vừa là hình ảnh gắn liền với lễ hội đua ghe ngo truyền thống.",
+          "reference": "វាជាមធ្យោបាយធ្វើជំនួញ ដឹកជញ្ជូនកសិផល ផងដែរជារូបភាពដែលជាប់ទាក់ទងនឹងពិធីបុណ្យប្រណាំងទូកងប្រពៃណី។",
+          "hyp_plain": "វា​គឺ​ជា​ទាំង​មធ្យោបាយ​ពាណិជ្ជកម្ម និង​ដឹកជញ្ជូន​ផលិតផល​កសិកម្ម ហើយ​ជា​រូបភាព​ដែល​ទាក់ទង​នឹង​ពិធីបុណ្យ​ប្រណាំង​ទូក​ងូរ​ប្រពៃណី។",
+          "dropped_categories": [
+            "boat_racing"
+          ]
+        },
+        {
+          "source": "Xe máy, ô tô, tàu thuyền hiện đại phổ biến hơn, nhưng người Khmer vẫn trân trọng và duy trì xe bò, ghe xuồng trong nghi lễ.",
+          "reference": "ម៉ូតូ រថយន្ត ទូកកប៉ាល់ទំនើបមានភាពពេញនិយមជាង ប៉ុន្តែជនជាតិខ្មែរនៅតែឲ្យតម្លៃ និងរក្សារទេះគោ ទូក ក្នុងពិធីបុណ្យ។",
+          "hyp_plain": "ម៉ូតូ, ឡាន, នាវា និងទូកសម័យទំនើបកាន់តែពេញនិយម, ប៉ុន្តែជនជាតិខ្មែរនៅតែគោរពនិងថែរក្សារទូកឬសេះក្នុងពិធីសាសនា។",
+          "dropped_categories": [
+            "kinship_colloq"
+          ]
+        }
+      ]
+    },
+    "Self care": {
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_religious": 1
+      },
+      "examples": [
+        {
+          "source": "Chúng tôi thường thờ cúng Neak Ta, tin rằng vị thần bảo hộ làng sẽ mang lại sức khỏe, may mắn và sự bình an cho mọi người.",
+          "reference": "ពួកយើងតែងតែបន់ស្រន់ អ្នកតា ជឿថាទេវតាដែលការពារភូមិស្រុកនឹងនាំមកនូវសុខភាពសំណាងល្អនិងសេចក្តីសុខសាន្តដល់មនុស្សគ្រប់គ្នា។",
+          "hyp_plain": "យើងតែងតែបូជា Neak Ta ដោយជឿថាព្រះដែលការពារភូមិនឹងនាំមកនូវសុខភាព សំណាង និងសន្តិភាពដល់មនុស្សគ្រប់គ្នា។",
+          "dropped_categories": [
+            "krom_religious"
+          ]
+        }
+      ]
+    },
+    "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM": {
+      "total": 30,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 1,
+        "festival_krom": 1,
+        "kinship_colloq": 1
+      },
+      "examples": [
+        {
+          "source": "Có chứ chị. Dịp lễ Sen Dolta hay Ok Om Bok, cả xóm tụ tập nấu ăn, múa hát, thăm hỏi và thắp hương ông bà tổ tiên.",
+          "reference": "មានតើបងស្រី។ ក្នុងឱកាសសែនដូនតា ឬអកអំបុក អ្នកទាំងក្នុងភូមិមូលប្រមូលផ្តុំគ្នាធ្វើម្ហូបស៊ី រាំ ច្រៀង សួរសុខទុក្ខ និងអុជធូបដូនតា។",
+          "hyp_plain": "មានចាសបង។ ក្នុងឱកាសបុណ្យសែនដុលតា ឬអុកអុំបុក សហគមន៍ទាំងមូលប្រមូលផ្តុំគ្នាធ្វើម្ហូប, រាំច្រៀង, សួរសុខទុក្ខ និងបួងសួងដល់បុព្វបុរស។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "Chúng tôi thường rủ nhau đi lễ chùa, tham gia đội múa Ramvang hoặc dạy nhau đan len, may áo truyền thống.",
+          "reference": "យើងច្រើនតែបបួយគ្នាទៅវត្ត ចូលរួមក្រុមរាំវង់ ឬបង្រៀនគ្នាឱ្យចេះប៉ាក់ និងដេរសម្លៀកបំពាក់ប្រពៃណី។",
+          "hyp_plain": "យើងតែងតែអញ្ជើញគ្នាទៅវត្ត, ចូលរួមក្រុមរាំរាំវង់ ឬបង្រៀនគ្នាដេរត្បាញសំលៀកបំពាក់ប្រពៃណី។",
+          "dropped_categories": [
+            "kinship_colloq"
+          ]
+        }
+      ]
+    },
+    "Traditions after the body is buried": {
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Người Khmer: Dạ có, nhất là vào lễ Sen Đolta, con cháu sẽ đến thăm, dọn dẹp và dâng lễ để tưởng nhớ tổ tiên.",
+          "reference": "ជនជាតិខ្មែរ៖បាទមាន ជាពិសេសក្នុងឱកាសបុណ្យសែនដូនតា កូនចៅនឹងទៅសួរសុខទុក្ខ សម្អាត និងនិងធ្វើយញ្ញបូជាដើម្បីរំលឹកដល់ដូនតា។",
+          "hyp_plain": "អ្នកខ្មែរ៖ បាទ/ចាស មានជាពិសេសនៅពេលបុណ្យសែនដុលតា កូនចៅនឹងមកលេង សម្អាត និងបួងសួងដើម្បីរំលឹកដល់បុព្វបុរស។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Use of art at certain events": {
+      "total": 59,
+      "ref_has_krom": 15,
+      "gpt4o_dropped": 12,
+      "drop_rate": 80.0,
+      "categories_dropped": {
+        "boat_racing": 3,
+        "ethnonym_kinh": 1,
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1,
+        "festival_krom": 7,
+        "food_krom": 4
+      },
+      "examples": [
+        {
+          "source": "Tôi được biết lễ hội đua ghe ngo rất nổi tiếng, nghệ thuật có vai trò gì trong dịp đặc biệt này?",
+          "reference": "ខ្ញុំបានដឹងថាពិធីបុណ្យប្រណាំងទូកងគឺល្បីល្បាញណាស់ តើសិល្បៈមានតួនាទីអ្វីខ្លះក្នុងឱកាសពិសេសនេះ?",
+          "hyp_plain": "ខ្មែរ: ខ្ញុំបានដឹងថាពិធីបុណ្យប្រណាំងទូកនោះមានชื่อเสียงខ្លាំងណាស់។ សិល្បៈមានតួនាទីអ្វីក្នុងឱកាសពិសេសនេះ?",
+          "dropped_categories": [
+            "boat_racing"
+          ]
+        },
+        {
+          "source": "Dù Kê khác biệt thế nào so với các loại hình sân khấu của người Kinh hoặc các dân tộc khác?",
+          "reference": "តើយីកេមានភាពខុសប្លែកពីទម្រង់ល្ខោនរបស់ជនជាតិគិញ ឬជនជាតិដទៃទៀតយ៉ាងដូចម្តេចខ្លះ?",
+          "hyp_plain": "Dù kê មានភាពខុសគ្នាយ៉ាងដូចម្តេចសម្រាប់សិល្បៈឆាករបស់ជនជាតិខ្មែរ ឬជនជាតិផ្សេងទៀត?",
+          "dropped_categories": [
+            "ethnonym_kinh"
+          ]
+        }
+      ]
+    },
+    "Game types": {
+      "total": 35,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 1,
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Chủ yếu vào các lễ hội lớn như Chol Chnam Thmay hay Ok Om Bok, khi mọi người rảnh rỗi và cùng vui chơi tập thể.",
+          "reference": "ភាគច្រើនគឺក្នុងពិធីបុណ្យធំៗ ដូចជា ពិធីបុណ្យចូលឆ្នាំថ្មី ឬ ពិធីបុណ្យអកអំបុក នៅពេលដែលមនុស្សគ្រប់គ្នារួចរាល់ ហើយរីករាយលេងជាមួយគ្នាយ៉ាងសមូហភាព។",
+          "hyp_plain": "ជាធម្មតានៅពេលពិធីបុណ្យធំៗដូចជា ចូលឆ្នាំថ្មីឬអុកអុំបុក ដែលជាពេលដែលមនុស្សទាំងអស់មានពេលទំនេរនិងរីករាយជាក្រុម។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Folk songs": {
+      "total": 37,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ vai trò của dân ca trong đời sống tinh thần và văn hóa cộng đồng Khmer Nam Bộ không?",
+          "reference": "បងអាចចែករំលែកតួនាទីរបស់ចម្រៀងប្រជាប្រិយក្នុងជីវិតស្មារតី និងវប្បធម៌សហគមន៍ខ្មែរណាមបូបានទេ?",
+          "hyp_plain": "តើបងអាចចែករំលែកពីតួនាទីរបស់បទចម្រៀងប្រជាប្រិយក្នុងជីវិតផ្លូវចិត្តនិងវប្បធម៌សហគមន៍ខ្មែរនៅតំបន់ខាងត្បូងបានទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "VỊ TRÍ TỔ CHỨC ĐÁM CƯỚI": {
+      "total": 8,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "- Ngoài ra, một số nghi thức quan trọng như cúng tổ tiên hoặc lễ buộc chỉ đỏ vào cổ tay được làm trong gian thờ hoặc phòng chính của nhà.",
+          "reference": "លើសពីនេះ ពិធីសំខាន់ៗមួយចំនួនដូចជា ការសែនដូនតា ឬពិធីចងខ្សែអំបោះពណ៌ក្រហមកដៃ ត្រូវបានអនុវត្តនៅក្នុងអាសនៈទីសក្ការបូជា ឬបន្ទប់សំខាន់នៃផ្ទះ។",
+          "hyp_plain": "ខ្មែរ: - លើសពីនេះទៅទៀត ពិធីសំខាន់ៗមួយចំនួនដូចជាការបូជា祖先 ឬពិធីចងខ្សែពណ៌ក្រហមនៅកដៃ ត្រូវបានធ្វើឡើងនៅក្នុងបន្ទប់បូជា ឬបន្ទប់មេនៃផ្ទះ។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "ĐỒ ĂN Ở ĐÁM CƯỚI": {
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0,
+      "categories_dropped": {
+        "food_krom": 1
+      },
+      "examples": [
+        {
+          "source": "- Một trong những món không thể thiếu là bún nước lèo, được nấu từ cá lóc, sả, nghệ và mắm bò hóc đặc trưng.",
+          "reference": "មុខម្ហូបមួយមុខដែលមិនអាចខ្វះបានគឺ នំបញ្ចុកទឹកសម្លរ បានចម្អិនពីត្រីរ៉ស់ ស្លឹកគ្រៃ រមៀត និងមាំប្រហុក។",
+          "hyp_plain": "- មួយក្នុងចំណោមម្ហូបដែលមិនអាចខ្វះបានគឺគុយទាវទឹកល្អក់ ដែលចម្អិនពីត្រីស្រឡៅ ស្លឹកគ្រៃ រមៀត និងប្រហុកដ៏លក្ខណៈពិសេស។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        }
+      ]
+    },
+    "Mystical things": {
+      "total": 24,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 4,
+      "drop_rate": 66.7,
+      "categories_dropped": {
+        "festival_krom": 1,
+        "krom_religious": 3
+      },
+      "examples": [
+        {
+          "source": "Có chứ, đặc biệt trong lễ Sene Dolta, người Khmer tưởng nhớ ông bà tổ tiên, dâng cơm và cầu nguyện cho linh hồn được an lành.",
+          "reference": "មាន! ជាពិសេសក្នុង ពិធីបុណ្យសែនដូនតា ជនជាតិខ្មែររឭកគុណដល់ជីដូនជីតា បូជាបាយ និងបួងសួងសុំឱ្យវិញ្ញាណបានសេចក្តីសុខ។",
+          "hyp_plain": "មានច្បាស់ណាស់ ជាពិសេសក្នុងពិធីសែនដុល្តា ប្រជាជនខ្មែរចងចាំដល់ឪពុកម្តាយបុព្វបុរស ដាក់បាយ និងអធិស្ឋានសុំឲ្យវិញ្ញាណមានសេចក្តីសុខសាន្ដ។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "Người Khmer: Neak Tà là vị thần cai quản đất đai, làng xóm, người dân tin rằng phải cúng bái để được che chở, mùa màng thuận lợi.",
+          "reference": "ជនជាតិខ្មែរ: អ្នកតា គឺ​ជា​ទេវតា​ដែល​គ្រប់គ្រង​ដីធ្លី និង​ភូមិ​ស្រុក, ប្រជាជន​ជឿថា​ត្រូវ​តែ​បន់ស្រន់​បូជា​ដើម្បី​បាន​ការ​ថែរក្សា និង​ការ​បង្កបង្កើន​ផល​បាន​ល្អ។",
+          "hyp_plain": "អ្នកខ្មែរ៖ នាគតា គឺជាទេវតាដែលគ្រប់គ្រងដីធ្លី ភូមិឃុំ ប្រជាជនជឿថាត្រូវធ្វើពិធីបូជា ដើម្បីទទួលបានការពារនិងសំណាងល្អក្នុងការដាំដុះ។",
+          "dropped_categories": [
+            "krom_religious"
+          ]
+        }
+      ]
+    },
+    "When death occurs": {
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "nam_bo_vn_translit": 2
+      },
+      "examples": [
+        {
+          "source": "Dạ, việc đầu tiên là mời Achar duki và thông báo cho người thân, họ hàng bà con lối xóm, đặc biệt là báo và thỉnh các vị sư trong chùa để chuẩn bị nghi lễ.",
+          "reference": "ចាស ដំបូងគឺអញ្ចើញអាចារ្យយុគី និងជម្រាបជូនញាតិមិត្តជិតខាង ជាពិសេសជូនដំណឹង និងនិមន្តព្រះសង្ឃក្នុងវត្ត មកដើម្បីរៀបចំពិធីកិច្ច។",
+          "hyp_plain": "ចាស, ការងារដំបូងគឺអញ្ជើញអាចារ្យឌុកី និងជូនដំណឹងដល់សាច់ញាតិ មិត្តភក្តិ និងអ្នកជិតខាង ជាពិសេសជូនដំណឹង និងអញ្ជើញព្រះសង្ឃនៅក្នុងវត្តដើម្បីរៀបចំពិធីសាសនា។",
+          "dropped_categories": [
+            "nam_bo_vn_translit"
+          ]
+        },
+        {
+          "source": "Thay vào đó, người thân tập trung đọc kinh, làm lễ bái Tam bảo, dưới sự hướng dẫn của Achar lễ và Achar duki để người khuất được nhẹ nhàng ra đi một cách thanh thản.",
+          "reference": "ផ្ទុយទៅវិញ ញាតិសន្ដាន ផ្ដំគ្នាសូត្រធម៌ នមស្ការព្រះរតនត្រ័យ ក្រោមការដឹកនាំរបស់លោកអាចារ្យនិង លោកអាចារ្យយុគីដើម្បីឱ្យអ្នកស្លាប់បានលាចាកលោកដោយស្ងប់ស្ងាត់។",
+          "hyp_plain": "ជំនួសវិញ គ្រួសារប្រមូលផ្តុំអានសូត្រ ធ្វើពិធីបួងសួងត្រាំបាវ ក្រោមការណែនាំរបស់អាចារ្យលិ និងអាចារ្យដូគី ដើម្បីឱ្យអ្នកស្លាប់បានចាកចេញដោយស្ងប់ស្ងាត់។",
+          "dropped_categories": [
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "Evening activities": {
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 1,
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Đúng vậy, lễ cúng trăng trong dịp Ok Om Bok diễn ra ban đêm, mọi người dâng cốm dẹp, trái cây để tạ ơn thần mặt trăng.",
+          "reference": "ត្រឹមត្រូវហើយ ពិធីបុណ្យសំពះព្រះខែ ក្នុងឱកាសបុណ្យអកអំបុក ប្រព្រឹត្តទៅនៅពេលយប់ មនុស្សគ្រប់គ្នាថ្វាយអំបុក ផ្លែឈើ ដើម្បីតបស្នងគុណព្រះច័ន្ទ។",
+          "hyp_plain": "មែនហើយ ពិធីបួងសួងព្រះច័ន្ទក្នុងឱកអុំបុកធ្វើឡើងនៅពេលយប់ មនុស្សទាំងអស់នាំគ្នាដាក់អំពៅស្ងោរ និងផ្លែឈើដើម្បីថ្លែងអំណរគុណចំពោះព្រះច័ន្ទ។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Traditions before religious holidays": {
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 2
+      },
+      "examples": [
+        {
+          "source": "Chúng tôi thường cùng nhau gói bánh truyền thống như bánh tét, bánh ít, vừa để dâng chùa vừa để chia cho họ hàng.",
+          "reference": "យើងខ្ញុំតែង វេចនំប្រពៃណី ដូចជានំអន្សមជ្រូក នំគម សម្រាប់យកទៅប្រគេនវត្តផង និងចែកជូនសាច់ញាតិផង។",
+          "hyp_plain": "យើងតែងតែរួមគ្នាដើម្បីច្របាច់នំប្រពៃណីដូចជានំតេត និងនំអិត ទាំងសម្រាប់បួងសួងនៅវត្តទាំងសម្រាប់ចែកជូនសាច់ញាតិ។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        },
+        {
+          "source": "Người Khmer: Chính xác, lễ vật thường gồm hoa, trái cây, cốm dẹp, nhang đèn, đôi khi còn có bánh dân gian truyền thống để dâng cúng.",
+          "reference": "ជនជាតិខ្មែរ: ពិតប្រាកដណាស់ គ្រឿងដង្វាយ ជាធម្មតាមាន ផ្កា ផ្លែឈើ អំបុក ធូបទៀន, ជួនកាលក៏មាន នំប្រពៃណី ផងដែរដើម្បី ថ្វាយសែន ។",
+          "hyp_plain": "ជនជាតិខ្មែរ៖ ត្រឹមត្រូវណាស់ ពិធីវត្ថុជាធម្មតារួមមានផ្កា ផ្លែឈើ ខោមដេប ធូបភ្លើង ហើយពេលខ្លះក៏មាននំប្រពៃណីដើម្បីបូជា។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        }
+      ]
+    },
+    "MỐI QUAN HỆ TRONG GIA ĐÌNH CHÍNH": {
+      "total": 36,
+      "ref_has_krom": 3,
+      "gpt4o_dropped": 2,
+      "drop_rate": 66.7,
+      "categories_dropped": {
+        "festival_krom": 1,
+        "ethnonym_kinh": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Mỗi lần gặp nhau trong dịp lễ như Sene Đônta, các thế hệ đều chào hỏi theo đúng vai vế, rất trân trọng lẫn nhau.",
+          "reference": "រាល់ពេលជួបជុំគ្នាក្នុងឱកាសបុណ្យសែនដូនតា កូនចៅគ្រប់ជំនាន់ តែងតែសួរសុខទុក្ខគ្នាតាមឋានៈខ្សែញាតិរៀងៗខ្លួន ហើយគោរពគ្នាទៅវិញទៅមកណាស់។",
+          "hyp_plain": "ជាលើកដំបូងដែលជួបគ្នាក្នុងឱកាសបុណ្យដូចជា Sene Đônta, ជំនាន់ផ្សេងៗគ្នាតែងតែសួរសុខទុក្ខតាមសិទ្ធិសមស្រប និងគោរពគ្នាអស់ពីចិត្ត។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "Người Khmer: Nếu đối với người Khmer Nam bộ thì có sự khác biệt, và do họ sống cùng với người Kinh nên cách gọi sẽ như thế này, đối với ông bên cha thì sẽ gọi là “Ta Nội”, bà bên c",
+          "reference": "ជនជាតិខ្មែរ៖ ចំពោះជនជាតិខ្មែណាមបូមានលក្ខណៈខុសប្លែកគ្នា ដោយសារពួកគាត់រស់នៅលាយឡំជាមួយជនជាតិគិញ ដូច្នេះរបៀបហៅក៏មានភាពខុសគ្នាដែរ។ ចំពោះជីតាខាងឪពុក គឺហៅថា “តា Nội” ជីដូនខាងឪពុកហៅថា “យាយ",
+          "hyp_plain": "ជនជាតិខ្មែរ: ប្រសិនបើសម្រាប់ជនជាតិខ្មែរនៅតំបន់ខាងត្បូងវិញ វាមានភាពខុសគ្នា ហើយដោយសារតែពួកគេរស់នៅជាមួយជនជាតិវៀតណាម ដូច្នេះការហៅនឹងមានលក្ខណៈដូចខាងក្រោម៖ សម្រាប់តា​ខាងឪពុក នឹងហៅថា \"តាណ",
+          "dropped_categories": [
+            "ethnonym_kinh",
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "Parents and children interactions as adult": {
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "toponym_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Dạ, dù con cái đã lớn và lập gia đình, người Khmer vẫn giữ truyền thống yêu thương, tôn trọng và gắn bó chặt chẽ với cha mẹ.",
+          "reference": "ចាស ទោះបីកូនធំពេញវ័យ និងមានគ្រួសារក៏ដោយ ក៏ខ្មែរនៅតែរក្សាទំនៀមទំលាប់នៃការស្រលាញ់ គោរព និងរាប់អានយ៉ាងជិតស្និទ្ធជាមួយឪពុកម្តាយ។",
+          "hyp_plain": "បាទ/ចាស, ទោះបីជាកូនៗបានធំធាត់ និងបង្កើតគ្រួសាររួចទៅហើយក៏ដោយ ក៏ប្រជាជនខ្មែរនៅតែរក្សាប្រពៃណីស្រឡាញ់ គោរព និងទាក់ទាញជិតស្និទ្ធជាមួយឪពុកម្តាយ។",
+          "dropped_categories": [
+            "toponym_krom"
+          ]
+        }
+      ]
+    },
+    "Lifestyle": {
+      "total": 36,
+      "ref_has_krom": 3,
+      "gpt4o_dropped": 2,
+      "drop_rate": 66.7,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1,
+        "food_krom": 1,
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ một vài nét khái quát về lối sống của cộng đồng Khmer ở Nam Bộ hiện nay không?",
+          "reference": "បងអាចចែករំលែកទិដ្ឋភាពទូទៅខ្លះ អំពីរបៀបរស់នៅរបស់សហគមន៍ខ្មែរណាមបូបច្ចុប្បន្នបានទេ?",
+          "hyp_plain": "តើបងអាចចែករំលែកពីលក្ខណៈសង្ខេបមួយចំនួនអំពីរបៀបរស់នៅរបស់សហគមន៍ខ្មែរនៅតំបន់នាគប្បូរបច្ចុប្បន្នបានទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        },
+        {
+          "source": "Đúng vậy, lễ hội như Ok Om Bok hay Sen Dolta vừa gắn với mùa màng, vừa thể hiện lòng biết ơn đất trời và tổ tiên.",
+          "reference": "ពិតហើយ ពិធីបុណ្យដូចជា អកអំបុក ឬ សែនដូនតា គឺផ្សារភ្ជាប់នឹងរដូវកាលដាំដុះ ហើយបង្ហាញពីការដឹងគុណចំពោះមេឃដី និងដូនតា។",
+          "hyp_plain": "ច្បាស់ហើយ ពិធីបុណ្យដូចជា Ok Om Bok ឬ Sen Dolta ទាក់ទងនឹងរដូវប្រមូលផល និងបង្ហាញការដឹងគុណចំពោះដីមេឃ និងបុព្វបុរស។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Traditions when planting": {
+      "total": 24,
+      "ref_has_krom": 4,
+      "gpt4o_dropped": 3,
+      "drop_rate": 75.0,
+      "categories_dropped": {
+        "krom_religious": 3
+      },
+      "examples": [
+        {
+          "source": "Người Khmer: Trước khi trồng, bà con thường làm lễ cúng Neak Ta, vị thần đất đai, để xin phù hộ cho mùa màng thuận lợi.",
+          "reference": "ជនជាតិខ្មែរ: មុន​ពេល​ដាំ​ដុះ ប្រជាជនតែងតែធ្វើពិធី​បន់ស្រន់អ្នកតា ដែល​ជា​ទេវតា​ដីធ្លី ដើម្បីសុំពរជ័យសម្រាប់ដំណាំអំណោយផល។",
+          "hyp_plain": "ជនជាតិខ្មែរ: មុនពេលដាំដំណាំ ប្រជាជនភាគច្រើនធ្វើពិធីបូជា \"នាគតា\" ដែលជាទេវតាដែនដី ដើម្បីសុំការពារជួយឱ្យរដូវដាំដំណាំមានភាពរលូន។",
+          "dropped_categories": [
+            "krom_religious"
+          ]
+        },
+        {
+          "source": "Người phỏng vấn: Ngoài cúng Neak Ta, tôi nghe nói còn có lễ xuống đồng, anh có thể giải thích thêm ý nghĩa phong tục này?",
+          "reference": "អ្នកសម្ភាសន៍: ក្រៅ​ពី​ការ​បន់ស្រន់​អ្នកតា ខ្ញុំ​លឺ​ថា​មាន​ពិធី​ ចុះ​ស្រែ តើ​បង​អាច​ពន្យល់​បន្ថែម​ពី​អត្ថន័យ​នៃ​ទំនៀមទម្លាប់​នេះ​បានទេ?",
+          "hyp_plain": "អ្នកសម្ភាសៈ ក្រៅពីការបូជា Neak Ta ខ្ញុំបានលឺថាមានពិធីចុះស្រែផងដែរ អ្នកអាចពន្យល់បន្ថែមអំពីអត្ថន័យនៃទំនៀមទម្លាប់នេះបានទេ?",
+          "dropped_categories": [
+            "krom_religious"
+          ]
+        }
+      ]
+    },
+    "Harvest": {
+      "total": 24,
+      "ref_has_krom": 8,
+      "gpt4o_dropped": 8,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1,
+        "boat_racing": 1,
+        "food_krom": 5,
+        "festival_krom": 3
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ những nét đặc trưng trong mùa gặt của đồng bào Khmer ở Nam Bộ không?",
+          "reference": "បងអាចរៀបរាប់ពីលក្ខណៈពិសេសនៃរដូវច្រូតកាត់របស់បងប្អូនខ្មែរណាមបូបានទេ?",
+          "hyp_plain": "អាចប្រាប់ខ្ញុំអំពីលក្ខណៈពិសេសក្នុងរដូវប្រមូលផលរបស់បងប្អូនខ្មែរនៅតំបន់នាគរបត់បានទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        },
+        {
+          "source": "Sau vụ gặt, lễ hội đua ghe ngo diễn ra rất sôi nổi, thể hiện sức mạnh cộng đồng và tinh thần đoàn kết làng xã.",
+          "reference": "ក្រោយពេលច្រូតកាត់, ពិធីបុណ្យប្រណាំងទូកងប្រព្រឹត្តទៅយ៉ាងអឹកអធឹក, បង្ហាញកម្លាំងសហគមន៍និងស្មារតីសាមគ្គីភូមិ-ស្រុក។",
+          "hyp_plain": "Khmer: បន្ទាប់ពីការច្រូតស្រូវ ពិធីបុណ្យប្រណាំងទូកនាគបានប្រព្រឹត្តទៅយ៉ាងស្វាហាប់ បង្ហាញពីកម្លាំងសហគមន៍ និងស្មារតីសាមគ្គីរបស់ភូមិ។",
+          "dropped_categories": [
+            "boat_racing"
+          ]
+        }
+      ]
+    },
+    "Traditional ceremonies": {
+      "total": 12,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 6,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "festival_krom": 6,
+        "food_krom": 2
+      },
+      "examples": [
+        {
+          "source": "Tôi cũng nghe nói về nghi lễ dâng y Kathina, đây có phải là một phần quan trọng trong đời sống tâm linh không?",
+          "reference": "ខ្ញុំក៏លឺអំពីពិធីបុណ្យកឋិនទានផងដែរ តើនេះជាផ្នែកដ៏ សំខាន់មួយក្នុងជីវភាពខាងផ្លូវចិត្តដែរឬទេ?",
+          "hyp_plain": "ខ្មែរ: ខ្ញុំក៏បានលឺអំពីពិធីបួងសួងកាធិនា នេះតើជាផ្នែកសំខាន់ក្នុងជីវិតផ្លូវចិត្តដែរឬទេ?",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "Thực ra, người Khmer không tổ chức lễ dâng y Kathina, đây là tập tục chỉ có ở các dân tộc khác trong khu vực.",
+          "reference": "តាមពិតទៅ ជនជាតិខ្មែរយើងមិនរៀបចំពិធីបុណ្យកឋិនទានទេ នេះជាទម្លាប់ដែលមានតែចំពោះជនជាតិដទៃទៀតនៅក្នុងតំបន់ប៉ុណ្ណោះ។",
+          "hyp_plain": "ជាក់ស្តែង, ជនជាតិខ្មែរមិនរៀបចំពិធីដង្ហែគឋិនទេ នេះគឺជាទំនៀមទម្លាប់ដែលមានតែជនជាតិផ្សេងៗនៅក្នុងតំបន់ប៉ុណ្ណោះ។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Traditions leading up to religious holidays": {
+      "total": 48,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Lễ vật thường có gạo, trái cây, bánh truyền thống như bánh tét, bánh ít, cùng hoa và nhang, thể hiện lòng biết ơn thành kính.",
+          "reference": "ចង្ហាន់បច្ច័យជាទូទៅមានអង្ករ ផ្លែឈើ នំប្រពៃណីដូចជានំអន្សម នំគម ព្រមទាំងផ្កា និងធូប ដើម្បីបង្ហាញនូវសេចក្តីគោរពដឹងគុណ។",
+          "hyp_plain": "សក្ការៈធម្មតាមានអង្ករ ផ្លែឈើ នំប្រពៃណីដូចជានំតេត នំអិត រួមទាំងផ្កា និងធូប ដើម្បីបង្ហាញការដឹងគុណដោយក្តីគោរព។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        }
+      ]
+    },
+    "Leisure activities": {
+      "total": 36,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 2,
+      "drop_rate": 33.3,
+      "categories_dropped": {
+        "food_krom": 1,
+        "festival_krom": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Đua ghe Ngo diễn ra vào dịp Ok Om Bok, ghe dài hàng chục mét, hàng chục tay chèo phối hợp nhịp nhàng đầy khí thế.",
+          "reference": "ការប្រណាំងទូកងធ្វើឡើងក្នុងឱកាសអកអំបុក ។ ទូកងមានប្រវែងរាប់សិបម៉ែត្រ ជាមួយអ្នកចែវរាប់សិបនាក់ដែលសម្របសម្រួលគ្នាយ៉ាងចុះសម្រុងពោរពេញដោយថាមពល។",
+          "hyp_plain": "ការប្រណាំងទូកងូរ​ត្រូវបានរៀបចំឡើងក្នុងឱកាសអុកអុំបុក។ ទូកមានប្រវែងជាងដប់ម៉ែត្រ ហើយមានអ្នកចែវជាច្រើននាក់សហការគ្នាដោយស្មោះស្ម័គ្រដើម្បីបង្ហាញស្មារតីដ៏រឹងមាំ។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom"
+          ]
+        },
+        {
+          "source": "Người phỏng vấn: Vậy lễ hội có ý nghĩa như thế nào trong đời sống tinh thần của bà con Khmer Nam Bộ?",
+          "reference": "អ្នកសម្ភាសន៍៖ ចុះពិធីបុណ្យមានន័យសំខាន់ដូចម្តេចខ្លះ នៅក្នុងជីវភាពផ្លូវចិត្តរបស់បងប្អូនខ្មែណាមបូ?",
+          "hyp_plain": "អ្នកសម្ភាសន៍: តើពិធីបុណ្យមានន័យដូចម្តេចក្នុងជីវិតផ្លូវចិត្តរបស់បងប្អូនខ្មែរនៅតំបន់ខាងត្បូង?",
+          "dropped_categories": [
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "Truyền thống chăm sóc vật nuôi/thủy sản": {
+      "total": 75,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1,
+        "food_krom": 1,
+        "festival_krom": 1,
+        "krom_religious": 1
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ về những truyền thống chăm sóc vật nuôi và thủy sản của đồng bào Khmer ở Nam Bộ không?",
+          "reference": "តើបងអាចចែករំលែកអំពីប្រពៃណីនៃការថែទាំសត្វពាហនៈ និងផលត្រីទឹកសាបរបស់បងប្អូនខ្មែរណាមបូ បានទេ?",
+          "hyp_plain": "តើអ្នកអាចចែករំលែកអំពីប្រពៃណីក្នុងការថែទាំសត្វចិញ្ចឹម និងសត្វទឹករបស់បងប្អូនខ្មែរនៅតំបន់នាគរបត់បានទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        },
+        {
+          "source": "Có, vào lễ Ok Om Bok, cá nướng được dùng làm lễ vật, còn trâu bò thường góp mặt trong các nghi thức cúng thần Nông.",
+          "reference": "មាន! នៅក្នុងពិធីបុណ្យអកអំបុក ត្រីអាំងត្រូវបានយកមកធ្វើជាគ្រឿងសក្ការៈ ហើយគោក្របីច្រើនតែចូលរួមក្នុងពិធីបូជាដល់ អ្នកតាស្រែ។",
+          "hyp_plain": "បាទ, ក្នុងពិធីអុកអុំបុក, ត្រីអាំងត្រូវបានប្រើជាវត្ថុបូជា, ខណៈដែលគោនិងក្របីត្រូវបានប្រើក្នុងពិធីសាសនាបូជាទេពនគរ។",
+          "dropped_categories": [
+            "food_krom",
+            "festival_krom",
+            "krom_religious"
+          ]
+        }
+      ]
+    },
+    "TRANG PHỤC CƯỚI HỎI NAM": {
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0,
+      "categories_dropped": {
+        "kinship_colloq": 1
+      },
+      "examples": [
+        {
+          "source": "- Chúng tôi thường mặc sampot chang kben, là loại váy quấn truyền thống, kết hợp với áo dài tay được thêu hoa văn tinh xảo.",
+          "reference": "យើងខ្ញុំតែងតែស្លៀកសំពត់ចងក្បិន ជាស្លៀកពាក់សំពត់ខ្លីបែបប្រពៃណី រួមនឹងអាវដៃវែងដែលមានប៉ាក់យ៉ាងប្រណិត។",
+          "hyp_plain": "- ពួកយើងជាញឹកញាប់ស្លៀកសំពត់ចងក្បិន ដែលជាប្រភេទសំពត់បុរាណ រួមផ្សំជាមួយអាវដៃវែងដែលមានការច្នៃប្រឌិតលំអដោយលំនាំផ្កាដ៏ល្អឯក។",
+          "dropped_categories": [
+            "kinship_colloq"
+          ]
+        }
+      ]
+    },
+    "Buying and selling traditions": {
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Người phỏng vấn: Anh có thể kể cho tôi nghe về những truyền thống mua bán độc đáo của người Khmer ở vùng sông nước Nam Bộ không?",
+          "reference": "អ្នកសម្ភាសន៍ បងអាចជួយរៀបរាប់ប្រាប់ខ្ញុំអំពីប្រពៃណីជួញដូរដ៏ពិសេសរបស់ជនជាតិខ្មែរនៅតំបន់ដងទន្លេ ណាមបូបានទេ?",
+          "hyp_plain": "អ្នកសម្ភាសៈ តើអ្នកអាចប្រាប់ខ្ញុំអំពីប្រពៃណីទិញលក់ដ៏ល្អឥតខ្ចោះរបស់ជនជាតិខ្មែរនៅតំបន់ទន្លេនៃភាគខាងត្បូងបានទេ?",
+          "dropped_categories": [
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "Musical instruments": {
+      "total": 36,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ về vai trò của nhạc cụ trong đời sống văn hóa và tinh thần của người Khmer Nam Bộ không?",
+          "reference": "តើបងអាចរៀបរាប់អំពីតួនាទីរបស់ឧបករណ៍តន្ត្រីនៅក្នុងជីវភាពវប្បធម៌ និងស្មារតីរបស់ជនជាតិខ្មែរណាមបូ បានទេ?",
+          "hyp_plain": "តើអ្នកអាចចែករំលែកអំពីតួនាទីនៃឧបករណ៍ភ្លេងក្នុងជីវិតវប្បធម៌ និងស្មារតីរបស់ប្រជាជនខ្មែរនៅតំបន់ខាងត្បូងបានទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "TRANG PHỤC CƯỚI HỎI NỮ": {
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0,
+      "categories_dropped": {
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "- Mỗi bộ trang phục đều có màu sắc và phụ kiện riêng, phù hợp với không khí từng phần như lễ rước dâu, buộc chỉ cổ tay, cúng tổ tiên.",
+          "reference": "ឈុតសំលៀកបំពាក់នីមួយៗមានពណ៌ និងគ្រឿងប្រើប្រាស់រៀងៗខ្លួន សាកសម សម្រាប់បរិយាកាសនីមួយៗ ដូចជា ពិធីដង្ហែអាពាហ៍ពិពាហ៍ ចងខ្សែ អំបោះពណ៌ក្រហមកដៃ និងការថ្វាយសែនដូនតាជាដើម។",
+          "hyp_plain": "- រាល់សំលៀកបំពាក់នីមួយៗសុទ្ធតែមានពណ៌ស និងគ្រឿងបន្លាស់ផ្ទាល់ខ្លួន ដែលសមស្របនឹងបរិយាកាសនៃពិធីនីមួយៗ ដូចជាពិធីទទួលកូនស្រី, ចងខ្សែដៃ, និងបូជាបុព្វបុរស។",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    },
+    "Poetry or similar literature": {
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "krom_ethno_label": 1,
+        "nam_bo_vn_translit": 1
+      },
+      "examples": [
+        {
+          "source": "Anh có thể chia sẻ đôi chút về truyền thống văn học viết của người Khmer Nam Bộ và giá trị nó mang lại không?",
+          "reference": "តើបងអាចជួយចែករំលែកបន្តិចបន្តួចអំពីប្រពៃណីអក្សរសិល្ប៍ជាលាយលក្ខណ៍អក្សររបស់ជនជាតិខ្មែរណាមបូ និងតម្លៃដែលវាបាននាំមកបានទេ?",
+          "hyp_plain": "តើ​អ្នក​អាច​ចែករំលែក​ពី​ប្រពៃណី​អក្សរសាស្ត្រ​សរសេរ​របស់​ជនជាតិ​ខ្មែរ​នៅ​តំបន់​ខាងត្បូង និង​តម្លៃ​ដែល​វា​នាំមកឲ្យ​បាន​ទេ?",
+          "dropped_categories": [
+            "krom_ethno_label",
+            "nam_bo_vn_translit"
+          ]
+        }
+      ]
+    },
+    "Afternoon activities": {
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "food_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Buổi chiều, bà con thường chuẩn bị lễ vật, như hoa quả, cốm dẹp, nhang đèn để dâng cúng trong các dịp lễ hội hay nghi thức tôn giáo.",
+          "reference": "ពេលល្ងាច បងប្អូនច្រើនតែរៀបចំគ្រឿងសក្ការៈ ដូចជា ផ្លែឈើ អំបុក ធូបទៀន ដើម្បីថ្វាយបូជានៅក្នុងពិធីបុណ្យ ឬពិធីសាសនា។",
+          "hyp_plain": "ពេលល្ងាច បងប្អូនជាទូទៅតែងតែត្រៀមសក្ការៈដូចជាផ្លែឈើ ខោមដេប ធូបភ្លើង ដើម្បីបូជា ក្នុងឱកាសបុណ្យឬពិធីសាសនា។",
+          "dropped_categories": [
+            "food_krom"
+          ]
+        }
+      ]
+    },
+    "Unknown": {
+      "total": 30,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0,
+      "categories_dropped": {
+        "festival_krom": 1
+      },
+      "examples": [
+        {
+          "source": "Người Khmer: Trong mỗi dịp lễ truyền thống, như lễ Sen Dolta, bà con xóm giềng cùng nhau đi chùa, nấu cỗ, tạo cơ hội gắn kết thêm. Hoặc họ sẽ tự nấu ở nhà, và mang chén bát vào chù",
+          "reference": "ជនជាតិខ្មែរ៖ ក្នុងពិធីបុណ្យប្រពៃណីនីមួយៗ ដូចជាបុណ្យភ្ជុំបិណ្ឌសែនដូនតា អ្នកជិតខាងតែងតែទៅវត្តជាមួយគ្នា ធ្វើម្ហូប រៀបចំពិធី ដើម្បីបង្កើតឱកាសឱ្យមានភាពស្និទ្ធស្នាលបន្ថែមទៀត។ ជួនកាលពួកគេ",
+          "hyp_plain": "ជនជាតិខ្មែរ៖ ក្នុងពិធីបុណ្យប្រពៃណីដូចជាពិធីបុណ្យសែនដុល្តា ប្រជាជនក្នុងសង្កាត់ជិតខាងទៅវត្តជាមួយគ្នា ដើម្បីចូលរួមធ្វើម្ហូប និងបង្កើនទំនាក់ទំនងរួមគ្នា។ ឬក៏ពួកគេនឹងធ្វើម្ហូបនៅផ្ទះ ហើយយ",
+          "dropped_categories": [
+            "festival_krom"
+          ]
+        }
+      ]
+    }
+  }
+}

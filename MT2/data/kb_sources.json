@@ -1,0 +1,253 @@
+{
+  "_description": "Academic source citations for Cultural Knowledge Base v3",
+  "_purpose": "For reproducibility and paper publication",
+  "sources": [
+    {
+      "id": "KKF_GEO",
+      "title": "Geography of Kampuchea-Krom",
+      "url": "https://khmerkrom.org/geography-of-kampuchea-krom/",
+      "publisher": "Khmers Kampuchea-Krom Federation (KKF)",
+      "type": "official_organization",
+      "data_used": "21 provinces + 2 islands + 1 port of Kampuchea Krom with Khmer script names",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "KKF_CULTURE",
+      "title": "The Culture of the Khmer-Krom",
+      "url": "https://khmerkrom.org/the-culture-of-the-khmer-krom/",
+      "publisher": "KKF Research Team",
+      "type": "official_organization",
+      "data_used": "Festival details (Chol Chnam Thmey, Don-Ta, Ork Ombok, Buddhist festivals), traditional sports (ox racing, boat racing), cultural practices",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PAGODA_ST",
+      "title": "Danh Sách 93 Ngôi Chùa Khmer Ở Sóc Trăng",
+      "url": "https://mientaycogi.com/danh-sach-chua-khmer-soc-trang-10212/",
+      "original_source": "Cổng Thông Tin Sóc Trăng (www.soctrang.gov.vn)",
+      "publisher": "Miền Tây Có Gì / Sóc Trăng Government Portal",
+      "type": "government_data",
+      "data_used": "93 pagoda names (Khmer Pali + common Khmer + Vietnamese), founding years, locations",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_KHMER_KROM",
+      "title": "Khmer Krom",
+      "url": "https://en.wikipedia.org/wiki/Khmer_Krom",
+      "type": "encyclopedia",
+      "data_used": "Demographics, distribution, historical context, cultural overview",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_SOC_TRANG",
+      "title": "Sóc Trăng province",
+      "url": "https://en.wikipedia.org/wiki/S%C3%B3c_Tr%C4%83ng_province",
+      "type": "encyclopedia",
+      "data_used": "Etymology (Srok Khleang), administrative divisions, Khmer name ខេត្តឃ្លាំង",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_TRA_VINH",
+      "title": "Trà Vinh province",
+      "url": "https://en.wikipedia.org/wiki/Tr%C3%A0_Vinh_province",
+      "type": "encyclopedia",
+      "data_used": "Etymology (Preah Trapeang), demographics (30% Khmer), Khmer name ព្រះត្រពាំង",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_AN_GIANG",
+      "title": "An Giang province",
+      "url": "https://en.wikipedia.org/wiki/An_Giang_province",
+      "type": "encyclopedia",
+      "data_used": "Historical place names (Moth Chrouk, Psar Dek), administrative history",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "OMNIGLOT_KINSHIP",
+      "title": "Family words in Khmer",
+      "url": "https://omniglot.com/language/kinship/khmer.htm",
+      "type": "linguistic_resource",
+      "data_used": "Complete Khmer kinship terminology with script + romanization + formal/informal variants",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_PINPEAT",
+      "title": "Pinpeat",
+      "url": "https://en.wikipedia.org/wiki/Pinpeat",
+      "type": "encyclopedia",
+      "data_used": "Pin Peat ensemble instruments: roneat, skor, samphor, sralai, chhing, chapey, khloy",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "SOUNDS_ANGKOR",
+      "title": "Pin peat ensemble",
+      "url": "https://www.soundsofangkor.org/english/orchestras/pin-peat-ensemble/",
+      "type": "cultural_archive",
+      "data_used": "Detailed instrument descriptions and Khmer script names",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "SOCTRANG_TOURISM",
+      "title": "Bánh tét cốm dẹp của bà con Khmer Nam Bộ",
+      "url": "https://soctrangtourism.vn/vi/detailnews/?t=banh-tet-com-dep-cua-ba-con-khmer-nam-bo&id=cuisine_59",
+      "type": "government_tourism",
+      "data_used": "Detailed preparation of cốm dẹp and bánh tét cốm dẹp",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "DANVIET_FOOD",
+      "title": "Những món bánh tuyệt ngon của đồng bào Khmer",
+      "url": "https://danviet.vn/nhung-mon-banh-tuyet-ngon-cua-dong-bao-khmer-7777191214-d308108.html",
+      "type": "news_media",
+      "data_used": "Traditional Khmer Krom cake names: num khnhay, banh cong",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "GLOSBE_KM_VI",
+      "title": "The Khmer-Vietnamese dictionary",
+      "url": "https://vi.glosbe.com/km/vi",
+      "type": "dictionary",
+      "data_used": "Cross-reference for Khmer-Vietnamese vocabulary",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PANGLOSS_KROM",
+      "title": "Pangloss Collection — Krom Khmer corpus",
+      "url": "https://pangloss.cnrs.fr/corpus/Krom_Khmer?lang=en",
+      "publisher": "CNRS (French National Centre for Scientific Research)",
+      "type": "academic_corpus",
+      "data_used": "Reference for Khmer Krom linguistic features",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "PAGODA_AG",
+      "title": "Danh sách 37 ngôi chùa Khmer Nam Tông ở Tri Tôn - An Giang",
+      "url": "https://langthangangiang.net/2021/04/04/danh-sach-37-ngoi-chua-khmer-nam-tong-o-tri-ton-an-giang/",
+      "type": "cultural_blog",
+      "data_used": "37 Khmer Theravada pagodas in Tri Ton district, An Giang",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "KKF_MAP",
+      "title": "Map of Kampuchea Krom",
+      "url": "https://khmerkromngo.org/map/map.htm",
+      "type": "official_organization",
+      "data_used": "Geographic reference for Khmer Krom provinces",
+      "accessed": "2026-04-09"
+    },
+    {
+      "id": "WIKI_KHMER_WEDDING",
+      "title": "Lễ cưới (người Khmer)",
+      "url": "https://vi.wikipedia.org/wiki/L%E1%BB%85_c%C6%B0%E1%BB%9Bi_(ng%C6%B0%E1%BB%9Di_Khmer)",
+      "type": "encyclopedia",
+      "data_used": "Khmer wedding terminology, mythical figures (Preah Thong, Neang Neak), ceremony sequence, ritual objects",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "AN_GIANG_FUNERAL",
+      "title": "Tang lễ của người Khmer theo Phật giáo Nam Tông ở tỉnh An Giang hiện nay",
+      "url": "https://thanhdiavietnamhoc.com/tang-le-cua-nguoi-khmer-theo-phat-giao-nam-tong-o-tinh-an-giang-hien-nay/",
+      "type": "academic_article",
+      "data_used": "Khmer Theravada funeral terminology and ritual process in An Giang",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "DATA_MINING_20260417",
+      "title": "Mined cultural entities from all_1.jsonl + all_2.jsonl",
+      "url": "local://experiment_results/mined_entities_20260417_185345.json",
+      "type": "internal_dataset_mining",
+      "data_used": "213 extracted entities (179 new vs CKB v3) from 24 high-value cultural topics including weddings, funerals, medicine, sayings, and music",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "TRAVINH_NEAKTA",
+      "title": "Lễ hội Đom Lơng Néak Tà của người Khmer Trà Vinh",
+      "url": "https://travinh.gov.vn/tin-tuc-72553/le-hoi-dom-long-neak-ta-cua-nguoi-khmer-tra-vinh-duoc-dua-vao-danh-muc-di-san-van-hoa-phi-vat-th-715067",
+      "publisher": "Cổng thông tin tỉnh Trà Vinh",
+      "type": "government_portal",
+      "data_used": "Néak Tà festival, protective deity terminology, seasonal rain ritual, national intangible heritage reference",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "TRAVINH_OKOMBOK",
+      "title": "Lễ hội Ok Om Bok",
+      "url": "https://travinh.gov.vn/le-hoi/le-hoi-ok-om-bok-599317",
+      "publisher": "Cổng thông tin tỉnh Trà Vinh",
+      "type": "government_portal",
+      "data_used": "Ok Om Bok terminology, Moon Worship context, agricultural meanings in Trà Vinh Khmer community",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "TRAVINH_ROBAM",
+      "title": "Di sản văn hóa phi vật thể Quốc gia nghệ thuật rô-bam của người Khmer Trà Vinh",
+      "url": "https://travinh.gov.vn/le-hoi/di-san-van-hoa-phi-vat-the-quoc-gia-nghe-thuat-ro-bam-cua-nguoi-khmer-tra-vinh-599315",
+      "publisher": "Cổng thông tin tỉnh Trà Vinh",
+      "type": "government_portal",
+      "data_used": "Rô-bam performing art terminology and heritage status",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "SOCTRANG_NGUAM",
+      "title": "Nhạc Ngũ Âm của người Khmer tỉnh Sóc Trăng",
+      "url": "https://soctrang.gov.vn/svhttdl/1294/32375/65601/333447/Di-san-van-hoa-phi-vat-the/Nhac-Ngu-Am-cua-nguoi-Khmer-tinh-Soc-Trang.aspx",
+      "publisher": "Sở Văn hóa, Thể thao và Du lịch Sóc Trăng",
+      "type": "government_portal",
+      "data_used": "Ngũ Âm / Phlêng Pin Piết terminology, usage contexts (weddings, funerals, temple festivals), heritage documentation",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "SOCTRANG_GHENGO_EN",
+      "title": "The process of forming and developing Ngo boat race in Soc Trang",
+      "url": "https://soctrang.gov.vn/Default.aspx?sname=UBNDtinhTiengAnh&pageid=32511&catid=65750&id=347740&catname=Festivals&title=The-process-of-forming-and-developing-Ngo-boat-race-in-Soc-Trang",
+      "publisher": "Sóc Trăng Provincial Portal (English)",
+      "type": "government_portal",
+      "data_used": "Ngo boat race history, festival terminology, English-aligned explanations useful for context glosses",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "CEMA_KHMER",
+      "title": "NGƯỜI KHMER",
+      "url": "http://www.cema.gov.vn/gioi-thieu/cong-dong-54-dan-toc/nguoi-khmer.htm",
+      "publisher": "Ủy ban Dân tộc",
+      "type": "government_portal",
+      "data_used": "Ethnographic overview, clothing terms, wedding customs, community background",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "CEMA_DONTA",
+      "title": "Sene Dolta-lễ báo hiếu của người Khmer",
+      "url": "http://www.cema.gov.vn/2010-10-15/f6edb10044522b9cb854ba022b7c8853-cema.htm",
+      "publisher": "Ủy ban Dân tộc",
+      "type": "government_portal",
+      "data_used": "Sene Dolta festival vocabulary, ancestor worship terminology, ritual sequence",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "CEMA_DUKE",
+      "title": "Bảo tồn và phát huy nghệ thuật sân khấu Dù kê của đồng bào Khmer Nam bộ",
+      "url": "http://www.cema.gov.vn/bao-ton-va-phat-huy-nghe-thuat-san-khau-du-ke-cua-dong-bao-khmer-nam-bo.htm",
+      "publisher": "Ủy ban Dân tộc",
+      "type": "government_portal",
+      "data_used": "Dù Kê stage art terminology and preservation context",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "VJOL_FUNERAL",
+      "title": "Lễ tang của người Khmer theo Phật giáo Nam tông",
+      "url": "https://vjol.info.vn/index.php/rsr/article/view/24312",
+      "publisher": "Tạp chí Nghiên cứu Tôn Giáo / VJOL",
+      "type": "academic_article",
+      "data_used": "Academic reference for Khmer Theravada funeral process, post-funeral rituals, ancestor-related terminology",
+      "accessed": "2026-04-17"
+    },
+    {
+      "id": "PANGLOSS_VOCAB",
+      "title": "Pangloss Collection — Krom Khmer vocabulary list",
+      "url": "https://pangloss.cnrs.fr/corpus/show?corpus=Krom_Khmer&oai_primary=cocoon-c41b041c-6573-38af-a630-bf49425e9fac",
+      "publisher": "CNRS Pangloss Collection",
+      "type": "academic_corpus",
+      "data_used": "Khmer Krom vocabulary list recorded in 1970, valuable for lexical verification and diachronic comparison",
+      "accessed": "2026-04-17"
+    }
+  ]
+}

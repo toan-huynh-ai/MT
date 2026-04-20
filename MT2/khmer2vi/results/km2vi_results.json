@@ -1,0 +1,1262 @@
+{
+  "exp1": {
+    "experiment": "km2vi_zero_shot",
+    "n": 50,
+    "bleu": 35.36,
+    "chrf++": 57.97,
+    "details": [
+      {
+        "km_source": "អ្នកសម្ភាសន៍៖ សួស្តីមិត្ត ថ្ងៃនេះខ្ញុំរីករាយនឹងនិយាយជាមួយអ្នកអំពីវប្បធម៌ខ្មែរ។",
+        "vi_reference": "Phỏng vấn viên: Chào bạn, hôm nay rất vui được trò chuyện cùng bạn về văn hóa dân tộc Khmer.",
+        "id": 68919,
+        "topic": "PHONG TỤC TRƯỚC ĐÁM CƯỚI",
+        "order": 1.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Xin chào bạn, hôm nay tôi rất vui được trò chuyện với bạn về văn hóa Khmer."
+      },
+      {
+        "km_source": "ខ្ញុំលឺថាគំនិតនៃការជៀសវាងការអាម៉ាស់មុខ ក៏ជាទម្រង់នៃការថែទាំខ្លួនឯងខាងផ្លូវចិត្តផងដែរ, តើរឿងនោះត្រឹមត្រូវទេ?",
+        "vi_reference": "Tôi nghe nói khái niệm tránh mất mặt cũng là một dạng tự chăm sóc tinh thần, điều đó có đúng không?",
+        "id": 69051,
+        "topic": "Self care",
+        "order": 5.0,
+        "question": null,
+        "hypothesis": "Tôi nghe nói rằng ý tưởng tránh sự xấu hổ cũng là một hình thức chăm sóc bản thân về mặt tâm lý, điều đó có đúng không?"
+      },
+      {
+        "km_source": "នំខ្ញីធ្វើរាល់ពេលមានពិធីនៅបុណ្យទាននៅវត្ត។ មុខម្ហូបនេះពិសេសណាស់ព្រោះវាមានរាងដូចខ្ញី។",
+        "vi_reference": "Với món bánh gừng được làm mỗi khi có lễ ở chùa, món ăn rất đặt biệt vì có tạo hình như gừng.",
+        "id": 71696,
+        "topic": null,
+        "order": null,
+        "question": "Hãy kể một kỷ niệm đặc biệt của bạn với món ăn truyền thống trong một dịp lễ hội.",
+        "hypothesis": "Bánh gừng được làm mỗi khi có lễ hội tại chùa. Món ăn này rất đặc biệt vì nó có hình dáng giống củ gừng."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ កូនៗក៏ត្រូវបានបង្រៀនឲ្យចេះប្រព្រឹត្តគោរពចំពោះគ្រួសារខាងសាច់ថ្លៃ ដោយចាត់ទុកពួកគាត់ដូចជាពូ មីង ឪពុកធំ ម្ដាយធំនៅក្នុងត្រកូលរបស់ខ្លួនដែរ។",
+        "vi_reference": "Người Khmer: Con cái cũng được dạy phải cư xử lễ phép với thông gia, coi như bác, chú, cô, dì trong dòng họ mình.",
+        "id": 68972,
+        "topic": "MỐI QUAN HỆ TRONG GIA ĐÌNH MỞ RỘNG",
+        "order": 14.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Con cái cũng được dạy phải biết tôn trọng gia đình bên nội, coi họ như chú, cô, bác trai, bác gái trong dòng họ của mình."
+      },
+      {
+        "km_source": "ភាតរភាពកើតឡើងមុន បងត្រូវទទួលខុសត្រូវក្នុងការដឹកនាំ និងការពារប្អូន ហើយប្អូនត្រូវមានភាពគួរសម និងគោរពប្រតិបត្តិ។",
+        "vi_reference": "Tình anh em được đặt lên hàng đầu, người anh phải có trách nhiệm dẫn dắt, bảo vệ em, còn em phải lễ phép, nghe lời.",
+        "id": 68996,
+        "topic": "MỐI QUAN HỆ TRONG GIA ĐÌNH CHÍNH",
+        "order": 15.0,
+        "question": null,
+        "hypothesis": "Quan hệ anh em xảy ra trước, anh phải chịu trách nhiệm trong việc lãnh đạo và bảo vệ em, còn em phải có thái độ đúng mực và tôn trọng thực hiện."
+      },
+      {
+        "km_source": "ប្រជាពលជនខ្មែរឲ្យតម្លៃខ្ពស់លើការស្រលាញ់ស្រុកកំណើត ជនរួមជាតិមានស្រុកកំណើតដូចគ្នា ទោះបីមិនទាក់ទងគ្នាដោយឈាមជ័រក៏ដោយ ចាត់ទុកជាសាច់ញាតិជួយគ្នាក្នុងគ្រប់កិច្ចការ។",
+        "vi_reference": "Người Khmer rất coi trọng tình quê, người cùng quê dù không ruột thịt nhưng được xem như bà con, giúp nhau trong mọi việc.",
+        "id": 68986,
+        "topic": "GIA TỘC",
+        "order": 6.0,
+        "question": null,
+        "hypothesis": "Người dân Khmer rất coi trọng tình yêu quê hương, đồng bào cùng quê hương, dù không có quan hệ huyết thống, vẫn xem nhau như người thân và giúp đỡ nhau trong mọi việc."
+      },
+      {
+        "km_source": "អ្នកពេញវ័យអង្គុយបរិភោគដោយឡែកពីគ្នា ឯអ្នកវ័យក្មេងមានតុសម្រាប់បរិភោគដោយឡែក ដើម្បីហូបបន្ដើជជែកគ្នាលេងបន្ដើ ជួនកាលក៏ជាកន្លែងដែលស្នេហាថ្មីចាប់ផ្តើមផងដែរ។",
+        "vi_reference": "- Người lớn ngồi ăn riêng, còn thanh niên có bàn riêng để vừa ăn vừa giao lưu, đôi khi cũng là nơi bắt đầu tình yêu mới.",
+        "id": 68968,
+        "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+        "order": 13.0,
+        "question": null,
+        "hypothesis": "Người lớn ngồi ăn riêng, còn trẻ em có bàn ăn riêng để vừa ăn vừa trò chuyện và chơi đùa. Đôi khi, đó cũng là nơi mà tình yêu mới bắt đầu."
+      },
+      {
+        "km_source": "ចាស សម្រាប់ប្រជាជនខ្មែរ ពេលទារកកើតមក ការរក្សាភាពកក់ក្តៅ គឺជារឿងសំខាន់បំផុត ដូច្នេះហើយ តែងតែដេកក្បែរភ្លើង ឬចង្ក្រានធ្យូង។",
+        "vi_reference": "Dạ, với người Khmer, khi em bé mới sinh, việc giữ ấm là quan trọng nhất, nên thường phải nằm gần lửa hoặc bếp than.",
+        "id": 68991,
+        "topic": "How to care for a newborn baby",
+        "order": 2.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Đối với người dân Khmer, khi trẻ sơ sinh chào đời, việc giữ ấm là điều quan trọng nhất, vì vậy họ thường nằm gần lửa hoặc bếp than."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ ឧទាហរណ៍ បងប្រុសជីដូនមួយឈ្មោះដារ៉ា គឺហៅថា “បងតារ៉ា” ហើយប្អូនស្រីជីដូនមួយឈ្មោះស្រី គឺហៅថា “អូនស្រី” ដើម្បីឲ្យមានភាពស្និទ្ធស្នាល និងត្រឹមត្រូវតាមតួនាទី។",
+        "vi_reference": "Người Khmer: Ví dụ, anh họ tên Dara thì gọi là “bon Dara”, em họ tên Srey thì gọi là “uon Srey” cho thân mật và đúng vai.",
+        "id": 68972,
+        "topic": "MỐI QUAN HỆ TRONG GIA ĐÌNH MỞ RỘNG",
+        "order": 4.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Ví dụ, anh trai họ tên là Dara thì gọi là “anh Dara”, còn em gái họ tên là Srey thì gọi là “em Srey” để thể hiện sự thân mật và đúng vai trò."
+      },
+      {
+        "km_source": "រទេះគោ ជាមធ្យោបាយដែលធ្លាប់ស្គាល់ ទាំងដឹកមនុស្ស ទាំងដឹកស្រូវ អុស ឬទំនិញនៅលើផ្លូវភូមិដីក្រហម។",
+        "vi_reference": "Xe bò là phương tiện quen thuộc, vừa chở người, vừa chở lúa, củi hay hàng hóa trên những con đường làng đất đỏ.",
+        "id": 69053,
+        "topic": "House, household and transportation",
+        "order": 10.0,
+        "question": null,
+        "hypothesis": "Xe bò là phương tiện từng được biết đến để chở người, chở lúa, rơm hoặc hàng hóa trên những con đường làng đất đỏ."
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍: ខ្ញុំក៏ស្គាល់បទចម្រៀងបុកស្រូវនៅក្នុងសកម្មភាពការងារដែរ, តើបងអាចចែករំលែកឲ្យកាន់តែច្បាស់បានទេ?",
+        "vi_reference": "Người phỏng vấn: Tôi cũng được biết đến điệu hò giã gạo trong sinh hoạt lao động, anh có thể chia sẻ cụ thể hơn không?",
+        "id": 69085,
+        "topic": "Truyền thống chăm sóc vật nuôi/thủy sản",
+        "order": 11.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Tôi cũng biết bài hát \"Bok Srov\" trong các hoạt động lao động, anh có thể chia sẻ rõ hơn được không?"
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ បាទ មាន។ គ្រួសារដំឡងត្រូវបានចាត់ទុកដូចជាសាច់ញាតិពិតប្រាកដ អ៊ីចឹងហើយពួកគាត់តែងតែទៅលេងសួរសុខទុក្ខគ្នាទៅវិញទៅមក ជួយការងារគ្នាទៅវិញទៅមក ទាំងរឿងធ្វើស្រែចម្ការ ឬការរៀបចំព្រឹត្តិការណ៍ផ្សេងៗ។",
+        "vi_reference": "Người Khmer: Dạ có. Gia đình thông gia được xem như người thân thật sự, thường xuyên thăm hỏi, giúp nhau trong công việc, mùa màng hay tổ chức sự kiện.",
+        "id": 68972,
+        "topic": "MỐI QUAN HỆ TRONG GIA ĐÌNH MỞ RỘNG",
+        "order": 12.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Vâng, có. Gia đình mở rộng được coi như người thân thực sự, vì vậy họ thường xuyên thăm hỏi lẫn nhau, giúp đỡ công việc qua lại, từ việc làm nông nghiệp đến tổ chức các sự kiện khác nhau."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ ខ្ញុំ​សង្ឃឹមថា ពួកគេ​នឹង​បន្, ឲ្យ​តម្លៃ​និង​ច្នៃប្រឌិត ដើម្បី​ឲ្យ​ពិធី​សំខាន់ៗ ស្រង់​ព្រះ ពូន​ភ្នំខ្សាច់​នៅតែ​ស្ថិតស្ថេរ​រស់​រវើក​ក្នុង​ជីវិត​ជានិច្ច។",
+        "vi_reference": "Người Khmer: Tôi hy vọng họ sẽ tiếp nối, trân trọng và sáng tạo, để các nghi lễ chính, tắm Phật, đắp núi cát luôn sống mãi trong đời.",
+        "id": 69083,
+        "topic": "Traditions during religious holidays",
+        "order": 30.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Tôi hy vọng rằng họ sẽ trân trọng và sáng tạo để các nghi lễ quan trọng như lễ rước cát núi vẫn luôn tồn tại và sống động trong cuộc sống mãi mãi."
+      },
+      {
+        "km_source": "ខ្ញុំគិតថាក្មេងយុវវ័យនៅភូមិខ្ញុំគាត់ចូលចិត្តចូលញ៉ាំម្ហូបប្រពៃណី ព្រោះអីពេលជួបជុំមិត្តភក្កជាមួយគ្នាពួកខ្ញុំតែងតែធ្វើនំ ឬ មុខម្ហូបប្រពៃណី។",
+        "vi_reference": "Tôi nghĩ rằng giới trẻ thích món truyền thống bởi vì khi bạn bè gặp nhau thì chúng tôi thường làm bánh hoặc món truyền thống.",
+        "id": 70909,
+        "topic": null,
+        "order": null,
+        "question": "Bạn nghĩ giới trẻ trong làng bạn có còn biết và yêu thích món ăn truyền thống không? Vì sao?",
+        "hypothesis": "Tôi nghĩ rằng thanh niên ở làng tôi thích ăn các món ăn truyền thống, bởi vì khi tụ họp với bạn bè, chúng tôi thường làm bánh hoặc các món ăn truyền thống."
+      },
+      {
+        "km_source": "ព្រលឹមស្រាងៗ ក្រុមគ្រួសារកូនកំលោះនឹងនាំអំណោយទៅផ្ទះកូនក្រមុំ ដើម្បីចាប់ផ្តើមពិធីសំខាន់ ហៅថា ពិធីទទួលកូនប្រសាស្រី។",
+        "vi_reference": "- Buổi sáng sớm, đoàn nhà trai sẽ mang lễ vật đến nhà gái để bắt đầu nghi lễ chính, gọi là lễ rước dâu.",
+        "id": 68966,
+        "topic": "PHONG TỤC KHI KẾT HÔN",
+        "order": 3.0,
+        "question": null,
+        "hypothesis": "Vào sáng sớm, gia đình chú rể sẽ mang quà đến nhà cô dâu để bắt đầu nghi lễ quan trọng gọi là lễ đón dâu."
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍: ពិធី​បន់ស្រន់​នេះ​តែងតែ​ប្រព្រឹត្ត​ទៅ​យ៉ាង​ដូចម្តេច ហើយ​មាន​ការ​ចូលរួម​ពី​សហគមន៍​ទាំងមូល ឬ​គ្រាន់តែ​គ្រួសារ​ឯកជន?",
+        "vi_reference": "Người phỏng vấn: Lễ cúng này thường diễn ra như thế nào và có sự tham gia của cả cộng đồng hay chỉ gia đình riêng lẻ?",
+        "id": 69099,
+        "topic": "Traditions when planting",
+        "order": 3.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Nghi lễ cầu nguyện này thường được tổ chức như thế nào và có sự tham gia của cả cộng đồng hay chỉ là của gia đình riêng?"
+      },
+      {
+        "km_source": "ក្រៅពី ការផ្លាស់ប្តូរទំនាក់ទំនង តើពិធីបុណ្យមានផលប៉ះពាល់ផ្នែក សេដ្ឋកិច្ច អ្វីខ្លះដល់បងប្អូន?",
+        "vi_reference": "Ngoài việc giao lưu, lễ hội còn có tác động kinh tế nào cho bà con không?",
+        "id": 69055,
+        "topic": "Traditions during religious holidays",
+        "order": 15.0,
+        "question": null,
+        "hypothesis": "Ngoài việc thay đổi mối quan hệ, các lễ hội có ảnh hưởng kinh tế gì đến anh chị em?"
+      },
+      {
+        "km_source": "បើទម្លាប់នៃការហូបចុករបស់ប្រជាជនខ្ញុំ ប្រៀបបាននឹងការរាំមួយ គឺមានភាពយឺតយ៉ាវ និងប្រពៃណាស់ ព្រោះពេលហូប យើងត្រូវយកចិត្តទុកដាក់ឲ្យមានភាពទន់ភ្លន់ ទីកន្លែងអាស្រ័យទៅតាមពេលវេលា និងទីទទួលទាន។ នោះហើយជាមូលហេតុដែលការញ៉ាំក៏ត្រូវបានប្រៀបធៀបទៅនឹងការរាំផងដែរ។",
+        "vi_reference": "Nếu ví thói quen ăn uống của dân tộc tôi được ví như một điệu múa nó sẽ chậm và uyển chuyển vì khi ăn uống phải chú ý uyển chuyển mọi lúc, mọi nơi tùy thuộc thời gian, nơi ăn uống mà thể hiện. Sở dĩ người ăn cũng được ví như một điệu múa là vậy.",
+        "id": 71710,
+        "topic": null,
+        "order": null,
+        "question": "Nếu ví thói quen ăn uống của người dân tộc bạn như một điệu múa, nó sẽ nhanh – chậm – uyển chuyển hay cứng cỏi? Vì sao?",
+        "hypothesis": "Nếu thói quen ăn uống của người dân tôi được so sánh với một điệu múa, thì nó mang tính chậm rãi và tinh tế, bởi vì khi ăn, chúng ta cần chú ý để có sự nhẹ nhàng, tùy thuộc vào thời gian và địa điểm ăn uống. Đó chính là lý do tại sao việc ăn uống cũng được so sánh với một điệu múa."
+      },
+      {
+        "km_source": "ដោយសារតែវាជាលក្ខណៈរបស់ជាតិ សាសន៍ យ៉ាងនេះហើយបានជា ភេសជ្ជៈប្រពៃណីតែងតែត្រូវបានផ្សារភ្ជាប់ជាមួយនឹងពិធីបុណ្យ ការច្រៀង ឬបង្កើតមិត្តភក្តិ។",
+        "vi_reference": "Vì là đặc trưng của một dân tộc, do đó các món uống truyền thống thường gắn liền với lễ hội, ca hát, hoặc kết nghĩa bạn bè.",
+        "id": 71706,
+        "topic": null,
+        "order": null,
+        "question": "Tại sao món uống truyền thống thường gắn liền với lễ hội, ca hát, hoặc kết nghĩa bạn bè?",
+        "hypothesis": "Bởi vì đó là đặc trưng của dân tộc, tôn giáo, nên các loại đồ uống truyền thống luôn gắn liền với các lễ hội, ca hát hoặc xây dựng tình bạn."
+      },
+      {
+        "km_source": "ក្រោយរៀបមង្គលការ គ្រួសារកូនក្រមុំនឹងនាំកូនក្រមុំទៅផ្ទះប្តី គេ ហៅថាពិធីទទួលកូនប្រសាស្រី ក៏យ៉ាងឱឡារិកអធិអធម និងរំជួលចិត្ត។",
+        "vi_reference": "- Sau tiệc cưới, nhà gái sẽ đưa cô dâu về nhà chồng, gọi là lễ đưa dâu, cũng rất trang trọng và xúc động.",
+        "id": 68966,
+        "topic": "PHONG TỤC KHI KẾT HÔN",
+        "order": 16.0,
+        "question": null,
+        "hypothesis": "Sau khi tổ chức lễ cưới, gia đình cô dâu sẽ đưa cô dâu về nhà chồng, gọi là lễ đón dâu, được tổ chức một cách long trọng, trang nghiêm và đầy cảm xúc."
+      },
+      {
+        "km_source": "មុខម្ហូបមួយមុខដែលមិនអាចខ្វះបានគឺ នំបញ្ចុកទឹកសម្លរ បានចម្អិនពីត្រីរ៉ស់ ស្លឹកគ្រៃ រមៀត និងមាំប្រហុក។",
+        "vi_reference": "- Một trong những món không thể thiếu là bún nước lèo, được nấu từ cá lóc, sả, nghệ và mắm bò hóc đặc trưng.",
+        "id": 68968,
+        "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+        "order": 3.0,
+        "question": null,
+        "hypothesis": "Một món ăn không thể thiếu là bún nước lèo, được nấu từ cá lóc, lá sả, nghệ và mắm bồ hóc."
+      },
+      {
+        "km_source": "លើសពីនេះ ស្លឹកពោធិ៍ ឬម្សៅក្រៀម តែងតែព្យួរនៅមាត់ទ្វារបន្ទប់ ដើម្បីបញ្ចៀសវិញ្ញាណអាក្រក់។",
+        "vi_reference": "Người Khmer: Ngoài ra, ở cửa phòng thường treo lá bồ đề hay bột trầm để xua đuổi tà khí.",
+        "id": 68993,
+        "topic": "Traditions during pregnancy",
+        "order": 17.0,
+        "question": null,
+        "hypothesis": "Ngoài ra, lá trầu hoặc bột khô thường được treo ở cửa phòng để tránh linh hồn xấu."
+      },
+      {
+        "km_source": "ខ្ញុំអត់ដែលបានឃើញ អ្នកត្រូវរំខានដោយធ្វើខុសមុខម្ហូបប្រពៃណីទេ ឃើញតែធ្វើខុសហើយ កែឆ្នៃបន្តិចបន្តូចគឺបានហើយ។",
+        "vi_reference": "Tôi không từng thấy ai bị quấy rầy vì nấu sai món truyền thống cả, chỉ thấy nếu sai thì sửa lại chút đỉnh là được rồi.",
+        "id": 70824,
+        "topic": null,
+        "order": null,
+        "question": "Bạn đã từng chứng kiến ai đó bị rầy vì nấu sai món truyền thống chưa? Vì sao điều đó lại quan trọng?",
+        "hypothesis": "Tôi chưa từng thấy bạn bị làm phiền bởi việc làm sai món ăn truyền thống, chỉ thấy bạn làm sai rồi chỉnh sửa một chút là được."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ: យើងខ្ញុំតែងតែរៀបចំ ពិធីបុណ្យបង្សុកូល ដើម្បីឧទ្ទិសកុសល  ជូនដល់ដូនតា និងបួងសួងឲ្យវិញ្ញាណបាន សុគតិភព។",
+        "vi_reference": "Người Khmer: Chúng tôi thường tổ chức lễ cầu siêu để hồi hướng công đức cho ông bà tổ tiên và cầu mong linh hồn được siêu thoát an lành.",
+        "id": 69086,
+        "topic": "Traditions after religious holidays",
+        "order": 2.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Chúng tôi luôn tổ chức lễ bông sóc cổ để hồi hướng công đức cho ông bà tổ tiên và cầu nguyện cho linh hồn được siêu thoát."
+      },
+      {
+        "km_source": "កាលលពីមុន ជនជាតិខ្មែរភាគច្រើនប្រកបមុខរបរជាកសិករពេលបាយព្រឹក​ ល្ងាច សមាជិកគ្រួសារតែងតែជួបជុំគ្នាគ្រប់គ្នារៀងរាល់ពេលបាយម្ដាយតែងតែដួសអាហារឲ្យបងប្អូនខ្ញុំ ឥឡូវធំធាត់រៀងរាល់ការងាររវល់ មិនសូវបានអង្គុយក្បែរគ្នាញ៉ាំបាយទេពេលខ្លះបានអង្គុយលើតុតែចំណង់ចំណូលចិត្តហូបចុកខុសគ្នា ខ្ញុំចូលចិត្តញ៉ាំប្រហុក ចំណែកប្អូនស្រីខ្ញុំវិញ មិនចូលចិត្តទេ។",
+        "vi_reference": "Dân tộc Khmer trước đây đa số theo nghề nông những bữa cơm sáng, chiều các thành viên trong gia đình thường tập trung đủ mặt, mỗi buổi ăn mẹ thường gắp đồ ăn cho chị em tôi, bây giờ lớn mỗi người mỗi công việc ít được ngồi ăn chung lắm lúc ăn chung mâm nhưng sở thích ăn uống khác nhau tôi thì thích ăn mắm bò hóc, còn em gái tôi thì không.",
+        "id": 71699,
+        "topic": null,
+        "order": null,
+        "question": "Bữa trưa thời bạn còn nhỏ khác gì với bữa trưa bây giờ? Sự thay đổi đó khiến bạn cảm thấy như thế nào?",
+        "hypothesis": "Trước đây, phần lớn người Khmer làm nghề nông. Vào bữa sáng và bữa tối, các thành viên trong gia đình thường tụ họp lại với nhau. Mẹ luôn múc thức ăn cho anh chị em chúng tôi. Bây giờ, khi đã trưởng thành, công việc bận rộn khiến chúng tôi ít có cơ hội ngồi ăn cùng nhau. Đôi khi ngồi chung bàn nhưng sở thích ăn uống lại khác nhau. Tôi thích ăn mắm bò hóc, còn em gái tôi thì không thích."
+      },
+      {
+        "km_source": "ខ្ញុំនឹងជ្រើសយកសម្លកកូរដើម្បីណែនាំអំពីមុខម្ហូបទំនៀមទម្លាប់ ពីព្រោះវាងាយរកនិងអត់សូវចំណាយលុយច្រើន ហើយវាផ្សំបន្លែស្រែគ្រប់មុខ ត្រី សាច់ ហើយនឹងប្រហុក គ្រឿងទេសផ្សេងៗទៀត។",
+        "vi_reference": "Tôi sẽ giới thiệu món canh Som-lo Co Cô, bởi vì nó dễ tìm và ít tốn chi phí nó có đủ loại rau vườn, cá thịt, mắm bò hóc, và các loại gia vị khác.",
+        "id": 70942,
+        "topic": null,
+        "order": null,
+        "question": "Nếu phải chọn một món ăn để giới thiệu về bữa trưa truyền thống của dân tộc bạn với thế giới, bạn chọn gì? Vì sao?",
+        "hypothesis": "Tôi sẽ chọn món Samlor Korko để giới thiệu về món ăn truyền thống, vì nó dễ tìm và không tốn nhiều tiền. Món này kết hợp các loại rau đồng, cá, thịt và prahok, cùng với các loại gia vị khác."
+      },
+      {
+        "km_source": "ក្រៅពីនេះ បន្តោង ក៏តែងតែឃើញមាននៅក្នុងវប្បធម៌ខ្មែរដែរ តើបងអាចរៀបរាប់បន្ថែមអំពីអត្ថប្រយោជន៍របស់វាបានទេ?",
+        "vi_reference": "Ngoài ra, bùa hộ mệnh cũng thường thấy trong văn hóa Khmer, anh có thể kể thêm công dụng của nó?",
+        "id": 69054,
+        "topic": "Traditional medicine",
+        "order": 7.0,
+        "question": null,
+        "hypothesis": "Ngoài ra, dây buộc cũng thường thấy trong văn hóa Khmer. Anh/chị có thể giải thích thêm về lợi ích của nó không?"
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ វត្តក៏ជាសាលារៀនពីដើមដែរ ជាកន្លែងសម្រាប់បង្រៀនអក្សរខ្មែរ ឱវាទក្នុងការធ្វើជាមនុស្សល្អ ព្រមទាំងជាកន្លែងប្រជុំពិភាក្សាការងាររួម។",
+        "vi_reference": "Người Khmer: Chùa còn là trường học xưa, nơi truyền dạy chữ viết Khmer, đạo lý làm người, cũng như chỗ họp bàn công việc chung.",
+        "id": 69101,
+        "topic": "Lifestyle",
+        "order": 4.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Chùa cũng là trường học từ xưa, là nơi dạy chữ Khmer, giáo huấn về cách làm người tốt, đồng thời là nơi họp bàn công việc chung."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ មានច្រើនណាស់ ឧទាហរណ៍ មិនរៀបការនៅខែដែលមានថ្ងៃ \"មិនល្អ\" ហើយក៏មិនរៀបការត្រួតគ្នាជាមួយពិធីបុណ្យសពក្នុងគ្រួសារដែរ។",
+        "vi_reference": "Người Khmer: Có nhiều lắm, ví dụ không được tổ chức cưới vào tháng có ngày \"xấu\", và không được làm đám cưới trùng với tang lễ trong gia đình.",
+        "id": 68919,
+        "topic": "PHONG TỤC TRƯỚC ĐÁM CƯỚI",
+        "order": 22.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Có rất nhiều điều, ví dụ như không tổ chức đám cưới vào những tháng có ngày \"không tốt\" và cũng không tổ chức đám cưới trùng với lễ tang trong gia đình."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ ពីព្រោះទីធ្លាវត្តមិនត្រឹមតែមានកន្លែងធំទូលាយប៉ុណ្ណោះទេ ថែមទាំងមានអត្ថន័យខាងផ្លូវចិត្ត ភ្ជាប់កុមារជាមួយវប្បធម៌ព្រះពុទ្ធសាសនា។",
+        "vi_reference": "Người Khmer: Bởi vì sân chùa không chỉ có không gian thoáng đãng, mà còn mang ý nghĩa tâm linh, gắn kết trẻ em với văn hóa Phật giáo",
+        "id": 69081,
+        "topic": "Location played",
+        "order": 4.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Vì sân chùa không chỉ là nơi rộng rãi mà còn mang ý nghĩa tinh thần, kết nối trẻ em với văn hóa Phật giáo."
+      },
+      {
+        "km_source": "ភ្លេងពិណពាទ្យ មានប្រាំសំនៀងមូលដ្ឋាន, ជាធម្មតាលេងដោយ រនាត ស្គរ ស្រឡៃ បង្ហាញឱ្យឃើញនូវលក្ខណៈជាតិសាសន៍ដាច់ដោយឡែក។",
+        "vi_reference": "Âm nhạc ngũ âm gồm năm âm điệu cơ bản, thường biểu diễn bằng đàn Roneat, trống Skor, kèn Sralai, làm nổi bật nét riêng dân tộc.",
+        "id": 69055,
+        "topic": "Traditions during religious holidays",
+        "order": 10.0,
+        "question": null,
+        "hypothesis": "Nhạc Pinpeat có năm giai điệu cơ bản, thường được biểu diễn bằng các nhạc cụ như roneat, trống, sralai, thể hiện đặc trưng văn hóa dân tộc độc đáo."
+      },
+      {
+        "km_source": "បង្អែមបុរាណគឺ បង្អែមបបរត្នោត បានដាំពីទឹក ខ្ទិះដូង និងស្ករត្នោត ដែលមានរសជាតិផ្អែម ងាយស្រួលញ៉ាំ។",
+        "vi_reference": "- Món tráng miệng truyền thống là chè thốt nốt, được nấu từ nước cốt dừa và đường thốt nốt, ngọt thanh và dễ ăn.",
+        "id": 68968,
+        "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+        "order": 7.0,
+        "question": null,
+        "hypothesis": "Món tráng miệng truyền thống là món chè thốt nốt được nấu từ nước cốt dừa và đường thốt nốt, có vị ngọt và dễ ăn."
+      },
+      {
+        "km_source": "គ្រួសារខ្លះថែមទាំង ជួលសិប្បករកាត់ដេរសំលៀកបំពាក់អាពាហ៍ពិពាហ៍បែបប្រពៃណី ដើម្បីរក្សាអត្តសញ្ញាណ និងបង្ហាញពីភាពឧឡារិកក្នុងពិធី។",
+        "vi_reference": "- Có gia đình còn đặt riêng nghệ nhân may váy cưới truyền thống để lưu giữ bản sắc và thể hiện sự trang trọng trong nghi lễ.",
+        "id": 68964,
+        "topic": "TRANG PHỤC CƯỚI HỎI NỮ",
+        "order": 10.0,
+        "question": null,
+        "hypothesis": "Một số gia đình còn thuê thợ may trang phục cưới truyền thống để giữ gìn bản sắc và thể hiện sự trang trọng trong lễ cưới."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ: ត្រូវហើយ គឺការត្រៀមលក្ខណៈយ៉ាងល្អិតល្អន់មុនបុណ្យនេះហើយ ដែលបានក្លាយជាភាពស្រស់ស្អាតមិនប្រែប្រួល បញ្ជាក់ពីសេចក្តីគោរព និងអត្តសញ្ញាណខ្មែរដ៏រឹងមាំ។",
+        "vi_reference": "Người Khmer: Đúng vậy, chính sự chuẩn bị chu đáo trước lễ đã trở thành nét đẹp bất biến, khẳng định lòng thành và bản sắc Khmer bền vững.",
+        "id": 69104,
+        "topic": "Traditions leading up to religious holidays",
+        "order": 24.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Đúng vậy, chính sự chuẩn bị tỉ mỉ trước lễ hội này đã trở thành vẻ đẹp không thay đổi, thể hiện sự tôn trọng và bản sắc Khmer vững chắc."
+      },
+      {
+        "km_source": "បាទ ក្នុងវប្បធម៌ខ្មែរ ពេលឪពុកម្ដាយស្លាប់ ទ្រព្យសម្បត្តិតែងតែបែងចែកស្មើៗគ្នាក្នុងចំណោមកូនបង្កើត ដោយមិនប្រកាន់ថាជាកូនប្រុស ឬកូនស្រីឡើយ។",
+        "vi_reference": "Dạ, trong văn hóa Khmer, khi cha mẹ mất thì tài sản thường được chia đều cho các con ruột, không phân biệt con trai hay con gái.",
+        "id": 68997,
+        "topic": "Inheritance matters",
+        "order": 2.0,
+        "question": null,
+        "hypothesis": "Vâng, trong văn hóa Khmer, khi cha mẹ qua đời, tài sản luôn được chia đều cho các con ruột, không phân biệt là con trai hay con gái."
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍៖ ចុះពិធីបុណ្យមានន័យសំខាន់ដូចម្តេចខ្លះ នៅក្នុងជីវភាពផ្លូវចិត្តរបស់បងប្អូនខ្មែណាមបូ?",
+        "vi_reference": "Người phỏng vấn: Vậy lễ hội có ý nghĩa như thế nào trong đời sống tinh thần của bà con Khmer Nam Bộ?",
+        "id": 69105,
+        "topic": "Leisure activities",
+        "order": 3.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Vậy lễ hội có ý nghĩa quan trọng như thế nào trong đời sống tinh thần của người Khmer Nam Bộ?"
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍: ដូចនេះ ចម្រៀងប្រពៃណីមិនត្រឹមតែភ្ជាប់នឹងពិធីបុណ្យប៉ុណ្ណោះទេ ថែមទាំងលេចឡើងនៅក្នុងសកម្មភាពប្រចាំថ្ងៃទៀតផង ត្រូវទេ?",
+        "vi_reference": "Người phỏng vấn: Như vậy, dân ca không chỉ gắn liền với lễ hội mà còn xuất hiện trong cả sinh hoạt hằng ngày, đúng không?",
+        "id": 69084,
+        "topic": "Folk songs",
+        "order": 13.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Như vậy, nhạc truyền thống không chỉ gắn liền với các lễ hội mà còn xuất hiện trong các hoạt động hàng ngày, đúng không?"
+      },
+      {
+        "km_source": "ខ្ញុំចាំបានថាជាលើកដំបូងដែលខ្ញុំបានទទួលនំបំពង់ឫស្សី ក្នុងថ្ងៃចូលរួមបុណ្យកឋិនទានផ្ទះរបស់មិត្តខ្ញុំ។\nផ្ទះ",
+        "vi_reference": "Tôi nhớ lần đầu tiên tôi nhận được món bánh ống tre trong dịp lễ dâng y Kathina nhà bạn tôi.",
+        "id": 71658,
+        "topic": null,
+        "order": null,
+        "question": "Bạn có nhớ lần đầu tiên mình nhận được món ăn làm quà không? Lúc đó là dịp gì? Ai tặng?",
+        "hypothesis": "Tôi nhớ lần đầu tiên tôi được ăn bánh ống tre trong ngày tham gia lễ dâng y Kathina tại nhà bạn tôi."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ: តន្ត្រីក្នុងបុណ្យចូលឆ្នាំ រួមមាន សម្លេងស្គរ គែនស្រលៃ វង់ភ្លេងពិណពាទ្យ ដែលមានសូរស័ព្ទរស់រវើក និងសម្បូរទៅដោយលក្ខណៈប្រពៃណី។",
+        "vi_reference": "Người Khmer: Âm nhạc trong Chôl Chnăm Thmây gồm tiếng trống, kèn Sralai, dàn nhạc Ngũ Âm, mang âm hưởng sôi động và giàu tính truyền thống.",
+        "id": 69098,
+        "topic": "Use of art at certain events",
+        "order": 8.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Âm nhạc trong lễ hội Tết cổ truyền bao gồm tiếng trống, kèn sralai, dàn nhạc pinpeat với âm thanh sôi động và đậm đà bản sắc truyền thống."
+      },
+      {
+        "km_source": "ជនជាតិខ្មែរ៖ ត្រឹមត្រូវហើយ ព្រោះយើងជឿថា ការព្យាបាលត្រូវតែមានតុល្យភាពទាំងរូបកាយ និងស្មារតី បើស្មារតីបានសុខ នោះរូបកាយក៏ងាយជាសះស្បើយដែរ។",
+        "vi_reference": "Người Khmer: Đúng, vì chúng tôi tin rằng chữa bệnh phải cân bằng cả thân và tâm, nếu tinh thần an thì thể xác mới dễ lành.",
+        "id": 69088,
+        "topic": "Traditional medicine",
+        "order": 14.0,
+        "question": null,
+        "hypothesis": "Người Khmer: Đúng vậy, bởi vì chúng tôi tin rằng việc điều trị phải có sự cân bằng giữa thể chất và tinh thần. Nếu tinh thần được thoải mái, thì cơ thể cũng dễ dàng hồi phục."
+      },
+      {
+        "km_source": "តើយីកេមានភាពខុសប្លែកពីទម្រង់ល្ខោនរបស់ជនជាតិគិញ ឬជនជាតិដទៃទៀតយ៉ាងដូចម្តេចខ្លះ?",
+        "vi_reference": "Dù Kê khác biệt thế nào so với các loại hình sân khấu của người Kinh hoặc các dân tộc khác?",
+        "id": 69076,
+        "topic": "Use of art at certain events",
+        "order": 9.0,
+        "question": null,
+        "hypothesis": "Việt: Vậy Yike có những điểm khác biệt gì so với hình thức sân khấu của người Khmer hoặc các dân tộc khác?"
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍៖  ក្រៅពីនេះ ទូកដឹកទំនិញ មានតួនាទីអ្វីខ្លះ ក្នុងសកម្មភាពជួញដូរ និងការផ្លាស់ប្ដូររបស់បងប្អូនខ្មែរ?",
+        "vi_reference": "Người phỏng vấn: Ngoài ra, những ghe thương hồ đóng vai trò thế nào trong hoạt động buôn bán và giao lưu của bà con Khmer?",
+        "id": 69094,
+        "topic": "Buying and selling traditions",
+        "order": 9.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Ngoài ra, thuyền chở hàng có vai trò gì trong hoạt động buôn bán và trao đổi của người dân Khmer?"
+      },
+      {
+        "km_source": "ក្រុមគ្រួសារជាច្រើននាំយក កសិផល និងសិប្បកម្ម ទៅលក់នៅទីផ្សារពិធីបុណ្យ ទាំងធ្វើពាណិជ្ជកម្ម និងណែនាំ អត្តសញ្ញាណវប្បធម៌ របស់ពួកគេ។",
+        "vi_reference": "Nhiều gia đình mang sản phẩm nông nghiệp, thủ công ra chợ lễ hội, vừa buôn bán vừa giới thiệu bản sắc văn hóa của mình.",
+        "id": 69055,
+        "topic": "Traditions during religious holidays",
+        "order": 16.0,
+        "question": null,
+        "hypothesis": "Nhiều gia đình mang nông sản và sản phẩm thủ công đến bán tại chợ lễ hội, vừa kinh doanh vừa giới thiệu bản sắc văn hóa của họ."
+      },
+      {
+        "km_source": "ខ្ញុំឮថារាត្រីឆ្លងឆ្នាំក្នុងវប្បធម៌ខ្មែរមានសារៈសំខាន់ណាស់ លោកអាចបញ្ជាក់បន្ថែមបានទេ?",
+        "vi_reference": "Tôi nghe nói đêm giao thừa trong văn hóa Khmer rất quan trọng, anh có thể nói rõ hơn không?",
+        "id": 69064,
+        "topic": "Traditions leading up to religious holidays",
+        "order": 9.0,
+        "question": null,
+        "hypothesis": "Tôi nghe nói rằng đêm giao thừa trong văn hóa Khmer rất quan trọng. Anh có thể giải thích thêm không?"
+      },
+      {
+        "km_source": "បងអាចចែករំលែកបានទេថា សិល្បៈខ្មែរត្រូវបានប្រើប្រាស់នៅក្នុងព្រឹត្តិការណ៍សហគមន៍ឬពិធីបុណ្យធំៗយ៉ាងដូចម្ដេចខ្លះ?",
+        "vi_reference": "Anh có thể chia sẻ nghệ thuật Khmer được sử dụng trong các sự kiện cộng đồng hay lễ hội lớn như thế nào không?",
+        "id": 69076,
+        "topic": "Use of art at certain events",
+        "order": 1.0,
+        "question": null,
+        "hypothesis": "Anh có thể chia sẻ rằng nghệ thuật Khmer được sử dụng trong các sự kiện cộng đồng hoặc lễ hội lớn như thế nào không?"
+      },
+      {
+        "km_source": "លើសពីនេះ ពិធីសំខាន់ៗមួយចំនួនដូចជា ការសែនដូនតា ឬពិធីចងខ្សែអំបោះពណ៌ក្រហមកដៃ ត្រូវបានអនុវត្តនៅក្នុងអាសនៈទីសក្ការបូជា ឬបន្ទប់សំខាន់នៃផ្ទះ។",
+        "vi_reference": "- Ngoài ra, một số nghi thức quan trọng như cúng tổ tiên hoặc lễ buộc chỉ đỏ vào cổ tay được làm trong gian thờ hoặc phòng chính của nhà.",
+        "id": 68962,
+        "topic": "VỊ TRÍ TỔ CHỨC ĐÁM CƯỚI",
+        "order": 4.0,
+        "question": null,
+        "hypothesis": "Ngoài ra, một số nghi lễ quan trọng như lễ cúng tổ tiên hoặc nghi lễ buộc chỉ đỏ vào tay được thực hiện tại nơi thờ cúng linh thiêng hoặc phòng quan trọng trong nhà."
+      },
+      {
+        "km_source": "អ្នកសម្ភាសន៍: ក្រៅពីប្រណាំងទូក តើបងប្អូនមានទស្សនីយភាពសិល្បៈអ្វីផ្សេងទៀត ដើម្បីភ្ជាប់ទំនាក់ទំនងសហគមន៍?",
+        "vi_reference": "Người phỏng vấn: Ngoài đua ghe, bà con có những tiết mục nghệ thuật nào khác để gắn kết cộng đồng không?",
+        "id": 69098,
+        "topic": "Use of art at certain events",
+        "order": 17.0,
+        "question": null,
+        "hypothesis": "Người phỏng vấn: Ngoài đua thuyền, anh chị em có những hoạt động nghệ thuật nào khác để kết nối cộng đồng không?"
+      },
+      {
+        "km_source": "មុនបុណ្យ ប្រជាពលរដ្ឋយើងត្រៀមខ្លួនយ៉ាងហ្មត់ចត់ ចាប់ពីការតុបតែងផ្ទះសំបែង ចម្អិនម្ហូបអាហារ រហូតដល់ការរៀបចំចង្ហាន់បច្ច័យសម្រាប់ប្រគេនព្រះសង្ឃនៅវត្ត។",
+        "vi_reference": "Trước lễ, bà con chúng tôi chuẩn bị rất kỹ, từ việc trang trí nhà cửa, nấu nướng, cho đến chuẩn bị lễ vật dâng chùa.",
+        "id": 69064,
+        "topic": "Traditions leading up to religious holidays",
+        "order": 2.0,
+        "question": null,
+        "hypothesis": "Trước lễ hội, người dân chúng ta chuẩn bị rất chu đáo, từ việc trang trí nhà cửa, nấu ăn cho đến việc sắp xếp lễ vật và tiền để dâng lên các sư thầy tại chùa."
+      },
+      {
+        "km_source": "គូស្វាមីភរិយាថ្មី ក៏ត្រូវទៅតុនីមួយៗ និងទទួលពរជ័យពីម្នាក់ៗ។",
+        "vi_reference": "- Đôi vợ chồng mới cũng phải đi chào từng bàn tiệc để cảm ơn khách mời và nhận lời chúc từ từng người.",
+        "id": 68966,
+        "topic": "PHONG TỤC KHI KẾT HÔN",
+        "order": 14.0,
+        "question": null,
+        "hypothesis": "Cặp vợ chồng mới cũng phải đến từng nơi và nhận lời chúc phúc từ mọi người."
+      },
+      {
+        "km_source": "ចាសមាន មនុស្សធំណែនាំកុំឲ្យក្មេងៗរត់លេងពេលព្រលប់ ព្រោះនៅពេលនោះងាយនឹងត្រូវ \"ខ្យល់ពុល\" ឬវិញ្ញាណអាក្រក់។",
+        "vi_reference": "Dạ có, người lớn khuyên không nên để bé chạy chơi lúc chạng vạng tối vì thời điểm đó dễ bị “gió độc” hoặc hồn ma quấy.",
+        "id": 68988,
+        "topic": "How to care for toddlers",
+        "order": 9.0,
+        "question": null,
+        "hypothesis": "Người lớn thường khuyên trẻ em không nên chạy chơi vào buổi tối, vì lúc đó dễ bị \"khí độc\" hoặc linh hồn xấu ám."
+      }
+    ]
+  },
+  "exp2": {
+    "experiment": "km2vi_weakness_probes",
+    "probes": {
+      "food_cultural": {
+        "n": 8,
+        "bleu": 41.13,
+        "chrf++": 62.05,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "អ្នកសម្ភាសន៍៖ ដូច្នេះ\nអំបុកមិនត្រឹមតែជាម្ហូបមួយមុខប៉ុណ្ណោះទេ ថែមទាំងមានតម្លៃខាងវិញ្ញាណយ៉ាងជ្រាលជ្រៅនៅក្នុងទំនៀមទម្លាប់ខ្មែរទៀតផង?",
+            "vi_reference": "Người phỏng vấn: Như vậy, cốm dẹp không chỉ là món ăn mà còn mang giá trị tinh thần sâu xa trong phong tục Khmer?",
+            "id": 69087,
+            "topic": "Harvest",
+            "order": 9.0,
+            "question": null,
+            "hypothesis": "Người phỏng vấn: Vậy thì, Ambok không chỉ là một món ăn mà còn mang giá trị tinh thần sâu sắc trong phong tục tập quán của người Khmer đúng không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural entity preservation\",\n      \"detail\": \"The hypothesis translation uses 'Ambok' instead of 'cốm dẹp,' which may not be familiar to Vietnamese readers. 'Cốm dẹp' is the commonly used term in Vietnamese for this Khmer Krom dish, and using 'Ambok' could lead to confusion.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'đúng không' at the end of the hypothesis translation adds a conversational tone that is not present in the source or reference, making it less formal and slightly altering the tone.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "នំខ្ញីធ្វើរាល់ពេលមានពិធីនៅបុណ្យទាននៅវត្ត។ មុខម្ហូបនេះពិសេសណាស់ព្រោះវាមានរាងដូចខ្ញី។",
+            "vi_reference": "Với món bánh gừng được làm mỗi khi có lễ ở chùa, món ăn rất đặt biệt vì có tạo hình như gừng.",
+            "id": 71696,
+            "topic": null,
+            "order": null,
+            "question": "Hãy kể một kỷ niệm đặc biệt của bạn với món ăn truyền thống trong một dịp lễ hội.",
+            "hypothesis": "Bánh gừng được làm mỗi khi có lễ hội tại chùa. Món ăn này rất đặc biệt vì nó có hình dáng giống củ gừng.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'lễ hội' (festival) instead of 'lễ' (ceremony), which slightly shifts the cultural context. Khmer Krom ceremonies at temples are more solemn and religious rather than festive.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The hypothesis translation does not explicitly recognize the Khmer Krom cultural context, which is implied in the source text. The term 'វត្ត' (temple) in Khmer Krom culture often refers to specific community temples, but this nuance is not reflected.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation is accurate in describing the shape of the bánh gừng (ginger cake) but misses the emphasis on the cultural significance of making it during ceremonies.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural and fluent in Vietnamese, with no awkward phrasing.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ខ្ញុំចាំបានថាជាលើកដំបូងដែលខ្ញុំបានទទួលនំបំពង់ឫស្សី ក្នុងថ្ងៃចូលរួមបុណ្យកឋិនទានផ្ទះរបស់មិត្តខ្ញុំ។\nផ្ទះ",
+            "vi_reference": "Tôi nhớ lần đầu tiên tôi nhận được món bánh ống tre trong dịp lễ dâng y Kathina nhà bạn tôi.",
+            "id": 71658,
+            "topic": null,
+            "order": null,
+            "question": "Bạn có nhớ lần đầu tiên mình nhận được món ăn làm quà không? Lúc đó là dịp gì? Ai tặng?",
+            "hypothesis": "Tôi nhớ lần đầu tiên tôi được ăn bánh ống tre trong ngày tham gia lễ dâng y Kathina tại nhà bạn tôi.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation changes 'nhận được' (received) to 'được ăn' (was able to eat), which alters the meaning. The source emphasizes receiving the bamboo tube cake, not necessarily eating it.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'trong ngày tham gia lễ dâng y Kathina tại nhà bạn tôi' in the hypothesis is slightly less natural compared to the reference. The reference's phrasing 'trong dịp lễ dâng y Kathina nhà bạn tôi' is more fluid and commonly used in Vietnamese.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "យើងខ្ញុំតែង វេចនំប្រពៃណី ដូចជានំអន្សមជ្រូក នំគម សម្រាប់យកទៅប្រគេនវត្តផង និងចែកជូនសាច់ញាតិផង។",
+            "vi_reference": "Chúng tôi thường cùng nhau gói bánh truyền thống như bánh tét, bánh ít, vừa để dâng chùa vừa để chia cho họ hàng.",
+            "id": 69073,
+            "topic": "Traditions before religious holidays",
+            "order": 2.0,
+            "question": null,
+            "hypothesis": "Chúng tôi thường chuẩn bị các món truyền thống như bánh Ansom Chrouk, bánh Kom để dâng lên chùa và chia sẻ với người thân.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis retains the Khmer Krom-specific terms 'bánh Ansom Chrouk' and 'bánh Kom' instead of translating them into their Vietnamese equivalents ('bánh tét' and 'bánh ít'). While this preserves the cultural specificity, it may not be natural for a Vietnamese audience unfamiliar with Khmer Krom terminology.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis accurately conveys the meaning of the source text, including the dual purpose of the traditional foods (offering to the temple and sharing with relatives).\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The use of Khmer Krom terms 'bánh Ansom Chrouk' and 'bánh Kom' in the hypothesis may feel unnatural to a general Vietnamese audience, as these terms are not commonly used in standard Vietnamese.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "មុខម្ហូបមួយមុខដែលមិនអាចខ្វះបានគឺ នំបញ្ចុកទឹកសម្លរ បានចម្អិនពីត្រីរ៉ស់ ស្លឹកគ្រៃ រមៀត និងមាំប្រហុក។",
+            "vi_reference": "- Một trong những món không thể thiếu là bún nước lèo, được nấu từ cá lóc, sả, nghệ và mắm bò hóc đặc trưng.",
+            "id": 68968,
+            "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+            "order": 3.0,
+            "question": null,
+            "hypothesis": "Một món ăn không thể thiếu là bún nước lèo, được nấu từ cá lóc, lá sả, nghệ và mắm bồ hóc.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'mắm bò hóc' in the reference is correctly used to represent the Khmer Krom-specific term 'មាំប្រហុក'. However, the hypothesis uses 'mắm bồ hóc', which is a misspelling and could lead to confusion or misrepresentation of the cultural term.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translates 'ស្លឹកគ្រៃ' as 'lá sả', which is inaccurate. 'ស្លឹកគ្រៃ' refers to 'lá ngải bún' (a specific herb used in Khmer Krom cuisine), not 'lá sả' (lemongrass leaves).\",\n      \"severity\": \"high\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "មុខម្ហូបដ៏ពេញនិយមមួយចំនួនដែលប្រជាជនជាតិខ្មែរក្នុងភូមិតែងតែរៀបចំសម្រាប់ពេលបាយថ្ងៃត្រង់ ក្នុងក្នុងឱកាសបុណ្យទានសែនដូនតា ឬពេលធ្វើការនៅស្រែចំការ ដូចជាមុខម្ហូបការីខ្មែរ នំអន្សម នំគម បាយឡាំ។ល។ - ការីខ្មែរ៖ការីជាធម្មតាមិនហឹរពេកទេ ជារឿយៗមានសាច់មាន់ ដំឡូងជ្វា ការ៉ុត ទឹកដោះគោដូង និងគ្រឿងទេសបុរាណ។ម្ហូបនេះ ត្រូវបានគេប្រើនៅក្នុងការតង្វាយដោយបង្ហាញពីការគោរព។ - នំអន្សម និងនំគម៖ នំប្រភេទនេះត្រូវបានវេចខ្ចប់ដោយស្លឹកចេកដែលមានស្នូលសណ្ដែក ដូងឬចេក ជាធម្មតាត្រូវបានគេធ្វើដើម្បីសែនដល់ដូនតាឬយកតាមខ្លួនពេលទៅស្រែចម្ការ។ - បាយឡាំ៖បាយដែលត្រូវបានចម្អិនក្នុងបំពង់ឫស្សីយកតាមខ្លួនពេលទៅស្រែចម្ការ ឬពេលធ្វើដំណើរឆ្ងាយងាយស្រួលជាង និងមានរសជាតិពិសេសរបស់ព្រៃភ្នំ។ មុខម្ហូបទាំងនេះច្រើនតែមានអត្ថន័យបែបប្រពៃណី ហើយត្រូវបានផលិតចេញពីគ្រឿងផ្សំធម្មតានៃតំបន់។",
+            "vi_reference": "Một số món ăn phổ biến nhất mà người Khmer trong làng thường chuẩn bị để nấu ăn vào bữa trưa trong các dịp lễ hội, cúng tổ tiên hoặc khi đi làm rẫy đó là món Kari Khmer, Num Ansam, num Kom,Bai Lam… - Cà Ri Khmer: Món cà ri thường nấu không quá cay, thường có thịt gà, khoai lang, cà rốt, nước cốt dừa và các loại gia vị truyền thống. Món này thường được dùng trong các bữa cúng, thể hiện lòng thành kính. - Num Ansam (còn gọi là bánh Tét) và num Kom (còn gọi là bánh ít): Các loại bánh gói lá chuối với nhân đậu xanh, dừa hoặc chuối, thường được làm để cúng tổ tiên hoặc mang theo khi đi làm rẫy. - Bai Lam (Cơm Lam): Cơm nấu trong ống tre, mang theo khi đi rẫy hoặc trong các chuyến đi xa, tiện lợi và mang hương vị đặc trưng của núi rừng. Những món này thường mang ý nghĩa truyền thống và được chế biến từ những nguyên liệu đặc trưng của vùng đất.",
+            "id": 71818,
+            "topic": null,
+            "order": null,
+            "question": "Có món nào chỉ được ăn vào bữa trưa trong dịp đặc biệt như lễ hội, cúng tổ tiên hay đi rẫy không? Hãy kể chi tiết.",
+            "hypothesis": "Một số món ăn phổ biến mà người dân Khmer trong làng thường chuẩn bị cho bữa trưa, trong các dịp lễ cúng tổ tiên hoặc khi làm việc trên đồng ruộng, bao gồm các món như cà ri Khmer, bánh Ansom, bánh Kom, cơm Lam, v.v.  \n- **Cà ri Khmer**: Cà ri thường không quá cay, thường có thịt gà, khoai tây, cà rốt, nước cốt dừa và các gia vị truyền thống. Món ăn này thường được dùng trong các nghi lễ để thể hiện sự tôn kính.  \n- **Bánh Ansom và bánh Kom**: Loại bánh này được gói bằng lá chuối, bên trong có nhân đậu, dừa hoặc chuối. Thường được làm để cúng tổ tiên hoặc mang theo khi đi làm đồng.  \n- **Cơm Lam**: Cơm được nấu trong ống tre, thường mang theo khi đi làm đồng hoặc trong các chuyến đi xa, vừa tiện lợi vừa mang hương vị đặc trưng của núi rừng.  \n\nNhững món ăn này thường mang ý nghĩa truyền thống và được làm từ các nguyên liệu đơn giản của địa phương.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'khoai tây' (potato) instead of 'khoai lang' (sweet potato) for the ingredients of Khmer curry. This is a significant cultural inaccuracy as sweet potato is a traditional ingredient in Khmer cuisine.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The hypothesis translation does not mention the Khmer Krom-specific term 'Num Ansam' being equivalent to 'bánh Tét' as in the reference. This omission reduces clarity for Vietnamese readers unfamiliar with Khmer Krom culture.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation simplifies 'បាយឡាំ' (Bai Lam) as 'cơm Lam' without emphasizing its unique preparation method and cultural significance, such as its association with the mountainous flavor and convenience for long journeys.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'các món như cà ri Khmer, bánh Ansom, bánh Kom, cơm Lam, v.v.' in the hypothesis is less natural compared to the reference, which uses a more structured and culturally nuanced list.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ខ្ញុំនៅតែចងចាំរាល់យប់ពេលខ្ញុំត្រលប់មកផ្ទះវិញ ជីដូនរបស់ខ្ញុំនឹងដាក់ឈ្មោះមុខម្ហូបរបស់ជនជាតិខ្មែរ ពេលខ្លះជីដូននឹងប្រាប់ខ្ញុំពីប្រភពដើម និងអត្ថន័យនៃមុខម្ហូបនេះផង់ដែរ។ ឧទាហរណ៍ប្រភពដើមនៃនំកាទុំៗគឺជានំប្រពៃណីរបស់ជនជាតិខ្មែរ ដែលមានឫសគល់ជ្រៅជ្រះពី ប្រទេសកម្ពុជា។ ឈ្មោះ \"កាទុំ\" មកពីភាសាខ្មែរ មានន័យថា នំខ្ចប់ស្លឹកត្នោត ដែលបង្ហាញពីគ្រឿងផ្សំ និងរបៀបវេចខ្ចប់ពិសេសរបស់នំ។ នំនេះច្រើនតែត្រូវបានធ្វើឡើងក្នុងឱកាសពិធីបុណ្យ ការបូជា ឬថ្ងៃពិសេសនានាក្នុងវប្បធម៌ខ្មែរ។",
+            "vi_reference": "Tôi còn nhớ mỗi tối về ngoại kể tên các món ăn của đồng bào dân tộc Khmer, đôi khi ngoại nói thêm nguồn góc và ý nghĩa của món ăn đó. Chẳng hạn như nguồn gốc của bánh Cà Tum Bánh Cà Tum là một loại bánh truyền thống của người Khmer. Tên gọi \"Cà Tum\" xuất phát từ tiếng Khmer, nghĩa là bánh gói trong lá thốt nốt, thể hiện nguyên liệu và cách gói đặc trưng của bánh. Bánh thường được làm trong các dịp lễ hội, cúng bái hoặc những ngày đặc biệt trong văn hóa Khmer.",
+            "id": 71719,
+            "topic": null,
+            "order": null,
+            "question": "Bạn từng nghe người già kể chuyện gì về nguồn gốc món ăn đó không?",
+            "hypothesis": "Tôi vẫn luôn nhớ mỗi buổi tối khi tôi trở về nhà, bà của tôi sẽ gọi tên các món ăn truyền thống của người Khmer. Đôi khi, bà còn kể cho tôi nghe về nguồn gốc và ý nghĩa của những món ăn này. Ví dụ, nguồn gốc của món bánh \"Num Ka Thum\" là một loại bánh truyền thống của người Khmer, có nguồn gốc sâu xa từ Campuchia. Tên gọi \"Ka Thum\" xuất phát từ tiếng Khmer, có nghĩa là bánh gói lá thốt nốt, thể hiện thành phần và cách gói đặc biệt của bánh. Loại bánh này thường được làm trong các dịp lễ hội, cúng bái hoặc những ngày đặc biệt trong văn hóa Khmer.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'Num Ka Thum' instead of 'Cà Tum' as in the reference. While 'Num Ka Thum' is closer to the Khmer pronunciation, it may not align with the established Vietnamese transliteration 'Cà Tum,' which could cause confusion for Vietnamese readers familiar with the term.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis adds 'có nguồn gốc sâu xa từ Campuchia' (has deep origins from Cambodia), which is not explicitly stated in the source text. This addition could mislead readers into thinking the dish is exclusively Cambodian, whereas the source emphasizes its Khmer Krom cultural roots.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'bà của tôi sẽ gọi tên các món ăn truyền thống của người Khmer' (my grandmother will name the traditional dishes of the Khmer people) in the hypothesis is less natural compared to the reference's 'ngoại kể tên các món ăn của đồng bào dân tộc Khmer' (grandmother recounts the names of the dishes of the Khmer ethnic group). The latter better reflects the cultural nuance and conversational tone.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "មុខម្ហូបអាហារពេលព្រឹកដែលលេចចេញក្នុងរដូវជាក់លាក់ណាមួយនៃឆ្នាំគឺ នំបំពង់របស់ជនជាតិខ្មែរ ព្រោះបានលក់ញឹកញាប់បំផុតក្នុងរដូវបុណ្យតេត បុណ្យចូលឆ្នាំថ្មី។",
+            "vi_reference": "Món ăn vào buổi sáng và chỉ xuất hiện vào một mùa nhất định trong năm đó là món bánh ống của người Khmer, bởi vì thường được bán phổ biến nhất vào dịp Tết, Chôl Chnăm Thmây.",
+            "id": 71695,
+            "topic": null,
+            "order": null,
+            "question": "Có món nào bạn từng ăn vào buổi sáng và chỉ xuất hiện vào một mùa nhất định trong năm không?",
+            "hypothesis": "Món ăn sáng nổi bật trong một mùa cụ thể nào đó trong năm là bánh ống của người Khmer, vì được bán phổ biến nhất trong dịp lễ Tết, lễ mừng năm mới.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation does not explicitly mention 'Chôl Chnăm Thmây,' which is a culturally significant Khmer Krom New Year celebration. This omission reduces cultural specificity.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer Krom-specific terms\",\n      \"detail\": \"The hypothesis translation does not emphasize the Khmer Krom identity explicitly, which is important for preserving the source's cultural context.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning accuracy\",\n      \"detail\": \"The hypothesis translation slightly alters the meaning by generalizing 'lễ mừng năm mới' instead of specifying 'Chôl Chnăm Thmây,' which is a distinct Khmer Krom celebration.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural in Vietnamese, but the lack of cultural specificity makes it less precise in conveying the original meaning.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          }
+        ]
+      },
+      "religious": {
+        "n": 8,
+        "bleu": 37.4,
+        "chrf++": 59.99,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "ជនជាតិខ្មែរ: នៅពេលនោះ គ្រូខ្មែរ ឬគ្រូទាយ នឹងធ្វើពិធីហៅព្រលឹង, ថ្វាយគ្រឿងបូជា, រួមផ្សំជាមួយឱសថបុរាណ ដើម្បីបណ្តេញអារក្សចេញ។",
+            "vi_reference": "Người Khmer: Khi ấy, Kru Khmer hoặc thầy cúng sẽ làm lễ gọi hồn, dâng đồ cúng, kết hợp thảo dược để xua đuổi Arak.",
+            "id": 69095,
+            "topic": "Mystical things",
+            "order": 8.0,
+            "question": null,
+            "hypothesis": "Người Khmer: Vào thời điểm đó, thầy Khmer hoặc thầy bói sẽ thực hiện nghi lễ gọi hồn, dâng lễ vật, kết hợp với các loại thuốc cổ truyền để trừ tà ma.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'thầy bói' in the hypothesis does not fully capture the cultural and spiritual role of 'គ្រូទាយ' (Kru Khmer or spiritual healer) in Khmer Krom culture. 'Thầy bói' in Vietnamese often refers to a fortune teller, which is a narrower and less accurate interpretation.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The hypothesis uses 'trừ tà ma' instead of 'xua đuổi Arak'. The term 'Arak' is specific to Khmer Krom spiritual beliefs and should have been preserved to maintain cultural accuracy.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'các loại thuốc cổ truyền' in the hypothesis is a less precise translation of 'ឱសថបុរាណ', which refers specifically to traditional herbal medicine. The hypothesis could have used 'thảo dược cổ truyền' for better accuracy.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "យើងច្រើនតែបបួយគ្នាទៅវត្ត ចូលរួមក្រុមរាំវង់ ឬបង្រៀនគ្នាឱ្យចេះប៉ាក់ និងដេរសម្លៀកបំពាក់ប្រពៃណី។",
+            "vi_reference": "Chúng tôi thường rủ nhau đi lễ chùa, tham gia đội múa Ramvang hoặc dạy nhau đan len, may áo truyền thống.",
+            "id": 68985,
+            "topic": "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM",
+            "order": 15.0,
+            "question": null,
+            "hypothesis": "Chúng ta thường cùng nhau đi chùa, tham gia nhóm múa hoặc dạy nhau cách thêu và may trang phục truyền thống.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'រាំវង់' (Ramvang) is a specific Khmer Krom traditional dance, but the hypothesis translation only uses 'nhóm múa' (dance group), which is too generic and loses the cultural specificity.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The term 'ប៉ាក់' (păk), which refers to a specific Khmer Krom craft (weaving or knitting), is translated as 'thêu' (embroidery) in the hypothesis. This is inaccurate and does not reflect the original meaning.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'chúng ta' (we, including the listener) instead of 'chúng tôi' (we, excluding the listener), which changes the perspective and inclusivity of the statement.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "អាហារសម្រន់ខ្លះមានលក់ញឹកញាប់នៅស្រុកអូមូង ក្បែរតំបន់វត្ត ព្រោះមានជនជាតិខ្មែរច្រើន ។",
+            "vi_reference": "Một số món ăn vặt thường được bán nhiều ở quận Ô Môn, gần khu vực chùa, vì đông người dân tộc Khmer.",
+            "id": 71712,
+            "topic": null,
+            "order": null,
+            "question": "Món ăn vặt đó thường được bán/ăn ở đâu? → Tại sao ở đó? → Ai làm ra món đó? → Làm như thế nào? → Tại sao cách làm đó được giữ lâu dài?",
+            "hypothesis": "Một số món ăn nhẹ thường được bán ở vùng Ô Mông, gần khu vực chùa, vì có nhiều người dân tộc Khmer sinh sống.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'vùng Ô Mông' instead of 'quận Ô Môn,' which is incorrect. 'Ô Môn' is a specific administrative district in Vietnam, and changing it to 'Ô Mông' alters the meaning and misrepresents the cultural entity.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'món ăn nhẹ' instead of 'món ăn vặt.' While both terms refer to snacks, 'món ăn vặt' is more culturally appropriate and commonly used in Vietnamese to describe casual street food, aligning better with the Khmer Krom context.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'vì có nhiều người dân tộc Khmer sinh sống' in the hypothesis is slightly less natural compared to 'vì đông người dân tộc Khmer' in the reference. The latter is more concise and idiomatic in Vietnamese.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ជនជាតិខ្មែរ៖ ពីព្រោះទីធ្លាវត្តមិនត្រឹមតែមានកន្លែងធំទូលាយប៉ុណ្ណោះទេ ថែមទាំងមានអត្ថន័យខាងផ្លូវចិត្ត ភ្ជាប់កុមារជាមួយវប្បធម៌ព្រះពុទ្ធសាសនា។",
+            "vi_reference": "Người Khmer: Bởi vì sân chùa không chỉ có không gian thoáng đãng, mà còn mang ý nghĩa tâm linh, gắn kết trẻ em với văn hóa Phật giáo",
+            "id": 69081,
+            "topic": "Location played",
+            "order": 4.0,
+            "question": null,
+            "hypothesis": "Người Khmer: Vì sân chùa không chỉ là một không gian rộng lớn, mà còn mang ý nghĩa tinh thần, kết nối trẻ em với văn hóa Phật giáo.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural entity preservation\",\n      \"detail\": \"The hypothesis translation uses 'ý nghĩa tinh thần' instead of 'ý nghĩa tâm linh' from the reference. While both terms are similar, 'ý nghĩa tâm linh' is more culturally specific and aligns better with the Khmer Krom context, which emphasizes spiritual significance.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'một không gian rộng lớn' in the hypothesis is slightly less natural compared to 'không gian thoáng đãng' in the reference. The latter conveys a more nuanced and culturally appropriate description of the temple courtyard.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ត្រឹមត្រូវហើយ ពិធីបុណ្យសំពះព្រះខែ ក្នុងឱកាសបុណ្យអកអំបុក ប្រព្រឹត្តទៅនៅពេលយប់ មនុស្សគ្រប់គ្នាថ្វាយអំបុក ផ្លែឈើ ដើម្បីតបស្នងគុណព្រះច័ន្ទ។",
+            "vi_reference": "Đúng vậy, lễ cúng trăng trong dịp Ok Om Bok diễn ra ban đêm, mọi người dâng cốm dẹp, trái cây để tạ ơn thần mặt trăng.",
+            "id": 69052,
+            "topic": "Evening activities",
+            "order": 4.0,
+            "question": null,
+            "hypothesis": "Đúng vậy, lễ cúng trăng trong dịp lễ Ok Om Bok diễn ra vào ban đêm, mọi người dâng cốm dẹp và trái cây để tỏ lòng biết ơn mặt trăng.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'lễ Ok Om Bok' instead of 'Ok Om Bok' as in the reference. Adding 'lễ' may slightly alter the cultural nuance, as 'Ok Om Bok' is a specific Khmer Krom festival name and does not necessarily need the prefix 'lễ' in Vietnamese.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'tỏ lòng biết ơn mặt trăng' instead of 'tạ ơn thần mặt trăng' from the reference. This changes the meaning slightly, as 'thần mặt trăng' (moon deity) is more specific and culturally accurate than 'mặt trăng' (moon).\",\n      \"severity\": \"high\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ចាស ដំបូងគឺអញ្ចើញអាចារ្យយុគី និងជម្រាបជូនញាតិមិត្តជិតខាង ជាពិសេសជូនដំណឹង និងនិមន្តព្រះសង្ឃក្នុងវត្ត មកដើម្បីរៀបចំពិធីកិច្ច។",
+            "vi_reference": "Dạ, việc đầu tiên là mời Achar duki và thông báo cho người thân, họ hàng bà con lối xóm, đặc biệt là báo và thỉnh các vị sư trong chùa để chuẩn bị nghi lễ.",
+            "id": 68998,
+            "topic": "When death occurs",
+            "order": 2.0,
+            "question": null,
+            "hypothesis": "Dạ, trước tiên xin mời thầy Yuki và thông báo đến bà con, bạn bè gần xa, đặc biệt là thông báo và thỉnh mời chư tăng trong chùa đến để chuẩn bị cho buổi lễ.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'Achar duki' in the source, which is a Khmer Krom-specific cultural term, is mistranslated as 'thầy Yuki' in the hypothesis. This changes the meaning and fails to preserve the cultural entity.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis uses 'bạn bè gần xa' (friends near and far), which deviates from the source's 'ញាតិមិត្តជិតខាង' (relatives and close neighbors). This introduces a broader and less accurate interpretation.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'chuẩn bị cho buổi lễ' in the hypothesis is slightly less formal and specific compared to 'chuẩn bị nghi lễ' in the reference, which better aligns with the ceremonial context.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ក្នុងថ្ងៃបុណ្យពិសេស កុមារក៏បានងូតទឹកផ្កាប្រាំ ឬទឹកដែលបានសូត្រមន្តនាំឲ្យមានសំណាងល្អ។",
+            "vi_reference": "Vào những ngày lễ đặc biệt, trẻ còn được tắm bằng nước ngũ hoa hay nước đã được tụng kinh để mang lại may mắn.",
+            "id": 69000,
+            "topic": "How to care for children",
+            "order": 5.0,
+            "question": null,
+            "hypothesis": "Vào ngày lễ đặc biệt, trẻ em cũng được tắm nước hoa năm loại hoặc nước đã được tụng kinh để mang lại may mắn.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'nước ngũ hoa' in the reference accurately reflects the Khmer Krom cultural practice of using 'nước hoa năm loại' (five types of flower water). However, the hypothesis translation 'nước hoa năm loại' is less natural and does not align with the established cultural term 'nước ngũ hoa' used in Vietnamese.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'nước hoa năm loại' in the hypothesis is less idiomatic and less commonly used in Vietnamese compared to 'nước ngũ hoa,' which is the standard term.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "តើការដាក់កោដ្ឋក្នុងវត្តមានអត្ថន័យអីពិសេសទេបងស្រី?",
+            "vi_reference": "Việc đặt hũ tro cốt ở chùa có ý nghĩa gì đặc biệt không chị?",
+            "id": 68994,
+            "topic": "Traditions after the body is buried",
+            "order": 8.0,
+            "question": null,
+            "hypothesis": "Việt: Việc đặt tro cốt trong chùa có ý nghĩa đặc biệt gì không chị?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation omits the word 'hũ' (urn), which is present in the reference. This changes the cultural specificity, as 'hũ tro cốt' (urn of ashes) is a more precise term that aligns with Khmer Krom practices.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The omission of 'hũ' in the hypothesis makes the meaning less accurate, as it generalizes 'tro cốt' (ashes) without specifying the container, which is culturally significant in the context of Khmer Krom traditions.\",\n      \"severity\": \"high\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          }
+        ]
+      },
+      "kinship": {
+        "n": 8,
+        "bleu": 34.07,
+        "chrf++": 52.03,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "ជនជាតិខ្មែរ៖ អ្នកជិតខាង និងបងប្អូនសាច់ញាតិមានភាពសាមគ្គីគ្នាខ្លាំងណាស់ អ្នកខ្លះជួយចម្អិនអាហារ អ្នកខ្លះជួយរៀបចំរោងបុណ្យ ហើយគ្រប់គ្នាគិតថាវាជាទំនួលខុសត្រូវរួមរបស់សហគមន៍ទាំងមូល។",
+            "vi_reference": "Người Khmer: Hàng xóm và họ hàng rất đoàn kết, người nấu ăn, người dựng rạp, ai cũng coi đó là trách nhiệm chung của cả cộng đồng.",
+            "id": 68974,
+            "topic": "When death occurs",
+            "order": 12.0,
+            "question": null,
+            "hypothesis": "Người Khmer: Hàng xóm và anh em họ hàng rất đoàn kết với nhau, một số người giúp nấu ăn, một số người giúp chuẩn bị lễ hội, và mọi người đều coi đó là trách nhiệm chung của cả cộng đồng.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'chuẩn bị lễ hội' (prepare the festival), which is a general term and does not fully capture the specific cultural context of 'រោងបុណ្យ' (roang bon), which refers to the preparation of a ceremonial or religious event, a significant aspect of Khmer Krom culture.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The term 'រោងបុណ្យ' (roang bon) is a Khmer Krom-specific term that has been generalized in the hypothesis as 'chuẩn bị lễ hội,' losing the cultural nuance.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation introduces 'với nhau' (with each other) in 'rất đoàn kết với nhau,' which is redundant and not present in the source text. This slightly alters the tone and focus of the original message.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "នៅពេលអញ្ជើញភ្ញៀវ គ្រួសារនឹងនាំយកលិខិតអញ្ជើញទៅដល់ផ្ទះនីមួយៗ រួមជាមួយនឹងសំដៃអញ្ជើញ និងជូនពរជ័យ។",
+            "vi_reference": "- Khi mời khách, gia đình sẽ mang thiệp tận tay đến từng nhà, kèm theo lời mời thân tình và chúc phúc.",
+            "id": 68961,
+            "topic": "KHÁCH MỜI ĐÁM CƯỚI",
+            "order": 6.0,
+            "question": null,
+            "hypothesis": "Khi mời khách, gia đình sẽ mang thư mời đến từng nhà, kèm theo lời mời và lời chúc tốt lành.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis uses 'thư mời' (invitation letter) instead of 'thiệp' (invitation card), which is less culturally accurate. In Khmer Krom culture, 'thiệp' is more appropriate as it reflects the traditional practice of using formal invitation cards.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'lời mời và lời chúc tốt lành' in the hypothesis is less natural compared to 'lời mời thân tình và chúc phúc' in the reference. The latter better conveys the warmth and sincerity typical of Khmer Krom culture.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "កាលលពីមុន ជនជាតិខ្មែរភាគច្រើនប្រកបមុខរបរជាកសិករពេលបាយព្រឹក​ ល្ងាច សមាជិកគ្រួសារតែងតែជួបជុំគ្នាគ្រប់គ្នារៀងរាល់ពេលបាយម្ដាយតែងតែដួសអាហារឲ្យបងប្អូនខ្ញុំ ឥឡូវធំធាត់រៀងរាល់ការងាររវល់ មិនសូវបានអង្គុយក្បែរគ្នាញ៉ាំបាយទេពេលខ្លះបានអង្គុយលើតុតែចំណង់ចំណូលចិត្តហូបចុកខុសគ្នា ខ្ញុំចូលចិត្តញ៉ាំប្រហុក ចំណែកប្អូនស្រីខ្ញុំវិញ មិនចូលចិត្តទេ។",
+            "vi_reference": "Dân tộc Khmer trước đây đa số theo nghề nông những bữa cơm sáng, chiều các thành viên trong gia đình thường tập trung đủ mặt, mỗi buổi ăn mẹ thường gắp đồ ăn cho chị em tôi, bây giờ lớn mỗi người mỗi công việc ít được ngồi ăn chung lắm lúc ăn chung mâm nhưng sở thích ăn uống khác nhau tôi thì thích ăn mắm bò hóc, còn em gái tôi thì không.",
+            "id": 71699,
+            "topic": null,
+            "order": null,
+            "question": "Bữa trưa thời bạn còn nhỏ khác gì với bữa trưa bây giờ? Sự thay đổi đó khiến bạn cảm thấy như thế nào?",
+            "hypothesis": "Trước đây, phần lớn người Khmer làm nghề nông. Vào bữa sáng và bữa tối, các thành viên trong gia đình thường tụ họp lại với nhau. Mẹ luôn múc thức ăn cho anh chị em của tôi. Bây giờ, khi đã trưởng thành, công việc bận rộn khiến chúng tôi ít có cơ hội ngồi ăn cùng nhau. Đôi khi ngồi chung bàn nhưng sở thích ăn uống lại khác nhau. Tôi thích ăn mắm bò hóc, còn em gái tôi thì không thích.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural entity preservation\",\n      \"detail\": \"The hypothesis translation correctly preserves the cultural entity 'mắm bò hóc,' which is a Khmer Krom-specific fermented fish dish. This is crucial for maintaining cultural accuracy.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"Khmer Krom-specific terms\",\n      \"detail\": \"The term 'mắm bò hóc' is accurately translated and recognized as a Khmer Krom-specific dish, which is essential for reflecting the cultural context.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"meaning accuracy\",\n      \"detail\": \"The hypothesis translation accurately conveys the meaning of the source text, including the family dynamics and the shift in eating habits due to adulthood and work responsibilities.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural and fluent in Vietnamese, making it easy to understand for Vietnamese readers.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"good\",\n  \"cultural_accuracy\": \"correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "យើងច្រើនតែនាំគោក្របីចេញទៅវាលស្មៅធម្មជាតិ ផ្សំជាមួយការងូតទឹកនៅតាមដងព្រែក ឬទន្លេ ដើម្បីរក្សាសុខភាព និងអនាម័យ។",
+            "vi_reference": "Chúng tôi thường đưa trâu bò ra đồng cỏ tự nhiên, kết hợp tắm rửa dưới sông rạch để giữ sức khỏe và sạch sẽ.",
+            "id": 69069,
+            "topic": "Truyền thống chăm sóc vật nuôi/thủy sản",
+            "order": 6.0,
+            "question": null,
+            "hypothesis": "Chúng tôi thường dẫn trâu ra đồng cỏ tự nhiên, kết hợp với việc tắm nước ở các con kênh hoặc sông để duy trì sức khỏe và vệ sinh.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation omits 'bò' (cows) from the original Khmer Krom source, which is present in the reference. This could lead to a loss of cultural context, as Khmer Krom communities often refer to both 'trâu' (buffaloes) and 'bò' (cows) together.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'ការងូតទឹកនៅតាមដងព្រែក ឬទន្លេ' in the source explicitly mentions 'streams' (ព្រែក) and 'rivers' (ទន្លេ). The hypothesis uses 'các con kênh hoặc sông' (canals or rivers), which changes the meaning slightly, as 'kênh' (canals) is not an exact match for 'ព្រែក' (streams).\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'kết hợp với việc tắm nước' in the hypothesis is slightly less natural compared to the reference's 'kết hợp tắm rửa'. The latter is more fluid and commonly used in Vietnamese.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "បងប្អូនជីដូនមួយ",
+            "vi_reference": "Người Khmer: Anh chị em họ – tức con của cô, dì, chú, bác – nếu lớn tuổi hơn thì gọi là “bong”, nhỏ hơn gọi “oun”, giống như ruột thịt.",
+            "id": 68989,
+            "topic": "MỐI QUAN HỆ TRONG GIA",
+            "order": 3.0,
+            "question": null,
+            "hypothesis": "Anh chị em họ.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis 'Anh chị em họ' does not preserve the cultural specificity of the Khmer Krom term 'បងប្អូនជីដូនមួយ', which includes the nuanced kinship terms 'bong' and 'oun' based on age hierarchy.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis oversimplifies the meaning of the source by omitting the explanation of the age-based distinction in addressing relatives, which is crucial in Khmer Krom culture.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"While the hypothesis is grammatically correct, it lacks the cultural depth and specificity that would make it a natural and accurate representation of the source.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"poor\",\n  \"cultural_accuracy\": \"incorrect\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ត្រូវហើយ យើងចាត់ទុកការដាំដុះស្រូវ គឺទាំង បង្កើតគ្រាប់អង្ករ ចិញ្ចឹមជីវិត ទាំង រក្សាជំនឿ និង អត្តសញ្ញាណវប្បធម៌ របស់យើង។",
+            "vi_reference": "Đúng vậy, chúng tôi coi việc trồng lúa là vừa làm ra hạt gạo nuôi sống, vừa gìn giữ niềm tin và bản sắc văn hóa.",
+            "id": 69056,
+            "topic": "Traditions when planting",
+            "order": 12.0,
+            "question": null,
+            "hypothesis": "Đúng vậy, chúng ta coi việc trồng lúa không chỉ là tạo ra hạt gạo nuôi sống mà còn giữ gìn niềm tin và bản sắc văn hóa của chúng ta.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'chúng ta' (we, inclusive) instead of 'chúng tôi' (we, exclusive) as in the reference. This changes the perspective slightly, as 'chúng tôi' in the reference implies a more specific group (likely Khmer Krom people), while 'chúng ta' is more general and inclusive of the audience.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation adds 'không chỉ' (not only), which is not present in the source or the reference. This addition slightly alters the tone and emphasis of the original statement.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "មានតែ គ្រូសូត្រមន្ត ឬព្រះសង្ឃដែលមានបទពិសោធន៍ប៉ុណ្ណោះ ទើបអាចធ្វើបន្តោងបាន ពិធីនេះតែងតែរួមបញ្ចូលការសូត្រធម៌ ផ្លុំគាថា និងការបួងសួង។",
+            "vi_reference": "Chỉ thầy mo hoặc sư sãi có kinh nghiệm mới có thể làm bùa, nghi thức thường bao gồm đọc kinh, thổi chú và khấn nguyện.",
+            "id": 69054,
+            "topic": "Traditional medicine",
+            "order": 10.0,
+            "question": null,
+            "hypothesis": "Chỉ có các thầy tụng kinh hoặc các nhà sư có kinh nghiệm mới có thể thực hiện nghi lễ này. Nghi lễ này thường bao gồm việc tụng kinh, niệm chú và cầu nguyện.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural entity preservation\",\n      \"detail\": \"The hypothesis translation uses 'thầy tụng kinh' instead of 'thầy mo,' which changes the cultural context. 'Thầy mo' refers specifically to a shaman or spiritual practitioner, which is culturally significant in Khmer Krom traditions.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer Krom-specific terms\",\n      \"detail\": \"The term 'thầy mo' in the reference accurately reflects the Khmer Krom cultural context, while the hypothesis translation generalizes it to 'thầy tụng kinh,' losing the specificity of the Khmer Krom tradition.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning accuracy\",\n      \"detail\": \"The hypothesis translation omits the specificity of 'bùa' (amulet or charm) mentioned in the reference, which is an important aspect of the ritual described in the source.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural in Vietnamese, but the cultural and contextual nuances are not fully preserved, which affects the overall fidelity to the source.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ចុះទំនាក់ទំនងក្នុងការងារវិញយ៉ាងណាដែរបង? ខ្មែររាប់អានចំពោះសហការីយ៉ាងណា?",
+            "vi_reference": "Còn mối quan hệ trong công việc thì sao anh? Người Khmer đối xử với đồng nghiệp như thế nào?",
+            "id": 68985,
+            "topic": "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM",
+            "order": 17.0,
+            "question": null,
+            "hypothesis": "Liên hệ công việc lại như thế nào anh? Người Khmer coi trọng đồng nghiệp ra sao?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'ចុះទំនាក់ទំនងក្នុងការងារវិញយ៉ាងណាដែរបង?' in the source implies a question about the state or condition of work relationships, which is better captured by the reference translation 'Còn mối quan hệ trong công việc thì sao anh?' than the hypothesis 'Liên hệ công việc lại như thế nào anh?' The hypothesis translation slightly shifts the meaning to 're-establishing work contact,' which is not fully accurate.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'Người Khmer coi trọng đồng nghiệp ra sao?' in the hypothesis is less natural compared to the reference 'Người Khmer đối xử với đồng nghiệp như thế nào?' The reference uses a more common and natural phrasing in Vietnamese to describe interpersonal treatment.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          }
+        ]
+      },
+      "khmer_krom_regional": {
+        "n": 8,
+        "bleu": 32.32,
+        "chrf++": 53.24,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "បាទបាន។ ក្នុងវប្បធម៌ខ្មែរ ស្នេហាជិតខាង មិត្តភ័ក្តី មិត្តរួមការងារ តែងតែយកចិត្តទុកដាក់ជាមុនដូចជាសាច់ញាតិ។",
+            "vi_reference": "Dạ được ạ. Trong văn hóa Khmer, tình làng nghĩa xóm, bạn bè và đồng nghiệp luôn được đặt lên hàng đầu, như ruột thịt vậy.",
+            "id": 68985,
+            "topic": "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM",
+            "order": 2.0,
+            "question": null,
+            "hypothesis": "Vâng, được rồi. Trong văn hóa Khmer, tình yêu gần gũi, bạn bè, đồng nghiệp luôn được quan tâm trước như người thân trong gia đình.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The phrase 'ស្នេហាជិតខាង' in the source refers to 'tình làng nghĩa xóm' (neighborly love or close community ties) in the reference, but the hypothesis translates it as 'tình yêu gần gũi' (intimate love), which changes the cultural meaning.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'Vâng, được rồi' in the hypothesis sounds less formal and polite compared to 'Dạ được ạ' in the reference, which better matches the tone of the source.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ប្រសិនបើចាន ឬបំពង់ឬស្សីដាក់ទឹកនៅក្នុងភូមិអាចនិទានរឿងបាន វានឹងនិទានរឿងហូបជុំគ្រួសារដ៏កក់ក្តៅ ការជួបជុំសំណេះសំណាលជាមួយមិត្តភ័ក្តិ និងសូម្បីតែគ្រាលំបាកពេលច្រូតកាត់ក៏ប៉ុន្តែ ស្មារតីភូមិតែងតែមានវត្តមានជានិច្ច។ ពួកគេនឹងក្លាយជាសាក្សីចំពោះរឿងរ៉ាវប្រចាំថ្ងៃ មេរៀនអំពីមនុស្សជាតិ និងសហគមន៍។",
+            "vi_reference": "Nếu những chiếc bát, chén, hoặc ống tre đựng nước trong làng có thể kể chuyện, chúng sẽ kể về những bữa cơm gia đình ấm áp, những buổi họp mặt bạn bè rộn rã tiếng cười, và cả những lúc khó khăn khi mùa màng thất bát, nhưng tình làng nghĩa xóm vẫn luôn hiện hữu. Chúng sẽ là nhân chứng cho những câu chuyện đời thường, những bài học về tình người và sự gắn kết trong cộng đồng.",
+            "id": 71681,
+            "topic": null,
+            "order": null,
+            "question": "Nếu chiếc bát, cái chén, hoặc chiếc ống tre để uống nước biết kể chuyện, chúng sẽ kể câu chuyện gì về bữa ăn và con người trong làng bạn?",
+            "hypothesis": "Nếu bát hoặc ống tre đựng nước trong làng có thể kể chuyện, chúng sẽ kể về những bữa ăn ấm cúng cùng gia đình, những buổi gặp gỡ trò chuyện với bạn bè, và thậm chí cả những khó khăn trong mùa gặt. Tuy nhiên, tinh thần của làng luôn hiện diện mãi mãi. Chúng sẽ trở thành nhân chứng cho những câu chuyện hàng ngày, những bài học về con người và cộng đồng.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation omits the mention of 'chén' (small bowls) which is present in the reference. This could slightly alter the cultural nuance, as 'chén' is a common item in Vietnamese dining culture.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The hypothesis translation does not explicitly recognize the Khmer Krom context or unique cultural elements, such as the specific mention of 'ភូមិ' (village) in the source, which carries a deeper cultural significance for Khmer Krom communities.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'những lúc khó khăn khi mùa màng thất bát' in the reference is translated as 'những khó khăn trong mùa gặt' in the hypothesis. This changes the meaning slightly, as 'mùa màng thất bát' refers to a failed harvest, which is more specific than just 'khó khăn trong mùa gặt' (difficulties during the harvest).\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is generally natural, but the phrase 'tinh thần của làng luôn hiện diện mãi mãi' feels slightly less idiomatic compared to 'tình làng nghĩa xóm vẫn luôn hiện hữu' in the reference, which is a more culturally resonant expression in Vietnamese.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ភូមិខ្ញុំផ្លែឈើអត់សូវមានច្រើនទេតែបើថាធ្វើស្រែផ្ទះណាក៏មាន ឲ្យតែដល់រដូវច្រូតស្រូវគឺថានាំគ្នាចេញទៅស្រែជួបជំគ្នាប្រមូលផល។",
+            "vi_reference": "Làng tôi trái cây thì ít nhưng nói về ruộng thì nhà nào cũng có, mỗi khi tới mùa lúa thì y như rằng mọi người cùng nhau ra đồng để thu hoạch lúa.",
+            "id": 70777,
+            "topic": null,
+            "order": null,
+            "question": "Bạn có thể kể về một mùa trái cây trong năm mà cả làng háo hức nhất không?",
+            "hypothesis": "Làng của tôi không có nhiều trái cây lắm, nhưng nếu nói về làm ruộng thì nhà nào cũng có. Đến mùa gặt lúa, mọi người cùng nhau ra đồng thu hoạch.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation does not fully capture the communal aspect of Khmer Krom culture, where 'ជួបជំគ្នា' (gathering together) emphasizes the social and collective nature of the harvest. The hypothesis translation simplifies this to 'mọi người cùng nhau,' which is less culturally specific.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'អត់សូវមានច្រើនទេ' in the source implies 'not very much' or 'not abundant,' but the hypothesis translates it as 'không có nhiều lắm,' which slightly downplays the nuance of scarcity.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural in Vietnamese, but the phrase 'nói về làm ruộng' feels slightly less smooth compared to the reference's 'nói về ruộng.' The latter is more concise and idiomatic.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "បងអាចរៀបរាប់ត្រួសៗអំពីទំនៀមទម្លាប់នៃការទិញលក់របស់ជនជាតិខ្មែរក្នុងភូមិស្រុកបានទេ?",
+            "vi_reference": "Anh có thể chia sẻ đôi nét về truyền thống mua bán của người Khmer trong phum sóc không?",
+            "id": 69060,
+            "topic": "Buying and selling traditions",
+            "order": 1.0,
+            "question": null,
+            "hypothesis": "Anh/chị có thể mô tả ngắn gọn về phong tục mua bán của người Khmer trong làng quê được không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'phum sóc' in the source and reference specifically refers to Khmer Krom villages or communities, which is a culturally significant term. The hypothesis translates it as 'làng quê,' which is a more generic term for 'countryside village' in Vietnamese and does not capture the specific cultural context of Khmer Krom.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis uses 'mô tả ngắn gọn' (describe briefly) instead of 'chia sẻ đôi nét' (share a few details) as in the reference. While the meaning is similar, 'mô tả ngắn gọn' leans more toward a descriptive tone rather than a conversational sharing tone, which slightly shifts the nuance.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "អ៊ីចឹង ប្រពៃណីនេះបានជួយភ្ជាប់ទំនាក់ទំនងសហគមន៍នៅក្នុងភូមិ-ស្រុកដែរឬទេ?",
+            "vi_reference": "Vậy truyền thống này có giúp gắn kết cộng đồng trong phum sóc không?",
+            "id": 69069,
+            "topic": "Truyền thống chăm sóc vật nuôi/thủy sản",
+            "order": 15.0,
+            "question": null,
+            "hypothesis": "Vậy thì, truyền thống này có giúp gắn kết mối quan hệ cộng đồng trong làng - xã không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'làng - xã' instead of 'phum sóc,' which are specific terms referring to Khmer Krom community structures. This substitution loses the cultural specificity of the original text.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis adds 'mối quan hệ' (relationships) which is not explicitly present in the source text. This slightly alters the meaning by emphasizing relationships rather than the broader concept of community connection.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'Vậy thì' in the hypothesis is slightly less natural compared to 'Vậy' in the reference, as it adds unnecessary emphasis that is not present in the source.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ត្រូវហើយ គ្រួសារ និងបងប្អូននៅក្នុងភូមិស្រុកជួបជុំគ្នា ត្រៀមលក្ខណៈជាមួយគ្នា បង្កើតអារម្មណ៍ស្និទ្ធស្នាល រឹងមាំ និងរីករាយ។",
+            "vi_reference": "Đúng vậy, gia đình và bà con trong phum sóc tụ họp, cùng nhau chuẩn bị, tạo cảm giác gắn bó bền chặt và vui tươi.",
+            "id": 69073,
+            "topic": "Traditions before religious holidays",
+            "order": 6.0,
+            "question": null,
+            "hypothesis": "Đúng rồi, gia đình và anh chị em trong làng quê tụ họp lại, chuẩn bị cùng nhau, tạo cảm giác thân thiết, gắn bó, vững chắc và vui vẻ.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'phum sóc' in the source, which is specific to Khmer Krom culture, is translated as 'làng quê' in the hypothesis. This loses the cultural specificity and unique meaning of 'phum sóc,' which refers to traditional Khmer Krom villages.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis adds 'vững chắc' (firm/strong) which is not explicitly present in the source or the reference. This introduces a slight deviation in meaning.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'thân thiết, gắn bó, vững chắc và vui vẻ' in the hypothesis is slightly redundant and less natural compared to the reference's concise 'gắn bó bền chặt và vui tươi.'\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ជនជាតិខ្មែរប្រើ ទូក ដឹកស្រូវអង្ករ ឬចូលរួមពិធីបុណ្យប្រពៃណីនៅលើទឹក។",
+            "vi_reference": "Người Khmer sử dụng ghe xuồng để di chuyển, đi chợ nổi, chở lúa gạo hay tham gia các lễ hội truyền thống trên sông nước.",
+            "id": 69053,
+            "topic": "House, household and transportation",
+            "order": 14.0,
+            "question": null,
+            "hypothesis": "Người Khmer sử dụng thuyền để chở lúa gạo hoặc tham gia các lễ hội truyền thống trên nước.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation omits the mention of 'chợ nổi' (floating market), which is a culturally significant activity for Khmer Krom people.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The hypothesis uses 'thuyền' instead of 'ghe xuồng,' which is a more specific term commonly used in the Mekong Delta and better reflects the cultural context of Khmer Krom.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis does not include the idea of 'di chuyển' (moving/transportation), which is present in the source and reference.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis is grammatically correct but less descriptive and nuanced compared to the reference, making it less natural in conveying the full cultural context.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "នៅភូមិខ្ញុំ មិនទាន់នរណាម្នកបង្កើត ឬផ្លាស់ប្តូរមុខម្ហូបបែបប្រពៃណីទេ ព្រោះពេលគេផ្លាស់ប្តូរគ្រឿងបង់មុខម្ហូប វានឹងបំភ្លៃ បាត់បង់រសជាតិប្រពៃណីដើម។",
+            "vi_reference": "Trong làng mình, chưa có ai sáng tạo hay biến tấu món truyền thống, bởi khi biến tấu sẽ sai lệch và mất đi nguyên vị truyền thống.",
+            "id": 71808,
+            "topic": null,
+            "order": null,
+            "question": "Trong làng bạn, có ai từng sáng tạo biến tấu một món truyền thống mà được cả làng khen không?",
+            "hypothesis": "Ở làng tôi, chưa có ai tạo ra hoặc thay đổi các món ăn truyền thống, vì khi thay đổi nguyên liệu của món ăn, nó sẽ làm mất đi hương vị truyền thống ban đầu.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'làng tôi' instead of 'làng mình,' which slightly reduces the sense of community and inclusiveness present in the source and reference.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'thay đổi nguyên liệu' (change ingredients), which is more specific than the source's 'ផ្លាស់ប្តូរមុខម្ហូប' (change dishes). This narrows the meaning and could lead to a misinterpretation.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          }
+        ]
+      },
+      "festivals": {
+        "n": 8,
+        "bleu": 42.77,
+        "chrf++": 61.03,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "អ្នកសម្ភាសន៍: ដូចនេះ ចម្រៀងប្រពៃណីមិនត្រឹមតែភ្ជាប់នឹងពិធីបុណ្យប៉ុណ្ណោះទេ ថែមទាំងលេចឡើងនៅក្នុងសកម្មភាពប្រចាំថ្ងៃទៀតផង ត្រូវទេ?",
+            "vi_reference": "Người phỏng vấn: Như vậy, dân ca không chỉ gắn liền với lễ hội mà còn xuất hiện trong cả sinh hoạt hằng ngày, đúng không?",
+            "id": 69084,
+            "topic": "Folk songs",
+            "order": 13.0,
+            "question": null,
+            "hypothesis": "Người phỏng vấn: Như vậy, âm nhạc truyền thống không chỉ gắn liền với các lễ hội mà còn xuất hiện trong các hoạt động hàng ngày, đúng không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'dân ca' (folk songs) in the reference is more specific and culturally accurate to the Khmer Krom context than 'âm nhạc truyền thống' (traditional music) in the hypothesis. 'Dân ca' better reflects the oral and musical traditions tied to Khmer Krom culture.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis uses 'các hoạt động hàng ngày' (daily activities), which is less precise than 'sinh hoạt hằng ngày' (daily living) in the reference. The latter better captures the cultural nuance of everyday life in the Khmer Krom context.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "តាមបង តើសារសំខាន់នៃទម្រង់សិល្បៈដូចជាប្រណាំងទូកង យីកេ របាំ គឺអ្វីខ្លះ?",
+            "vi_reference": "Theo anh, thông điệp chính của các loại hình nghệ thuật như đua ghe ngo, Dù Kê, Rô-băm là gì?",
+            "id": 69076,
+            "topic": "Use of art at certain events",
+            "order": 21.0,
+            "question": null,
+            "hypothesis": "Theo anh/chị, ý nghĩa quan trọng của các hình thức nghệ thuật như đua thuyền, yike, múa là gì?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'đua thuyền' in the hypothesis is a generic term for boat racing, which does not specifically refer to 'đua ghe ngo,' a culturally significant Khmer Krom boat racing tradition. This loses the cultural specificity of the source.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"khmer_krom_specific_terms\",\n      \"detail\": \"The term 'yike' in the hypothesis is a transliteration of 'យីកេ' but does not use the established Vietnamese term 'Dù Kê,' which is more widely recognized and specific to Khmer Krom culture.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translates 'របាំ' as 'múa,' which is a generic term for dance in Vietnamese. However, 'Rô-băm' in the reference is a specific Khmer Krom traditional dance form, and this specificity is lost in the hypothesis.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The use of 'anh/chị' in the hypothesis is less natural compared to the reference's use of 'anh,' which is more culturally appropriate and contextually fitting for addressing someone in Vietnamese.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"poor\",\n  \"cultural_accuracy\": \"incorrect\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ដោយសារតែវាជាលក្ខណៈរបស់ជាតិ សាសន៍ យ៉ាងនេះហើយបានជា ភេសជ្ជៈប្រពៃណីតែងតែត្រូវបានផ្សារភ្ជាប់ជាមួយនឹងពិធីបុណ្យ ការច្រៀង ឬបង្កើតមិត្តភក្តិ។",
+            "vi_reference": "Vì là đặc trưng của một dân tộc, do đó các món uống truyền thống thường gắn liền với lễ hội, ca hát, hoặc kết nghĩa bạn bè.",
+            "id": 71706,
+            "topic": null,
+            "order": null,
+            "question": "Tại sao món uống truyền thống thường gắn liền với lễ hội, ca hát, hoặc kết nghĩa bạn bè?",
+            "hypothesis": "Bởi vì đó là đặc trưng của dân tộc, tôn giáo, nên các loại đồ uống truyền thống luôn gắn liền với các lễ hội, ca hát hoặc xây dựng tình bạn.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation adds 'tôn giáo' (religion), which is not explicitly mentioned in the source. This introduces an additional cultural element that is not present in the original text.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'បង្កើតមិត្តភក្តិ' in the source is translated as 'xây dựng tình bạn' in the hypothesis, which is less natural and slightly shifts the meaning. 'Kết nghĩa bạn bè' in the reference is a more accurate and culturally appropriate translation.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "អ្នកទាំងអស់គ្នាតែងតែច្រៀងរាំ និងរាំវង់ជាមួយគ្នា ទាំងកម្សាន្តផង ទាំងបង្កើនការផ្លាស់ប្តូរ និងសាមគ្គីភាពនៅក្នុងពិធីបុណ្យផងដែរ។",
+            "vi_reference": "Mọi người thường cùng nhau ca hát, múa Rom Vong, vừa giải trí vừa tăng cường sự giao lưu và tình đoàn kết trong lễ hội.",
+            "id": 69055,
+            "topic": "Traditions during religious holidays",
+            "order": 12.0,
+            "question": null,
+            "hypothesis": "Mọi người luôn hát múa và nhảy múa cùng nhau, vừa giải trí vừa tăng cường sự đổi mới và đoàn kết trong các lễ hội.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation omits the specific cultural term 'Rom Vong' (a traditional Khmer dance) present in the source and reference. This is a significant cultural omission.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'ការផ្លាស់ប្តូរ' in the source refers to 'giao lưu' (interaction or exchange) in the reference, but the hypothesis translates it as 'sự đổi mới' (innovation), which changes the meaning.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'hát múa và nhảy múa' in the hypothesis is slightly redundant and less natural compared to the reference's concise 'ca hát, múa Rom Vong.'\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"poor\",\n  \"cultural_accuracy\": \"incorrect\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ខ្ញុំចាប់អារម្មណ៍ជាពិសេសទៅលើពិធីបុណ្យប្រណាំងទូកង ។ បងអាចរៀបរាប់លម្អិតអំពីព្រឹត្តិការណ៍នេះបានទេ?",
+            "vi_reference": "Tôi đặc biệt quan tâm đến lễ hội đua ghe Ngo, anh có thể kể chi tiết về sự kiện này không?",
+            "id": 69063,
+            "topic": "Leisure activities",
+            "order": 11.0,
+            "question": null,
+            "hypothesis": "Tôi đặc biệt quan tâm đến lễ hội đua thuyền. Anh/chị có thể mô tả chi tiết về sự kiện này không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'lễ hội đua thuyền' (boat racing festival) instead of 'lễ hội đua ghe Ngo' (Ngo boat racing festival). 'Ghe Ngo' is a culturally specific term referring to a traditional Khmer Krom boat used in racing events, and its omission diminishes the cultural specificity of the source text.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"Khmer_Krom_specific_terms\",\n      \"detail\": \"The term 'ghe Ngo' is a key Khmer Krom cultural element that is not recognized in the hypothesis translation. This term is essential for accurately conveying the cultural context of the event.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"While the general meaning of the sentence is preserved, the omission of 'ghe Ngo' results in a loss of specificity and cultural nuance, which affects the accuracy of the translation.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is natural in Vietnamese, but the lack of cultural specificity makes it less appropriate for the context of the source text.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "តាមពិតទៅ ជនជាតិខ្មែរយើងមិនរៀបចំពិធីបុណ្យកឋិនទានទេ នេះជាទម្លាប់ដែលមានតែចំពោះជនជាតិដទៃទៀតនៅក្នុងតំបន់ប៉ុណ្ណោះ។",
+            "vi_reference": "Thực ra, người Khmer không tổ chức lễ dâng y Kathina, đây là tập tục chỉ có ở các dân tộc khác trong khu vực.",
+            "id": 69075,
+            "topic": "Traditional ceremonies",
+            "order": 6.0,
+            "question": null,
+            "hypothesis": "Theo thực tế, người Khmer chúng ta không tổ chức lễ dâng y Kathina, đây là phong tục chỉ có ở các dân tộc khác trong khu vực mà thôi.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural entity preservation\",\n      \"detail\": \"The hypothesis translation uses 'người Khmer chúng ta' (we Khmer people), which adds a sense of inclusivity and personal connection not present in the source text. The source text uses 'ជនជាតិខ្មែរយើង' (our Khmer people), which is more neutral and collective.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'theo thực tế' in the hypothesis translation is slightly less natural compared to 'thực ra' in the reference translation. 'Thực ra' is more commonly used in Vietnamese for expressing factual statements.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ភាគច្រើនគឺក្នុងពិធីបុណ្យធំៗ ដូចជា ពិធីបុណ្យចូលឆ្នាំថ្មី ឬ ពិធីបុណ្យអកអំបុក នៅពេលដែលមនុស្សគ្រប់គ្នារួចរាល់ ហើយរីករាយលេងជាមួយគ្នាយ៉ាងសមូហភាព។",
+            "vi_reference": "Chủ yếu vào các lễ hội lớn như Chol Chnam Thmay hay Ok Om Bok, khi mọi người rảnh rỗi và cùng vui chơi tập thể.",
+            "id": 69077,
+            "topic": "Game types",
+            "order": 16.0,
+            "question": null,
+            "hypothesis": "Phần lớn là trong các lễ hội lớn như Tết Nguyên Đán hoặc lễ hội Ok Om Bok, khi mọi người đã sẵn sàng và vui vẻ chơi đùa cùng nhau một cách hòa đồng.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis incorrectly translates 'Chol Chnam Thmay' as 'Tết Nguyên Đán,' which is the Vietnamese Lunar New Year and not the Khmer New Year. This misrepresents the cultural context of the Khmer Krom community.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The phrase 'mọi người đã sẵn sàng' in the hypothesis does not accurately convey the meaning of 'មនុស្សគ្រប់គ្នារួចរាល់' in the source, which implies that people are free or available, not necessarily 'ready.'\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'vui vẻ chơi đùa cùng nhau một cách hòa đồng' in the hypothesis is slightly awkward and less natural compared to the reference's 'cùng vui chơi tập thể.'\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ក្រៅពីការប្រណាំងទូកង សិល្បៈល្ខោនយីកេក៏លេចធ្លោខ្លាំងដែរ តើបងអាចពន្យល់បន្ថែមបានទេ?",
+            "vi_reference": "Ngoài đua ghe ngo, nghệ thuật sân khấu Dù Kê cũng rất nổi bật, anh có thể giải thích thêm không?",
+            "id": 69076,
+            "topic": "Use of art at certain events",
+            "order": 7.0,
+            "question": null,
+            "hypothesis": "Ngoài cuộc đua thuyền, nghệ thuật Lkhon Yike cũng rất nổi bật, anh/chị có thể giải thích thêm không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'Lkhon Yike' instead of 'Dù Kê,' which is the Vietnamese term commonly used to refer to Khmer Krom's traditional theater art. This may confuse Vietnamese readers unfamiliar with the Khmer term.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'cuộc đua thuyền' in the hypothesis is less specific than 'đua ghe ngo' in the reference. 'Ghe ngo' is culturally significant to Khmer Krom, and its omission reduces the cultural specificity.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          }
+        ]
+      },
+      "colloquial": {
+        "n": 8,
+        "bleu": 33.96,
+        "chrf++": 58.67,
+        "quality": {
+          "unknown": 8
+        },
+        "cultural": {
+          "unknown": 8
+        },
+        "krom_handling": {
+          "unknown": 8
+        },
+        "errors": {},
+        "details": [
+          {
+            "km_source": "ជនជាតិខ្មែរ: ត្រូវហើយ, ទេវកថាខ្មែរ តែងតែនិយាយអំពី ការកកើតចក្រវាឡ និង ផែនដី, ដែលមានលក្ខណៈសាសនា និងទស្សនវិជ្ជាស៊ីជម្រៅ។",
+            "vi_reference": "Người Khmer: Đúng rồi, thần thoại Khmer thường kể về sự hình thành vũ trụ, đất nước, mang màu sắc tôn giáo và triết lý sâu xa.",
+            "id": 69079,
+            "topic": "Poetry or similar literature",
+            "order": 10.0,
+            "question": null,
+            "hypothesis": "Người Khmer: Đúng vậy, thần thoại Khmer luôn nói về sự hình thành vũ trụ và trái đất, mang tính chất tôn giáo và triết học sâu sắc.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'trái đất' (Earth) instead of 'đất nước' (country) as in the reference. This changes the cultural context, as the Khmer Krom source emphasizes the formation of the nation rather than just the physical Earth.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation omits the nuance of 'តែងតែ' (always) in the source, which is better captured by 'thường' (often) in the reference. 'Luôn' (always) in the hypothesis is slightly stronger and less accurate in this context.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The hypothesis translation is grammatically correct and natural in Vietnamese, but the choice of 'trái đất' instead of 'đất nước' slightly affects the natural flow in the cultural context of Khmer Krom.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "នៅយប់ដំបូងនៃពិធីមង្គលការ បន្ទាប់ពីធ្វើពិធីតាមប្រពៃណីរួច កូនប្រុសនិងស្រីបណ្ដើរគ្នាចូលបន្ទប់ កូនស្រីដើរចូលមុន ជានិមិត្តរូបនៃតួនាទីសកម្មរបស់ស្ត្រីក្នុងគ្រួសារ ហើយកូនកំលោះនឹងកាន់ស្បៃកូនស្រីដើរតាមពីក្រោយ ដែលជាទំនៀមទម្លាប់ដែលមានតាំងពីសម័យសម័យស្ត្រីជាម្ចាស់គ្រួសារ។",
+            "vi_reference": "- Trong đêm đầu tiên của lễ cưới, sau khi thực hiện các nghi lễ truyền thống, cô dâu và chú rể sẽ cùng nhau vào phòng tân hôn, cô dâu thường đi trước, tượng trưng cho vai trò chủ động của người phụ nữ trong gia đình và chú rể sẽ nắm sbay cô dâu đi theo sau, một phong tục có từ thời mẫu hệ.",
+            "id": 68966,
+            "topic": "PHONG TỤC KHI KẾT HÔN",
+            "order": 19.0,
+            "question": null,
+            "hypothesis": "Vào đêm đầu tiên của lễ cưới, sau khi thực hiện các nghi thức truyền thống, chú rể và cô dâu cùng nhau bước vào phòng. Cô dâu bước vào trước, tượng trưng cho vai trò chủ động của người phụ nữ trong gia đình, và chú rể cầm vạt áo của cô dâu đi theo sau, đây là một phong tục đã tồn tại từ thời mà phụ nữ được coi là chủ gia đình.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'sbay' in the source, which is a specific Khmer Krom cultural term referring to a traditional scarf or sash, has been translated as 'vạt áo' (hem of the dress) in the hypothesis. This is an incorrect substitution and fails to preserve the cultural specificity of the term.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis omits the detail that the room being entered is the 'phòng tân hôn' (bridal chamber), which is explicitly mentioned in the reference. This omission slightly alters the meaning.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'đây là một phong tục đã tồn tại từ thời mà phụ nữ được coi là chủ gia đình' in the hypothesis is less natural and less concise compared to the reference's 'một phong tục có từ thời mẫu hệ'. The latter is more idiomatic and culturally resonant.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"confused\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ខ្ញុំនៅតែចងចាំឆ្នាំ ២០២០ ខ្ញុំបានចូលរួមជាមួយក្រុមទៅចូលរួមពិធីសម្ពោធព្រះវិហារវត្ត ថេរវាទខ្មែរនៅទ្រីតុង ខេត្តអានយ៉ាង។ ឡាន៧កៅអីរបស់ខ្ញុំបានឈប់នៅកន្លែងក្បែរផ្សារទីញបៀន។ ពេលខ្ញុំចុះពីឡានភ្លាម មានតូបលក់ផលិតផលខ្មែរជាច្រើន ប៉ុន្តែគ្រប់គ្នាទិញតែនំត្នោត ដោយសារតែនំក្លិនឈ្ងុយ និងផ្អែមរស់ជាតនៃផ្លែត្នោត។ គ្រប់គ្នាបានញ៉ាំហើយសរសើរមិនដាច់ពីមាត់ រហូតដល់ពួកគេឡើងឡានមកវិញ ហើយទិញខ្លះយកទៅផ្ទះជូនអ្នកដទៃ។",
+            "vi_reference": "Tôi còn nhớ năm 2020, Tôi tham gia đoàn đi dự lễ Khánh thành chánh điện một ngôi chùa Phật giáo Nam tông Khmer tại Tri Tôn, An Giang. Xe Tôi 7 chỗ, khi dừng lại 1 điểm gần chợ Tịnh Biên, vừa bướt xuống xe trước mắt tôi là giang hàng bán rất nhiều sản phẩm Khmer, nhưng ai cũng ghé mua num tnot bởi có mùi thơm và vị ngọt của thốt Lốt, mọi người vừa ăn, vừa khen không ngớt đến khi lên xe còn mua mang về để biếu.",
+            "id": 71685,
+            "topic": null,
+            "order": null,
+            "question": "Hãy kể lại một lần bạn ăn vặt cùng bạn bè, người thân, hoặc trong một dịp lễ hội. Câu chuyện đó có gì đặc biệt?",
+            "hypothesis": "Năm 2020, tôi vẫn nhớ mình đã tham gia cùng một nhóm để dự lễ khánh thành chùa Khmer Theravada tại Tri Tôn, tỉnh An Giang. Xe 7 chỗ của tôi đã dừng lại ở gần chợ Tịnh Biên. Khi tôi vừa bước xuống xe, có rất nhiều gian hàng bán các sản phẩm Khmer, nhưng mọi người chỉ mua bánh thốt nốt vì bánh có mùi thơm và vị ngọt đặc trưng của trái thốt nốt. Ai cũng ăn và khen không ngớt, đến mức khi lên xe trở lại, họ còn mua thêm một ít để mang về nhà làm quà cho người khác.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation does not explicitly mention 'chánh điện' (main hall) as in the reference, which is culturally significant in Buddhist contexts.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"Khmer_Krom-specific_terms\",\n      \"detail\": \"The hypothesis translation uses 'chùa Khmer Theravada' instead of 'chùa Phật giáo Nam tông Khmer,' which slightly generalizes the specific religious context of Khmer Krom Theravada Buddhism.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation omits the detail that the bánh thốt nốt (num tnot) was praised 'không ngớt' (continuously) until people got back on the car, which slightly diminishes the emphasis on the cultural appreciation of the product.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'bánh thốt nốt có mùi thơm và vị ngọt đặc trưng của trái thốt nốt' is natural but slightly redundant, as 'bánh thốt nốt' inherently implies the flavor of the fruit.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ជនជាតិខ្មែរ៖ បាទ ជំរាបសួរមីង ជនជាតិខ្មែរយកចិត្តទុកដាក់ខ្លាំងណាស់លើអនាម័យនិងទម្លាប់រស់នៅរបស់ក្មេងៗ ពិសេសគឺការងូតទឹក ញ៉ាំអាហារ និងការគេង។",
+            "vi_reference": "Người Khmer: Dạ chào cô, người Khmer rất quan tâm đến vệ sinh và nề nếp sinh hoạt của trẻ, nhất là việc tắm rửa, ăn uống và ngủ nghỉ.",
+            "id": 68984,
+            "topic": "How to care for children",
+            "order": 2.0,
+            "question": null,
+            "hypothesis": "Người Khmer: Vâng, chào cô. Người Khmer rất chú trọng đến vệ sinh và thói quen sinh hoạt của trẻ em, đặc biệt là việc tắm rửa, ăn uống và ngủ nghỉ.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation uses 'người Khmer' instead of 'người Khmer Krom,' which does not explicitly preserve the Khmer Krom identity mentioned in the source.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'chú trọng' (focus on) instead of 'quan tâm' (care about), which slightly shifts the nuance of the original meaning.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "តើភាពអន្ទះសារនោះ បង្កើតជាកម្លាំងចិត្តដល់បងប្អូនក្នុងការត្រៀមលក្ខណៈដែរឬទេ?",
+            "vi_reference": "Sự háo hức đó có tạo động lực cho bà con trong việc chuẩn bị không?",
+            "id": 69073,
+            "topic": "Traditions before religious holidays",
+            "order": 9.0,
+            "question": null,
+            "hypothesis": "Việt: Liệu sự nôn nóng đó có tạo thành động lực tinh thần cho anh chị em trong việc chuẩn bị hay không?",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'bà con' in the reference Vietnamese translation is culturally appropriate for addressing the Khmer Krom community, as it conveys a sense of kinship and community. The hypothesis uses 'anh chị em,' which is less culturally specific and may not fully capture the communal tone intended in the source.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation uses 'nôn nóng,' which implies impatience or restlessness, whereas the source and reference convey 'háo hức,' meaning eagerness or excitement. This alters the emotional tone of the sentence.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'tạo thành động lực tinh thần' in the hypothesis is slightly less natural compared to the reference's 'tạo động lực,' which is more concise and commonly used in Vietnamese.\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ក្នុងថ្ងៃបុណ្យពិសេស កុមារក៏បានងូតទឹកផ្កាប្រាំ ឬទឹកដែលបានសូត្រមន្តនាំឲ្យមានសំណាងល្អ។",
+            "vi_reference": "Vào những ngày lễ đặc biệt, trẻ còn được tắm bằng nước ngũ hoa hay nước đã được tụng kinh để mang lại may mắn.",
+            "id": 69000,
+            "topic": "How to care for children",
+            "order": 5.0,
+            "question": null,
+            "hypothesis": "Vào ngày lễ đặc biệt, trẻ em cũng được tắm nước hoa năm loại hoặc nước đã được tụng kinh để mang lại may mắn.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The term 'nước hoa năm loại' in the hypothesis does not accurately convey the cultural significance of 'ទឹកផ្កាប្រាំ' (nước ngũ hoa) as used in the Khmer Krom context. 'Nước ngũ hoa' is a specific term referring to water infused with five types of flowers, which has cultural and ritual significance.\",\n      \"severity\": \"high\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The phrase 'nước hoa năm loại' in the hypothesis sounds unnatural in Vietnamese and does not align with common expressions used in cultural or ritual contexts.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ចា៎! មុខម្ហូបក្នុងពិធីមង្គលការខ្មែរសម្បូរណាស់ ដែលបង្ហាញពីការរាក់ទាក់នឹងភ្ញៀវ និងការដឹងគុណចំពោះញាតិមិត្តដែលបានចូលរួម។",
+            "vi_reference": "- Dạ, ẩm thực trong đám cưới Khmer rất phong phú, thể hiện sự hiếu khách và lòng biết ơn với bà con đến dự.",
+            "id": 68968,
+            "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+            "order": 2.0,
+            "question": null,
+            "hypothesis": "Chà! Các món ăn trong lễ cưới truyền thống Khmer rất phong phú, thể hiện sự hiếu khách với khách mời và lòng biết ơn đối với bạn bè, người thân đã tham dự.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis uses 'lễ cưới truyền thống Khmer' instead of 'đám cưới Khmer,' which adds an unnecessary emphasis on 'truyền thống' (traditional). The source does not specify 'truyền thống,' so this could slightly alter the cultural nuance.\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translates 'ញាតិមិត្ត' as 'bạn bè, người thân,' which is slightly less precise than the reference's 'bà con.' 'Bà con' better captures the communal and familial sense in the Khmer Krom context.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"naturalness\",\n      \"detail\": \"The exclamation 'Chà!' in the hypothesis is less formal and slightly less natural in the context of describing a cultural event compared to the reference's 'Dạ,' which is more polite and culturally appropriate.\",\n      \"severity\": \"medium\"\n    }\n  ],\n  \"overall_quality\": \"acceptable\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"recognized\"\n}\n```"
+            }
+          },
+          {
+            "km_source": "ធម្មតាមិត្តជិតស្និត គឺអ្នកដែលធំធាត់ជាមួយគ្នា ទៅសាលារៀនជាមួយគ្នា ឬធ្លាប់មានបទពិសោធន៍ក្នុងជីវិតជាមួយគ្នា ដូច្នេះអារម្មណ៍របស់ពួកគេគឺជ្រៅ និងរឹងមាំ។",
+            "vi_reference": "Bạn thân thường là người cùng lớn lên, đi học chung, hoặc cùng trải qua biến cố, nên tình cảm rất sâu sắc và bền chặt.",
+            "id": 68985,
+            "topic": "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM",
+            "order": 13.0,
+            "question": null,
+            "hypothesis": "Thông thường, bạn thân là những người lớn lên cùng nhau, đi học cùng nhau hoặc từng có những trải nghiệm trong cuộc sống cùng nhau, vì vậy cảm xúc của họ rất sâu sắc và bền chặt.",
+            "analysis": {
+              "raw": "```json\n{\n  \"errors\": [\n    {\n      \"type\": \"cultural_entity_preservation\",\n      \"detail\": \"The hypothesis translation does not explicitly reflect the Khmer Krom cultural context. While the source text originates from Khmer Krom, the hypothesis translation uses general Vietnamese terms without any specific reference to Khmer Krom culture.\",\n      \"severity\": \"medium\"\n    },\n    {\n      \"type\": \"meaning_accuracy\",\n      \"detail\": \"The hypothesis translation accurately conveys the meaning of the source text, but it slightly simplifies the depth of the emotional connection described in the source. The Khmer phrase 'ជ្រៅ និងរឹងមាំ' emphasizes a profound and enduring bond, which is only partially captured in 'rất sâu sắc và bền chặt.'\",\n      \"severity\": \"low\"\n    }\n  ],\n  \"overall_quality\": \"good\",\n  \"cultural_accuracy\": \"partially_correct\",\n  \"krom_handling\": \"ignored\"\n}\n```"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "exp3": {
+    "experiment": "km2vi_dialogue_context",
+    "scores_isolated": 68.18,
+    "scores_context": 73.24,
+    "delta": 5.06,
+    "win_rate": "8/10",
+    "details": [
+      {
+        "id": 68973,
+        "topic": "The clothes of the mourners",
+        "km_source": "ជនជាតិខ្មែរ៖ ចាស៎ មាន នោះជាអំពើមួយប្រកបដោយសេចក្តីគោរពជ្រាលជ្រៅ បង្ហាញពីក្តីស្រឡាញ់ និងការលាគ្នាជាចុងក្រោយរបស់ស្ត្រីចំពោះអ្នកដែលបានចែកឋានទៅហើយ។",
+        "vi_reference": "Người Khmer: Dạ có, đó là hành động đầy thành kính, thể hiện tình thương và sự tiễn biệt cuối cùng của người phụ nữ với người đã khuất.",
+        "hyp_isolated": "Người Khmer: Chas! Đó là một hành động đầy sự tôn kính sâu sắc, thể hiện tình yêu thương và lời chia tay cuối cùng của người phụ nữ đối với người đã khuất.",
+        "hyp_context": "Vietnamese: Người Khmer: Dạ có, đó là hành động thể hiện sự tôn kính sâu sắc, tình yêu thương và lời từ biệt cuối cùng của người phụ nữ đối với người đã khuất.",
+        "chrf_isolated": 64.6,
+        "chrf_context": 72.2,
+        "delta": 7.6
+      },
+      {
+        "id": 69059,
+        "topic": "Morning activities",
+        "km_source": "ត្រឹមត្រូវហើយ, ក្នុងឱកាសពិធីបុណ្យចូលឆ្នាំថ្មី គ្រប់គ្នាតែងតែស្រង់ព្រះដោយទឹកអប់នៅពេលព្រឹកដើម្បីលាងជម្រះភាពអពមង្គល និងបួងសួងសុំសេចក្ដីសុខ។",
+        "vi_reference": "Đúng vậy, trong dịp lễ Chol Chnam Thmay, mọi người tắm nước thơm buổi sáng để gột rửa ô uế và cầu chúc điều tốt lành.",
+        "hyp_isolated": "Đúng vậy, vào dịp lễ Tết Nguyên Đán, mọi người thường dâng nước thơm vào buổi sáng để tẩy rửa những điều không may mắn và cầu nguyện cho sự bình an.",
+        "hyp_context": "Đúng vậy, vào dịp lễ Tết năm mới, mọi người thường tắm nước thơm cho tượng Phật vào buổi sáng để gột rửa những điều không may và cầu mong sự bình an.",
+        "chrf_isolated": 42.5,
+        "chrf_context": 50.5,
+        "delta": 8.0
+      },
+      {
+        "id": 68985,
+        "topic": "MỐI QUAN HỆ VỚI XÃ HỘI/ HÀNG XÓM",
+        "km_source": "អរគុណបងចំពោះការចែករំលែករឿងមនុស្សធម៌ និងស៊ីជម្រៅអំពីរបៀបដែលប្រជាពលរដ្ឋខ្មែររក្សាទំនាក់ទំនងក្នុងសង្គម!",
+        "vi_reference": "Cảm ơn anh đã chia sẻ những điều rất nhân văn và sâu sắc về cách người Khmer gìn giữ mối quan hệ trong xã hội!",
+        "hyp_isolated": "Cảm ơn anh vì đã chia sẻ câu chuyện nhân văn và sâu sắc về cách người dân Campuchia duy trì mối quan hệ trong xã hội!",
+        "hyp_context": "Vietnamese: Cảm ơn anh đã chia sẻ về tình người và sự sâu sắc trong cách mà người dân Khmer duy trì các mối quan hệ xã hội!",
+        "chrf_isolated": 65.7,
+        "chrf_context": 50.0,
+        "delta": -15.7
+      },
+      {
+        "id": 68983,
+        "topic": "How to care for toddlers",
+        "km_source": "ជនជាតិខ្មែរ៖ ក្មេង​ត្រូវ​បាន​ផ្តល់​បបរ​រាវ​ជាមួយ​ត្រី​ឬ​បន្លែ មិន​ឱ្យ​ញ៉ាំ​អាហារ​ហឹរ​ឬ​បំពង​ទេ ព្រោះ​ខ្លាច​ប៉ះពាល់​ដល់​ប្រព័ន្ធ​រំលាយ​អាហារ​ខ្សោយ។",
+        "vi_reference": "Người Khmer: Trẻ được ăn cháo nấu loãng với cá hoặc rau củ, không cho ăn đồ cay hay chiên vì sợ hại tiêu hóa non yếu.",
+        "hyp_isolated": "Người Khmer: Trẻ em được cho ăn cháo loãng với cá hoặc rau, không được ăn thức ăn cay hoặc chiên, vì sợ ảnh hưởng đến hệ tiêu hóa yếu.",
+        "hyp_context": "Người Khmer: Trẻ được cho ăn cháo loãng với cá hoặc rau, không cho ăn đồ cay hoặc chiên vì sợ ảnh hưởng đến hệ tiêu hóa còn yếu.",
+        "chrf_isolated": 58.0,
+        "chrf_context": 69.5,
+        "delta": 11.5
+      },
+      {
+        "id": 69064,
+        "topic": "Traditions leading up to religious holidays",
+        "km_source": "ត្រូវហើយ នេះគឺជាពេលវេលាដ៏សំខាន់មួយដែលជនជាតិខ្មែរម្នាក់ៗនឹកដល់ឫសគល់ រួមគ្នាថែរក្សា និងបន្តទៅដល់មនុស្សជំនាន់ក្រោយ។",
+        "vi_reference": "Đúng vậy, đó là khoảng thời gian quan trọng để mỗi người Khmer hướng về cội nguồn, cùng nhau giữ gìn và truyền lại cho thế hệ sau.",
+        "hyp_isolated": "Đúng vậy, đây là thời điểm quan trọng mà mỗi người dân Khmer nhớ về cội nguồn, cùng nhau bảo tồn và truyền lại cho thế hệ sau.",
+        "hyp_context": "Vietnamese: Đúng vậy, đây là khoảng thời gian quan trọng để mỗi người Khmer nhớ về cội nguồn, cùng nhau gìn giữ và truyền lại cho thế hệ sau.",
+        "chrf_isolated": 63.4,
+        "chrf_context": 82.7,
+        "delta": 19.3
+      },
+      {
+        "id": 69056,
+        "topic": "Traditions when planting",
+        "km_source": "ត្រូវហើយ យើងចាត់ទុកការដាំដុះស្រូវ គឺទាំង បង្កើតគ្រាប់អង្ករ ចិញ្ចឹមជីវិត ទាំង រក្សាជំនឿ និង អត្តសញ្ញាណវប្បធម៌ របស់យើង។",
+        "vi_reference": "Đúng vậy, chúng tôi coi việc trồng lúa là vừa làm ra hạt gạo nuôi sống, vừa gìn giữ niềm tin và bản sắc văn hóa.",
+        "hyp_isolated": "Đúng vậy, chúng ta coi việc trồng lúa không chỉ là tạo ra hạt gạo nuôi sống mà còn giữ gìn niềm tin và bản sắc văn hóa của chúng ta.",
+        "hyp_context": "Đúng vậy, chúng tôi xem việc trồng lúa vừa là tạo ra hạt gạo nuôi sống, vừa giữ gìn tín ngưỡng và bản sắc văn hóa của mình.",
+        "chrf_isolated": 68.4,
+        "chrf_context": 68.6,
+        "delta": 0.2
+      },
+      {
+        "id": 68999,
+        "topic": "Process of dealing with corpse",
+        "km_source": "អរគុណចំពោះការចែករំលែកលម្អិត និងស៊ីជម្រៅរបស់បងស្រី ប្អុនពិតជាមានអារម្មណ៍គោរពដែលប្រជាជនខ្មែរមានចំពោះអ្នកស្លាប់។",
+        "vi_reference": "Cảm ơn chị đã chia sẻ chi tiết và sâu sắc, em thật sự cảm nhận được lòng kính trọng của người Khmer dành cho người đã khuất.",
+        "hyp_isolated": "Cảm ơn chị đã chia sẻ chi tiết và sâu sắc, em thật sự cảm nhận được sự tôn kính mà người dân Khmer dành cho những người đã khuất.",
+        "hyp_context": "Vietnamese: Cảm ơn chị đã chia sẻ chi tiết và sâu sắc, em thật sự cảm nhận được sự tôn kính mà người dân Khmer dành cho người đã khuất.",
+        "chrf_isolated": 79.0,
+        "chrf_context": 79.7,
+        "delta": 0.7
+      },
+      {
+        "id": 68968,
+        "topic": "ĐỒ ĂN Ở ĐÁM CƯỚI",
+        "km_source": "អរគុណបងស្រីច្រើនណាស់ សម្រាប់ការចែករំលែកយ៉ាងរស់រវើកនៃមុខម្ហូបប្រពៃណីខ្មែរ។",
+        "vi_reference": "- Cảm ơn chị rất nhiều vì những chia sẻ sinh động về các món ăn truyền thống trong đám cưới của người Khmer.",
+        "hyp_isolated": "Cảm ơn chị rất nhiều vì đã chia sẻ một cách sống động về các món ăn truyền thống của Campuchia.",
+        "hyp_context": "Vietnamese: - Cảm ơn chị rất nhiều vì đã chia sẻ một cách sống động về các món ăn truyền thống của người Khmer.",
+        "chrf_isolated": 57.3,
+        "chrf_context": 69.2,
+        "delta": 11.8
+      },
+      {
+        "id": 69054,
+        "topic": "Traditional medicine",
+        "km_source": "វាមិនត្រឹមតែព្យាបាលជំងឺប៉ុណ្ណោះទេ ថែមទាំងចិញ្ចឹមបីបាច់ស្មារតី ភ្ជាប់មនុស្សទៅនឹងធម្មជាតិ ជីដូនជីតា និងភាពបន្ទាបខ្លួនក្នុងជីវិតទៀតផង។",
+        "vi_reference": "Nó không chỉ chữa bệnh mà còn nuôi dưỡng tinh thần, kết nối con người với thiên nhiên, tổ tiên và sự khiêm nhường trong đời sống.",
+        "hyp_isolated": "Nó không chỉ chữa bệnh mà còn nuôi dưỡng tinh thần, kết nối con người với thiên nhiên, tổ tiên và sự khiêm nhường trong cuộc sống.",
+        "hyp_context": "Vietnamese: Nó không chỉ chữa bệnh mà còn nuôi dưỡng tinh thần, kết nối con người với thiên nhiên, tổ tiên và sự khiêm nhường trong cuộc sống.",
+        "chrf_isolated": 94.5,
+        "chrf_context": 92.7,
+        "delta": -1.7
+      },
+      {
+        "id": 68969,
+        "topic": "MỐI QUAN HỆ TRONG GIA ĐÌNH CHÍNH",
+        "km_source": "អ្នកសម្ភាសន៍៖ សូមអរគុណបងច្រើនណាស់ ដែលបានចែករំលែកនូវអ្វីៗដែលមានន័យ និងស៊ីជម្រៅអំពីគ្រួសារក្នុងវប្បធម៌ខ្មែរ!",
+        "vi_reference": "Phỏng vấn viên: Cảm ơn anh rất nhiều vì đã chia sẻ những điều rất ý nghĩa và sâu sắc về gia đình trong văn hóa Khmer!",
+        "hyp_isolated": "Người phỏng vấn: Cảm ơn anh rất nhiều vì đã chia sẻ những điều ý nghĩa và sâu sắc về gia đình trong văn hóa Khmer!",
+        "hyp_context": "Vietnamese: Phỏng vấn viên: Cảm ơn anh rất nhiều vì đã chia sẻ những điều ý nghĩa và sâu sắc về gia đình trong văn hóa Khmer!",
+        "chrf_isolated": 86.7,
+        "chrf_context": 92.7,
+        "delta": 6.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+﻿================================================================================
+Tß╗öNG: REF c├│ marker Khmer-Viß╗çt trong 181/1856 (9.8%) mß║½u
+GPT-4o ─É├üNH R╞áI marker trong 139/181 (77%) sß╗æ ─æ├│
+
+Ph├ón bß╗æ loß║íi marker bß╗ï ─æ├ính r╞íi:
+  food_krom              63
+  festival_krom          40
+  kinship_colloq         20
+  nam_bo_vn_translit     15
+  krom_religious         12
+  krom_ethno_label       10
+  ethnonym_kinh          7
+  boat_racing            5
+  toponym_krom           3
+  vn_loanword            2
+
+================================================================================
+PH├éN Bß╗É THEO CHß╗ª ─Éß╗Ç (chß╗ë topic c├│ ├¡t nhß║Ñt 1 bß║▒ng chß╗⌐ng)
+================================================================================
+Chß╗º ─æß╗ü                                               Mß║½u  REF-Krom   R╞íi     %
+--------------------------------------------------------------------------------
+(no topic / Q&A)                                     352        95    70   74%
+Use of art at certain events                          59        15    12   80%
+Harvest                                               24         8     8  100%
+Traditional ceremonies                                12         6     6  100%
+House, household and transportation                   48         4     4  100%
+Mystical things                                       24         6     4   67%
+Traditions when planting                              24         4     3   75%
+PHONG Tß╗ñC KHI Kß║╛T H├öN                                 24         2     2  100%
+Mß╗ÉI QUAN Hß╗å Vß╗ÜI X├â Hß╗ÿI/ H├ÇNG X├ôM                      30         2     2  100%
+When death occurs                                     24         2     2  100%
+Traditions before religious holidays                  24         2     2  100%
+Mß╗ÉI QUAN Hß╗å TRONG GIA ─É├îNH CH├ìNH                      36         3     2   67%
+Lifestyle                                             36         3     2   67%
+Leisure activities                                    36         6     2   33%
+Truyß╗ün thß╗æng ch─âm s├│c vß║¡t nu├┤i/thß╗ºy sß║ún               75         2     2  100%
+Self care                                             12         1     1  100%
+Traditions after the body is buried                   24         1     1  100%
+Game types                                            35         1     1  100%
+Folk songs                                            37         1     1  100%
+Vß╗è TR├ì Tß╗ö CHß╗¿C ─É├üM C╞»ß╗ÜI                                8         1     1  100%
+─Éß╗Æ ─éN ß╗₧ ─É├üM C╞»ß╗ÜI                                      16         2     1   50%
+Evening activities                                    12         1     1  100%
+Parents and children interactions as adult            24         1     1  100%
+Traditions leading up to religious holidays           48         1     1  100%
+TRANG PHß╗ñC C╞»ß╗ÜI Hß╗ÄI NAM                               16         2     1   50%
+Buying and selling traditions                         24         1     1  100%
+Musical instruments                                   36         1     1  100%
+TRANG PHß╗ñC C╞»ß╗ÜI Hß╗ÄI Nß╗«                                16         2     1   50%
+Poetry or similar literature                          24         1     1  100%
+Afternoon activities                                  12         1     1  100%
+Unknown                                               30         1     1  100%
+--------------------------------------------------------------------------------
+Chß╗º ─æß╗ü c├│ ├¡t nhß║Ñt 1 bß║▒ng chß╗⌐ng: 31/57
+
+─É├ú l╞░u: C:\Users\HOY9HC\Desktop\Code\Learning\MT2\results\topic_variety_collapse_evidence.json

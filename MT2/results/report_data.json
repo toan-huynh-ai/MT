@@ -1,0 +1,1009 @@
+{
+  "totals": {
+    "total_samples": 1856,
+    "ref_has_krom": 181,
+    "gpt4o_dropped": 139,
+    "drop_rate_percent": 76.8
+  },
+  "topic_stats": [
+    {
+      "topic_en": "Eating (Q&A)",
+      "topic_vi": "Ăn uống",
+      "total": 352,
+      "ref_has_krom": 95,
+      "gpt4o_dropped": 70,
+      "drop_rate": 73.7
+    },
+    {
+      "topic_en": "Livestock & aquaculture care",
+      "topic_vi": "Truyền thống chăm sóc vật nuôi/thủy sản",
+      "total": 75,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Day-of holiday customs",
+      "topic_vi": "Những phong tục ngay ngày lễ tôn giáo",
+      "total": 60,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Art at events",
+      "topic_vi": "Biểu diễn nghệ thuật tại một số sự kiện nhất định",
+      "total": 59,
+      "ref_has_krom": 15,
+      "gpt4o_dropped": 12,
+      "drop_rate": 80.0
+    },
+    {
+      "topic_en": "Household & transport",
+      "topic_vi": "Nhà cửa, gia đình và giao thông",
+      "total": 48,
+      "ref_has_krom": 4,
+      "gpt4o_dropped": 4,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Pre-wedding customs",
+      "topic_vi": "Phong tục trước khi kết hôn",
+      "total": 48,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Holiday preparation customs",
+      "topic_vi": "Những phong tục chuẩn bị cho ngày lễ tôn giáo",
+      "total": 48,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Pregnancy customs",
+      "topic_vi": "Phong tục khi mang bầu",
+      "total": 47,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Traditional dances",
+      "topic_vi": "Các điệu múa truyền thống",
+      "total": 46,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Folk songs",
+      "topic_vi": "Dân ca",
+      "total": 37,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Traditional medicine",
+      "topic_vi": "Y học cổ truyền",
+      "total": 36,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Immediate family relationships",
+      "topic_vi": "Mối quan hệ trong gia đình chính",
+      "total": 36,
+      "ref_has_krom": 3,
+      "gpt4o_dropped": 2,
+      "drop_rate": 66.7
+    },
+    {
+      "topic_en": "Lifestyle",
+      "topic_vi": "Lối sống",
+      "total": 36,
+      "ref_has_krom": 3,
+      "gpt4o_dropped": 2,
+      "drop_rate": 66.7
+    },
+    {
+      "topic_en": "Leisure activities",
+      "topic_vi": "Hoạt động giải trí",
+      "total": 36,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 2,
+      "drop_rate": 33.3
+    },
+    {
+      "topic_en": "Musical instruments",
+      "topic_vi": "Nhạc cụ",
+      "total": 36,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Game types",
+      "topic_vi": "Các loại trò chơi",
+      "total": 35,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Society & neighbours",
+      "topic_vi": "Mối quan hệ với xã hội/hàng xóm",
+      "total": 30,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Unknown",
+      "topic_vi": "Không xác định",
+      "total": 30,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Regular religious life",
+      "topic_vi": "Sinh hoạt tôn giáo thường kỳ",
+      "total": 26,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Wedding customs",
+      "topic_vi": "Phong tục khi kết hôn",
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Teenager care",
+      "topic_vi": "Cách chăm sóc trẻ vị thành niên",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Post-burial customs",
+      "topic_vi": "Phong tục sau khi chôn cất",
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Newborn care",
+      "topic_vi": "Cách chăm sóc trẻ sơ sinh",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Child care",
+      "topic_vi": "Cách chăm sóc trẻ em",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Mystical beliefs",
+      "topic_vi": "Những điều huyền bí",
+      "total": 24,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 4,
+      "drop_rate": 66.7
+    },
+    {
+      "topic_en": "When death occurs",
+      "topic_vi": "Khi có người mất",
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Pre-holiday customs",
+      "topic_vi": "Những phong tục trước ngày lễ tôn giáo",
+      "total": 24,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 2,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Inheritance matters",
+      "topic_vi": "Vấn đề thừa kế",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Parent–adult-child interactions",
+      "topic_vi": "Tương tác giữa cha mẹ và con cái khi trưởng thành",
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Corpse-handling process",
+      "topic_vi": "Quy trình xử lý thi thể",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Play locations",
+      "topic_vi": "Vị trí chơi",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Planting customs",
+      "topic_vi": "Phong tục khi trồng trọt",
+      "total": 24,
+      "ref_has_krom": 4,
+      "gpt4o_dropped": 3,
+      "drop_rate": 75.0
+    },
+    {
+      "topic_en": "Harvesting",
+      "topic_vi": "Thu hoạch",
+      "total": 24,
+      "ref_has_krom": 8,
+      "gpt4o_dropped": 8,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Post-wedding customs",
+      "topic_vi": "Phong tục sau khi kết hôn",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Toddler care",
+      "topic_vi": "Cách chăm sóc trẻ mới biết đi",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Buying and selling traditions",
+      "topic_vi": "Buying and selling traditions",
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Poetry or similar literature",
+      "topic_vi": "Thơ hoặc văn học tương tự",
+      "total": 24,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Mourner attire",
+      "topic_vi": "Trang phục của người đưa tang",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "What to plant",
+      "topic_vi": "What to plant",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Postnatal customs",
+      "topic_vi": "Phong tục sau khi đẻ con",
+      "total": 24,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Extended family relationships",
+      "topic_vi": "Mối quan hệ trong gia đình mở rộng",
+      "total": 18,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "MỐI QUAN HỆ TRONG GIA",
+      "topic_vi": "MỐI QUAN HỆ TRONG GIA",
+      "total": 17,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0.0
+    },
+    {
+      "topic_en": "Wedding guests",
+      "topic_vi": "Khách mời đám cưới",
+      "total": 16,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0.0
+    },
+    {
+      "topic_en": "Wedding cuisine",
+      "topic_vi": "Ẩm thực đám cưới",
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0
+    },
+    {
+      "topic_en": "Wedding gifts",
+      "topic_vi": "Quà cưới",
+      "total": 16,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Groom wedding attire",
+      "topic_vi": "Trang phục cưới hỏi nam",
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0
+    },
+    {
+      "topic_en": "Bride wedding attire",
+      "topic_vi": "Trang phục cưới hỏi nữ",
+      "total": 16,
+      "ref_has_krom": 2,
+      "gpt4o_dropped": 1,
+      "drop_rate": 50.0
+    },
+    {
+      "topic_en": "Self-care",
+      "topic_vi": "Cách tự chăm sóc",
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Post-holiday customs",
+      "topic_vi": "Những phong tục sau ngày lễ tôn giáo",
+      "total": 12,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Morning activities",
+      "topic_vi": "Hoạt động buổi sáng",
+      "total": 12,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "GIA TỘC",
+      "topic_vi": "GIA TỘC",
+      "total": 12,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Evening activities",
+      "topic_vi": "Hoạt động buổi tối",
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Traditional ceremonies",
+      "topic_vi": "Nghi lễ truyền thống",
+      "total": 12,
+      "ref_has_krom": 6,
+      "gpt4o_dropped": 6,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "Traditional sayings",
+      "topic_vi": "Những câu nói truyền thống",
+      "total": 12,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Afternoon activities",
+      "topic_vi": "Hoạt động buổi chiều",
+      "total": 12,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    },
+    {
+      "topic_en": "HẬU DUỆ / GIA TỘC",
+      "topic_vi": "HẬU DUỆ / GIA TỘC",
+      "total": 12,
+      "ref_has_krom": 0,
+      "gpt4o_dropped": 0,
+      "drop_rate": 0
+    },
+    {
+      "topic_en": "Wedding venue",
+      "topic_vi": "Vị trí tổ chức đám cưới",
+      "total": 8,
+      "ref_has_krom": 1,
+      "gpt4o_dropped": 1,
+      "drop_rate": 100.0
+    }
+  ],
+  "clean_samples": [
+    {
+      "topic_en": "Eating (Q&A)",
+      "topic_vi": "Ăn uống",
+      "source": "Ba tôi là người dọn cơm, dọn xong thì ăn cơm, trong giờ cơm chúng nói chuyện với nhau nói về công việc của buổi chiều cần làm, ăn xong tôi là người dọn chén mang đi rửa sạch và úp chén cho gọn gàng.",
+      "reference": "ឪខ្ញុំជាអ្នករៀបបាយ រួចហើយហូបបាយ ក្នុងពេលបាយយើងខ្ញុំជជែកគ្នាលេងនិយាយអំពីការងារដែលពេលរសៀលត្រូវធ្វើ ហូបហើយខ្ញុំជាអ្នករៀបចានយកទៅលាងឲ្យស្អាតផ្កាប់ចានឲ្យសណ្ដាប់ធ្នាប់។",
+      "hyp_plain": "ឪពុកខ្ញុំជាអ្នករៀបចំអាហារ ពេលរៀបចំរួចហើយនឹងទទួលទានអាហារ ក្នុងពេលបរិភោគយើងនិយាយគ្នាអំពីការងារដែលត្រូវធ្វើនៅល្ងាច បន្ទាប់ពីបរិភោគរួចខ្ញុំជាអ្នករៀបចំចានយកទៅលាងស្អាតហើយដាក់ចានឲ្យរបៀបរៀបរយ។",
+      "chrf": 37.72,
+      "cuea": null
+    },
+    {
+      "topic_en": "Wedding customs",
+      "topic_vi": "Phong tục khi kết hôn",
+      "source": "- Trang phục cưới truyền thống của cô dâu, chú rể Khmer thường rất lộng lẫy và mang nhiều ý nghĩa. Trang phục của cô dâu Khmer thường bao gồm áo dài, xăm-pốt sarong và các phụ kiện như sbay, mũ cưới và trang sức vàng hoặc ánh vàng. Trang phục của chú rể thường mặc áo cổ đứng, kbanh và mang theo một số vật phẩm như quạt tay, kiếm, với ý nghĩa bảo vệ và may mắn.",
+      "reference": "សម្លៀកបំពាក់អាពាហ៍ពិពាហ៍ប្រពៃណីរបស់កូនកំលោះក្រមំ ខ្មែរ តែងមានភាពស្រស់ស្អាតនិងមានអត្ថន័យ។ សម្លៀកបំពាក់របស់កូនក្រមុំខ្មែរជាទូទៅរួមមានអាវវេងសំពត់សារុង និងគ្រឿងប្រើប្រាស់ដូចជាស្បៃ មួកអាពាហ៍ពិពាហ៍ និងគ្រឿងអលង្ការធ្វើពីមាស។ សម្លៀកបំពាក់របស់កូនកំលោះតែងតែពាក់អាវមានកឈរនឹងខោក្បិន និងកាន់របស់របរមួយចំនួនដូចជា ផ្លឹតដៃ ដាវ ដែលសម្រាប់ការពារ និងនាំសំណាងល្អ។",
+      "hyp_plain": "- សម្លៀកបំពាក់អាពាហ៍ពិពាហ៍ប្រពៃណីរបស់កូនក្រមុំ និងកូនកំលោះខ្មែរមានភាពស្រស់ស្អាត និងមានន័យជ្រាលជ្រៅ។ សម្លៀកបំពាក់របស់កូនក្រមុំខ្មែរមានសម្លៀកបំពាក់ដូចជា អាវដៃវែង សំពត់សារ៉ុង និងគ្រឿងតុបតែងផ្សេងៗដូចជា ស្បៃ មួកអាពាហ៍ពិពាហ៍ និងគ្រឿងអលង្ការទ្រព្យសម្បត្តិមាស ឬមានពន្លឺដូចមាស។ សម្លៀកបំពាក់របស់កូនកំលោះភាគច្រើនមានអាវកអម ខ្បាញ និងមានវត្ថុផ្សេងៗដូចជា កង្ហារ ដាវ ដែលមានន័យថាជាការពារ និងសេចក្តីសុខសាន្ត។",
+      "chrf": 48.39,
+      "cuea": null
+    },
+    {
+      "topic_en": "Household & transport",
+      "topic_vi": "Nhà cửa, gia đình và giao thông",
+      "source": "Ngoài kiến trúc nhà, sinh hoạt trong gia đình Khmer có đặc điểm gì khác biệt?",
+      "reference": "ក្រៅពីស្ថាបត្យកម្មផ្ទះ តើការរស់នៅក្នុងគ្រួសារខ្មែរមានលក្ខណៈពិសេសអ្វីផ្សេងទៀត?",
+      "hyp_plain": "Khmer: ក្រៅពីស្ថាបត្យកម្មផ្ទះ វិធីសាស្រ្តរស់នៅក្នុងគ្រួសារខ្មែរមានលក្ខណៈពិសេសអ្វីខ្លះដែលខុសគ្នា?",
+      "chrf": 63.8,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Self-care",
+      "topic_vi": "Cách tự chăm sóc",
+      "source": "Người phỏng vấn: Ngoài ra, tôi nghe nói người Khmer còn chú trọng đến sự hài hòa Nóng-Lạnh trong ăn uống và sinh hoạt hàng ngày.",
+      "reference": "អ្នកសម្ភាសន៍៖ ក្រៅពីនេះ ខ្ញុំបានឮថាជនជាតិខ្មែរនៅមានការយកចិត្តទុកដាក់ចំពោះភាពត្រជាក់-ក្តៅ ក្នុងអាហារ និងការរស់នៅប្រចាំថ្ងៃ។",
+      "hyp_plain": "អ្នកសម្ភាសន៍៖ លើសពីនេះទៅទៀត ខ្ញុំបានឮថា ជនជាតិខ្មែរនៅតែផ្តោតលើភាពសមស្របរវាងក្តៅ-ត្រជាក់ក្នុងការទទួលទានអាហារ និងការរស់នៅប្រចាំថ្ងៃ។",
+      "chrf": 51.18,
+      "cuea": null
+    },
+    {
+      "topic_en": "Society & neighbours",
+      "topic_vi": "Mối quan hệ với xã hội/hàng xóm",
+      "source": "Anh có nghĩ những mối quan hệ này thay đổi khi người Khmer lên thành phố sống và làm việc không?",
+      "reference": "តើបងគិតថាទំនាក់ទំនងទាំងនេះផ្លាស់ប្តូរនៅពេលដែលខ្មែរផ្លាស់ទៅរស់នៅនិងធ្វើការទេ?",
+      "hyp_plain": "Khmer: តើបងគិតថាការទំនាក់ទំនងទាំងនេះនឹងផ្លាស់ប្តូរឬទេនៅពេលដែលជនជាតិខ្មែរឡើងទៅរស់នៅនិងធ្វើការនៅទីក្រុង?",
+      "chrf": 56.56,
+      "cuea": null
+    },
+    {
+      "topic_en": "Teenager care",
+      "topic_vi": "Cách chăm sóc trẻ vị thành niên",
+      "source": "Đồng thời, người lớn luôn lắng nghe tâm sự của con, vì nếu cấm đoán quá mức thì con dễ giấu giếm và xa cách.",
+      "reference": "ទន្ទឹមនឹងនោះ មនុស្សធំតែងតែស្តាប់នូវទំនុកចិត្តរបស់កូន ព្រោះបើហាមឃាត់ខ្លាំងពេក កូននឹងលាក់លៀម និងឃ្លាតឆ្ងាយពីអ្នកធំ។",
+      "hyp_plain": "នៅពេលដូចគ្នា មនុស្សធំតែងតែស្តាប់ការប្រាប់ប្រាស្រ័យរបស់កូន ពីព្រោះប្រសិនបើហាមឃាត់ខ្លាំងពេក កូនងាយលាក់បាំង និងឆ្ងាយឆ្ងាញ់។",
+      "chrf": 36.33,
+      "cuea": null
+    },
+    {
+      "topic_en": "Post-burial customs",
+      "topic_vi": "Phong tục sau khi chôn cất",
+      "source": "Dạ có, người ta tin rằng đặt tro cốt ở chùa thì người mất sẽ được nghe kinh kệ hàng ngày, giúp linh hồn an lạc hơn.",
+      "reference": "ចាសមាន ប្រជាជនមានជំនឿថា ការដាក់ធាតុក្នុងវត្ត នឹងជួយឱ្យអ្នកស្លាប់បានស្តាប់ធម៏រាល់ថ្ងៃ ជួយឱ្យព្រលឹងបានទៅកាន់សុគតិភព។",
+      "hyp_plain": "បាទ/ចាស មាន, មនុស្សជឿថាការដាក់ធាតុធូលីនៅវត្តនោះ អ្នកដែលបានស្លាប់នឹងបានស្តាប់ព្រះធម៌ជារៀងរាល់ថ្ងៃ ដែលជួយឱ្យព្រលឹងមានសេចក្តីសុខចិត្ត។",
+      "chrf": 35.72,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Newborn care",
+      "topic_vi": "Cách chăm sóc trẻ sơ sinh",
+      "source": "Cảm ơn chị rất nhiều! Những chia sẻ của chị giúp em hiểu sâu hơn về nét đẹp truyền thống trong văn hóa Khmer.",
+      "reference": "អរគុណបងស្រីច្រើន! ការចែករំលែករបស់បងទាំងនេះជួយឱ្យខ្ញុំយល់កាន់តែស៊ីជម្រៅអំពីភាពស្រស់ស្អាតប្រពៃណីនៃវប្បធម៌ខ្មែរ។",
+      "hyp_plain": "អរគុណបងច្រើនណាស់! ការចែករំលែករបស់បងបានជួយឱ្យខ្ញុំយល់ច្បាស់ជាងមុនអំពីភាពស្រស់ស្អាតប្រពៃណីក្នុងវប្បធម៌ខ្មែរ។",
+      "chrf": 53.0,
+      "cuea": null
+    },
+    {
+      "topic_en": "Wedding guests",
+      "topic_vi": "Khách mời đám cưới",
+      "source": "- Ngoài giấy mời, người Khmer còn có tục ngữ truyền miệng, nghĩa là mời bằng lời để lan toả thông tin trong cộng đồng.",
+      "reference": "ក្រៅពីលិខិតអញ្ជើញ ប្រជាជនខ្មែរក៏មានសុភាសិតផ្សាយផ្ទាល់មាត់ ដែលមានន័យថា ការអញ្ជើញតាមពាក្យសម្ដីដើម្បីផ្សព្វផ្សាយព័ត៌មានក្នុងសហគមន៍។",
+      "hyp_plain": "ខ្មែរ: - ក្រៅពីការផ្តល់ការអញ្ជើញជាសំបុត្រ អ្នកខ្មែរនៅមានទំនៀមទម្លាប់នៃការផ្តល់ការអញ្ជើញដោយមាត់ ដែលមានន័យថា អញ្ជើញដោយពាក្យសម្តីដើម្បីចែករំលែកព័ត៌មានក្នុងសហគមន៍។",
+      "chrf": 39.23,
+      "cuea": null
+    },
+    {
+      "topic_en": "Post-holiday customs",
+      "topic_vi": "Những phong tục sau ngày lễ tôn giáo",
+      "source": "Đúng vậy, chúng tôi bắt đầu dọn dẹp ruộng đồng, chuẩn bị nông cụ, trâu bò, và tính toán thời vụ gieo trồng mới.",
+      "reference": "ត្រូវហើយ! យើងចាប់ផ្តើមសំអាតស្រែចម្ការ រៀបចំឧបករណ៍កសិកម្ម គោក្របី និងគិតគូរពីពេលរដូវកាលដាំដុះថ្មី។",
+      "hyp_plain": "មែនហើយ ពួកយើងចាប់ផ្តើមសម្អាតវាលស្រែ រៀបចំឧបករណ៍កសិកម្ម គោក្របី និងគិតគូរពីរដូវវារីស្រូវថ្មី។",
+      "chrf": 53.09,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Art at events",
+      "topic_vi": "Biểu diễn nghệ thuật tại một số sự kiện nhất định",
+      "source": "Người phỏng vấn: Qua chia sẻ của anh, tôi nhận thấy nghệ thuật đóng vai trò không thể thiếu trong việc duy trì văn hóa Khmer.",
+      "reference": "អ្នកសម្ភាសន៍៖ តាមរយៈការចែករំលែករបស់បង ខ្ញុំយល់ថា សិល្បៈដើរតួនាទីមិនអាចខ្វះបានក្នុងការរក្សាវប្បធម៌ខ្មែរ។",
+      "hyp_plain": "អ្នកសម្ភាសន៍៖ តាមការចែករំលែករបស់បង ខ្ញុំបានឃើញថា សិល្បៈមានតួនាទីមិនអាចខ្វះបានក្នុងការរក្សាវប្បធម៌ខ្មែរ។",
+      "chrf": 65.48,
+      "cuea": null
+    },
+    {
+      "topic_en": "Traditional dances",
+      "topic_vi": "Các điệu múa truyền thống",
+      "source": "Người Khmer: Có, các vị thường khuyên bảo thanh thiếu niên tránh xa tệ nạn, tham gia làm từ thiện, và cùng dân làng lao động công ích.",
+      "reference": "ជនជាតិខ្មែរ៖ មាន ព្រះអង្គតែងតែណែនាំយុវជនឱ្យនៅឱ្យឆ្ងាយពីអំពើអាក្រក់ ចូលរួមក្នុងការងារសប្បុរសធម៌ និងធ្វើការងារសេវាសាធារណៈជាមួយអ្នកភូមិ។",
+      "hyp_plain": "អ្នកខ្មែរ៖ បាទ/ចាស ពួកគេជាញឹកញាប់ណែនាំយុវជនឱ្យចៀសវាងអំពើអាក្រក់ ចូលរួមធ្វើការសប្បុរស និងធ្វើការងារសាធារណៈជាមួយប្រជាជនក្នុងភូមិ។",
+      "chrf": 39.84,
+      "cuea": null
+    },
+    {
+      "topic_en": "Game types",
+      "topic_vi": "Các loại trò chơi",
+      "source": "Người phỏng vấn: Trò bịt mắt đập niêu có được tổ chức nhiều trong các dịp vui chơi tập thể không?",
+      "reference": "អ្នកសម្ភាសន៍៖ តើល្បែងបិទភ្នែកវាយឆ្នាំង ត្រូវបានរៀបចំច្រើនក្នុងឱកាសលេងកម្សាន្តជាក្រុមដែរឬទេ?",
+      "hyp_plain": "អ្នកសម្ភាសៈ ការលេងបិទភ្នែកវាយអាងត្រូវបានរៀបចំជាញឹកញាប់ក្នុងឱកាសលេងសប្បាយរួមគ្នាឬទេ?",
+      "chrf": 41.0,
+      "cuea": null
+    },
+    {
+      "topic_en": "Folk songs",
+      "topic_vi": "Dân ca",
+      "source": "Người Khmer: Có phần đúng, nhưng nếu biết kết hợp biểu diễn trên sân khấu, mạng xã hội thì dân ca vẫn có sức hút mạnh mẽ.",
+      "reference": "ជនជាតិខ្មែរ៖ ត្រូវមួយចំណែកដែរ ប៉ុន្តែប្រសិនបើចេះផ្សំការសម្តែងលើឆាក បណ្តាញសង្គម នោះចម្រៀងប្រពៃណីនៅតែមានភាពទាក់ទាញខ្លាំង។",
+      "hyp_plain": "ជនជាតិខ្មែរ៖ មានភាពត្រឹមត្រូវខ្លះ ប៉ុន្តែប្រសិនបើដឹងរបៀបបញ្ចូលការសម្តែងលើឆាក និងបណ្តាញសង្គម នោះចម្រៀងប្រជាប្រិយនៅតែមានសម្រស់ទាក់ទាញខ្លាំង។",
+      "chrf": 51.72,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Traditional medicine",
+      "topic_vi": "Y học cổ truyền",
+      "source": "Người phỏng vấn: Nghe như vậy có vẻ sự chữa trị vừa mang yếu tố tinh thần vừa có sự hỗ trợ từ cây thuốc tự nhiên.",
+      "reference": "អ្នកសម្ភាសន៍៖ ស្ដាប់ទៅហាក់បីដូចជា ការព្យាបាលនេះមានទាំងកត្តាខាងស្មារតី ទាំងការគាំទ្រពីឱសថធម្មជាតិ។",
+      "hyp_plain": "អ្នកសម្ភាសន៍៖ ស្តាប់ទៅហាក់ដូចជាការព្យាបាលមានទាំងធាតុផ្នែកចិត្ត និងការគាំទ្រពីរុក្ខជាតិធម្មជាតិ។",
+      "chrf": 48.04,
+      "cuea": null
+    },
+    {
+      "topic_en": "Morning activities",
+      "topic_vi": "Hoạt động buổi sáng",
+      "source": "Anh có thể chia sẻ về những hoạt động buổi sáng đặc trưng trong đời sống cộng đồng Khmer không?",
+      "reference": "បងអាចរៀបរាប់ពីសកម្មភាពពេលព្រឹកដ៏ពិសេស ក្នុងជីវិតសហគមន៍ខ្មែរបានទេ?",
+      "hyp_plain": "អាចប្រាប់អំពីសកម្មភាពពេលព្រឹកដែលជាការពិសេសក្នុងជីវិតសហគមន៍ខ្មែរបានទេ?",
+      "chrf": 63.26,
+      "cuea": null
+    },
+    {
+      "topic_en": "Regular religious life",
+      "topic_vi": "Sinh hoạt tôn giáo thường kỳ",
+      "source": "Người phỏng vấn: Ngoài việc giảng dạy, chư tăng có tham gia vào những hoạt động cộng đồng hay giúp đỡ người dân trong sinh hoạt đời thường không?",
+      "reference": "អ្នកសម្ភាសន៍៖ ក្រៅពីការបង្រៀន តើព្រះសង្ឃមានចូលរួមក្នុងសកម្មភាពសហគមន៍ ឬជួយប្រជាជនក្នុងជីវភាពប្រចាំថ្ងៃដែរឬទេ?",
+      "hyp_plain": "អ្នកសម្ភាសន៍: ក្រៅពីការបង្រៀន តើព្រះសង្ឃមានការចូលរួមក្នុងសកម្មភាពសហគមន៍ ឬជួយសង្រ្គោះប្រជាជនក្នុងជីវិតប្រចាំថ្ងៃដែរឬទេ?",
+      "chrf": 68.36,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Wedding venue",
+      "topic_vi": "Vị trí tổ chức đám cưới",
+      "source": "- Dạ, đám cưới của người Khmer thường được tổ chức ngay tại nhà của cô dâu hoặc chú rể, tuỳ theo điều kiện hai bên.",
+      "reference": "បាទ! ពិធីមង្គលការខ្មែរ តែងតែធ្វើឡើងនៅផ្ទះកូនក្រមុំ ឬកូនកំលោះ អាស្រ័យលើលក្ខខណ្ឌរបស់ភាគីទាំងពីរ។",
+      "hyp_plain": "- បាទ/ចាស, ពិធីអាពាហ៍ពិពាហ៍របស់ជនជាតិខ្មែរតែងតែត្រូវបានរៀបចំនៅផ្ទះរបស់កូនក្រមុំ ឬកូនកំលោះ ដោយអាស្រ័យលើលក្ខខណ្ឌរបស់ភាគីទាំងពីរ។",
+      "chrf": 50.18,
+      "cuea": null
+    },
+    {
+      "topic_en": "Wedding cuisine",
+      "topic_vi": "Ẩm thực đám cưới",
+      "source": "- Cảm ơn chị rất nhiều vì những chia sẻ sinh động về các món ăn truyền thống trong đám cưới của người Khmer.",
+      "reference": "អរគុណបងស្រីច្រើនណាស់ សម្រាប់ការចែករំលែកយ៉ាងរស់រវើកនៃមុខម្ហូបប្រពៃណីខ្មែរ។",
+      "hyp_plain": "សូមអរគុណបងសម្រាប់ការចែករំលែកដ៏រស់រវើកអំពីម្ហូបប្រពៃណីក្នុងពិធីអាពាហ៍ពិពាហ៍របស់ជនជាតិខ្មែរ។",
+      "chrf": 47.39,
+      "cuea": null
+    },
+    {
+      "topic_en": "Pregnancy customs",
+      "topic_vi": "Phong tục khi mang bầu",
+      "source": "Phóng viên: Người chồng có vai trò gì trong thời gian này không ạ?",
+      "reference": "អ្នកសម្ភាសន៍៖ តើប្ដីមានតួនាទីអ្វីខ្លះក្នុងអំឡុងពេលនេះ?",
+      "hyp_plain": "អ្នកសារព័ត៌មាន៖ ប្តីមានតួនាទីអ្វីក្នុងអំឡុងពេលនេះដែរឬទេ?",
+      "chrf": 46.83,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Child care",
+      "topic_vi": "Cách chăm sóc trẻ em",
+      "source": "Phóng viên: Về việc tắm rửa thì có điều gì đặc biệt không bác?",
+      "reference": "អ្នកសម្ភាសន៍៖ ចំពោះការងូតទឹក តើមានអ្វីពិសេសទេអ៊ំ?",
+      "hyp_plain": "អ្នកសារព័ត៌មាន៖ អំពីការងូតទឹក មានអ្វីពិសេសទេបង?",
+      "chrf": 40.39,
+      "cuea": null
+    },
+    {
+      "topic_en": "GIA TỘC",
+      "topic_vi": "GIA TỘC",
+      "source": "Trong dịp lễ như Chol Chnam Thmay, con cháu tụ họp đông đủ, kể cả người cùng quê cũng được mời đến như người thân trong gia đình.",
+      "reference": "ក្នុងឱកាស់ចូលឆ្នាំថ្មី កូនចៅទាំងអស់ មកជួបជុំគ្នា សូម្បីតែអ្នកស្រុកដូចគ្នា ក៏បានអញ្ជើញចូលរួមដូចជាសមាជិកក្នុងគ្រួសារដែរ។",
+      "hyp_plain": "ក្នុងឱកាសបុណ្យដូចជា​ចូលឆ្នាំថ្មី (Chol Chnam Thmay) កូនចៅប្រមូលផ្តុំគ្នាជាច្រើន រួមទាំងអ្នកស្រុកដូចគ្នាក៏ត្រូវបានអញ្ជើញមកដូចជាសមាជិកក្នុងគ្រួសារ។",
+      "chrf": 45.46,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Mystical beliefs",
+      "topic_vi": "Những điều huyền bí",
+      "source": "Người Khmer: Khi ấy, Kru Khmer hoặc thầy cúng sẽ làm lễ gọi hồn, dâng đồ cúng, kết hợp thảo dược để xua đuổi Arak.",
+      "reference": "ជនជាតិខ្មែរ: នៅពេលនោះ គ្រូខ្មែរ ឬគ្រូទាយ នឹងធ្វើពិធីហៅព្រលឹង, ថ្វាយគ្រឿងបូជា, រួមផ្សំជាមួយឱសថបុរាណ ដើម្បីបណ្តេញអារក្សចេញ។",
+      "hyp_plain": "ខ្មែរ: នៅពេលនោះ Kru Khmer ឬគ្រូបួងសួងនឹងធ្វើពិធីហៅព្រលឹង ដាក់ដូងបួងសួង និងប្រើស្មៅថ្នាំដើម្បីបណ្តេញអារ៉ាក់។",
+      "chrf": 36.34,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "When death occurs",
+      "topic_vi": "Khi có người mất",
+      "source": "Chào chị, chị có thể chia sẻ cho em được biết, khi trong gia đình người Khmer có người qua đời, bước đầu tiên thường là gì ạ?",
+      "reference": "សួស្តីបងស្រី តើបងអាចចែករំលែកជាមួយខ្ញុំបានទេ ថាបើនៅពេលដែលមាននរណាម្នាក់ក្នុងគ្រួសារខ្មែរទទួលមរណភាព ធម្មតាជំហានដំបូងគេធ្វើអ្វី?",
+      "hyp_plain": "ជំរាបសួរបងស្រី, តើបងស្រីអាចចែករំលែកឱ្យខ្ញុំដឹងបានទេថា នៅពេលដែលមានសមាជិកក្នុងគ្រួសារខ្មែរម្នាក់ស្លាប់ ការដំណើរការដំបូងជាអ្វីដែរ?",
+      "chrf": 38.42,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Evening activities",
+      "topic_vi": "Hoạt động buổi tối",
+      "source": "Người phỏng vấn: Ngoài bữa cơm tối, có truyền thống nào gắn liền với đời sống tinh thần của các thế hệ trong gia đình không?",
+      "reference": "អ្នកសម្ភាសន៍៖ ក្រៅពីអាហារពេលល្ងាច តើមានប្រពៃណីអ្វីដែលភ្ជាប់ជាមួយនឹងជីវិតខាងវិញ្ញាណនៃជំនាន់នានាក្នុងគ្រួសារទេ?",
+      "hyp_plain": "អ្នកសម្ភាសៈ ក្រៅពីអាហារពេលល្ងាច តើមានប្រពៃណីណាដែលទាក់ទងនឹងជីវិតផ្លូវចិត្តរបស់ជំនាន់ផ្សេងៗក្នុងគ្រួសារឬទេ?",
+      "chrf": 48.53,
+      "cuea": 1.0
+    }
+  ],
+  "fail_samples": [
+    {
+      "topic_en": "Eating (Q&A)",
+      "topic_vi": "Ăn uống",
+      "source": "Tôi còn nhớ năm 2020, Tôi tham gia đoàn đi dự lễ Khánh thành chánh điện một ngôi chùa Phật giáo Nam tông Khmer tại Tri Tôn, An Giang. Xe Tôi 7 chỗ, khi dừng lại 1 điểm gần chợ Tịnh Biên, vừa bướt xuống xe trước mắt tôi là giang hàng bán rất nhiều sản phẩm Khmer, nhưng ai cũng ghé mua num tnot bởi có mùi thơm và vị ngọt của thốt Lốt, mọi người vừa ăn, vừa khen không ngớt đến khi lên xe còn mua mang về để biếu.",
+      "reference": "ខ្ញុំនៅតែចងចាំឆ្នាំ ២០២០ ខ្ញុំបានចូលរួមជាមួយក្រុមទៅចូលរួមពិធីសម្ពោធព្រះវិហារវត្ត ថេរវាទខ្មែរនៅទ្រីតុង ខេត្តអានយ៉ាង។ ឡាន៧កៅអីរបស់ខ្ញុំបានឈប់នៅកន្លែងក្បែរផ្សារទីញបៀន។ ពេលខ្ញុំចុះពីឡានភ្លាម មានតូបលក់ផលិតផលខ្មែរជាច្រើន ប៉ុន្តែគ្រប់គ្នាទិញតែនំត្នោត ដោយសារតែនំក្លិនឈ្ងុយ និងផ្អែមរស់ជាតនៃផ្លែត្នោត។ គ្រប់គ្នាបានញ៉ាំហើយសរសើរមិនដាច់ពីមាត់ រហូតដល់ពួកគេឡើងឡានមកវិញ ហើយទិញខ្លះយកទៅផ្ទះជូនអ្នកដទៃ។",
+      "hyp_plain": "ខ្ញុំនៅតែចងចាំឆ្នាំ 2020 ខ្ញុំបានចូលរួមក្រុមទៅចូលរួមពិធីសម្ពោធសាលាធម្មសាលានៃវត្តពុទ្ធសាសនាខ្មែរនៅស្រុកទ្រីតន ខេត្តអនជាង។ រថយន្តខ្ញុំមាន 7 កៅអី នៅពេលដែលបានឈប់នៅចំណុចមួយជិតផ្សារតិញបៀន ខ្ញុំទើបចុះពីរថយន្ត មុខខ្ញុំមានតូបលក់ផលិតផលខ្មែរច្រើនណាស់ ប៉ុន្តែអ្នកទាំងអស់គ្នាបានចូលទៅទិញនំត្នោត ព្រោះមានក្លិនឈ្ងុយនិងរសជាតិស្ករត្នោតផ្អែម។ មនុស្សទាំងអស់បានញ៉ាំហើយសរសើរមិនឈប់ រហូតដល់ឡើងរថយន្តវិញ ក៏បានទិញយកទៅផ្តល់ជាអំណោយ។",
+      "dropped_categories": [
+        "toponym_krom"
+      ],
+      "chrf": 37.72,
+      "cuea": 0.5
+    },
+    {
+      "topic_en": "Wedding customs",
+      "topic_vi": "Phong tục khi kết hôn",
+      "source": "- Khi về nhà chồng, ngoài việc đôi tân hôn được rải nước thơm và lời chúc phúc cô dâu sẽ thực hiện một số nghi thức truyền thống, bao gồm: lễ rửa chân cho con dâu, lễ buộc chỉ tay, lễ nhập phòng. Và các nghi lễ như: cắt và rắc hoa cau, lễ cúng ông bà.",
+      "reference": "ពេលទៅដល់ផ្ទះប្ដី គូស្វាមីភរិយាថ្មីក្រៅពីបានស្រោចទឹកអប់និងសុំដៃជូនពរ កូនប្រសាស្រីនឹងធ្វើពិធីប្រពៃណីមួយចំនួន រួមមានៈ ពិធីលាងជើងកូនប្រសា ពិធីចងដៃ និងពិធីចូលរោង។ និងពិធីផ្សេងៗដូចជា ពិធីកាត់បាចផ្កាស្លា និងពិធីសែនដូនតា។",
+      "hyp_plain": "- នៅពេលដែលត្រឡប់ទៅផ្ទះប្ដី បន្ថែមពីការដែលគូស្វាម៉ីភរិយាថ្មីត្រូវបានបាញ់ទឹកក្រអូប និងទទួលពរជ័យសិរីមង្គល កូនក្រមុំនឹងអនុវត្តពិធីសាសនាបុរាណមួយចំនួន រួមមាន៖ ពិធីលាងជើងឲ្យកូនស្រីក្រមុំ, ពិធីចងខ្សែដៃ, ពិធីចូលបន្ទប់។ និងពិធីសាសនាដូចជា៖ កាត់និងបោះផ្កាព្រៅ, ពិធីបូជាឪពុកម្តាយ។",
+      "dropped_categories": [
+        "festival_krom"
+      ],
+      "chrf": 31.06,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Household & transport",
+      "topic_vi": "Nhà cửa, gia đình và giao thông",
+      "source": "Nó vừa là phương tiện buôn bán, vận chuyển nông sản, vừa là hình ảnh gắn liền với lễ hội đua ghe ngo truyền thống.",
+      "reference": "វាជាមធ្យោបាយធ្វើជំនួញ ដឹកជញ្ជូនកសិផល ផងដែរជារូបភាពដែលជាប់ទាក់ទងនឹងពិធីបុណ្យប្រណាំងទូកងប្រពៃណី។",
+      "hyp_plain": "វា​គឺ​ជា​ទាំង​មធ្យោបាយ​ពាណិជ្ជកម្ម និង​ដឹកជញ្ជូន​ផលិតផល​កសិកម្ម ហើយ​ជា​រូបភាព​ដែល​ទាក់ទង​នឹង​ពិធីបុណ្យ​ប្រណាំង​ទូក​ងូរ​ប្រពៃណី។",
+      "dropped_categories": [
+        "boat_racing"
+      ],
+      "chrf": 33.53,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Self-care",
+      "topic_vi": "Cách tự chăm sóc",
+      "source": "Chúng tôi thường thờ cúng Neak Ta, tin rằng vị thần bảo hộ làng sẽ mang lại sức khỏe, may mắn và sự bình an cho mọi người.",
+      "reference": "ពួកយើងតែងតែបន់ស្រន់ អ្នកតា ជឿថាទេវតាដែលការពារភូមិស្រុកនឹងនាំមកនូវសុខភាពសំណាងល្អនិងសេចក្តីសុខសាន្តដល់មនុស្សគ្រប់គ្នា។",
+      "hyp_plain": "យើងតែងតែបូជា Neak Ta ដោយជឿថាព្រះដែលការពារភូមិនឹងនាំមកនូវសុខភាព សំណាង និងសន្តិភាពដល់មនុស្សគ្រប់គ្នា។",
+      "dropped_categories": [
+        "krom_religious"
+      ],
+      "chrf": 40.57,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Society & neighbours",
+      "topic_vi": "Mối quan hệ với xã hội/hàng xóm",
+      "source": "Có chứ chị. Dịp lễ Sen Dolta hay Ok Om Bok, cả xóm tụ tập nấu ăn, múa hát, thăm hỏi và thắp hương ông bà tổ tiên.",
+      "reference": "មានតើបងស្រី។ ក្នុងឱកាសសែនដូនតា ឬអកអំបុក អ្នកទាំងក្នុងភូមិមូលប្រមូលផ្តុំគ្នាធ្វើម្ហូបស៊ី រាំ ច្រៀង សួរសុខទុក្ខ និងអុជធូបដូនតា។",
+      "hyp_plain": "មានចាសបង។ ក្នុងឱកាសបុណ្យសែនដុលតា ឬអុកអុំបុក សហគមន៍ទាំងមូលប្រមូលផ្តុំគ្នាធ្វើម្ហូប, រាំច្រៀង, សួរសុខទុក្ខ និងបួងសួងដល់បុព្វបុរស។",
+      "dropped_categories": [
+        "food_krom",
+        "festival_krom"
+      ],
+      "chrf": 40.55,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Art at events",
+      "topic_vi": "Biểu diễn nghệ thuật tại một số sự kiện nhất định",
+      "source": "Người phỏng vấn: Vậy hình thức sân khấu có được tổ chức trong dịp lễ Sen Dolta không?",
+      "reference": "អ្នកសម្ភាសន៍: អញ្ចឹង តើទម្រង់ល្ខោនត្រូវបានរៀបចំក្នុងឱកាសបុណ្យសែនដូនតាដែរឬទេ?",
+      "hyp_plain": "អ្នកសម្ភាសៈ តើរបៀបសម្តែងលើឆាកត្រូវបានរៀបចំក្នុងឱកាសបុណ្យសែនដុលតាឬទេ?",
+      "dropped_categories": [
+        "festival_krom"
+      ],
+      "chrf": 45.22,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Game types",
+      "topic_vi": "Các loại trò chơi",
+      "source": "Chủ yếu vào các lễ hội lớn như Chol Chnam Thmay hay Ok Om Bok, khi mọi người rảnh rỗi và cùng vui chơi tập thể.",
+      "reference": "ភាគច្រើនគឺក្នុងពិធីបុណ្យធំៗ ដូចជា ពិធីបុណ្យចូលឆ្នាំថ្មី ឬ ពិធីបុណ្យអកអំបុក នៅពេលដែលមនុស្សគ្រប់គ្នារួចរាល់ ហើយរីករាយលេងជាមួយគ្នាយ៉ាងសមូហភាព។",
+      "hyp_plain": "ជាធម្មតានៅពេលពិធីបុណ្យធំៗដូចជា ចូលឆ្នាំថ្មីឬអុកអុំបុក ដែលជាពេលដែលមនុស្សទាំងអស់មានពេលទំនេរនិងរីករាយជាក្រុម។",
+      "dropped_categories": [
+        "food_krom",
+        "festival_krom"
+      ],
+      "chrf": 28.73,
+      "cuea": 0.333
+    },
+    {
+      "topic_en": "Folk songs",
+      "topic_vi": "Dân ca",
+      "source": "Anh có thể chia sẻ vai trò của dân ca trong đời sống tinh thần và văn hóa cộng đồng Khmer Nam Bộ không?",
+      "reference": "បងអាចចែករំលែកតួនាទីរបស់ចម្រៀងប្រជាប្រិយក្នុងជីវិតស្មារតី និងវប្បធម៌សហគមន៍ខ្មែរណាមបូបានទេ?",
+      "hyp_plain": "តើបងអាចចែករំលែកពីតួនាទីរបស់បទចម្រៀងប្រជាប្រិយក្នុងជីវិតផ្លូវចិត្តនិងវប្បធម៌សហគមន៍ខ្មែរនៅតំបន់ខាងត្បូងបានទេ?",
+      "dropped_categories": [
+        "krom_ethno_label",
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 58.9,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Wedding venue",
+      "topic_vi": "Vị trí tổ chức đám cưới",
+      "source": "- Ngoài ra, một số nghi thức quan trọng như cúng tổ tiên hoặc lễ buộc chỉ đỏ vào cổ tay được làm trong gian thờ hoặc phòng chính của nhà.",
+      "reference": "លើសពីនេះ ពិធីសំខាន់ៗមួយចំនួនដូចជា ការសែនដូនតា ឬពិធីចងខ្សែអំបោះពណ៌ក្រហមកដៃ ត្រូវបានអនុវត្តនៅក្នុងអាសនៈទីសក្ការបូជា ឬបន្ទប់សំខាន់នៃផ្ទះ។",
+      "hyp_plain": "ខ្មែរ: - លើសពីនេះទៅទៀត ពិធីសំខាន់ៗមួយចំនួនដូចជាការបូជា祖先 ឬពិធីចងខ្សែពណ៌ក្រហមនៅកដៃ ត្រូវបានធ្វើឡើងនៅក្នុងបន្ទប់បូជា ឬបន្ទប់មេនៃផ្ទះ។",
+      "dropped_categories": [
+        "festival_krom"
+      ],
+      "chrf": 44.13,
+      "cuea": null
+    },
+    {
+      "topic_en": "Wedding cuisine",
+      "topic_vi": "Ẩm thực đám cưới",
+      "source": "- Một trong những món không thể thiếu là bún nước lèo, được nấu từ cá lóc, sả, nghệ và mắm bò hóc đặc trưng.",
+      "reference": "មុខម្ហូបមួយមុខដែលមិនអាចខ្វះបានគឺ នំបញ្ចុកទឹកសម្លរ បានចម្អិនពីត្រីរ៉ស់ ស្លឹកគ្រៃ រមៀត និងមាំប្រហុក។",
+      "hyp_plain": "- មួយក្នុងចំណោមម្ហូបដែលមិនអាចខ្វះបានគឺគុយទាវទឹកល្អក់ ដែលចម្អិនពីត្រីស្រឡៅ ស្លឹកគ្រៃ រមៀត និងប្រហុកដ៏លក្ខណៈពិសេស។",
+      "dropped_categories": [
+        "food_krom"
+      ],
+      "chrf": 46.14,
+      "cuea": 0.333
+    },
+    {
+      "topic_en": "Mystical beliefs",
+      "topic_vi": "Những điều huyền bí",
+      "source": "Người Khmer: Neak Tà là vị thần cai quản đất đai, làng xóm, người dân tin rằng phải cúng bái để được che chở, mùa màng thuận lợi.",
+      "reference": "ជនជាតិខ្មែរ: អ្នកតា គឺ​ជា​ទេវតា​ដែល​គ្រប់គ្រង​ដីធ្លី និង​ភូមិ​ស្រុក, ប្រជាជន​ជឿថា​ត្រូវ​តែ​បន់ស្រន់​បូជា​ដើម្បី​បាន​ការ​ថែរក្សា និង​ការ​បង្កបង្កើន​ផល​បាន​ល្អ។",
+      "hyp_plain": "អ្នកខ្មែរ៖ នាគតា គឺជាទេវតាដែលគ្រប់គ្រងដីធ្លី ភូមិឃុំ ប្រជាជនជឿថាត្រូវធ្វើពិធីបូជា ដើម្បីទទួលបានការពារនិងសំណាងល្អក្នុងការដាំដុះ។",
+      "dropped_categories": [
+        "krom_religious"
+      ],
+      "chrf": 22.68,
+      "cuea": null
+    },
+    {
+      "topic_en": "When death occurs",
+      "topic_vi": "Khi có người mất",
+      "source": "Thay vào đó, người thân tập trung đọc kinh, làm lễ bái Tam bảo, dưới sự hướng dẫn của Achar lễ và Achar duki để người khuất được nhẹ nhàng ra đi một cách thanh thản.",
+      "reference": "ផ្ទុយទៅវិញ ញាតិសន្ដាន ផ្ដំគ្នាសូត្រធម៌ នមស្ការព្រះរតនត្រ័យ ក្រោមការដឹកនាំរបស់លោកអាចារ្យនិង លោកអាចារ្យយុគីដើម្បីឱ្យអ្នកស្លាប់បានលាចាកលោកដោយស្ងប់ស្ងាត់។",
+      "hyp_plain": "ជំនួសវិញ គ្រួសារប្រមូលផ្តុំអានសូត្រ ធ្វើពិធីបួងសួងត្រាំបាវ ក្រោមការណែនាំរបស់អាចារ្យលិ និងអាចារ្យដូគី ដើម្បីឱ្យអ្នកស្លាប់បានចាកចេញដោយស្ងប់ស្ងាត់។",
+      "dropped_categories": [
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 34.8,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Evening activities",
+      "topic_vi": "Hoạt động buổi tối",
+      "source": "Đúng vậy, lễ cúng trăng trong dịp Ok Om Bok diễn ra ban đêm, mọi người dâng cốm dẹp, trái cây để tạ ơn thần mặt trăng.",
+      "reference": "ត្រឹមត្រូវហើយ ពិធីបុណ្យសំពះព្រះខែ ក្នុងឱកាសបុណ្យអកអំបុក ប្រព្រឹត្តទៅនៅពេលយប់ មនុស្សគ្រប់គ្នាថ្វាយអំបុក ផ្លែឈើ ដើម្បីតបស្នងគុណព្រះច័ន្ទ។",
+      "hyp_plain": "មែនហើយ ពិធីបួងសួងព្រះច័ន្ទក្នុងឱកអុំបុកធ្វើឡើងនៅពេលយប់ មនុស្សទាំងអស់នាំគ្នាដាក់អំពៅស្ងោរ និងផ្លែឈើដើម្បីថ្លែងអំណរគុណចំពោះព្រះច័ន្ទ។",
+      "dropped_categories": [
+        "food_krom",
+        "festival_krom"
+      ],
+      "chrf": 30.41,
+      "cuea": 0.25
+    },
+    {
+      "topic_en": "Pre-holiday customs",
+      "topic_vi": "Những phong tục trước ngày lễ tôn giáo",
+      "source": "Chúng tôi thường cùng nhau gói bánh truyền thống như bánh tét, bánh ít, vừa để dâng chùa vừa để chia cho họ hàng.",
+      "reference": "យើងខ្ញុំតែង វេចនំប្រពៃណី ដូចជានំអន្សមជ្រូក នំគម សម្រាប់យកទៅប្រគេនវត្តផង និងចែកជូនសាច់ញាតិផង។",
+      "hyp_plain": "យើងតែងតែរួមគ្នាដើម្បីច្របាច់នំប្រពៃណីដូចជានំតេត និងនំអិត ទាំងសម្រាប់បួងសួងនៅវត្តទាំងសម្រាប់ចែកជូនសាច់ញាតិ។",
+      "dropped_categories": [
+        "food_krom"
+      ],
+      "chrf": 33.44,
+      "cuea": 0.5
+    },
+    {
+      "topic_en": "Immediate family relationships",
+      "topic_vi": "Mối quan hệ trong gia đình chính",
+      "source": "Người Khmer: Nếu đối với người Khmer Nam bộ thì có sự khác biệt, và do họ sống cùng với người Kinh nên cách gọi sẽ như thế này, đối với ông bên cha thì sẽ gọi là “Ta Nội”, bà bên cha gọi là “Yey Nội”, còn ông bà bên mẹ cũng vậy cũng sẽ gọi như thế, ông ngoại sẽ là “Ta Ngoại”, bà ngoại sẽ là “Yey Ngoại”. Nhưng thực chất thì giữa ông bà nội ngoại không có gì khác biệt đều gọi chung là “Ta” hoặc “Yey”",
+      "reference": "ជនជាតិខ្មែរ៖ ចំពោះជនជាតិខ្មែណាមបូមានលក្ខណៈខុសប្លែកគ្នា ដោយសារពួកគាត់រស់នៅលាយឡំជាមួយជនជាតិគិញ ដូច្នេះរបៀបហៅក៏មានភាពខុសគ្នាដែរ។ ចំពោះជីតាខាងឪពុក គឺហៅថា “តា Nội” ជីដូនខាងឪពុកហៅថា “យាយ Nội” រីឯជីតាខាងម្ដាយ និងជីដូនខាងម្ដាយក៏ហៅដូចគ្នាដែរ គឺជីតាខាងម្ដាយហៅថា “តា Ngoại” ជីដូនខាងម្ដាយហៅថា “យាយ Ngoại”។ ប៉ុន្តែតាមពិត រវាងជីតាខាងឪពុក និងជីតាខាងម្ដាយមិនមានអ្វីខុសប្លែកគ្នាទេ គឺហៅជារួមថា “តា” ឬ “យាយ”។",
+      "hyp_plain": "ជនជាតិខ្មែរ: ប្រសិនបើសម្រាប់ជនជាតិខ្មែរនៅតំបន់ខាងត្បូងវិញ វាមានភាពខុសគ្នា ហើយដោយសារតែពួកគេរស់នៅជាមួយជនជាតិវៀតណាម ដូច្នេះការហៅនឹងមានលក្ខណៈដូចខាងក្រោម៖ សម្រាប់តា​ខាងឪពុក នឹងហៅថា \"តាណៃ\" យាយខាងឪពុក នឹងហៅថា \"យាយណៃ\" ចំណែកតា និងយាយខាងម្ដាយក៏ដូចគ្នា ដោយតាខាងម្ដាយ នឹងហៅថា \"តាណៃ\" និងយាយខាងម្ដាយ នឹងហៅថា \"យាយណៃ\"។ ប៉ុន្តែនៅក្នុងការពិត វាមិនមានភាពខុសគ្នារវាងតា និងយាយខាងឪពុក ឬម្ដាយទេ ពួកគេតែងតែហៅសរុបថា \"តា\" ឬ \"យាយ\"។",
+      "dropped_categories": [
+        "ethnonym_kinh",
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 30.61,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Parent–adult-child interactions",
+      "topic_vi": "Tương tác giữa cha mẹ và con cái khi trưởng thành",
+      "source": "Dạ, dù con cái đã lớn và lập gia đình, người Khmer vẫn giữ truyền thống yêu thương, tôn trọng và gắn bó chặt chẽ với cha mẹ.",
+      "reference": "ចាស ទោះបីកូនធំពេញវ័យ និងមានគ្រួសារក៏ដោយ ក៏ខ្មែរនៅតែរក្សាទំនៀមទំលាប់នៃការស្រលាញ់ គោរព និងរាប់អានយ៉ាងជិតស្និទ្ធជាមួយឪពុកម្តាយ។",
+      "hyp_plain": "បាទ/ចាស, ទោះបីជាកូនៗបានធំធាត់ និងបង្កើតគ្រួសាររួចទៅហើយក៏ដោយ ក៏ប្រជាជនខ្មែរនៅតែរក្សាប្រពៃណីស្រឡាញ់ គោរព និងទាក់ទាញជិតស្និទ្ធជាមួយឪពុកម្តាយ។",
+      "dropped_categories": [
+        "toponym_krom"
+      ],
+      "chrf": 40.92,
+      "cuea": 1.0
+    },
+    {
+      "topic_en": "Lifestyle",
+      "topic_vi": "Lối sống",
+      "source": "Anh có thể chia sẻ một vài nét khái quát về lối sống của cộng đồng Khmer ở Nam Bộ hiện nay không?",
+      "reference": "បងអាចចែករំលែកទិដ្ឋភាពទូទៅខ្លះ អំពីរបៀបរស់នៅរបស់សហគមន៍ខ្មែរណាមបូបច្ចុប្បន្នបានទេ?",
+      "hyp_plain": "តើបងអាចចែករំលែកពីលក្ខណៈសង្ខេបមួយចំនួនអំពីរបៀបរស់នៅរបស់សហគមន៍ខ្មែរនៅតំបន់នាគប្បូរបច្ចុប្បន្នបានទេ?",
+      "dropped_categories": [
+        "krom_ethno_label",
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 53.76,
+      "cuea": null
+    },
+    {
+      "topic_en": "Harvesting",
+      "topic_vi": "Thu hoạch",
+      "source": "Người Khmer: Chính xác, cốm dẹp tượng trưng cho thành quả lao động, vừa ngon miệng vừa nhắc nhở thế hệ trẻ trân trọng hạt gạo quê hương.",
+      "reference": "ជនជាតិខ្មែរ៖ ពិតប្រាកដណាស់ អំបុកគឺជានិមិត្តរូបនៃសមិទ្ធផលពលកម្ម ទាំងឆ្ងាញ់ពិសារ ទាំងរំលឹកដល់យុវជនឱ្យចេះឱ្យតម្លៃគ្រាប់អង្ករនៃមាតុភូមិ។",
+      "hyp_plain": "ជនជាតិខ្មែរ៖ ត្រឹមត្រូវ កុមដេបតំណាងឱ្យលទ្ធផលនៃការប្រឹងប្រែងការងារ ដែលទាំងឆ្ងាញ់ទាំងរំលឹកដល់ជំនាន់ក្មេងឱ្យគោរពស្រូវអង្កររបស់ស្រុកកំណើត។",
+      "dropped_categories": [
+        "food_krom"
+      ],
+      "chrf": 28.8,
+      "cuea": 0.5
+    },
+    {
+      "topic_en": "Traditional ceremonies",
+      "topic_vi": "Nghi lễ truyền thống",
+      "source": "Người phỏng vấn: Còn lễ hội Ok Om Bok dâng cúng trăng, thường gắn với hoạt động đua ghe ngo, thì được cộng đồng Khmer tổ chức ra sao?",
+      "reference": "អ្នកសម្ភាសន៍៖ ពិធីបុណ្យអកអំបុក ថ្វាយព្រះខែ ដែលតែងតែជាប់ទាក់ទងនឹងប្រណាំងទូកង តើសហគមន៍ខ្មែរប្រារព្ធធ្វើដូចម្តេច?",
+      "hyp_plain": "អ្នកសម្ភាសៈ ចំពោះពិធីបុណ្យ Ok Om Bok ដែលបូជា​ព្រះច័ន្ទ និងភ្ជាប់ជាមួយសកម្មភាពប្រណាំងទូកងូ តើសហគមន៍ខ្មែររៀបចំយ៉ាងដូចម្តេច?",
+      "dropped_categories": [
+        "food_krom",
+        "festival_krom"
+      ],
+      "chrf": 35.16,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Holiday preparation customs",
+      "topic_vi": "Những phong tục chuẩn bị cho ngày lễ tôn giáo",
+      "source": "Lễ vật thường có gạo, trái cây, bánh truyền thống như bánh tét, bánh ít, cùng hoa và nhang, thể hiện lòng biết ơn thành kính.",
+      "reference": "ចង្ហាន់បច្ច័យជាទូទៅមានអង្ករ ផ្លែឈើ នំប្រពៃណីដូចជានំអន្សម នំគម ព្រមទាំងផ្កា និងធូប ដើម្បីបង្ហាញនូវសេចក្តីគោរពដឹងគុណ។",
+      "hyp_plain": "សក្ការៈធម្មតាមានអង្ករ ផ្លែឈើ នំប្រពៃណីដូចជានំតេត នំអិត រួមទាំងផ្កា និងធូប ដើម្បីបង្ហាញការដឹងគុណដោយក្តីគោរព។",
+      "dropped_categories": [
+        "food_krom"
+      ],
+      "chrf": 49.1,
+      "cuea": 0.571
+    },
+    {
+      "topic_en": "Leisure activities",
+      "topic_vi": "Hoạt động giải trí",
+      "source": "Đua ghe Ngo diễn ra vào dịp Ok Om Bok, ghe dài hàng chục mét, hàng chục tay chèo phối hợp nhịp nhàng đầy khí thế.",
+      "reference": "ការប្រណាំងទូកងធ្វើឡើងក្នុងឱកាសអកអំបុក ។ ទូកងមានប្រវែងរាប់សិបម៉ែត្រ ជាមួយអ្នកចែវរាប់សិបនាក់ដែលសម្របសម្រួលគ្នាយ៉ាងចុះសម្រុងពោរពេញដោយថាមពល។",
+      "hyp_plain": "ការប្រណាំងទូកងូរ​ត្រូវបានរៀបចំឡើងក្នុងឱកាសអុកអុំបុក។ ទូកមានប្រវែងជាងដប់ម៉ែត្រ ហើយមានអ្នកចែវជាច្រើននាក់សហការគ្នាដោយស្មោះស្ម័គ្រដើម្បីបង្ហាញស្មារតីដ៏រឹងមាំ។",
+      "dropped_categories": [
+        "food_krom",
+        "festival_krom"
+      ],
+      "chrf": 31.18,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Livestock & aquaculture care",
+      "topic_vi": "Truyền thống chăm sóc vật nuôi/thủy sản",
+      "source": "Anh có thể chia sẻ về những truyền thống chăm sóc vật nuôi và thủy sản của đồng bào Khmer ở Nam Bộ không?",
+      "reference": "តើបងអាចចែករំលែកអំពីប្រពៃណីនៃការថែទាំសត្វពាហនៈ និងផលត្រីទឹកសាបរបស់បងប្អូនខ្មែរណាមបូ បានទេ?",
+      "hyp_plain": "តើអ្នកអាចចែករំលែកអំពីប្រពៃណីក្នុងការថែទាំសត្វចិញ្ចឹម និងសត្វទឹករបស់បងប្អូនខ្មែរនៅតំបន់នាគរបត់បានទេ?",
+      "dropped_categories": [
+        "krom_ethno_label",
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 46.87,
+      "cuea": 0.0
+    },
+    {
+      "topic_en": "Groom wedding attire",
+      "topic_vi": "Trang phục cưới hỏi nam",
+      "source": "- Chúng tôi thường mặc sampot chang kben, là loại váy quấn truyền thống, kết hợp với áo dài tay được thêu hoa văn tinh xảo.",
+      "reference": "យើងខ្ញុំតែងតែស្លៀកសំពត់ចងក្បិន ជាស្លៀកពាក់សំពត់ខ្លីបែបប្រពៃណី រួមនឹងអាវដៃវែងដែលមានប៉ាក់យ៉ាងប្រណិត។",
+      "hyp_plain": "- ពួកយើងជាញឹកញាប់ស្លៀកសំពត់ចងក្បិន ដែលជាប្រភេទសំពត់បុរាណ រួមផ្សំជាមួយអាវដៃវែងដែលមានការច្នៃប្រឌិតលំអដោយលំនាំផ្កាដ៏ល្អឯក។",
+      "dropped_categories": [
+        "kinship_colloq"
+      ],
+      "chrf": 29.01,
+      "cuea": 0.333
+    },
+    {
+      "topic_en": "Musical instruments",
+      "topic_vi": "Nhạc cụ",
+      "source": "Anh có thể chia sẻ về vai trò của nhạc cụ trong đời sống văn hóa và tinh thần của người Khmer Nam Bộ không?",
+      "reference": "តើបងអាចរៀបរាប់អំពីតួនាទីរបស់ឧបករណ៍តន្ត្រីនៅក្នុងជីវភាពវប្បធម៌ និងស្មារតីរបស់ជនជាតិខ្មែរណាមបូ បានទេ?",
+      "hyp_plain": "តើអ្នកអាចចែករំលែកអំពីតួនាទីនៃឧបករណ៍ភ្លេងក្នុងជីវិតវប្បធម៌ និងស្មារតីរបស់ប្រជាជនខ្មែរនៅតំបន់ខាងត្បូងបានទេ?",
+      "dropped_categories": [
+        "krom_ethno_label",
+        "nam_bo_vn_translit"
+      ],
+      "chrf": 40.26,
+      "cuea": null
+    },
+    {
+      "topic_en": "Bride wedding attire",
+      "topic_vi": "Trang phục cưới hỏi nữ",
+      "source": "- Mỗi bộ trang phục đều có màu sắc và phụ kiện riêng, phù hợp với không khí từng phần như lễ rước dâu, buộc chỉ cổ tay, cúng tổ tiên.",
+      "reference": "ឈុតសំលៀកបំពាក់នីមួយៗមានពណ៌ និងគ្រឿងប្រើប្រាស់រៀងៗខ្លួន សាកសម សម្រាប់បរិយាកាសនីមួយៗ ដូចជា ពិធីដង្ហែអាពាហ៍ពិពាហ៍ ចងខ្សែ អំបោះពណ៌ក្រហមកដៃ និងការថ្វាយសែនដូនតាជាដើម។",
+      "hyp_plain": "- រាល់សំលៀកបំពាក់នីមួយៗសុទ្ធតែមានពណ៌ស និងគ្រឿងបន្លាស់ផ្ទាល់ខ្លួន ដែលសមស្របនឹងបរិយាកាសនៃពិធីនីមួយៗ ដូចជាពិធីទទួលកូនស្រី, ចងខ្សែដៃ, និងបូជាបុព្វបុរស។",
+      "dropped_categories": [
+        "festival_krom"
+      ],
+      "chrf": 30.57,
+      "cuea": 0.0
+    }
+  ],
+  "pool_sizes": {
+    "clean_pool": 765,
+    "fail_pool": 139
+  }
+}
