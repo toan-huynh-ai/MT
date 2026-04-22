@@ -1,0 +1,1001 @@
+conference,paper_id,decision_raw,decision,avg_rating,avg_confidence,num_reviewers
+iclr2024,0V5TVt9bk0,Accept (spotlight),Accept,7.333333333333333,4.666666666666667,3
+iclr2024,1PXEY7ofFX,Accept (spotlight),Accept,7.2,3.4,5
+iclr2024,1VcKvdYbUM,Reject,Reject,4.25,4.25,4
+iclr2024,1XReHUSUp9,Reject,Reject,5.5,4.5,4
+iclr2024,1tDoI2WBGE,Reject,Reject,2.0,3.5,4
+iclr2024,2dnO3LLiJ1,Accept (oral),Accept,8.0,3.75,4
+iclr2024,3EWTEy9MTM,Accept (poster),Accept,6.333333333333333,3.5,6
+iclr2024,3K3aWRpRNq,Reject,Reject,3.75,3.5,4
+iclr2024,3NnfJnbJT2,Accept (spotlight),Accept,7.0,3.25,4
+iclr2024,3eFMnZ3N4J,Accept (poster),Accept,7.25,4.25,4
+iclr2024,3f5PALef5B,Accept (oral),Accept,7.5,3.5,4
+iclr2024,3mnWvUZIXt,Accept (spotlight),Accept,7.25,3.25,4
+iclr2024,4Ay23yeuz0,Accept (oral),Accept,6.75,3.5,4
+iclr2024,4FUa5dxiiA,Reject,Reject,5.0,3.3333333333333335,3
+iclr2024,4nyTlyTtfX,Reject,Reject,4.25,2.25,4
+iclr2024,5451cIQdWp,Reject,Reject,4.75,3.5,4
+iclr2024,5Ca9sSzuDp,Accept (oral),Accept,8.0,3.5,4
+iclr2024,5Lp6qU9hzV,Accept (spotlight),Accept,6.5,3.75,4
+iclr2024,5sixirvG0I,Accept (poster),Accept,5.333333333333333,3.3333333333333335,3
+iclr2024,60e1hl06Ec,Reject,Reject,5.75,4.0,4
+iclr2024,6MRm3G4NiU,Accept (spotlight),Accept,7.333333333333333,4.333333333333333,3
+iclr2024,6cFcw1Rxww,Accept (spotlight),Accept,6.666666666666667,3.0,3
+iclr2024,6pPYRXKPpw,Accept (poster),Accept,7.333333333333333,4.333333333333333,3
+iclr2024,7VPTUWkiDQ,Accept (oral),Accept,7.333333333333333,3.3333333333333335,3
+iclr2024,7WsivwyHrS,Accept (poster),Accept,6.666666666666667,3.6666666666666665,3
+iclr2024,7b2itdrxMa,Reject,Reject,4.0,3.6,5
+iclr2024,7oYpj8BOLW,Reject,Reject,6.0,3.5,4
+iclr2024,84n3UwkH7b,Accept (oral),Accept,8.0,3.25,4
+iclr2024,8utTlmhw8v,Accept (poster),Accept,6.0,3.25,4
+iclr2024,8vKknbgXxf,Accept (spotlight),Accept,7.2,2.4,5
+iclr2024,93LoCyww8o,Accept (poster),Accept,6.25,4.0,4
+iclr2024,9JQtrumvg8,Accept (oral),Accept,7.25,3.75,4
+iclr2024,ARPrtuzAnQ,Accept (spotlight),Accept,7.333333333333333,3.6666666666666665,3
+iclr2024,Ad87VjRqUw,Accept (oral),Accept,7.25,4.25,4
+iclr2024,Ax2yRhCQr1,Accept (spotlight),Accept,6.75,3.0,4
+iclr2024,BOfDKxfwt0,Accept (spotlight),Accept,7.5,4.0,4
+iclr2024,BV1PHbTJzd,Accept (oral),Accept,7.0,3.75,4
+iclr2024,Bpkhu2ExxU,Accept (poster),Accept,6.5,3.25,4
+iclr2024,BuFNoKBiMs,Accept (poster),Accept,6.333333333333333,3.3333333333333335,3
+iclr2024,CCo8ElCT7v,Reject,Reject,4.25,4.5,4
+iclr2024,CMzF2aOfqp,Accept (poster),Accept,5.75,4.0,4
+iclr2024,EA8dTp96GY,Reject,Reject,5.0,3.6666666666666665,6
+iclr2024,EaB7Ue1X9p,Reject,Reject,5.25,3.5,4
+iclr2024,FJWT0692hw,Accept (poster),Accept,6.0,2.5,4
+iclr2024,FVhmnvqnsI,Accept (oral),Accept,7.5,4.0,4
+iclr2024,Fk5IzauJ7F,Accept (oral),Accept,8.0,4.0,4
+iclr2024,HSKaGOi7Ar,Accept (oral),Accept,8.5,4.0,4
+iclr2024,HhfcNgQn6p,Accept (oral),Accept,7.75,2.75,4
+iclr2024,IRcv4yFX6z,Accept (spotlight),Accept,8.0,3.75,4
+iclr2024,IWpLQfZ8Xg,Reject,Reject,6.0,3.0,3
+iclr2024,IYxDy2jDFL,Accept (oral),Accept,7.2,3.4,5
+iclr2024,Ifz3IgsEPX,Accept (spotlight),Accept,7.5,3.5,4
+iclr2024,JBLHIR8kBZ,Reject,Reject,4.0,4.0,5
+iclr2024,Js5PJPHDyY,Accept (poster),Accept,6.0,4.333333333333333,3
+iclr2024,KJHUYWviZ6,Reject,Reject,4.5,2.75,4
+iclr2024,KQALhPTAfj,Reject,Reject,3.75,3.25,4
+iclr2024,KS8mIvetg2,Accept (oral),Accept,7.5,3.0,4
+iclr2024,KUNzEQMWU7,Accept (oral),Accept,7.25,3.75,4
+iclr2024,KjOAHlKMF5,Accept (spotlight),Accept,7.0,3.5,4
+iclr2024,L0r0GphlIL,Accept (oral),Accept,7.5,2.75,4
+iclr2024,L8UNn7Llt4,Accept (spotlight),Accept,7.5,3.75,4
+iclr2024,Lvf7GnaLru,Accept (poster),Accept,5.75,3.5,4
+iclr2024,M0xK8nPGvt,Accept (poster),Accept,7.5,3.0,4
+iclr2024,MJJcs3zbmi,Accept (poster),Accept,7.0,4.333333333333333,3
+iclr2024,MOviNImhfq,Reject,Reject,4.75,3.25,4
+iclr2024,N0nTk5BSvO,Accept (poster),Accept,5.75,3.75,4
+iclr2024,NialiwI2V6,Accept (spotlight),Accept,7.5,3.5,4
+iclr2024,OEL4FJMg1b,Accept (spotlight),Accept,6.0,4.2,5
+iclr2024,OF5x1dzWSS,Accept (poster),Accept,6.666666666666667,4.666666666666667,3
+iclr2024,OeQE9zsztS,Accept (spotlight),Accept,8.0,3.0,5
+iclr2024,P15CHILQlg,Accept (oral),Accept,8.0,3.75,4
+iclr2024,PQY2v6VtGe,Accept (spotlight),Accept,6.333333333333333,3.0,3
+iclr2024,PdaPky8MUn,Accept (oral),Accept,8.0,3.75,4
+iclr2024,PfrpYGKGPL,Reject,Reject,5.5,3.75,4
+iclr2024,PhanPLSHRt,Reject,Reject,4.0,3.5,4
+iclr2024,PuKRVPXXpR,Reject,Reject,3.5,3.75,4
+iclr2024,QlFlo5533z,Reject,Reject,3.0,4.0,4
+iclr2024,R9CXfU2mD5,Reject,Reject,5.666666666666667,3.6666666666666665,3
+iclr2024,RaqZX9LSGA,Accept (poster),Accept,5.75,3.25,4
+iclr2024,S77skzM12O,Reject,Reject,5.75,3.75,4
+iclr2024,Sx7BIiPzys,Accept (spotlight),Accept,8.0,4.0,4
+iclr2024,SyuQKk7sX2,Reject,Reject,5.0,3.25,4
+iclr2024,Th6NyL07na,Accept (poster),Accept,7.25,3.75,4
+iclr2024,TpD2aG1h0D,Accept (oral),Accept,8.666666666666666,4.0,3
+iclr2024,TyFrPOKYXw,Accept (spotlight),Accept,7.5,3.75,4
+iclr2024,TzWLecXH6I,Reject,Reject,4.25,3.5,4
+iclr2024,Tzh6xAJSll,Accept (spotlight),Accept,7.6,2.8,5
+iclr2024,U5BZcr0H7r,Reject,Reject,7.0,3.5,4
+iclr2024,U9p10hgOpU,Reject,Reject,4.75,2.5,4
+iclr2024,UyNXMqnN3c,Accept (oral),Accept,8.5,4.0,4
+iclr2024,VPx3Jw2MSk,Reject,Reject,6.0,4.0,3
+iclr2024,VTF8yNQM66,Accept (oral),Accept,6.25,3.25,4
+iclr2024,WNkW0cOwiz,Accept (oral),Accept,7.5,3.5,4
+iclr2024,WOiOzHG2zD,Accept (poster),Accept,6.666666666666667,4.0,3
+iclr2024,WesY0H9ghM,Accept (poster),Accept,6.333333333333333,2.6666666666666665,3
+iclr2024,WhZoCLRWYJ,Accept (poster),Accept,6.8,3.0,5
+iclr2024,XdSYtriYfI,Reject,Reject,5.0,3.5,4
+iclr2024,Y5Xkw9fpty,Reject,Reject,4.0,3.0,3
+iclr2024,ZGNWW7xZ6Q,Accept (poster),Accept,7.5,3.25,4
+iclr2024,Zr96FfaUGR,Reject,Reject,5.5,3.75,4
+iclr2024,Zsfiqpft6K,Accept (oral),Accept,8.0,3.5,4
+iclr2024,ZuoeYIGaSW,Reject,Reject,5.0,2.6666666666666665,3
+iclr2024,aIok3ZD9to,Accept (oral),Accept,6.8,3.8,5
+iclr2024,aKivEaIbN2,Reject,Reject,4.666666666666667,3.6666666666666665,3
+iclr2024,aN4Jf6Cx69,Accept (oral),Accept,9.0,3.75,4
+iclr2024,aZH1dM3GOX,Accept (poster),Accept,5.6,3.6,5
+iclr2024,af2c8EaKl8,Accept (spotlight),Accept,7.0,3.6666666666666665,3
+iclr2024,apXtolxDaJ,Accept (poster),Accept,6.0,2.75,4
+iclr2024,bNt7oajl2a,Accept (oral),Accept,8.0,4.25,4
+iclr2024,bTMMNT7IdW,Accept (oral),Accept,8.0,2.75,4
+iclr2024,c5pwL0Soay,Accept (oral),Accept,7.5,3.75,4
+iclr2024,cKAUvMePUN,Accept (poster),Accept,6.25,3.25,4
+iclr2024,cRbnZs2WY4,Reject,Reject,4.75,4.25,4
+iclr2024,cTOL99p5HL,Reject,Reject,4.0,5.0,3
+iclr2024,cWdAYDLmPa,Accept (poster),Accept,6.666666666666667,2.6666666666666665,3
+iclr2024,cdUpf6t6LZ,Accept (poster),Accept,6.0,3.6666666666666665,3
+iclr2024,ceATjGPTUD,Accept (spotlight),Accept,8.0,3.75,4
+iclr2024,csukJcpYDe,Accept (spotlight),Accept,7.5,3.5,4
+iclr2024,d8w0pmvXbZ,Accept (oral),Accept,8.0,3.0,4
+iclr2024,dLrhRIMVmB,Accept (oral),Accept,8.0,2.75,4
+iclr2024,dyrGMhicMw,Accept (spotlight),Accept,7.0,3.75,4
+iclr2024,e0kaVlC5ue,Reject,Reject,5.4,2.8,5
+iclr2024,eCGpNGDeNu,Accept (poster),Accept,6.25,3.75,4
+iclr2024,ezBH9WE9s2,Accept (spotlight),Accept,6.5,3.25,4
+iclr2024,f5H8WGLQm5,Accept (poster),Accept,5.75,3.5,4
+iclr2024,f6CBQYxXvr,Accept (spotlight),Accept,7.0,3.6666666666666665,3
+iclr2024,fkrYDQaHOJ,Accept (poster),Accept,5.5,3.75,4
+iclr2024,g7ohDlTITL,Accept (oral),Accept,8.0,3.6666666666666665,3
+iclr2024,gU58d5QeGv,Accept (oral),Accept,8.0,4.25,4
+iclr2024,gp5dPMBzMH,Reject,Reject,5.0,3.6,5
+iclr2024,hB2hXtxIPH,Accept (spotlight),Accept,7.0,3.75,4
+iclr2024,hB7SlfEmze,Accept (poster),Accept,6.75,3.75,4
+iclr2024,hSyW5go0v8,Accept (oral),Accept,7.5,3.25,4
+iclr2024,hTEGyKf0dZ,Accept (oral),Accept,7.0,4.0,4
+iclr2024,hnrB5YHoYu,Accept (oral),Accept,7.333333333333333,2.6666666666666665,3
+iclr2024,iAYIRHOYy8,Accept (spotlight),Accept,6.333333333333333,3.3333333333333335,3
+iclr2024,iIT02bAKzv,Accept (poster),Accept,5.5,4.0,4
+iclr2024,ix7rLVHXyY,Accept (spotlight),Accept,7.25,3.5,4
+iclr2024,jNR6s6OSBT,Accept (oral),Accept,6.75,3.25,4
+iclr2024,jr03SfWsBS,Accept (oral),Accept,7.0,3.5,4
+iclr2024,kB4yBiNmXX,Accept (poster),Accept,5.75,4.25,4
+iclr2024,kjZlzuVJF0,Reject,Reject,3.5,3.75,4
+iclr2024,kz5igjl04W,Reject,Reject,5.5,2.75,4
+iclr2024,lHZm9vNm5H,Accept (spotlight),Accept,7.5,3.75,4
+iclr2024,lK2V2E2MNv,Accept (poster),Accept,5.8,4.2,5
+iclr2024,lkIRFglmTp,Reject,Reject,3.75,4.0,4
+iclr2024,m3ch3kJL7q,Accept (spotlight),Accept,6.666666666666667,4.0,3
+iclr2024,m50eKHCttz,Accept (spotlight),Accept,7.25,3.5,4
+iclr2024,mM7VurbA4r,Accept (spotlight),Accept,6.666666666666667,4.333333333333333,3
+iclr2024,mutJBk3ILg,Accept (spotlight),Accept,6.25,3.5,4
+iclr2024,nBCuRzjqK7,Accept (poster),Accept,6.25,4.25,4
+iclr2024,nHESwXvxWK,Accept (oral),Accept,8.5,3.25,4
+iclr2024,ndR8Ytrzhh,Accept (poster),Accept,5.75,4.0,4
+iclr2024,o2IEmeLL9r,Accept (oral),Accept,7.333333333333333,3.6666666666666665,3
+iclr2024,oGsR3MJvwS,Reject,Reject,3.0,4.0,4
+iclr2024,oLLZhbBSOU,Accept (poster),Accept,6.5,3.5,4
+iclr2024,oTRwljRgiv,Accept (oral),Accept,7.0,3.5,4
+iclr2024,osoWxY8q2E,Accept (oral),Accept,7.333333333333333,3.6666666666666665,3
+iclr2024,pC3WJHf51j,Accept (poster),Accept,6.75,4.75,4
+iclr2024,pE6gWrASQm,Accept (poster),Accept,6.5,3.5,4
+iclr2024,pxI5IPeWgW,Accept (spotlight),Accept,6.8,3.2,5
+iclr2024,qaKRfobbTg,Accept (poster),Accept,6.0,3.0,4
+iclr2024,qo21ZlfNu6,Accept (poster),Accept,7.0,4.0,3
+iclr2024,sDlMJVXXeV,Reject,Reject,5.0,3.0,3
+iclr2024,sFyTZEqmUY,Accept (oral),Accept,7.5,4.0,4
+iclr2024,sYv3OMboTF,Reject,Reject,5.0,4.666666666666667,3
+iclr2024,samyfu6G93,Accept (poster),Accept,6.0,3.75,4
+iclr2024,sbiU3WZpTp,Reject,Reject,5.333333333333333,3.6666666666666665,3
+iclr2024,shgx0eqdw6,Accept (poster),Accept,7.0,3.5,4
+iclr2024,t0FI3Q66K5,Accept (spotlight),Accept,6.5,4.0,4
+iclr2024,tGQirjzddO,Accept (poster),Accept,6.333333333333333,4.333333333333333,3
+iclr2024,tUM39YTRxH,Accept (spotlight),Accept,7.0,4.0,4
+iclr2024,tUtGjQEDd4,Accept (oral),Accept,8.0,3.25,4
+iclr2024,tVTN7Zs0ml,Accept (poster),Accept,6.0,4.0,3
+iclr2024,tZ3JmSDbJM,Reject,Reject,5.0,3.75,4
+iclr2024,tbVWug9f2h,Accept (spotlight),Accept,7.333333333333333,4.333333333333333,3
+iclr2024,tqh1zdXIra,Accept (oral),Accept,8.0,3.5,4
+iclr2024,uNrFpDPMyo,Accept (oral),Accept,8.0,3.8333333333333335,6
+iclr2024,vKViCoKGcB,Accept (poster),Accept,6.0,3.6666666666666665,3
+iclr2024,vngVydDWft,Accept (spotlight),Accept,6.0,3.25,4
+iclr2024,vqHvfEUxGu,Reject,Reject,4.75,4.25,4
+iclr2024,vuK8MhVtuu,Accept (poster),Accept,6.4,3.0,5
+iclr2024,w4abltTZ2f,Accept (oral),Accept,8.0,3.25,4
+iclr2024,wQCPHxtzGV,Reject,Reject,4.75,4.0,4
+iclr2024,wT8G45QGdV,Reject,Reject,5.5,4.25,4
+iclr2024,x6gnuUXpxM,Reject,Reject,4.0,2.75,4
+iclr2024,xJEd8PkdNz,Accept (spotlight),Accept,7.0,2.5,4
+iclr2024,xUO1HXz4an,Accept (spotlight),Accept,7.5,4.25,4
+iclr2024,xiGwCVzsCi,Reject,Reject,5.666666666666667,2.6666666666666665,3
+iclr2024,xuY33XhEGR,Accept (oral),Accept,8.0,3.5,4
+iclr2024,yGdoTL9g18,Reject,Reject,3.0,4.0,4
+iclr2024,yV6fD7LYkF,Accept (oral),Accept,7.5,4.0,4
+iclr2024,ypAT2ixD4X,Accept (poster),Accept,5.5,3.25,4
+iclr2024,yzRXdhk2he,Accept (poster),Accept,6.25,4.5,4
+iclr2024,z7K2faBrDG,Accept (poster),Accept,5.25,3.0,4
+iclr2024,zSxpnKh1yS,Accept (spotlight),Accept,7.5,3.75,4
+iclr2024,ze7DOLi394,Accept (oral),Accept,7.5,3.5,4
+iclr2024,ziDFH8TPPK,Accept (spotlight),Accept,6.25,3.75,4
+iclr2024,znjaiy1Z9q,Reject,Reject,5.75,4.0,4
+iclr2024,zsfrzYWoOP,Reject,Reject,5.666666666666667,3.6666666666666665,3
+iclr2025,03OkC0LKDD,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,0OTVNEm9N4,Accept (Poster),Accept,7.0,3.75,4
+iclr2025,10JOlFIPjt,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,1iuaxjssVp,Accept (Spotlight),Accept,7.25,3.75,4
+iclr2025,2QXC4NX8oC,Reject,Reject,4.75,4.0,4
+iclr2025,2c7pfOqu9k,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,2kGKsyhtvh,Accept (Spotlight),Accept,7.5,3.0,4
+iclr2025,3ddi7Uss2A,Accept (Spotlight),Accept,7.0,3.2,5
+iclr2025,46tjvA75h6,Reject,Reject,3.0,4.333333333333333,3
+iclr2025,48WAZhwHHw,Accept (Spotlight),Accept,7.333333333333333,3.0,3
+iclr2025,4ZhUKd05QM,Reject,Reject,3.8,4.6,5
+iclr2025,5Ky0W6sp8W,Reject,Reject,6.25,3.5,4
+iclr2025,60TXv9Xif5,Accept (Poster),Accept,5.25,3.75,4
+iclr2025,6EUtjXAvmj,Accept (Oral),Accept,8.0,4.0,4
+iclr2025,6wXYXYSFPK,Reject,Reject,5.666666666666667,3.3333333333333335,3
+iclr2025,71pur4y8gs,Accept (Spotlight),Accept,7.2,3.4,5
+iclr2025,7IzeL0kflu,Accept (Spotlight),Accept,7.5,2.75,4
+iclr2025,7P7FsPL05D,Reject,Reject,4.25,3.75,4
+iclr2025,7TZYM6Hm9p,Accept (Poster),Accept,6.0,3.5,4
+iclr2025,7iCT2vmYAR,Reject,Reject,4.333333333333333,3.3333333333333335,3
+iclr2025,7oaWthT9EO,Reject,Reject,5.666666666666667,3.0,3
+iclr2025,7ohlQUbTpp,Accept (Poster),Accept,6.25,3.75,4
+iclr2025,8Dj6OEMj6W,Reject,Reject,5.5,3.25,4
+iclr2025,8Lt27D1qhE,Reject,Reject,5.0,4.0,4
+iclr2025,8TERgu1Lb2,Accept (Poster),Accept,5.75,3.75,4
+iclr2025,8enWnd6Gp3,Accept (Oral),Accept,7.6,3.4,5
+iclr2025,8w8d8j2FCy,Reject,Reject,6.0,4.0,4
+iclr2025,9RCT0ngvZP,Accept (Poster),Accept,6.5,3.25,4
+iclr2025,9WG1ga39Dq,Reject,Reject,6.0,3.25,4
+iclr2025,9cQB1Hwrtw,Accept (Poster),Accept,6.75,3.0,4
+iclr2025,AP0ndQloqR,Accept (Oral),Accept,7.5,2.5,4
+iclr2025,APojAzJQiq,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,AY1S52vr0a,Reject,Reject,5.0,4.25,4
+iclr2025,Aly68Y5Es0,Accept (Poster),Accept,6.75,3.0,4
+iclr2025,Ax3uliEBVR,Accept (Poster),Accept,6.0,3.5,4
+iclr2025,B2Fqu7Y2cd,Accept (Poster),Accept,6.666666666666667,4.333333333333333,3
+iclr2025,BI2int5SAC,Accept (Poster),Accept,5.75,3.75,4
+iclr2025,BgcapX9ers,Reject,Reject,5.0,3.5,4
+iclr2025,C0Ubo0XBPn,Reject,Reject,5.25,4.5,4
+iclr2025,C2uViDZmNp,Reject,Reject,3.5,3.0,4
+iclr2025,CIcMuee69B,Reject,Reject,4.4,3.4,5
+iclr2025,CPhqrV5Ehg,Reject,Reject,6.0,3.2,5
+iclr2025,CvttyK4XzV,Accept (Poster),Accept,6.75,3.5,4
+iclr2025,E1m5yGMOiV,Accept (Poster),Accept,5.75,3.5,4
+iclr2025,ExuBFYtCQU,Accept (Poster),Accept,5.25,4.5,4
+iclr2025,FDsWd0NOB5,Reject,Reject,5.5,3.75,4
+iclr2025,FIj9IEPCKr,Accept (Oral),Accept,8.0,3.75,4
+iclr2025,Fur0DtynPX,Accept (Oral),Accept,8.0,3.25,4
+iclr2025,GGAG3wFEKv,Reject,Reject,5.6,3.6,5
+iclr2025,GjfIZan5jN,Accept (Spotlight),Accept,7.333333333333333,4.166666666666667,6
+iclr2025,GtHRhpgpzB,Accept (Poster),Accept,6.5,3.5,4
+iclr2025,GySIAKEwtZ,Accept (Poster),Accept,6.5,3.75,4
+iclr2025,HqLHY4TzGj,Accept (Spotlight),Accept,7.25,4.5,4
+iclr2025,HtS2NUcqtD,Reject,Reject,5.5,3.25,4
+iclr2025,In0phMs7BK,Reject,Reject,3.8,3.6,5
+iclr2025,JU9oHs7ivN,Accept (Poster),Accept,6.0,3.8,5
+iclr2025,KA2Rit4ky1,Reject,Reject,4.8,3.6,5
+iclr2025,KSLkFYHlYg,Accept (Oral),Accept,8.0,4.666666666666667,3
+iclr2025,KvFk356RpR,Reject,Reject,4.8,3.8,5
+iclr2025,KxGGZag9gW,Reject,Reject,5.0,3.25,4
+iclr2025,L3tW9nbcEM,Reject,Reject,1.5,4.25,4
+iclr2025,LNkMWCEssX,Accept (Poster),Accept,6.666666666666667,3.0,3
+iclr2025,LvRQgsvd5V,Accept (Poster),Accept,5.75,2.75,4
+iclr2025,LyJi5ugyJx,Accept (Oral),Accept,9.2,4.0,5
+iclr2025,MqL2e85ZTp,Reject,Reject,6.4,3.6,5
+iclr2025,NHxwxc3ql6,Accept (Poster),Accept,7.0,4.0,4
+iclr2025,NXnNiT0fdp,Reject,Reject,4.75,3.5,4
+iclr2025,OIvg3MqWX2,Accept (Oral),Accept,8.0,4.25,4
+iclr2025,OlzB6LnXcS,Accept (Oral),Accept,8.0,4.0,4
+iclr2025,Osr0KZJeTX,Accept (Poster),Accept,6.0,3.75,4
+iclr2025,P6G1Z6jkf3,Accept (Poster),Accept,6.0,3.75,4
+iclr2025,P7KRIiLM8T,Accept (Spotlight),Accept,7.333333333333333,3.6666666666666665,3
+iclr2025,P8IBvXLAVk,Reject,Reject,4.0,3.25,4
+iclr2025,PN4f0hnI0U,Reject,Reject,3.6666666666666665,4.333333333333333,3
+iclr2025,PNHGYziAsL,Reject,Reject,5.5,4.0,4
+iclr2025,PWia19rgzV,Reject,Reject,3.75,4.0,4
+iclr2025,Q7EjHroO1w,Accept (Poster),Accept,6.5,2.75,4
+iclr2025,QKBu1BOAwd,Accept (Oral),Accept,7.333333333333333,3.6666666666666665,3
+iclr2025,R5FzCFR5yU,Reject,Reject,3.3333333333333335,3.6666666666666665,3
+iclr2025,RTHbao4Mib,Accept (Poster),Accept,6.25,4.0,4
+iclr2025,RWJX5F5I9g,Accept (Oral),Accept,8.0,3.3333333333333335,3
+iclr2025,RXvFK5dnpz,Reject,Reject,4.25,4.25,4
+iclr2025,S85PP4xjFD,Accept (Spotlight),Accept,7.5,3.5,4
+iclr2025,SI2hI0frk6,Accept (Oral),Accept,7.6,4.0,5
+iclr2025,ST6i7VMyYn,Reject,Reject,3.5,3.75,4
+iclr2025,STEEDDv3zI,Accept (Poster),Accept,5.666666666666667,3.0,3
+iclr2025,SabhfFUfA1,Reject,Reject,4.666666666666667,2.3333333333333335,3
+iclr2025,Se6MgCtRhz,Accept (Poster),Accept,7.0,3.75,4
+iclr2025,TId1SHe8JG,Accept (Spotlight),Accept,7.5,3.5,4
+iclr2025,TJp3LnQgSX,Accept (Poster),Accept,6.0,3.6,5
+iclr2025,Tg8RLxpMDu,Accept (Poster),Accept,6.25,2.5,4
+iclr2025,TlAdgeoDTo,Accept (Spotlight),Accept,7.25,3.5,4
+iclr2025,TqYjhJrp9m,Accept (Poster),Accept,6.666666666666667,3.6666666666666665,3
+iclr2025,UC1UD0EIWn,Reject,Reject,5.0,3.75,4
+iclr2025,UstOpZCESc,Accept (Poster),Accept,6.25,4.0,4
+iclr2025,V4y0CpX4hK,Accept (Poster),Accept,6.25,4.25,4
+iclr2025,VT4Ovqg0BW,Reject,Reject,6.0,3.25,4
+iclr2025,VVixJ9QavY,Accept (Oral),Accept,6.25,3.5,4
+iclr2025,WCRQFlji2q,Accept (Oral),Accept,9.0,4.25,4
+iclr2025,WcZLG8XxhD,Accept (Spotlight),Accept,7.5,3.5,4
+iclr2025,XwUrzurG94,Accept (Poster),Accept,5.75,3.5,4
+iclr2025,Y4GCrfAidr,Reject,Reject,5.0,2.4,5
+iclr2025,YUYJsHOf3c,Accept (Oral),Accept,7.5,4.25,4
+iclr2025,YfKNaRktan,Accept (Poster),Accept,6.75,3.25,4
+iclr2025,ZXaocmXc6d,Accept (Poster),Accept,6.666666666666667,3.6666666666666665,3
+iclr2025,Zp8NOZo0rA,Reject,Reject,5.8,4.0,5
+iclr2025,ZrnzGzUhNX,Reject,Reject,5.0,3.0,3
+iclr2025,ZyknpOQwkT,Accept (Poster),Accept,5.5,4.0,4
+iclr2025,a05PWdPKo0,Reject,Reject,4.5,4.0,4
+iclr2025,aD2uwhLbnA,Accept (Spotlight),Accept,7.2,3.0,5
+iclr2025,aMBSY2ebPw,Accept (Spotlight),Accept,7.333333333333333,4.0,3
+iclr2025,aWXnKanInf,Accept (Oral),Accept,8.0,3.6666666666666665,3
+iclr2025,aapUBU9U0D,Reject,Reject,5.5,3.75,4
+iclr2025,bMC1t7eLRc,Accept (Spotlight),Accept,6.5,3.25,4
+iclr2025,bjxuqI4KwU,Accept (Spotlight),Accept,7.5,3.25,4
+iclr2025,bqoHdVMIbt,Accept (Poster),Accept,7.0,3.25,4
+iclr2025,buxFBI6GG4,Accept (Poster),Accept,5.75,3.75,4
+iclr2025,c2C2NQKjZw,Reject,Reject,4.25,4.25,4
+iclr2025,cP00UB2654,Reject,Reject,4.25,4.25,4
+iclr2025,cVyELMpMRS,Accept (Poster),Accept,6.5,2.75,4
+iclr2025,cWfpt2t37q,Accept (Poster),Accept,7.0,3.75,4
+iclr2025,cpGPPLLYYx,Accept (Poster),Accept,6.5,3.75,4
+iclr2025,cznqgb4DNv,Accept (Spotlight),Accept,7.4,3.8,5
+iclr2025,eQjJeO7pTF,Reject,Reject,5.0,3.6,5
+iclr2025,eaTqsptDPL,Accept (Poster),Accept,5.75,3.5,4
+iclr2025,et5l9qPUhm,Accept (Spotlight),Accept,8.0,3.3333333333333335,3
+iclr2025,fEEbTDoecM,Reject,Reject,5.2,3.8,5
+iclr2025,fMRq7sPP1y,Reject,Reject,5.25,3.25,4
+iclr2025,fV0t65OBUu,Accept (Oral),Accept,8.0,3.25,4
+iclr2025,fZK6AQXlUU,Accept (Spotlight),Accept,7.25,3.0,4
+iclr2025,fjEZ2LPceZ,Accept (Poster),Accept,6.75,3.75,4
+iclr2025,gHLWTzKiZV,Accept (Oral),Accept,8.0,3.2,5
+iclr2025,gI0kPklUKS,Accept (Spotlight),Accept,7.5,3.0,4
+iclr2025,gVkX9QMBO3,Accept (Poster),Accept,6.25,3.75,4
+iclr2025,gVnJFY8nCM,Accept (Poster),Accept,6.25,3.5,4
+iclr2025,gfI9v7AbFg,Accept (Poster),Accept,5.4,3.2,5
+iclr2025,h0ZfDIrj7T,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,hBGavkf61a,Accept (Spotlight),Accept,7.25,3.0,4
+iclr2025,hPk6IZXo9V,Reject,Reject,3.5,3.5,4
+iclr2025,hUb2At2DsQ,Accept (Spotlight),Accept,7.2,3.4,5
+iclr2025,hVwS9KkY6V,Reject,Reject,4.25,4.5,4
+iclr2025,hiciJQdmpw,Reject,Reject,4.75,3.75,4
+iclr2025,hwSmPOAmhk,Accept (Spotlight),Accept,7.333333333333333,3.6666666666666665,3
+iclr2025,hyfe5q5TD0,Accept (Oral),Accept,8.0,3.75,4
+iclr2025,ijbA5swmoK,Accept (Oral),Accept,7.5,3.75,4
+iclr2025,j7OAzA9DQd,Reject,Reject,3.0,3.75,4
+iclr2025,j9DbobO0mY,Reject,Reject,5.5,3.75,4
+iclr2025,jMZglnlwf7,Reject,Reject,5.0,2.8,5
+iclr2025,jXLiDKsuDo,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,jkVQ31GeIA,Reject,Reject,5.5,4.0,4
+iclr2025,jpSLXoRKnH,Accept (Poster),Accept,6.25,3.5,4
+iclr2025,kwagvI8Anf,Reject,Reject,5.333333333333333,5.0,3
+iclr2025,l3Q0scRuT9,Reject,Reject,5.0,3.25,4
+iclr2025,lVp97zZ5i8,Accept (Poster),Accept,6.0,3.6666666666666665,3
+iclr2025,lgsyLSsDRe,Accept (Spotlight),Accept,7.5,3.75,4
+iclr2025,liSixK3eY4,Reject,Reject,4.75,2.75,4
+iclr2025,mnna9LUg7P,Accept (Poster),Accept,6.25,3.75,4
+iclr2025,mzL19kKE3r,Accept (Poster),Accept,6.0,4.0,3
+iclr2025,n2NidsYDop,Accept (Oral),Accept,8.666666666666666,3.3333333333333335,3
+iclr2025,n4SLaq5GhM,Reject,Reject,3.25,4.25,4
+iclr2025,nfKfAzkiez,Accept (Poster),Accept,5.75,3.5,4
+iclr2025,nwDRD4AMoN,Accept (Oral),Accept,9.0,3.75,4
+iclr2025,oI5tZaWkF9,Accept (Spotlight),Accept,7.5,3.25,4
+iclr2025,pD6TiCpyDR,Accept (Poster),Accept,6.5,4.0,4
+iclr2025,pOO9cqLq7Q,Accept (Poster),Accept,6.25,3.0,4
+iclr2025,q2VK1Z8XFo,Reject,Reject,4.666666666666667,3.0,3
+iclr2025,r5IXBlTCGc,Accept (Oral),Accept,7.25,3.25,4
+iclr2025,rQ7fz9NO7f,Accept (Poster),Accept,7.0,3.25,4
+iclr2025,rUC7tHecSQ,Accept (Poster),Accept,6.333333333333333,3.3333333333333335,3
+iclr2025,rdv6yeMFpn,Accept (Oral),Accept,7.6,3.6,5
+iclr2025,rynb4Vn8rb,Reject,Reject,5.0,4.0,4
+iclr2025,s9SVlWOcLt,Reject,Reject,6.75,3.25,4
+iclr2025,s9zoyICZ4k,Accept (Poster),Accept,6.5,3.5,4
+iclr2025,sBpYRQOrMn,Reject,Reject,5.75,3.5,4
+iclr2025,sOa0SYS0cN,Reject,Reject,5.6,2.8,5
+iclr2025,sOte83GogU,Accept (Poster),Accept,6.25,2.75,4
+iclr2025,sw6Wpx2LGr,Reject,Reject,5.5,3.0,4
+iclr2025,syThiTmWWm,Accept (Oral),Accept,7.75,3.5,8
+iclr2025,th63j8qHa6,Reject,Reject,4.25,3.5,4
+iclr2025,trKNi4IUiP,Accept (Oral),Accept,7.5,3.0,4
+iclr2025,twEvvkQqPS,Accept (Spotlight),Accept,7.5,3.25,4
+iclr2025,u8VOQVzduP,Accept (Poster),Accept,5.75,3.0,4
+iclr2025,uPj9oBH80V,Reject,Reject,3.5,3.75,4
+iclr2025,uSV07DapJx,Reject,Reject,4.5,3.75,4
+iclr2025,ulCAPXYXfa,Accept (Poster),Accept,6.0,3.75,4
+iclr2025,vQhn4wrQ6j,Accept (Spotlight),Accept,7.333333333333333,4.0,3
+iclr2025,vbmSSIhKAM,Accept (Poster),Accept,6.6,4.0,5
+iclr2025,wJv4AIt4sK,Accept (Spotlight),Accept,7.5,4.0,4
+iclr2025,wLR9d5ZFpY,Reject,Reject,4.0,3.3333333333333335,3
+iclr2025,wPMRwmytZe,Accept (Oral),Accept,7.6,3.6,5
+iclr2025,wQEdh2cgEk,Accept (Poster),Accept,6.4,3.2,5
+iclr2025,wmV4cIbgl6,Accept (Spotlight),Accept,7.333333333333333,4.0,3
+iclr2025,xByvdb3DCm,Accept (Oral),Accept,8.0,2.8,5
+iclr2025,xCMmtYOsiL,Reject,Reject,5.75,3.0,4
+iclr2025,xOtOfdbBqK,Reject,Reject,5.75,3.0,4
+iclr2025,xw4jtToUrf,Reject,Reject,4.2,3.6,5
+iclr2025,xyfb9HHvMe,Accept (Oral),Accept,6.666666666666667,3.6666666666666665,3
+iclr2025,yVGGtsOgc7,Accept (Poster),Accept,5.8,3.6,5
+iclr2025,yVQcr4qjD6,Accept (Spotlight),Accept,6.8,3.8,5
+iclr2025,zjeHLSiNv1,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,15KpLriUTU,Reject,Reject,4.0,3.25,4
+iclr2026,1SdPgRQrr5,Accept (Poster),Accept,6.5,3.0,4
+iclr2026,219Pn3D4Md,Reject,Reject,4.0,3.6,5
+iclr2026,38Ey1FrSDt,Reject,Reject,5.0,3.0,4
+iclr2026,398L0TTKiG,Reject,Reject,4.0,3.75,4
+iclr2026,4hkMvkzai5,Reject,Reject,2.8,4.0,5
+iclr2026,4ygElzj772,Reject,Reject,4.0,4.666666666666667,3
+iclr2026,522R7hU5J0,Reject,Reject,3.5,3.75,4
+iclr2026,5QZEc2JRr2,Reject,Reject,2.6666666666666665,2.3333333333333335,3
+iclr2026,5WJzbZZeh1,Reject,Reject,4.5,4.25,4
+iclr2026,5d7prMWHNF,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,5ifzhjMCKq,Accept (Poster),Accept,5.0,3.5,4
+iclr2026,5majEbTAZa,Accept (Poster),Accept,5.5,3.5,4
+iclr2026,6BhduwrCp3,Accept (Poster),Accept,4.5,3.5,4
+iclr2026,6cEPDGaShH,Accept (Oral),Accept,6.0,4.0,4
+iclr2026,7C5oMGnbV4,Reject,Reject,1.0,4.75,4
+iclr2026,7WdY3Cojy9,Accept (Oral),Accept,5.5,3.25,4
+iclr2026,80JylHgQn1,Accept (Oral),Accept,7.0,3.5,4
+iclr2026,86PhVA7veh,Reject,Reject,4.5,3.5,4
+iclr2026,88ZLp7xYxw,Accept (Oral),Accept,6.0,4.0,4
+iclr2026,89Pje8STvm,Accept (Poster),Accept,6.5,3.75,4
+iclr2026,8NXCwNjFNR,Accept (Poster),Accept,5.333333333333333,4.0,3
+iclr2026,8rFpf36Gfy,Reject,Reject,3.3333333333333335,3.0,3
+iclr2026,9OUg0nJE72,Accept (Poster),Accept,5.5,4.0,4
+iclr2026,AFJMB9SkHT,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,AZ6lqcvHLX,Accept (Oral),Accept,6.666666666666667,3.3333333333333335,3
+iclr2026,AcTsKglDdh,Accept (Poster),Accept,7.0,3.5,4
+iclr2026,AhvApZghHf,Accept (Poster),Accept,5.5,3.75,4
+iclr2026,B7r8ZkBk4F,Reject,Reject,3.5,4.25,4
+iclr2026,BC1UkDlbB7,Reject,Reject,5.0,3.0,4
+iclr2026,BK0QGRyQn8,Reject,Reject,2.0,3.5,4
+iclr2026,C9p44r7o3z,Reject,Reject,5.333333333333333,4.0,3
+iclr2026,CPtKeEcLsU,Reject,Reject,4.666666666666667,4.666666666666667,3
+iclr2026,CZyYxdtF5z,Reject,Reject,4.0,4.0,4
+iclr2026,DB2KJKFX0d,Reject,Reject,3.5,4.0,4
+iclr2026,DDogB73gS4,Reject,Reject,5.0,3.5,4
+iclr2026,DIPeQTxpe7,Accept (Poster),Accept,6.0,4.25,4
+iclr2026,EQhUvWH78U,Accept (Oral),Accept,6.666666666666667,3.6666666666666665,3
+iclr2026,Eix7AEtV48,Reject,Reject,5.0,3.75,4
+iclr2026,EuN5iszF0a,Accept (Poster),Accept,5.5,4.0,4
+iclr2026,FDlvVdh1sB,Reject,Reject,4.0,4.0,4
+iclr2026,FHFDCsB9UC,Accept (Poster),Accept,4.0,3.75,4
+iclr2026,FP2XNyV9WL,Accept (Poster),Accept,5.0,4.25,4
+iclr2026,Fn2rSOnpNf,Accept (Poster),Accept,5.0,3.5,4
+iclr2026,FnaDv6SMd9,Accept (Oral),Accept,5.5,3.5,4
+iclr2026,G14LfMzf1w,Reject,Reject,3.5,4.25,4
+iclr2026,G1o4HNtOLO,Reject,Reject,4.5,3.5,4
+iclr2026,G7DBGlgjjp,Accept (Poster),Accept,4.5,3.25,4
+iclr2026,GCd5v3ehmr,Accept (Poster),Accept,6.0,3.25,4
+iclr2026,GECUTH82ze,Accept (Poster),Accept,4.666666666666667,3.6666666666666665,3
+iclr2026,GEsTLuJy1q,Accept (Poster),Accept,6.0,2.5,4
+iclr2026,GMR9BUsPbq,Accept (Poster),Accept,7.0,4.25,4
+iclr2026,GW9sp1g9qh,Accept (Poster),Accept,6.0,4.0,4
+iclr2026,GiI6tPrPAG,Reject,Reject,2.0,4.0,4
+iclr2026,HaL9EZovFg,Accept (Poster),Accept,4.5,3.75,4
+iclr2026,I9iai932rK,Accept (Poster),Accept,4.0,3.75,4
+iclr2026,J1Rorvw7DQ,Accept (Poster),Accept,6.5,3.0,4
+iclr2026,JV1eUVA6W7,Accept (Poster),Accept,5.333333333333333,4.0,3
+iclr2026,JWBcEPzM89,Reject,Reject,4.5,3.75,4
+iclr2026,KpvZ1kGOjH,Reject,Reject,4.4,3.6,5
+iclr2026,KtocialdxS,Reject,Reject,2.6666666666666665,4.0,3
+iclr2026,Kx5CcyEY39,Reject,Reject,4.0,4.0,5
+iclr2026,KxSBc0ESFU,Reject,Reject,4.0,3.5,4
+iclr2026,KzpAcxWjOC,Reject,Reject,3.5,4.0,4
+iclr2026,LUhzOlwAEa,Reject,Reject,4.5,4.0,4
+iclr2026,M2KLWLHzX0,Accept (Poster),Accept,4.5,3.5,4
+iclr2026,M3CeHnZKNC,Accept (Oral),Accept,6.0,3.5,4
+iclr2026,N4jJQvQSiN,Accept (Poster),Accept,5.0,3.25,4
+iclr2026,N5kWa3sRJt,Accept (Poster),Accept,5.333333333333333,4.333333333333333,3
+iclr2026,NVzMmp1jkM,Reject,Reject,4.0,4.0,3
+iclr2026,NXQvejGBFx,Accept (Poster),Accept,5.0,4.0,4
+iclr2026,NvJppyxERB,Reject,Reject,3.5,3.75,4
+iclr2026,OJupg4mDjS,Accept (Oral),Accept,7.0,3.5,4
+iclr2026,OR0FF4B0lt,Reject,Reject,4.0,3.0,4
+iclr2026,OWLcXnCFdB,Reject,Reject,4.5,3.75,4
+iclr2026,PJdMrK79Mo,Accept (Poster),Accept,4.5,2.5,4
+iclr2026,PLva6Rol4W,Reject,Reject,4.666666666666667,3.3333333333333335,3
+iclr2026,PVGBr3Cc1h,Reject,Reject,2.6666666666666665,2.6666666666666665,3
+iclr2026,PZ8XoPXnDC,Reject,Reject,3.0,4.0,4
+iclr2026,Phv5G3rxOx,Reject,Reject,3.5,3.75,4
+iclr2026,Q24AhdDsCq,Reject,Reject,5.0,3.5,4
+iclr2026,R8A12kykPG,Accept (Poster),Accept,5.5,3.25,4
+iclr2026,RbUe1cLXrJ,Reject,Reject,4.666666666666667,4.0,3
+iclr2026,SAl337ZX5d,Accept (Oral),Accept,6.5,3.75,4
+iclr2026,SYRtf6TQot,Reject,Reject,5.2,3.8,5
+iclr2026,SsUjdSVdUl,Accept (Poster),Accept,5.0,3.75,4
+iclr2026,TJ3DqFiGau,Accept (Poster),Accept,4.5,4.5,4
+iclr2026,ULMWcNduE3,Accept (Poster),Accept,4.5,4.0,4
+iclr2026,UYm4DvmxBj,Reject,Reject,4.0,4.0,4
+iclr2026,UmCzGf4qNh,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,V99zh4LmSd,Reject,Reject,4.8,3.8,5
+iclr2026,VBew6vESGL,Accept (Poster),Accept,6.5,3.25,4
+iclr2026,VgYEM6IkLZ,Reject,Reject,3.3333333333333335,3.0,3
+iclr2026,VoMQN1GDB2,Reject,Reject,4.0,3.25,4
+iclr2026,VwztK6dMn0,Reject,Reject,6.5,3.75,4
+iclr2026,WnW0zndglL,Accept (Poster),Accept,5.0,3.25,4
+iclr2026,XJxXSMLDoZ,Accept (Poster),Accept,4.666666666666667,5.0,3
+iclr2026,XL7ValpExh,Accept (Poster),Accept,5.2,4.0,5
+iclr2026,XOPH34Extq,Accept (Oral),Accept,7.0,3.5,4
+iclr2026,XsEZcigEjq,Accept (Poster),Accept,5.0,3.25,4
+iclr2026,Y9UAgPehqo,Accept (Oral),Accept,6.5,4.0,4
+iclr2026,YxqnNNs3sf,Accept (Poster),Accept,5.5,3.5,4
+iclr2026,ZEuQ4Mm1bh,Reject,Reject,4.5,3.5,4
+iclr2026,ZMDoV1RaXC,Reject,Reject,5.0,3.5,4
+iclr2026,ZfdnZhOP0k,Accept (Oral),Accept,7.5,3.75,4
+iclr2026,Zi71cfiZFw,Reject,Reject,4.5,4.25,4
+iclr2026,ZmOmEJn5MM,Reject,Reject,4.0,4.0,4
+iclr2026,a4S1nQay3b,Accept (Oral),Accept,7.0,4.25,4
+iclr2026,a9dngZLqGS,Accept (Poster),Accept,5.0,2.75,4
+iclr2026,aHAvupzNAH,Reject,Reject,5.0,3.25,4
+iclr2026,aNUVttHlU8,Reject,Reject,2.0,3.3333333333333335,3
+iclr2026,ahWmeQG3K2,Accept (Poster),Accept,5.6,4.2,5
+iclr2026,axlhr1Y1Vf,Reject,Reject,3.0,3.25,4
+iclr2026,azJnEkfqzp,Reject,Reject,4.5,3.5,4
+iclr2026,b9GH5mMBfG,Accept (Poster),Accept,5.0,4.0,4
+iclr2026,bBus2TbuWY,Reject,Reject,4.0,3.5,4
+iclr2026,bWoT6Z21rH,Accept (Poster),Accept,4.0,3.75,4
+iclr2026,c5BOcHM6J8,Accept (Poster),Accept,5.2,2.8,5
+iclr2026,c5bf47nDx1,Accept (Poster),Accept,5.5,2.75,4
+iclr2026,d3CISVVO6v,Accept (Oral),Accept,6.666666666666667,3.6666666666666665,3
+iclr2026,dxOkvK3l3c,Reject,Reject,3.5,3.75,4
+iclr2026,e26MPyczN9,Reject,Reject,4.0,3.6,5
+iclr2026,eC85h3y4pG,Reject,Reject,5.0,3.5,4
+iclr2026,eCwzgXYYvK,Reject,Reject,3.0,4.75,4
+iclr2026,ehXVDJm0PS,Accept (Poster),Accept,4.0,3.75,4
+iclr2026,enpCeRYBhe,Reject,Reject,5.5,3.25,4
+iclr2026,f9R6eIsGh1,Reject,Reject,3.0,2.5,4
+iclr2026,fC27SxF4ba,Accept (Poster),Accept,4.0,3.25,4
+iclr2026,gCkRzjVT7m,Reject,Reject,4.0,3.75,4
+iclr2026,gr0Z4kWUdC,Reject,Reject,5.0,3.0,4
+iclr2026,h06l9w1clt,Accept (Oral),Accept,7.0,4.0,4
+iclr2026,h1XLREoCPf,Reject,Reject,4.5,3.0,4
+iclr2026,hSnsDdSrtK,Reject,Reject,2.5,4.25,4
+iclr2026,hXNApWLBZG,Accept (Oral),Accept,4.666666666666667,2.6666666666666665,3
+iclr2026,hZzGX1h9JY,Reject,Reject,3.3333333333333335,4.333333333333333,3
+iclr2026,hkZpskx9mL,Reject,Reject,3.5,3.75,4
+iclr2026,hs9lwjH1bJ,Accept (Poster),Accept,5.6,2.6,5
+iclr2026,hxcamgHPHe,Reject,Reject,4.0,3.75,4
+iclr2026,iIz6HlBKa2,Reject,Reject,3.5,3.0,4
+iclr2026,iJPiyQGhWf,Reject,Reject,4.0,3.6666666666666665,3
+iclr2026,if1Ndb6RWD,Accept (Poster),Accept,3.5,3.0,4
+iclr2026,j4C0nALrgK,Accept (Poster),Accept,5.5,3.75,4
+iclr2026,jEFKRMLwff,Reject,Reject,4.0,4.25,4
+iclr2026,jLgGlHj30G,Reject,Reject,3.5,3.75,4
+iclr2026,jS7l8oPBlj,Reject,Reject,3.3333333333333335,3.3333333333333335,3
+iclr2026,jiSt3M25TP,Accept (Poster),Accept,5.0,3.25,4
+iclr2026,jt2c2H6auR,Accept (Poster),Accept,5.0,4.25,4
+iclr2026,k0Kb1ynFbt,Accept (Oral),Accept,6.0,3.25,4
+iclr2026,k5nIOvYGCL,Accept (Oral),Accept,6.5,3.5,4
+iclr2026,kBnvzwO5pN,Accept (Poster),Accept,5.5,3.25,4
+iclr2026,kPzHDirm8M,Reject,Reject,4.0,3.0,3
+iclr2026,kikCD04l7X,Reject,Reject,5.5,2.75,4
+iclr2026,l97Kacqdfk,Accept (Poster),Accept,5.0,3.75,4
+iclr2026,lM3dNuwy2r,Reject,Reject,4.0,3.5,4
+iclr2026,lVmeipqOXV,Reject,Reject,5.333333333333333,3.0,3
+iclr2026,lWdxX5s9T1,Accept (Poster),Accept,4.5,3.5,4
+iclr2026,lXSrulux48,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,ldfVqaf1WO,Reject,Reject,4.0,3.8,5
+iclr2026,ljM1HTSH9c,Accept (Poster),Accept,7.0,5.0,4
+iclr2026,loP9q6E5kQ,Reject,Reject,3.0,3.5,4
+iclr2026,lq7Zfr8kAS,Accept (Poster),Accept,5.5,4.5,4
+iclr2026,m3BJUh0h8J,Reject,Reject,3.0,4.25,4
+iclr2026,m3jztlHDmG,Accept (Poster),Accept,5.2,3.0,5
+iclr2026,mNya9d1DA2,Reject,Reject,5.0,3.75,4
+iclr2026,nLikuHmC98,Accept (Poster),Accept,4.5,3.5,4
+iclr2026,nWaZTH1JMx,Accept (Poster),Accept,5.5,3.25,4
+iclr2026,okjogxO1Fu,Accept (Poster),Accept,6.5,3.75,4
+iclr2026,pCaZqJ3f7M,Reject,Reject,5.0,3.5,4
+iclr2026,pN261iTKvr,Accept (Oral),Accept,5.0,3.25,4
+iclr2026,pjMDZJd4rT,Accept (Poster),Accept,6.0,4.25,4
+iclr2026,qR2TjMZ10B,Reject,Reject,5.0,3.75,4
+iclr2026,r2HG3xOMJI,Accept (Oral),Accept,5.5,4.75,4
+iclr2026,r7rUDgGYC4,Accept (Poster),Accept,5.6,3.4,5
+iclr2026,rdE9qxGfIv,Accept (Poster),Accept,4.5,3.5,4
+iclr2026,sErtvfHuVG,Reject,Reject,4.666666666666667,3.6666666666666665,3
+iclr2026,sZ0DsaRsd4,Accept (Poster),Accept,5.5,3.75,4
+iclr2026,sjnErRHXf3,Accept (Oral),Accept,6.0,3.5,4
+iclr2026,soeWR3TyfK,Reject,Reject,4.0,3.0,3
+iclr2026,syvfsHSqm2,Accept (Poster),Accept,5.0,3.5,4
+iclr2026,t21xf6rxqY,Accept (Poster),Accept,6.0,4.0,4
+iclr2026,t3ZMiHhqXm,Accept (Poster),Accept,5.5,4.0,4
+iclr2026,uBThjlbzxS,Accept (Poster),Accept,6.0,3.5,4
+iclr2026,uGai5lYHlV,Accept (Oral),Accept,5.333333333333333,3.0,3
+iclr2026,uqT7TAhwrm,Accept (Poster),Accept,4.5,3.75,4
+iclr2026,vI56m4Iu4e,Accept (Poster),Accept,7.0,4.25,4
+iclr2026,va4FWa5TDN,Reject,Reject,4.5,4.0,4
+iclr2026,viySlQiXEA,Reject,Reject,2.0,4.25,4
+iclr2026,vrUqxxnU9A,Reject,Reject,3.5,3.25,4
+iclr2026,wKPQXtVejB,Reject,Reject,4.0,3.0,4
+iclr2026,wM3Mdk2Pa5,Accept (Poster),Accept,5.333333333333333,4.0,3
+iclr2026,wsnse46kRO,Accept (Oral),Accept,6.0,3.5,4
+iclr2026,xBW2FIfswU,Accept (Oral),Accept,6.0,4.25,4
+iclr2026,xEgjOxM5dZ,Reject,Reject,5.0,3.75,4
+iclr2026,xufpYfKi89,Reject,Reject,5.0,3.25,4
+iclr2026,yiMlVBAoQi,Accept (Poster),Accept,5.333333333333333,2.3333333333333335,3
+iclr2026,yirunib8l8,Accept (Oral),Accept,7.0,3.5,4
+iclr2026,zV5FeNiWDO,Accept (Poster),Accept,6.0,3.75,4
+iclr2026,zexMILcQOV,Accept (Poster),Accept,4.666666666666667,3.6666666666666665,3
+iclr2026,zrKFIfjcRp,Reject,Reject,3.3333333333333335,4.666666666666667,3
+iclr2026,zueIXg5FP5,Accept (Poster),Accept,5.333333333333333,2.0,3
+icml2025,kNpK6aeccu,Reject,Reject,1.25,,4
+icml2025,oOaoNaoCJw,Reject,Reject,2.0,,4
+icml2025,pMfpm26D73,Reject,Reject,2.0,,4
+icml2025,g9XyES5Vna,Reject,Reject,1.6666666666666667,,3
+icml2025,MJ2iChsvhs,Reject,Reject,2.25,,4
+icml2025,qUtxbtsfwp,Reject,Reject,2.3333333333333335,,3
+icml2025,d1uyU3JrpO,Reject,Reject,2.0,,3
+icml2025,0UStwLPcQi,Reject,Reject,1.6666666666666667,,3
+icml2025,dY44CURN4v,Reject,Reject,2.0,,3
+icml2025,4SzmiJv2ew,Reject,Reject,1.6666666666666667,,3
+icml2025,fGflKXfEP1,Reject,Reject,2.3333333333333335,,3
+icml2025,3TGUvHmZ2v,Reject,Reject,2.0,,4
+icml2025,MaP5KdgbID,Reject,Reject,2.25,,4
+icml2025,vMtmlTCYqn,Reject,Reject,1.5,,4
+icml2025,mNYsX2kcsl,Reject,Reject,1.5,,4
+icml2025,Ck6WljG6ZM,Reject,Reject,2.5,,4
+icml2025,1Ct7Y3jsBx,Reject,Reject,1.5,,4
+icml2025,OmfdOTVfWI,Reject,Reject,2.2,,5
+icml2025,zC0ZxjXixH,Reject,Reject,2.75,,4
+icml2025,T2ujAPFA4C,Reject,Reject,2.6666666666666665,,3
+icml2025,zLMOug6hHj,Reject,Reject,2.6666666666666665,,3
+icml2025,OcBAd0JPxv,Reject,Reject,2.75,,4
+icml2025,nHaaNf5cOM,Reject,Reject,2.75,,4
+icml2025,2UpXNbZDyt,Reject,Reject,2.75,,4
+icml2025,W2tWu0aikL,Reject,Reject,2.75,,4
+icml2025,NjOAQ2nJuL,Reject,Reject,2.75,,4
+icml2025,uiuwlZ3cPe,Reject,Reject,2.6666666666666665,,3
+icml2025,BL7WMLJKZM,Reject,Reject,2.75,,4
+icml2025,VkqKOc0j9w,Reject,Reject,2.75,,4
+icml2025,cz4EevJGHf,Reject,Reject,2.75,,4
+icml2025,mg4ANJcd0d,Reject,Reject,2.6666666666666665,,3
+icml2025,ub44gZJNhk,Reject,Reject,2.8,,5
+icml2025,gqqKARGb8s,Reject,Reject,2.75,,4
+icml2025,XyudeZXHn3,Reject,Reject,2.6666666666666665,,3
+icml2025,jssraGlHtK,Reject,Reject,2.75,,4
+icml2025,90ghmFUwIT,Reject,Reject,3.3333333333333335,,6
+icml2025,S2XD3gIgzc,Reject,Reject,3.0,,3
+icml2025,cCIQSqhuo2,Reject,Reject,3.0,,4
+icml2025,zKbQUkh6qe,Reject,Reject,3.0,,3
+icml2025,6Uh73Wl8Je,Reject,Reject,3.3333333333333335,,3
+icml2025,fNyfV5otuV,Reject,Reject,3.0,,4
+icml2025,EMQfiikGRJ,Reject,Reject,3.25,,4
+icml2025,u4mobiHTJl,Reject,Reject,3.0,,4
+icml2025,a9VfggyjQa,Reject,Reject,3.0,,4
+icml2025,lSTJ628SXl,Reject,Reject,3.0,,4
+icml2025,CUJcSQ19ao,Reject,Reject,3.25,,4
+icml2025,UycrIxt96b,Reject,Reject,3.25,,4
+icml2025,ZjrId3p45T,Reject,Reject,3.0,,4
+icml2025,wtcRXLaFrJ,Reject,Reject,3.3333333333333335,,3
+icml2025,vmfRdANa6a,Reject,Reject,3.25,,4
+icml2025,UWXB0MJ43M,Reject,Reject,3.0,,4
+icml2025,0OdIwdiFb7,Reject,Reject,3.3333333333333335,,3
+icml2025,6MZz9eJUnD,Accept (poster),Accept,3.0,,3
+icml2025,hRMAo5N66M,Accept (poster),Accept,2.75,,4
+icml2025,sgHza4bz3n,Accept (poster),Accept,2.5,,4
+icml2025,zV5pkTMHPP,Accept (poster),Accept,2.3333333333333335,,3
+icml2025,Zis7Mgk2Sf,Accept (poster),Accept,3.0,,4
+icml2025,1QZMWVrgsU,Accept (poster),Accept,3.0,,4
+icml2025,2GmDdhBdDk,Accept (poster),Accept,2.25,,4
+icml2025,EvIwwGYTLc,Accept (poster),Accept,3.0,,4
+icml2025,Uc0dTE2Wox,Accept (poster),Accept,3.0,,4
+icml2025,b74kufhhsk,Accept (poster),Accept,3.0,,4
+icml2025,K4GaB4fdIq,Accept (poster),Accept,3.0,,3
+icml2025,HlRUGC5ork,Accept (poster),Accept,3.0,,4
+icml2025,6pNp7to8kW,Accept (poster),Accept,2.5,,4
+icml2025,f6ibJCQfH4,Accept (poster),Accept,2.75,,4
+icml2025,7UqNM85dD6,Accept (poster),Accept,3.0,,4
+icml2025,6kGTxbn4Qf,Accept (poster),Accept,3.0,,4
+icml2025,eFjv7NPOn1,Accept (poster),Accept,2.8,,5
+icml2025,0YZHfUmsJv,Accept (poster),Accept,3.0,,4
+icml2025,P0zvNhHGG9,Accept (poster),Accept,2.75,,4
+icml2025,JAcOYCqNo9,Accept (poster),Accept,2.75,,4
+icml2025,gHGrzxFujU,Accept (poster),Accept,3.25,,4
+icml2025,8n6CY3zsJo,Accept (poster),Accept,3.25,,4
+icml2025,p6nhzZ9ilZ,Accept (poster),Accept,3.0,,4
+icml2025,gTYzm0Qchr,Accept (poster),Accept,3.0,,4
+icml2025,IQ4V1yRCJv,Accept (poster),Accept,3.3333333333333335,,3
+icml2025,So6DMbeAak,Accept (poster),Accept,3.25,,4
+icml2025,dfOqiHuklY,Accept (poster),Accept,3.0,,4
+icml2025,oYzDcCZdR9,Accept (poster),Accept,3.25,,4
+icml2025,4d2dwJN4v1,Accept (poster),Accept,3.3333333333333335,,3
+icml2025,WH3ZRH2jno,Accept (poster),Accept,3.3333333333333335,,3
+icml2025,qaJuLzY6iL,Accept (poster),Accept,3.25,,4
+icml2025,q0JaH6Ukqb,Accept (poster),Accept,3.25,,4
+icml2025,ifnxXCCEiM,Accept (poster),Accept,3.0,,4
+icml2025,51SFypI0J8,Accept (poster),Accept,3.25,,4
+icml2025,hcLeFe7idT,Accept (poster),Accept,3.25,,4
+icml2025,h3KHwZCnxH,Accept (poster),Accept,3.25,,4
+icml2025,Jf8MPTOpLc,Accept (poster),Accept,3.25,,4
+icml2025,OXIIRxwJwx,Accept (poster),Accept,3.25,,4
+icml2025,C5Jj3QKQav,Accept (poster),Accept,3.2,,5
+icml2025,C7XmEByCFv,Accept (poster),Accept,3.1666666666666665,,6
+icml2025,li59703WbA,Accept (poster),Accept,3.5,,4
+icml2025,cTsYaXSm9O,Accept (poster),Accept,3.75,,4
+icml2025,iA8lD3oG5G,Accept (poster),Accept,3.75,,4
+icml2025,r3ZLefVUMO,Accept (poster),Accept,3.3333333333333335,,3
+icml2025,7qvYLnJDRd,Accept (poster),Accept,3.75,,4
+icml2025,z2rrB4S3hg,Accept (poster),Accept,3.5,,4
+icml2025,dlIoumNiXt,Accept (poster),Accept,3.3333333333333335,,3
+icml2025,M9keJ0Jy3J,Accept (poster),Accept,3.75,,4
+icml2025,6BHa4AJVSM,Accept (poster),Accept,3.5,,4
+icml2025,hYxZJycvrz,Accept (poster),Accept,3.75,,4
+icml2025,Z9Xugry05b,Accept (poster),Accept,3.6666666666666665,,3
+icml2025,grlezgVg4s,Accept (poster),Accept,3.4,,5
+icml2025,uXYZZv6fiE,Accept (poster),Accept,3.5,,4
+icml2025,UvwWrUV1JV,Accept (poster),Accept,3.5,,4
+icml2025,XlRIub1r5s,Accept (poster),Accept,3.6666666666666665,,3
+icml2025,dtmTQawQN2,Accept (poster),Accept,3.5,,4
+icml2025,Qu3jbojB5Q,Accept (poster),Accept,3.6,,5
+icml2025,UCn7dyYa4h,Accept (poster),Accept,3.5,,4
+icml2025,4skvLszxZ1,Accept (poster),Accept,3.75,,4
+icml2025,IYLNdCII48,Accept (spotlight poster),Accept,3.3333333333333335,,3
+icml2025,BUONdewsBa,Accept (spotlight poster),Accept,3.3333333333333335,,3
+icml2025,IfWKVF6LfY,Accept (spotlight poster),Accept,3.25,,4
+icml2025,5IpVe9PH14,Accept (spotlight poster),Accept,3.5,,4
+icml2025,Pokj70ZAxJ,Accept (spotlight poster),Accept,3.5,,4
+icml2025,vhACnRfuYh,Accept (spotlight poster),Accept,3.25,,4
+icml2025,O6q2BHK1BL,Accept (spotlight poster),Accept,3.5,,4
+icml2025,tnyxtaSve5,Accept (spotlight poster),Accept,3.3333333333333335,,3
+icml2025,aJeLhLcsh0,Accept (spotlight poster),Accept,3.25,,4
+icml2025,mEV0nvHcK3,Accept (spotlight poster),Accept,3.25,,4
+icml2025,BkrIQPREkn,Accept (spotlight poster),Accept,3.0,,4
+icml2025,GFsMJKt9Kp,Accept (spotlight poster),Accept,3.25,,4
+icml2025,GhTdNOMfOD,Accept (spotlight poster),Accept,3.5,,4
+icml2025,79O2XccGXZ,Accept (spotlight poster),Accept,3.75,,4
+icml2025,73mDARqOtQ,Accept (spotlight poster),Accept,3.75,,4
+icml2025,tNGdLEL4R0,Accept (spotlight poster),Accept,3.5,,4
+icml2025,Mlmpf4Izrj,Accept (spotlight poster),Accept,3.75,,4
+icml2025,WxY61MmHYo,Accept (spotlight poster),Accept,3.75,,4
+icml2025,6gX4rP6QJW,Accept (spotlight poster),Accept,3.75,,4
+icml2025,Q3rGQUGgWo,Accept (spotlight poster),Accept,3.75,,4
+icml2025,Gn6L4QRKf7,Accept (spotlight poster),Accept,3.75,,4
+icml2025,wiQe95BPaB,Accept (spotlight poster),Accept,3.6666666666666665,,3
+icml2025,xtlixzbcfV,Accept (spotlight poster),Accept,3.6666666666666665,,3
+icml2025,iFOXz5H2gB,Accept (spotlight poster),Accept,3.5,,4
+icml2025,qOgKMqv9T7,Accept (spotlight poster),Accept,3.5,,4
+icml2025,OJ6WE7F8tK,Accept (spotlight poster),Accept,3.75,,4
+icml2025,4HQaMUYWAT,Accept (spotlight poster),Accept,4.0,,3
+icml2025,zL6ljQvPzZ,Accept (spotlight poster),Accept,3.75,,4
+icml2025,c0dhw1du33,Accept (spotlight poster),Accept,3.75,,4
+icml2025,IKCfxWtTsu,Accept (spotlight poster),Accept,4.0,,4
+icml2025,MkCnPNOLMk,Accept (spotlight poster),Accept,4.25,,4
+icml2025,wBJIO15pBV,Accept (spotlight poster),Accept,3.75,,4
+icml2025,dhRXGWJ027,Accept (spotlight poster),Accept,4.0,,4
+icml2025,Go0DdhjATH,Accept (spotlight poster),Accept,4.0,,4
+icml2025,qLfo1sef50,Accept (spotlight poster),Accept,3.75,,4
+icml2025,teUg2pMrF0,Accept (spotlight poster),Accept,3.75,,4
+icml2025,YucuAuXMpT,Accept (spotlight poster),Accept,3.75,,4
+icml2025,afpc1MFMYU,Accept (spotlight poster),Accept,3.75,,4
+icml2025,K2CckZjNy0,Accept (spotlight poster),Accept,4.0,,4
+icml2025,jP59rz1bZk,Accept (oral),Accept,3.6666666666666665,,3
+icml2025,F08lzoBgad,Accept (oral),Accept,3.75,,4
+icml2025,j6H7c3aQyb,Accept (oral),Accept,3.5,,4
+icml2025,reuShgiHdg,Accept (oral),Accept,3.5,,4
+icml2025,mBstuGUaXo,Accept (oral),Accept,3.75,,4
+icml2025,l19DmXbwPK,Accept (oral),Accept,3.75,,4
+icml2025,kJQgMGLrow,Accept (oral),Accept,3.75,,4
+icml2025,4AmFA0qNQ2,Accept (oral),Accept,3.75,,4
+icml2025,26JsumCG0z,Accept (oral),Accept,3.75,,4
+icml2025,zf9zwCRKyP,Accept (oral),Accept,3.3333333333333335,,3
+icml2025,OZSXYeqpI1,Accept (oral),Accept,3.5,,4
+icml2025,SyQPiZJVWY,Accept (oral),Accept,3.75,,4
+icml2025,rc65N9xIrY,Accept (oral),Accept,3.75,,4
+icml2025,d2aGLPSpFz,Accept (oral),Accept,3.5,,4
+icml2025,Rc7y9HFC34,Accept (oral),Accept,3.75,,4
+icml2025,2GmXJnyNM4,Accept (oral),Accept,3.3333333333333335,,3
+icml2025,WGXb7UdvTX,Accept (oral),Accept,3.5,,4
+icml2025,KPRIwWhqAZ,Accept (oral),Accept,4.0,,4
+icml2025,PqDvTWdQwm,Accept (oral),Accept,4.0,,4
+icml2025,DmH4HHVb3y,Accept (oral),Accept,4.0,,5
+icml2025,EBNgREMoVD,Accept (oral),Accept,4.0,,4
+icml2025,nq5bt0mRTC,Accept (oral),Accept,4.0,,3
+icml2025,etxseIT47b,Accept (oral),Accept,4.0,,4
+icml2025,ZdqTePSV1K,Accept (oral),Accept,4.0,,4
+icml2025,NIe74CY9lk,Accept (oral),Accept,4.0,,4
+icml2025,LO7ciRpjI5,Accept (oral),Accept,4.0,,3
+icml2025,wUEp13rqXP,Accept (oral),Accept,3.75,,4
+icml2025,xmbdACI0xu,Accept (oral),Accept,3.75,,4
+icml2025,UeB3Hdrhda,Accept (oral),Accept,4.0,,4
+icml2025,ybno0ZP44z,Accept (oral),Accept,4.0,,4
+icml2025,Cf0N07E1vu,Accept (oral),Accept,4.0,,3
+icml2025,Tv2JDGw920,Accept (oral),Accept,4.0,,3
+icml2025,up21Rwj5Fo,Accept (oral),Accept,3.75,,4
+icml2025,4EYwwVuhtG,Accept (oral),Accept,4.0,,3
+icml2025,LwQGRGJTHw,Accept (oral),Accept,4.25,,4
+icml2025,X9vBykZVYg,Accept (oral),Accept,4.25,,4
+icml2025,Fvq9ogLnLN,Accept (oral),Accept,4.25,,4
+icml2025,GFpjO8S8Po,Accept (oral),Accept,4.25,,4
+icml2025,esBoQFmD7v,Accept (oral),Accept,4.666666666666667,,3
+icml2025,tO7OVZkCo1,Accept (oral),Accept,4.25,,4
+icml2025,vt65VjJakt,Accept (oral),Accept,4.333333333333333,,3
+icml2025,QqVZ28qems,Accept (oral),Accept,4.25,,4
+icml2025,VsJ1K2HV3k,Accept (oral),Accept,4.2,,5
+icml2025,36hVB7DEB0,Accept (oral),Accept,4.25,,4
+icml2025,I1OHPb4zWo,Accept (oral),Accept,4.666666666666667,,3
+icml2025,ilpL2qACla,Accept (oral),Accept,4.75,,4
+icml2025,70voOlSPos,Accept (oral),Accept,4.25,,4
+icml2025,LCbHsdtvOR,Accept (oral),Accept,4.333333333333333,,3
+icml2025,QvqnPVGWAN,Accept (oral),Accept,4.166666666666667,,6
+icml2025,5zwF1GizFa,Accept (oral),Accept,4.25,,4
+neurips2025,OfmEkL02ZR,Reject,Reject,2.0,3.75,4
+neurips2025,QCB4wfDqQ9,Reject,Reject,3.0,3.5,4
+neurips2025,XResNG9opT,Reject,Reject,3.0,4.0,5
+neurips2025,dg1npGNK0d,Reject,Reject,2.75,4.5,4
+neurips2025,FSowNqrLpp,Reject,Reject,3.25,3.0,4
+neurips2025,aWXrVm07Zl,Reject,Reject,3.25,4.25,4
+neurips2025,yT8hGWqoBm,Reject,Reject,2.75,4.0,4
+neurips2025,RSppi0Z8k2,Reject,Reject,2.6666666666666665,3.0,3
+neurips2025,k5ekIwvmYA,Reject,Reject,2.8,3.8,5
+neurips2025,ZfNeovqQkn,Reject,Reject,2.75,3.75,4
+neurips2025,MZg06yaIW9,Reject,Reject,3.25,4.0,4
+neurips2025,vhnDpzcaO2,Reject,Reject,2.75,3.25,4
+neurips2025,LDkyhsiCZQ,Reject,Reject,3.25,3.75,4
+neurips2025,1KylG7l2oQ,Reject,Reject,2.5,3.5,4
+neurips2025,04ZLO7bIvu,Reject,Reject,2.5,3.75,4
+neurips2025,95j8fCs9n2,Reject,Reject,3.4,3.8,5
+neurips2025,k8WbT6f36p,Reject,Reject,2.25,4.0,4
+neurips2025,FZURCro04D,Reject,Reject,4.0,3.75,4
+neurips2025,4FUM2hlyYx,Reject,Reject,3.6666666666666665,3.3333333333333335,3
+neurips2025,IQ3382JnQl,Reject,Reject,3.75,3.25,4
+neurips2025,YRh4epoqIS,Reject,Reject,3.75,3.25,4
+neurips2025,DP7kUjUltX,Reject,Reject,4.0,2.4,5
+neurips2025,IaOhbdu2Ov,Reject,Reject,3.75,3.0,4
+neurips2025,y8dGdBJkWa,Reject,Reject,3.75,3.75,4
+neurips2025,OCxhcqUtDf,Reject,Reject,3.75,2.75,4
+neurips2025,DALpFQM3rE,Reject,Reject,3.75,3.25,4
+neurips2025,MeOTBs8BQV,Reject,Reject,3.75,3.0,4
+neurips2025,uglqgGHNFb,Reject,Reject,3.75,3.5,4
+neurips2025,9xto7V7oqi,Reject,Reject,3.8,3.4,5
+neurips2025,9q4L2odBPh,Reject,Reject,3.75,4.25,4
+neurips2025,LSrpJkynU2,Reject,Reject,4.0,3.0,3
+neurips2025,71jdC8ti5h,Reject,Reject,4.0,2.5,4
+neurips2025,2lgVQRB4dh,Reject,Reject,3.75,3.0,4
+neurips2025,A0AaeWG5NE,Reject,Reject,4.0,3.25,4
+neurips2025,FNuul0hlin,Reject,Reject,4.75,3.25,4
+neurips2025,b6s1jIHj6o,Reject,Reject,4.0,4.0,4
+neurips2025,62tISV7pM3,Reject,Reject,4.25,2.5,4
+neurips2025,YtsX7irxbq,Reject,Reject,4.25,3.75,4
+neurips2025,EqlmpJYapx,Reject,Reject,4.75,2.75,4
+neurips2025,6JlzhISecd,Reject,Reject,4.25,4.5,4
+neurips2025,wEVqNPwG1i,Reject,Reject,4.25,3.5,4
+neurips2025,XvHQnCywxN,Reject,Reject,4.25,3.75,4
+neurips2025,zcVKvXtrkJ,Reject,Reject,4.2,3.2,5
+neurips2025,PFsrhWknXP,Reject,Reject,4.25,3.5,4
+neurips2025,gX9jCe0jI5,Reject,Reject,4.25,2.75,4
+neurips2025,hAZ3d3tsDd,Reject,Reject,4.5,3.75,4
+neurips2025,43lkrdfQzB,Reject,Reject,4.2,4.0,5
+neurips2025,iJ4i5HE5ER,Reject,Reject,4.75,4.0,4
+neurips2025,2rgYVFiWPL,Reject,Reject,4.6,2.6,5
+neurips2025,sw0bT4z9FN,Reject,Reject,4.0,3.3333333333333335,3
+neurips2025,vTWNVYuvuF,Accept (poster),Accept,4.0,4.25,4
+neurips2025,TgGH1bY6kl,Accept (poster),Accept,4.0,2.25,4
+neurips2025,V13dSX1wAs,Accept (poster),Accept,4.0,3.75,4
+neurips2025,D2NR5Zq6PG,Accept (poster),Accept,3.75,2.5,4
+neurips2025,29FRqmVQK8,Accept (poster),Accept,4.0,3.8,5
+neurips2025,chYXaetMmz,Accept (poster),Accept,3.8,3.8,5
+neurips2025,6j9xJ9pBjm,Accept (poster),Accept,3.5,3.75,4
+neurips2025,dsUK4Xql8Z,Accept (poster),Accept,4.0,3.5,4
+neurips2025,iWWPtwXfnO,Accept (poster),Accept,3.75,2.75,4
+neurips2025,UFqqqJZwM7,Accept (poster),Accept,4.0,4.25,4
+neurips2025,V5kzCSeaXF,Accept (poster),Accept,4.0,3.25,4
+neurips2025,FT6VHWYdvd,Accept (poster),Accept,3.75,3.75,4
+neurips2025,I9gqXOSypB,Accept (poster),Accept,4.0,2.75,4
+neurips2025,lUHwUuQGdV,Accept (poster),Accept,4.0,4.0,4
+neurips2025,HgLaVgCpCl,Accept (poster),Accept,4.0,4.25,4
+neurips2025,xj0DXLQZCS,Accept (poster),Accept,4.0,3.6666666666666665,3
+neurips2025,Guar1tumDr,Accept (poster),Accept,4.0,3.75,4
+neurips2025,yslRXs9gcJ,Accept (poster),Accept,4.25,3.75,4
+neurips2025,o0HgWRmyY1,Accept (poster),Accept,4.25,4.0,4
+neurips2025,pKqLOmF3Lf,Accept (poster),Accept,4.25,4.25,4
+neurips2025,6Q5WG84uOD,Accept (poster),Accept,4.25,4.0,4
+neurips2025,PTLIM88XYR,Accept (poster),Accept,4.25,4.0,4
+neurips2025,IKVkpjSJzJ,Accept (poster),Accept,4.25,3.5,4
+neurips2025,0J0y9vSCWf,Accept (poster),Accept,4.25,2.75,4
+neurips2025,rRPyI2h0yN,Accept (poster),Accept,4.25,4.5,4
+neurips2025,BcYfsMMpV1,Accept (poster),Accept,4.25,4.0,4
+neurips2025,o3x3RV8XHd,Accept (poster),Accept,4.25,3.0,4
+neurips2025,q5QaTQcUbS,Accept (poster),Accept,4.25,3.0,4
+neurips2025,8LO0vLRXpz,Accept (poster),Accept,4.25,3.25,4
+neurips2025,eIf9GNcA5n,Accept (poster),Accept,4.25,4.0,4
+neurips2025,tdwRIP6NG2,Accept (poster),Accept,4.25,3.5,4
+neurips2025,bulTwq5kNK,Accept (poster),Accept,4.25,3.5,4
+neurips2025,1gCUv4SzaZ,Accept (poster),Accept,4.4,3.2,5
+neurips2025,bYF7Gvv0s0,Accept (poster),Accept,4.25,3.25,4
+neurips2025,jDYuadVajk,Accept (poster),Accept,4.8,4.0,5
+neurips2025,9jONuWKoLj,Accept (poster),Accept,4.75,3.0,4
+neurips2025,EdpkLRZZvu,Accept (poster),Accept,4.75,4.0,4
+neurips2025,FACJ0478oQ,Accept (poster),Accept,4.5,3.25,4
+neurips2025,t6EPMcudln,Accept (poster),Accept,4.5,3.5,4
+neurips2025,isAYKdLwtB,Accept (poster),Accept,4.5,2.75,4
+neurips2025,6Had86RHix,Accept (poster),Accept,4.5,4.0,4
+neurips2025,Yhfx12Azz1,Accept (poster),Accept,4.75,3.75,4
+neurips2025,QQhQIqons0,Accept (poster),Accept,4.5,3.25,4
+neurips2025,AZLj6ObEDF,Accept (poster),Accept,4.75,4.25,4
+neurips2025,GctsZXLCpl,Accept (poster),Accept,4.75,3.75,4
+neurips2025,MnWWHumqMc,Accept (poster),Accept,4.5,2.75,4
+neurips2025,RkdTtznSAL,Accept (poster),Accept,4.666666666666667,2.3333333333333335,3
+neurips2025,idtZwmjakN,Accept (poster),Accept,4.75,3.75,4
+neurips2025,AHjspi4R22,Accept (poster),Accept,4.666666666666667,4.0,3
+neurips2025,byNNv5Et10,Accept (poster),Accept,5.0,4.0,4
+neurips2025,h3dbocj7po,Accept (spotlight),Accept,4.5,2.75,4
+neurips2025,0KnZasL9nA,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,TOhpnECT10,Accept (spotlight),Accept,4.5,2.5,4
+neurips2025,ZwBtDbuzjY,Accept (spotlight),Accept,4.25,3.75,4
+neurips2025,4QVLKwgg3S,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,Rtd6GoJcoT,Accept (spotlight),Accept,4.5,4.0,4
+neurips2025,TZB6YT8Owr,Accept (spotlight),Accept,4.5,3.5,4
+neurips2025,dpllevHMbc,Accept (spotlight),Accept,4.5,3.25,4
+neurips2025,2CeGVUpOd7,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,95z3psF9zJ,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,cECo8tetzF,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,4p28lkk44b,Accept (spotlight),Accept,4.5,3.5,4
+neurips2025,huZzy5w2Js,Accept (spotlight),Accept,4.0,4.0,4
+neurips2025,7Z25QbOv4a,Accept (spotlight),Accept,4.5,4.0,4
+neurips2025,EyFrTjaYU3,Accept (spotlight),Accept,4.2,3.6,5
+neurips2025,WcUo7Z2Jnh,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,3UaItHVjyE,Accept (spotlight),Accept,4.5,3.0,4
+neurips2025,pkuVonMwhT,Accept (spotlight),Accept,4.75,3.25,4
+neurips2025,7pufO0SJAC,Accept (spotlight),Accept,4.6,3.6,5
+neurips2025,WbpXT0WL9S,Accept (spotlight),Accept,4.75,3.75,4
+neurips2025,xmYT1JqVpj,Accept (spotlight),Accept,4.5,2.75,4
+neurips2025,M3zxsDL2Rk,Accept (spotlight),Accept,4.75,3.75,4
+neurips2025,Tk5nQnTGmP,Accept (spotlight),Accept,4.75,2.0,4
+neurips2025,XsBzmJzJ2l,Accept (spotlight),Accept,4.75,3.5,4
+neurips2025,mOYGK7Hw9Y,Accept (spotlight),Accept,4.75,2.5,4
+neurips2025,YX5DHa9OfX,Accept (spotlight),Accept,4.666666666666667,2.3333333333333335,3
+neurips2025,TjQP5hc3WC,Accept (spotlight),Accept,4.75,3.5,4
+neurips2025,bTssV4Cnjn,Accept (spotlight),Accept,4.75,2.75,4
+neurips2025,PhIWEbewAz,Accept (spotlight),Accept,4.75,3.5,4
+neurips2025,t77EZLjvd5,Accept (spotlight),Accept,4.5,3.5,4
+neurips2025,SRDF3RV0KP,Accept (spotlight),Accept,4.75,3.75,4
+neurips2025,uUIgxjWkCI,Accept (spotlight),Accept,4.5,3.75,4
+neurips2025,Zc5Ntjt5Ul,Accept (spotlight),Accept,4.75,2.75,4
+neurips2025,A9jXG3FUMT,Accept (spotlight),Accept,4.75,3.75,4
+neurips2025,n8AvXKcCeR,Accept (spotlight),Accept,5.25,3.5,4
+neurips2025,5iHDGJFf49,Accept (spotlight),Accept,5.0,3.25,4
+neurips2025,avRktRfQ8c,Accept (spotlight),Accept,5.0,3.0,4
+neurips2025,cD4whTwm6G,Accept (spotlight),Accept,4.8,3.4,5
+neurips2025,Ll29PmM3UH,Accept (spotlight),Accept,5.0,3.5,4
+neurips2025,auiURbhoYx,Accept (spotlight),Accept,5.0,3.5,4
+neurips2025,rSsc9uCVBl,Accept (spotlight),Accept,5.0,3.25,4
+neurips2025,bA02DmQN5d,Accept (spotlight),Accept,5.25,3.5,4
+neurips2025,AHccBzULR7,Accept (spotlight),Accept,5.0,3.75,4
+neurips2025,RblaNJGx8C,Accept (spotlight),Accept,5.0,3.75,4
+neurips2025,JRVZTACwb0,Accept (spotlight),Accept,5.25,3.75,4
+neurips2025,QwXpn5IPKk,Accept (spotlight),Accept,5.0,4.0,4
+neurips2025,xwqTt26NJf,Accept (spotlight),Accept,4.75,3.75,4
+neurips2025,RbdLnwEEjk,Accept (spotlight),Accept,5.0,4.0,4
+neurips2025,yb5JOOmfxA,Accept (spotlight),Accept,4.75,4.0,4
+neurips2025,y0wDflmpLk,Accept (spotlight),Accept,5.0,4.0,4
+neurips2025,gm5mkiTGOy,Accept (oral),Accept,4.5,3.5,4
+neurips2025,MrUsZfQ9pC,Accept (oral),Accept,4.6,3.0,5
+neurips2025,Zd6VyjmN1S,Accept (oral),Accept,4.5,3.25,4
+neurips2025,efOq8wHH9o,Accept (oral),Accept,4.5,3.25,4
+neurips2025,R73ybUciQF,Accept (oral),Accept,4.75,3.75,4
+neurips2025,Q6IyUpBmrG,Accept (oral),Accept,4.75,4.25,4
+neurips2025,Q3qAsZAEZw,Accept (oral),Accept,4.75,4.0,4
+neurips2025,Gq4Gay8rDB,Accept (oral),Accept,4.6,3.4,5
+neurips2025,iydmH9boLb,Accept (oral),Accept,4.5,3.5,4
+neurips2025,0biUwyjKkm,Accept (oral),Accept,4.5,3.5,4
+neurips2025,4xvE6Iy77Y,Accept (oral),Accept,4.5,3.5,4
+neurips2025,IfD2MKTmWv,Accept (oral),Accept,4.75,3.5,4
+neurips2025,RxkCwOKVKa,Accept (oral),Accept,4.75,2.75,4
+neurips2025,XPe55Uffd7,Accept (oral),Accept,4.5,2.75,4
+neurips2025,B6bE2GC71a,Accept (oral),Accept,4.75,3.75,4
+neurips2025,rMdf8jhLR7,Accept (oral),Accept,4.0,3.25,4
+neurips2025,KurYdcCbjv,Accept (oral),Accept,4.5,3.75,4
+neurips2025,BSZqpqgqM0,Accept (oral),Accept,5.0,3.25,4
+neurips2025,ImpizBSKcu,Accept (oral),Accept,5.0,3.6,5
+neurips2025,uWj4s7rMnR,Accept (oral),Accept,4.8,4.2,5
+neurips2025,8P3QNSckMp,Accept (oral),Accept,5.0,3.75,4
+neurips2025,cGks3s79hW,Accept (oral),Accept,5.0,3.75,4
+neurips2025,WhEPg4mUs6,Accept (oral),Accept,5.0,2.75,4
+neurips2025,VYLdKb5dzO,Accept (oral),Accept,5.0,3.4,5
+neurips2025,INqBOmwIpG,Accept (oral),Accept,5.0,4.2,5
+neurips2025,CH72XyZs4y,Accept (oral),Accept,5.0,3.5,4
+neurips2025,koEALFNBj1,Accept (oral),Accept,4.75,4.25,4
+neurips2025,oJ84bedrtM,Accept (oral),Accept,4.75,3.75,4
+neurips2025,UVDihUz0iT,Accept (oral),Accept,5.0,4.0,5
+neurips2025,eIDa6pd9iQ,Accept (oral),Accept,5.0,3.75,4
+neurips2025,rtG7n93Ru8,Accept (oral),Accept,4.75,3.75,4
+neurips2025,JcEqp4aPmb,Accept (oral),Accept,5.0,4.0,5
+neurips2025,XQ87Vo9GIz,Accept (oral),Accept,4.75,4.25,4
+neurips2025,qYkhCah8OZ,Accept (oral),Accept,4.75,3.25,4
+neurips2025,1b7whO4SfY,Accept (oral),Accept,5.25,4.0,4
+neurips2025,OzdAnGHEPx,Accept (oral),Accept,5.25,5.0,4
+neurips2025,s6k9l5yX8e,Accept (oral),Accept,5.0,3.75,4
+neurips2025,sYK4yPDuT1,Accept (oral),Accept,5.0,3.75,4
+neurips2025,EoebmBe9fG,Accept (oral),Accept,5.5,2.25,4
+neurips2025,ZwCVFBFUFb,Accept (oral),Accept,5.25,3.75,4
+neurips2025,rMhQBlhh4c,Accept (oral),Accept,5.25,3.5,4
+neurips2025,KnqiC0znVF,Accept (oral),Accept,5.25,3.75,4
+neurips2025,gL4muAFwsh,Accept (oral),Accept,5.0,3.5,4
+neurips2025,kVz9uvqUna,Accept (oral),Accept,5.0,3.5,4
+neurips2025,w1ihNiIBOc,Accept (oral),Accept,5.25,3.25,4
+neurips2025,QN0E0KX2LM,Accept (oral),Accept,5.666666666666667,2.6666666666666665,3
+neurips2025,s0JVsx3bx1,Accept (oral),Accept,5.0,4.0,4
+neurips2025,gxfusMqPIs,Accept (oral),Accept,5.25,3.5,4
+neurips2025,fohuurA03P,Accept (oral),Accept,5.0,4.5,4
+neurips2025,knPz7gtjPW,Accept (oral),Accept,5.0,3.0,4
