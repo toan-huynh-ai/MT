@@ -1,0 +1,242 @@
+{
+  "GPT-4o": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 139,
+    "drop_rate": 76.8,
+    "drop_by_category": {
+      "food_krom": 63,
+      "kinship_colloq": 20,
+      "krom_religious": 12,
+      "toponym_krom": 3,
+      "ethnonym_kinh": 7,
+      "festival_krom": 40,
+      "boat_racing": 5,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 1,
+      "hyp_very_short": 8,
+      "hyp_broken_any": 8
+    },
+    "model": "GPT-4o",
+    "source_file": "gpt4o_full_1856.json",
+    "corpus_chrf": 40.47,
+    "corpus_bleu": 2.23,
+    "meta_model": "GPT-4o"
+  },
+  "Aya-101": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 170,
+    "drop_rate": 93.9,
+    "drop_by_category": {
+      "food_krom": 71,
+      "kinship_colloq": 38,
+      "krom_religious": 14,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 37,
+      "boat_racing": 16,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 1,
+      "hyp_very_short": 4,
+      "hyp_broken_any": 5
+    },
+    "model": "Aya-101",
+    "source_file": "aya101_full_1856.json",
+    "corpus_chrf": 36.03,
+    "corpus_bleu": 0.48,
+    "meta_model": "aya-101"
+  },
+  "NLLB-200-3.3B": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 178,
+    "drop_rate": 98.3,
+    "drop_by_category": {
+      "food_krom": 74,
+      "kinship_colloq": 39,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 42,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 0,
+      "hyp_very_short": 6,
+      "hyp_broken_any": 6
+    },
+    "model": "NLLB-200-3.3B",
+    "source_file": "nllb_full_1856.json",
+    "corpus_chrf": 34.08,
+    "corpus_bleu": 0.55,
+    "meta_model": "nllb-200-3.3B"
+  },
+  "Gemma-SEA-LION-v3-9B-IT": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 171,
+    "drop_rate": 94.5,
+    "drop_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 35,
+      "krom_religious": 14,
+      "toponym_krom": 4,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 12,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 0,
+      "hyp_very_short": 6,
+      "hyp_broken_any": 6
+    },
+    "model": "Gemma-SEA-LION-v3-9B-IT",
+    "source_file": "gemma_sealion_full_1856.json",
+    "corpus_chrf": 25.1,
+    "corpus_bleu": 0.56,
+    "meta_model": "Gemma-SEA-LION-v3-9B-IT"
+  },
+  "Llama-SEA-LION-v3.5-8B-R": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 181,
+    "drop_rate": 100.0,
+    "drop_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 1856,
+      "hyp_very_short": 1,
+      "hyp_broken_any": 1856
+    },
+    "model": "Llama-SEA-LION-v3.5-8B-R",
+    "source_file": "sealion_full_1856.json",
+    "corpus_chrf": 0.06,
+    "corpus_bleu": 0.0,
+    "meta_model": "Llama-SEA-LION-v3.5-8B-R"
+  },
+  "Sailor2-8B": {
+    "n": 1856,
+    "ref_has_krom": 181,
+    "dropped": 157,
+    "drop_rate": 86.7,
+    "drop_by_category": {
+      "food_krom": 65,
+      "kinship_colloq": 38,
+      "krom_religious": 13,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 35,
+      "boat_racing": 8,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "ref_by_category": {
+      "food_krom": 75,
+      "kinship_colloq": 42,
+      "krom_religious": 15,
+      "toponym_krom": 6,
+      "ethnonym_kinh": 12,
+      "festival_krom": 43,
+      "boat_racing": 17,
+      "krom_ethno_label": 10,
+      "nam_bo_vn_translit": 15,
+      "vn_loanword": 2
+    },
+    "health": {
+      "hyp_no_khmer_char": 31,
+      "hyp_very_short": 2,
+      "hyp_broken_any": 33
+    },
+    "model": "Sailor2-8B",
+    "source_file": "sailor2_full_1856.json",
+    "corpus_chrf": 32.91,
+    "corpus_bleu": 1.43,
+    "meta_model": "Sailor2-8B"
+  }
+}

@@ -82,7 +82,7 @@ def call_gpt4o(client, system_prompt, user_prompt, max_retries=3):
 def load_data():
     data = []
     for fname in ["all_1.jsonl", "all_2.jsonl"]:
-        fpath = BASE / fname
+        fpath = BASE / "data" / fname
         if not fpath.exists():
             continue
         with open(fpath, "r", encoding="utf-8") as f:

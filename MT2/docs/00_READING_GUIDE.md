@@ -39,6 +39,8 @@ If you only have 30 minutes, read in this order:
 | 13 | `13_km2vi_report.md` | Reverse-direction (Km->Vi) experiment notes |
 | 14 | `14_gpt4o_failure_report_50samples.md` | Failure report on top-50 culture-rich samples |
 | 15 | `15_bao_cao_3_lop_khmer.md` | Three-layer Khmer taxonomy + topic stats + 25 clean vs 25 culture-fail samples |
+| 16 | `16_multi_model_variety_comparison.md` | Variety-collapse comparison across 6 models (GPT-4o + 5 local) |
+| 17 | `17_literature_review.md` | Literature review: what has been done, what is still open |
 
 ## Files that are historically useful but NOT canonical
 
