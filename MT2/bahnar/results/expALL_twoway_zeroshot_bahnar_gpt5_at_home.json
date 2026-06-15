@@ -1,0 +1,1240 @@
+{
+  "metadata": {
+    "model": "gpt-5",
+    "total_samples": 100,
+    "status": "running"
+  },
+  "metrics": {
+    "vietnamese_to_bahnar": {
+      "bleu": 0.0,
+      "chrf++": 0.0
+    },
+    "bahnar_to_vietnamese": {
+      "bleu": 0.0,
+      "chrf++": 0.0
+    }
+  },
+  "per_sample": [
+    {
+      "id": 68942,
+      "text": "Trong bếp của người Bahnar, thường có những loại dụng cụ nấu ăn nào đặc trưng mà bạn thấy gắn bó nhất với đời sống hằng ngày?",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 1.0,
+      "label": [
+        "Lăm hnam gŏ kon Bahnar, juăt kơ đei lu khul tơmam pai-sa ayơ kơdrô̆-pha mă ih 'bôh klep-klong loi hăm chăl arih rim năr?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ anih pơm bơ̆ng kơ kon Bahnar, plơi hơ̆ng hơ̆rê pơgŏn pơm bơ̆ng mơnă ih thâi jăp-kơđăp hơnŏng đơ̆i hrơi-hrơi?",
+      "hyp_ba_to_vi": "Trong nhà của người Ba Na, thường có nhiều loại đồ dùng ăn uống và công cụ lao động mà bạn thấy gắn liền với sinh hoạt hằng ngày phải không?"
+    },
+    {
+      "id": 68942,
+      "text": "Bọn mình hay dùng nồi đất, chảo gang, ống tre và vỉ nướng bằng tre – tất cả đều gần gũi với thiên nhiên núi rừng.",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 2.0,
+      "label": [
+        "Lu nhôn juăt kơ yua gŏ lơ̆n, gŏ gang, đing 'lao-pơo păng adring-'buh bih kram – đĭ đăng leng kơ klep-klong hăm kơlăm-plĕnh."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆m hay pơdùng gŏ tơnah, chảo gang, klŏng tre kơ vĭ pơđŏt tre – krăp đêh gơ̆n gũi kơ tơlơi kông glai.",
+      "hyp_ba_to_vi": "Nhiều người thường dùng cồng chiêng, trống, đàn đing lao-pơo cùng đủ loại hoa văn để làm đẹp cho lễ hội và đời sống."
+    },
+    {
+      "id": 68942,
+      "text": "Việc sử dụng những vật liệu truyền thống như vậy có ảnh hưởng gì đến hương vị món ăn không bạn?",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 3.0,
+      "label": [
+        "Tơdrong yua dôm tơmam-jang ată anăn thoi noh hăm đei 'bơm-tơdră kiơ tơ 'bâu-tơdra tơmam sa ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ih ơi, pơm yơ̆ng drăp adroi nư̆h geh pơm khăc jơ̆ng mơn sa hơm?",
+      "hyp_ba_to_vi": "Tại sao các môn đồ của thầy lại không rửa tay trước khi ăn?"
+    },
+    {
+      "id": 68942,
+      "text": "Có chứ, nấu bằng nồi đất hay ống tre giúp giữ lại mùi thơm tự nhiên, khiến món ăn đậm đà hơn nhiều so với nồi hiện đại.",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 4.0,
+      "label": [
+        "Đei ngăl, pai bih gŏ lơ̆n dah đing kram tơgŭm pơgei 'bâu phu hmă kơdih,  pơm kơ tơmam sa djrĭk-djơ̆ 'biơ̆ pơting hăm gŏ ahrei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơh, tơp bă gŏng tơnah hay klŏng tre pơm kơ̆p hơm thơm tơlơi tơnam, pơm mơ̆ng ăn đậm đà hơn hơnh gŏng tơnap.",
+      "hyp_ba_to_vi": "Vì vậy, ta bảo anh em: đừng lo lắng cho mạng sống mình rằng sẽ ăn gì, uống gì, cũng đừng lo cho thân thể mình rằng sẽ mặc gì."
+    },
+    {
+      "id": 68942,
+      "text": "Người Bahnar có chế tác dụng cụ nấu ăn thủ công không, hay phải mua ở chợ hoặc nơi khác?",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 5.0,
+      "label": [
+        "Kon Bahnar hăm gơh pơcheh pơjing tơmam pai-sa bih-ti ưh, dah khŏm răt đơ̆ng kơchơ dah đơ̆ng nai?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kon Bahnar geh tơ̆m pơkăp hơđŏ pơ̆h bơ̆ng tơ̆ng ti kơ, lăh pơđăp teh ơ̆ chơ̆ lăh ơ̆ anih kơđeh?",
+      "hyp_ba_to_vi": "Người Ba Na có thể gìn giữ và phát triển tiếng nói, chữ viết của mình được không, khi việc đó từ xưa đến nay rất khó?"
+    },
+    {
+      "id": 68942,
+      "text": "Ngày trước tụi mình tự làm gần hết – từ gùi, rổ, đến ống nấu cơm – vì việc tự tay làm mang giá trị tinh thần sâu sắc.",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 6.0,
+      "label": [
+        "Sơ̆ nhôn pơm kơdih ngăl – đơ̆ng rau-hơkăt, grang, truh tơ đing pai por – yua kơ tơdrong pơm kơdih đei gĭtgăl kơ jơhngơ̆m jrŭ-kơjăl.",
+        "Sơ̆ nhôn pơm kơdih ngăl – đơ̆ng rĕu-hơkăt, grang, truh tơ đing pai por – yua kơ tơdrong pơm kơdih đei gĭtgăl kơ jơhngơ̆m jrŭ-kơjăl."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Nar hơ̆mă, bơnă pơm kơtăng geh păng hơ̆dăk — tơ̆ gùi, rổ, trô̆ng pă cơm — yă pơm băl tĕ tơ̆m geh kơtei tâm hồn jơ̆ng pơđơ̆m.",
+      "hyp_ba_to_vi": "Con người sản xuất lương thực – từ săn bắt, hái lượm đến trồng trọt, chăn nuôi – vì quá trình sản xuất có tác động đến môi trường tự nhiên."
+    },
+    {
+      "id": 68942,
+      "text": "Mình thật sự ấn tượng với cách người Bahnar biến từng dụng cụ nấu ăn thành một phần di sản sống động và đầy bản sắc văn hóa.",
+      "topic": "DỤNG CỤ NẤU ĂN",
+      "order": 7.0,
+      "label": [
+        "Ĭnh iă-djơ̆ tơpă hăm tho kon Bahnar pơm kơ rim tơmam pai-sa jing mĭnh jăm tơmam pơsư̆ 'măn arih blôk-blai păng 'bĕnh kơ hơbŏ-tơdra jing jar."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Inh kơtang hơ̆jơ̆ng kơ đươ̆ng kon Bahnar pơjing mơ̆t tơdrong pơ̆h sa truh tơdrong bok yă hơdip, hơmâo adăt pơlei hơ̆ng rơwai kon Bahnar.",
+      "hyp_ba_to_vi": "Chúng ta cần cùng với đồng bào Ba Na sửa đổi mọi điều sai trái của mình thành những điều tốt đẹp trong cuộc sống ấm no và bảo vệ phong tục, luật tục của buôn làng."
+    },
+    {
+      "id": 68923,
+      "text": "Chào bạn, hôm nay mình muốn tìm hiểu thêm về bữa tối của người Bahnar, bạn có thể chia sẻ một chút được không?",
+      "topic": "BỮA TỐI",
+      "order": 1.0,
+      "label": [
+        "Kơkuh ih, năr 'nâu ĭnh 'maih wă kơ băt thim gah sŏng sa kơmăng kon Bahnar, ih hăm gơh klah-song tŏsĕt ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jơ̆ hă, hngai ni inh mơ̆n hiău tơnap rơ̆ng bơ̆a cha măng kơ kon Bơhnar, hă bơ̆l pơđi mŏt pơ̆t kơ inh hơ̆?",
+      "hyp_ba_to_vi": "Xin lỗi bạn, hôm nay tôi muốn tìm hiểu thêm về đời sống văn hóa của người Bahnar, bạn có thể giải thích rõ hơn không?"
+    },
+    {
+      "id": 68923,
+      "text": "Dĩ nhiên rồi, bữa tối đối với người Bahnar không chỉ là ăn uống mà còn là thời gian quây quần bên gia đình.",
+      "topic": "BỮA TỐI",
+      "order": 2.0,
+      "label": [
+        "Gơh ngăl, sŏng sa kơmăng kiơ̆ kơ kon Bahnar ưh kơ sĭ lăp sa et đĕch ôh noh dai hơnang akŏm hơdai hnam dơnŏ."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jơ̆h hă, rơp bơ̆ng măng kơ kon Bahnar tơ̆ kơđơn bơ̆ng hŭp, jơ̆ng tơ̆m pơjâu đơ̆ng hnam.",
+      "hyp_ba_to_vi": "Ngày nay, sống trong thời đại mới, con em Ba Na không được quên dù chỉ một chút những giá trị văn hóa truyền thống của quê hương."
+    },
+    {
+      "id": 68923,
+      "text": "Người Bahnar thường ăn tối vào khoảng mấy giờ và có thói quen gì đặc biệt không?",
+      "topic": "BỮA TỐI",
+      "order": 3.0,
+      "label": [
+        "Kon Bahnar juăt kơ sŏng sa kơmăng dang dôm jơ păng đei tơdrong juăt pha kơdih kiơ ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kon Bahnar tơ̆ng chă đĭh măng lơ̆m pơ̆ nâo giờ, kơ hơ̆m thói quen tơ̆ đặc biệt hă?",
+      "hyp_ba_to_vi": "Người Ba Na thường sống ở vùng nào và họ có phong tục gì đặc biệt không?"
+    },
+    {
+      "id": 68923,
+      "text": "Thường thì bọn mình ăn tối sau khi trời tối hẳn, khoảng 6 đến 7 giờ, và luôn ăn cùng nhau trong nhà sàn.",
+      "topic": "BỮA TỐI",
+      "order": 4.0,
+      "label": [
+        "Hmă jơ̆ lu nhôn sŏng sa kơmăng đơ̆ng rŏng kơ đĭ măng bơih, kơplah 6 truh tơ 7 jơ, păng ling lang sŏng sa hơdai lăm hnam kơ'như̆."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Pơđi, hăi cha bơ̆ măng jơ̆ kơ̆ trôk măng hĭp, kơ̆ prău truh pơh jơ, la hĭnh kơ̆m mơ̆ng hnam kơtang.",
+      "hyp_ba_to_vi": "Vào buổi sáng trước khi đi làm rẫy, khoảng từ 6 đến 7 giờ, mọi người thường cùng nhau ăn sáng trong nhà."
+    },
+    {
+      "id": 68923,
+      "text": "Thức ăn trong bữa tối có khác gì so với bữa trưa không bạn?",
+      "topic": "BỮA TỐI",
+      "order": 5.0,
+      "label": [
+        "Tơmam sa lơ̆m sŏng sa kơmăng hăm đei kiơ phara hăm sŏng sa kơ'năr ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơm sa jơ̆ bữa măng kơđă hơ̆ kơ bữa trưa, ih?",
+      "hyp_ba_to_vi": "Món ăn trong bữa sáng có khác với bữa tối không?"
+    },
+    {
+      "id": 68923,
+      "text": "Cũng gần giống, nhưng thường đơn giản hơn một chút, có thể chỉ là cơm với canh rau và cá kho mặn.",
+      "topic": "BỮA TỐI",
+      "order": 6.0,
+      "label": [
+        "Kư̆m dai wă leilăi mơ̆n, mălei juăt kơ yôk yak 'biơ̆ tŏsĕt, lăp pôm mơh hăm 'nhot păng ka kho tăng 'boh đĕch."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Gơ̆h hŏ jơ̆ng hơ̆, yăh rĕng hrăng lơ̆h mơ̆t pơ̆t, dăh chơ̆ng pơm hŏm đăk hla kơ̆ ka pơ̆h bơh.",
+      "hyp_ba_to_vi": "Kẻ lười biếng thò tay vào đĩa, nhưng đến cả việc đưa tay lên miệng cũng thấy quá mệt."
+    },
+    {
+      "id": 68923,
+      "text": "Bữa tối có khi nào tổ chức ngoài trời hoặc bên bếp lửa không?",
+      "topic": "BỮA TỐI",
+      "order": 7.0,
+      "label": [
+        "Sŏng sa kơmăng hăm đei layơ pơm tơ 'nguaih dah 'bơ̆t tơnuh ŭnh ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Bơ̆ng măng kơ tơ̆mơ̆ng ngă ơ̆ ngăl trôk hăl ơ̆ jơ̆ng unh hă?",
+      "hyp_ba_to_vi": "Các em có thể làm gì để tránh bị bỏng do lửa?"
+    },
+    {
+      "id": 68923,
+      "text": "Có chứ, nhất là vào mùa lạnh, cả nhà ngồi quanh bếp lửa, vừa ăn tối vừa trò chuyện rất ấm cúng.",
+      "topic": "BỮA TỐI",
+      "order": 8.0,
+      "label": [
+        "Đei mơ̆n, mă loi lơ̆m pơyan tơ'nhĕt, đĭ ŭnh hnam hơ-oei jum dăr tơnuh ŭnh, sŏng sa rah pơma tơnuh rah hiôk tơnŏ tơpă."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, kơtơm yă̆ng rơ̆t, dơnơng hnam đơk jơ̆r apuih, chă pơngan mơ̆ng jang pơđăp tơlơi, ơ̆m rơngơ̆t klă.",
+      "hyp_ba_to_vi": "Cũng vậy, cái lưỡi tuy là một bộ phận nhỏ trong thân thể, nhưng lại khoe khoang những chuyện lớn lao. Hãy xem, chỉ một đốm lửa nhỏ mà đốt cháy cả khu rừng lớn biết bao!"
+    },
+    {
+      "id": 68923,
+      "text": "Nếu có dịp đặc biệt như sau mùa gặt hay có khách quý, chúng mình sẽ mời hàng xóm đến ăn chung rất vui vẻ.",
+      "topic": "BỮA TỐI",
+      "order": 10.0,
+      "label": [
+        "Tơdah đei 'bơ̆t hơnang phakơdih thoi lĕ đơ̆ng rŏng pơyan yuă kĕch dah đei tơmoi gĭt, lu nhôn gô tơkơi đe jih cham năm ngôi sŏng sa hơdai chơt hiôk tơpă.",
+        "Tơdah đei 'bơ̆t hơnang phakơdih thoi lĕ đơ̆ng rŏng pơyan yuă kĕch dah đei tơmoi gĭt, u nhôn gô tơkơi đe jih cham năm ngôi sŏng sa hơdai chơt hiôk tơpă."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ănĭ geh pơyan kơtuŏ̆ng, hŏ̆p pơyan pơmă pơđi yơh geh brăh kơnyă, bơn kuăl mơnuih hnam kơjŏ tơ bơng tơdrong rơngơi hơ̆ng.",
+      "hyp_ba_to_vi": "Dù cuộc sống có bận rộn, khó khăn đến đâu, hễ có khách đến, chúng tôi cũng mời họ vào nhà, cùng ăn uống và trò chuyện thật chân tình."
+    },
+    {
+      "id": 68923,
+      "text": "Trong bữa tối có kể chuyện, ca hát hay hoạt động gì mang tính cộng đồng không?",
+      "topic": "BỮA TỐI",
+      "order": 11.0,
+      "label": [
+        "Lơ̆m sŏng sa kơmăng hăm đei roi hơ'mon, joh hơri dah pơm kiơ chĕp tơdrong tơpôl ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Pơ bơ̆ng măng, hă pơhiăp tơlơi, hơri lă pơm tơdră kơ pơlei hơ̆?",
+      "hyp_ba_to_vi": "Trong vòng một năm vừa qua, bạn đã làm việc giúp cộng đồng trong bao nhiêu ngày?"
+    },
+    {
+      "id": 68923,
+      "text": "Có, người già kể chuyện xưa, còn bọn trẻ thì ca hát, đôi khi đánh cồng chiêng nếu là dịp lễ hoặc cuối tuần.",
+      "topic": "BỮA TỐI",
+      "order": 12.0,
+      "label": [
+        "Đei mơ̆n, bơngai kră roi hơ'mon tơdrong kră sơ̆, na khul đe hơ'yoh jơ̆ joh hơri, mơ'nah tôn chĭng chêng tơdah noh jơ̆ ‘bơ̆t hơnang giĕng giang hơtuch năr giĕng."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơh, băl kơniêm pơđơ̆ng hơmon hơbâu, kon đêk hơri, kơđôi khi păh čing čêng lăh ngày hội hay kuôl tuần.",
+      "hyp_ba_to_vi": "Anh em đã nghe người xưa được dạy rằng: “Chớ giết người.”"
+    },
+    {
+      "id": 68923,
+      "text": "Vậy thì bữa tối không chỉ là ăn uống, mà còn là dịp gắn kết các thế hệ trong gia đình và cộng đồng.",
+      "topic": "BỮA TỐI",
+      "order": 13.0,
+      "label": [
+        "Thoi noh sŏng sa kơmăng ưh kơ sĭ sa et, noh dai jơ̆ 'bơ̆t hơnang chô̆ akŭm dôm jơhnơr lơ̆m hnam dơnŏ păng đe sơdrâm tơpôl.",
+        "Thoi noh sŏng sa kơmăng ưh kơ sĭ sa et, noh dai jơ̆ 'bơ̆t hơngang chô̆ jơnŭm dôm jơhnơr lơ̆m hnam dơnŏ păng đe sơdrâm tơpôl."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jơ̆h nơ̆, bơ̆ng pơđêm hơ̆m chỉ kơ sa hơp, mă kơ̆n lă thơi pơjăp bok me, kon čau tơ̆ng hnam hăng plơi.",
+      "hyp_ba_to_vi": "Khi một người không có việc gì làm, người ấy sẽ bắt đầu sắp xếp chỗ ngủ và đồ đạc trong nhà cho gọn gàng, ngăn nắp."
+    },
+    {
+      "id": 68923,
+      "text": "Chính xác, đối với chúng mình, bữa tối là lúc kết thúc một ngày lao động và chia sẻ niềm vui với người thân yêu.",
+      "topic": "BỮA TỐI",
+      "order": 14.0,
+      "label": [
+        "Trŏ 'blep bơih, kiơ̆ kơ lu nhôn, sŏng sa kơmăng jơ̆ hơnang kehkong mĭnh năr bơ̆jang păng klah-song tơdrong chhôk chơt hăm hnam dơnŏ 'mêm kơeng."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Chơ̆ng hơ̆ng, tơ̆ bơhnă, kơm rơpô la jơ̆ pơtŭp mơ̆t nar pơm pơyă kơ pơchia hơ̆lim pơ mơnuih rơngơi.",
+      "hyp_ba_to_vi": "Sớm muộn gì, đối với nhiều người, cuộc sống có thể hoàn toàn đổi khác chỉ trong một ngày vì cái chết chia lìa họ với người thân yêu trong gia đình."
+    },
+    {
+      "id": 69025,
+      "text": "Chào anh, hôm nay tôi rất mong được tìm hiểu về mối quan hệ giữa người Bahnar với cộng đồng và hàng xóm xung quanh.",
+      "topic": "Relations with society/neighbors",
+      "order": 1.0,
+      "label": [
+        "1. Hmach kơ 'nhŏng, năr 'nâu ĭnh sơmĕng gơh băt hlôh gah tơ'bưh sơlam kon Bahnar hăm tơpôl păng jih cham jum dăr."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơđei a, nar nĭ inh rơ̆ng pơyău mơ̆ng yơ̆h hơ̆m tơdră pơlăh tơnah kon Bahnar hơ̆p pơlei la kon hnam pơgăn tơmăng.",
+      "hyp_ba_to_vi": "Hãy trao đổi với bạn: ngày nay, em nghĩ mình có thể biết được những phong tục truyền thống nào của người Ba Na mà cộng đồng họ vẫn còn gìn giữ?"
+    },
+    {
+      "id": 69025,
+      "text": "Dạ, người Bahnar chúng tôi sống theo buôn làng, và coi cộng đồng là một phần rất quan trọng trong đời sống hằng ngày.",
+      "topic": "Relations with society/neighbors",
+      "order": 2.0,
+      "label": [
+        "2. Ŏ ah, kon Bahnar nhôn arih kiơ̆ kơ kon pơlei, păng lăng kon pơlei noh jơ̆ mĭnh jăl gĭtgăl lơ̆m chăl arih rim năr."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, kon Bahnar hơm hơdră tơ̆ng plơi, kơpơ plơi-kon yă pơ̆n hlăp lơ̆m hơdră hngăi-hngăi.",
+      "hyp_ba_to_vi": "Vì vậy, người Ba Na sống gắn bó với buôn làng, và dân làng luôn đoàn kết, đùm bọc nhau trong cuộc sống hằng ngày."
+    },
+    {
+      "id": 69025,
+      "text": "Làng trong văn hóa Bahnar có vai trò gì đặc biệt không anh?",
+      "topic": "Relations with society/neighbors",
+      "order": 3.0,
+      "label": [
+        "3. Pơlei lơ̆m  jing jar Bahnar đei chĕp sơnong găl kơdih kiơ ưh 'nhŏng?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Pơlei tơm tơlơi tơdră Ba Na geh pơđă kơdrăh hơ̆, a?",
+      "hyp_ba_to_vi": "Các làng của người Ba Na ngày nay có còn giữ những phong tục xưa nữa không?"
+    },
+    {
+      "id": 69025,
+      "text": "Làng không chỉ là nơi ở mà còn là nơi sinh hoạt chung, nơi giữ gìn truyền thống và nơi mọi người cùng nhau chia sẻ niềm vui, nỗi buồn.",
+      "topic": "Relations with society/neighbors",
+      "order": 4.0,
+      "label": [
+        "4. Pơlei ưh kơ sĭ lăp anih oei mădai jơ̆ anih pơm jang hơdai, anih bơwei tơdrong ată anăn păng anih rim 'nu bơngai hơdai klah-song tơdrong chơt hiôk, ơh sơ'ngon."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Plơi hơ̆m kơ̆ nơi ở, măh kơ̆ nơi kon plơi sinh hoạt chung, nơi giữ tơlơi truyền thống, nơi dơ̆ng kon người pơđăh niềm vui, nỗi buồn kơ̆ nhau.",
+      "hyp_ba_to_vi": "4. Trong làng không được tụ tập tại nơi ở tập thể cũng như nơi làm việc; các nơi này phải được bố trí sao cho mọi người đều giữ khoảng cách phù hợp, không chen chúc."
+    },
+    {
+      "id": 69025,
+      "text": "Mỗi làng thường có già làng – người lớn tuổi, hiểu biết phong tục – là người dẫn dắt, phân xử và bảo vệ sự hòa thuận trong làng.",
+      "topic": "Relations with society/neighbors",
+      "order": 5.0,
+      "label": [
+        "5. Rim pơlei juăt kơ đei kră pơlei – bơngai 'lŏ kră, hlôh wao tơdrong juăt – jơ̆ bơngai chông anhăk, dơ̆ng sơlam păng pơwei tơdrong gơhgăt lơ̆m pơlei.",
+        "Rim pơlei juăt kơ đei kră pơlei – bơngai 'lŏ kră, hlôh wao tơdrong juăt – jơ̆ bơngai chông anhăk, dơ̆ng sơlam păng pơwei tơdrong gơh găt lơ̆m pơlei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆m mănă pơlei plĭh tơ̆ bok kră pơlei – ngăi kră, hơmă tơlơi pơlei – jing ngăi dăk dơi, pơđi kơdrăh, tơpăh rơngao hơ̆m pơlei.",
+      "hyp_ba_to_vi": "5. Mỗi làng đều có già làng – người cao tuổi, am hiểu phong tục – được dân làng kính trọng, nghe theo và giao lo liệu những việc quan trọng trong làng."
+    },
+    {
+      "id": 69025,
+      "text": "Còn mối quan hệ giữa hàng xóm láng giềng thì như thế nào ạ?",
+      "topic": "Relations with society/neighbors",
+      "order": 6.0,
+      "label": [
+        "6. Bĭ tơdrong tơ'bưh sơlam jih cham kueng pơlei noh thoi yơ?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơ̆ tơlơi jơh jăp mơ̆ng ană plơi hơ̆m năo ạ?",
+      "hyp_ba_to_vi": "6. Trước khi bạn đến làng đó, đã xảy ra chuyện gì?"
+    },
+    {
+      "id": 69025,
+      "text": "Rất thân thiết. Nhà này giúp nhà kia, ai có việc thì mọi người đều đến hỗ trợ, từ dựng nhà, thu hoạch đến tổ chức lễ hội.",
+      "topic": "Relations with society/neighbors",
+      "order": 7.0,
+      "label": [
+        "7. Gơgăt tơpă. Ŭnh hnam 'nâu tơgŭm ŭnh hnam to, bu đei tơdrong kiơ jơ̆ rim 'nu bơngai truh wang tơgŭm, đơ̆ng tơiung hnam, pơdŭ kĕch truh tơ tơrô̆ pơjing giĕng giang.",
+        "7. Gơh găt tơpă. Ŭnh hnam 'nâu tơgŭm ŭnh hnam to, bu đei tơdrong kiơ jơ̆ rim 'nu bơngai truh wang tơgŭm, đơ̆ng tơiung hnam, pơdŭ kĕch truh tơ tơrô̆ pơjing giĕng giang."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơ̆t thân tơ̆pơ̆. Hnam ni gơ̆p hnam nơ̆, hơ̆m kơ̆ việc thì kon plơi tơ̆ gơ̆p, tơ̆ pơdựng hnam, gặt hơ̆m pơlơ̆ng lễ hội.",
+      "hyp_ba_to_vi": "7. Chữa cháy. Khi có nhà nào bị cháy lớn, phải có người báo gọi mọi người đến giúp dập lửa, đồng thời vào trong nhà chuyển đồ đạc ra nơi trống trải và sắp xếp gọn gàng."
+    },
+    {
+      "id": 69025,
+      "text": "Có chứ. Thường thì họ còn đến sớm để giúp dựng rạp, nấu ăn, tiếp khách, vì quan niệm “vui buồn cùng chia, khó khăn cùng gánh”.",
+      "topic": "Relations with society/neighbors",
+      "order": 9.0,
+      "label": [
+        "9. Đei ngăl. Juăt jơ̆ đe dai truh hrôih wă tơgŭm tơiung adrang pơsŭn, pai gŏ, sơng tơmoi, yua kơ tơchĕng khan “Tơdrong chơt hiôk ơh sơ'ngon klah-song, Tơdrong pơmat anat hơnong hơdai”."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆, tơmơi. Thường đeh hơmă tơ̆m sơm kơ jŭp tơ̆ng rạp, pơm đak-ăn, tiếp khăch, yơh đeh pơhiăp: “vui buồn mơ̆ng chia, khó khăn mơ̆ng gánh”.",
+      "hyp_ba_to_vi": "9. Lễ bỏ mả. Từ xa xưa, mỗi khi đến ngày tụ họp trước mộ, ông bà ta lại mổ trâu bò, đãi khách, vì có câu tục ngữ rằng: “Cái chết không đáng sợ bằng cảnh chia lìa, bằng nỗi mất con, mất vợ mất chồng.”"
+    },
+    {
+      "id": 69025,
+      "text": "Thực ra, nếu gia đình không tổ chức lễ cảm ơn làng thì hàng xóm có thể từ chối tham gia giúp đỡ.",
+      "topic": "Relations with society/neighbors",
+      "order": 10.0,
+      "label": [
+        "10. Mă tơpă, tơdah ŭnh hnam ưh kơ pơm giĕng bơnê kon pơlei lei jơ̆ kư̆m dai sơngah wang hơdai tơgŭm.",
+        "Mă tơpă, tơdah ŭnh hnam ưh kơ pơm giĕng bơnê kon pơlei lei jơ̆ 'nhŏng oh jih cham kư̆m dai sơngah wang hơdai tơgŭm."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆h tơm, măh đak hnam ơh pơ̆ng mơ̆ng hơmơn pơlei, kon hnam pơdah kơ tơl ơh duă rơ̆ng jơp.",
+      "hyp_ba_to_vi": "Ví dụ, nếu nhà bị cháy mà không báo cho dân làng và bà con biết, thì họ không thể nhanh chóng cùng nhau đến giúp dập lửa."
+    },
+    {
+      "id": 69025,
+      "text": "Trong làng có sự phân biệt giàu nghèo không anh?",
+      "topic": "Relations with society/neighbors",
+      "order": 11.0,
+      "label": [
+        "11. Lơ̆m pơlei hăm đei pơklah phara mơdrŏng dơnuh ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ng kon geh pơ̆đăh rơngao kơpơ̆ rơngao kơđi hă, ay?",
+      "hyp_ba_to_vi": "11. Trong làng bạn có phân biệt nam nữ không?"
+    },
+    {
+      "id": 69025,
+      "text": "Có khác biệt nhưng không phân biệt. Người có điều kiện hơn sẽ chia sẻ với người khó khăn, nhất là trong dịp Tết hay mùa giáp hạt.",
+      "topic": "Relations with society/neighbors",
+      "order": 12.0,
+      "label": [
+        "12. Đei phara mălei ưh kơ pơklah ôh. Bơngai đei 'bôh 'biơ̆ gô klah-song hăm bơngai pơmat tat, mă loi noh lơ̆m kơplah Têt dah pơyan pơngot."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jơ̆ tơlăh, song ơ̆ pơđah pơnăn. Kon jơ̆ nơ̆ng rơng hơn gơh pơchă kơ kon hơ̆pŏ, hlăh pơ măng Tết hay mơ̆ng hơ̆m ba.",
+      "hyp_ba_to_vi": "12. Ngài cũng kể cho họ một dụ ngôn: “Người mù có thể dẫn đường cho người mù được sao? Chẳng phải cả hai sẽ cùng rơi xuống hố sao?”"
+    },
+    {
+      "id": 69025,
+      "text": "Chúng tôi tin rằng nếu một nhà no đủ mà nhà hàng xóm đói thì mình cũng không thể an vui.",
+      "topic": "Relations with society/neighbors",
+      "order": 13.0,
+      "label": [
+        "13. Lu nhôn lui ngeh tơdah mĭnh ŭnh hnam phĭ mah na ŭnh hnam jih cham pơngot jơ̆ bơ̆n kư̆m dai ưh kơ rơnŭk chơt ôh."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Gơ̆i tin ră tơm môt hnam đơ̆ng tơ̆pơ̆, song hnam pơ̆ngan jơ̆h, gơ̆i hăng khơ̆ng tơ̆lơi an vui.",
+      "hyp_ba_to_vi": "Anh em là muối của đất; nhưng nếu muối mất vị mặn thì lấy gì làm cho nó mặn lại? Nó chẳng còn dùng vào việc gì được nữa, chỉ bị ném ra ngoài cho người ta giẫm dưới chân."
+    },
+    {
+      "id": 69025,
+      "text": "Tôi nghe nói người Bahnar vẫn còn ảnh hưởng của chế độ mẫu hệ, điều đó còn rõ rệt trong đời sống cộng đồng không ạ?",
+      "topic": "Relations with society/neighbors",
+      "order": 14.0,
+      "label": [
+        "14. Ĭnh kơtơ̆ng khan kon Bahnar oei 'bơm 'yoi gah mĕ, tơdrong 'noh oei rơđah lơ̆m chăl arih kon pơlei pơla ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Gơ hơ̆m pơtă kon Ba Na hlơi kơ̆n hơ̆ng tơlơi kơ me, tơlơi ấy hlơi rơ̆ng trong jơ̆ng pơlei tơpôl hă?",
+      "hyp_ba_to_vi": "14. Bạn biết người Ba Na hiện nay đang làm những gì, và những điều đó có thể hiện rõ trong đời sống của người dân trong buôn làng không?"
+    },
+    {
+      "id": 69025,
+      "text": "Dạ, đúng là trước đây người Bahnar theo mẫu hệ, và đến nay vẫn còn một số tàn dư, nhất là trong quan hệ hôn nhân và cư trú.",
+      "topic": "Relations with society/neighbors",
+      "order": 15.0,
+      "label": [
+        "15. Ŏ, trŏ adrol sơ̆ kon Bahnar kiơ̆ 'yoi gah mĕ, păng truh ahrei kư̆m oei đei mĭnh 'biơ̆ kơcheh gey, mă loi lơ̆m tơdrong pơgơ̆p ŭnh-om păng arih oei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, jơ̆ng mơ̆ hlâo kon Ba Na tơ̆ng dŏng amí; truh kơni măn hơmâo du tơlơi kră, hlăm tơ̆ng tơlơi pơđâm la tơlơi ơ̆ sang.",
+      "hyp_ba_to_vi": "15. Ừ, từ xa xưa, người Bahnar đã kể lại như vậy; cho đến ngày nay, họ vẫn còn giữ một phong tục tốt đẹp trong chuyện góp lửa, góp nước để cùng chung sống."
+    },
+    {
+      "id": 69025,
+      "text": "Anh có thể nói rõ hơn về điều đó không?",
+      "topic": "Relations with society/neighbors",
+      "order": 16.0,
+      "label": [
+        "16. Ih hăm gơh pơma rơđah 'biơ̆ gah tơdrong 'noh ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ih gơh pơđi rơngăi hơn kơ tơlơi ană hơ̆?",
+      "hyp_ba_to_vi": "16. Bạn có thể nói rõ về vấn đề đó không?"
+    },
+    {
+      "id": 69025,
+      "text": "Trong nhiều gia đình, sau khi kết hôn, chàng rể sẽ về sống nhà vợ, ít nhất là vài năm đầu, để phụ giúp gia đình bên vợ.",
+      "topic": "Relations with society/neighbors",
+      "order": 17.0,
+      "label": [
+        "17. Lơ̆m lơ ŭnh hnam, đơ̆ng rŏng kơ iŏk ŭnh-om, bơngai ŏng gô brŏk oei tơ ŭnh hnam akăn, tŏsĕt ngei jơ̆ mĭnh 'bar sơnăm gơgơ̆l, wă kơ wang tơgŭm ŭnh hnam gah akăn."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆ ăt hnam, kơtăh pơđam, rơng tơ̆ ơ̆ hnam ur, yău nai mơ̆t hơ̆m hnăm blă, hă pơjru băl hnam măng ur.",
+      "hyp_ba_to_vi": "17. Trong hôn nhân, theo tục cưới hỏi, người đàn ông phải đến làm việc và ở nhà vợ cho đến khi đủ một, hai năm, rồi mới được trở về dựng nhà riêng ở nơi khác."
+    },
+    {
+      "id": 69025,
+      "text": "Việc ở rể không bị xem thường mà còn được coi là nghĩa vụ và sự tôn trọng với dòng họ bên vợ.",
+      "topic": "Relations with society/neighbors",
+      "order": 18.0,
+      "label": [
+        "18. Tơdrong oei gah ŭnh hnam akăn ưh kơ lăng răm'băm mă dai gơh lăng thoi jang-sơnong păng tơdrong pơyom hăm adrung adrĕch gah akăn.",
+        "Tơdrong oei gah ŭnh hnam akăn ưh kơ lăng răm 'băm mă dai gơh lăng thoi jang-sơnong păng tơdrong pơyom hăm adrung adrĕch gah akăn."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơlơi ơ̆ hnam bơnai tơ̆ geh kơđoih pơnhăm, ma geh kơđoih gơh tơlơi pơgơ̆l pơđă hơ̆p tơlơi yơ̆k kơ tơdrong bơnai.",
+      "hyp_ba_to_vi": "18. Gián sống ở những chỗ tối trong nhà, ban ngày không dễ thấy, nhưng ban đêm có thể nhìn thấy chúng; chúng ẩn nấp trong các lỗ và khe nứt ở đó."
+    },
+    {
+      "id": 69025,
+      "text": "Như vậy trong làng, họ hàng bên vợ đóng vai trò quan trọng?",
+      "topic": "Relations with society/neighbors",
+      "order": 19.0,
+      "label": [
+        "19. Thoi ei lơ̆m pơlei, adrung adrĕch gah akăn pơm sơnong gĭtgăl?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Anŭh trong pơlei, hơđăp bên kơmơi pơjơ̆ng tơlơi pơđăh hă?",
+      "hyp_ba_to_vi": "19. Ai trong làng dọn dẹp đường sá, ngõ xóm cho sạch đẹp?"
+    },
+    {
+      "id": 69025,
+      "text": "Rất quan trọng. Khi có lễ hội hay công việc làng, dòng họ bên vợ sẽ cùng tham gia tổ chức, cùng góp sức như họ nhà trai.",
+      "topic": "Relations with society/neighbors",
+      "order": 20.0,
+      "label": [
+        "20. Gĭt kăl tơpă. Mưh đei giĕng giang dah tơdrong jang pơlei, adrung gah akăn gô hơdai tơrô̆ pơm, wang tơgop jơhngơ̆m thoi adrung gah drŏnglo."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơtang hơ̆ rơih. Tơ̆ng plơi gơ̆h lơ̆ kơhoă hay gơ̆h bruă plơi, adruh hnam đàng bơnai hơ̆m pơjơnum pơđăp, hơ̆m jơ̆p kơtang tơ̆ng adruh hnam đàng rơngao.",
+      "hyp_ba_to_vi": "20. Biết suy nghĩ đúng. Khi có việc chung trong làng, hãy giúp đỡ những người không đủ khả năng làm, và góp ý kiến để giúp đỡ người khác."
+    },
+    {
+      "id": 69025,
+      "text": "Điều này tạo ra sự liên kết chặt chẽ giữa các dòng họ, đồng thời giúp giữ gìn sự cân bằng trong cộng đồng.",
+      "topic": "Relations with society/neighbors",
+      "order": 21.0,
+      "label": [
+        "21. Tơdrong 'nâu pơjing tơdrong pơlir kơjăp sơlam 'bar pah adrung adrĕch, kư̆m dai tơgŭm bơwei tơdrong dĭng glơng lơ̆m pơlei pơla."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆nă pơjing tơdrăp jăp tơmăng dơ̆m jơh hnam, đăh kơtơp tơngan tơlăng pơđă ană plơi.",
+      "hyp_ba_to_vi": "21. Điều này tạo nên mối quan hệ gắn bó bền chặt giữa hai bên trai gái, chứ không chỉ là sự tụ họp để bàn những việc lớn trong làng."
+    },
+    {
+      "id": 69025,
+      "text": "Dạ có. Trẻ con được dạy phải biết chào hỏi người lớn, giúp việc làng, biết chia sẻ với bạn bè và không được ích kỷ.",
+      "topic": "Relations with society/neighbors",
+      "order": 23.0,
+      "label": [
+        "23. Ŏ đei. Đe hơ'lơ̆p đei pơtho khŏm băt jetgia bơngai 'lŏ kră, tơgŭm tơdrong jang pơlei, băt klah-song hăm bôl buăl păng ưh kơ gơh kret tơsen."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆, geh. Kon đe đươ̆c pơđă hơ̆mă jơ̆ bơngai kơtuă, chơ̆ pơm tơdrong pơlei, hơ̆mă pơchia ma bơ bạn, la hơ̆ dôk kơ mình.",
+      "hyp_ba_to_vi": "23. Ở đời. Phải thường xuyên tuyên truyền, giáo dục để tất cả mọi người, từ trẻ đến già, biết cùng nhau lo việc làng, biết phân biệt với bọn xấu để chúng không thể lừa gạt."
+    },
+    {
+      "id": 69025,
+      "text": "Chúng tôi tổ chức nhiều lễ hội truyền thống như mừng lúa mới, cúng làng… nơi trẻ con được tham gia từ nhỏ để học văn hóa làng.",
+      "topic": "Relations with society/neighbors",
+      "order": 24.0,
+      "label": [
+        "24. Lu nhôn pơm lơ giĕng giang ată anăn thoi lĕ chơt hiôk 'ba hle, pơm yang pơlei… anih hơ’lơ̆p gơh kiơ̆ đơ̆ng iĕ wă pơhrăm iŏk jing jar pơlei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơm pơjing kơdu pơthi adat tơ̆ng xưa: pơmừng ba hơdră, pơyang plei… ană kon đêh rơngop tơ̆ng tŏ kon, đă hră tơlơi adat plei.",
+      "hyp_ba_to_vi": "24. Người ta tổ chức ở đó nhiều sinh hoạt văn hóa truyền thống như lễ ăn lúa mới, lễ cúng thần làng…; đó là nơi thanh niên có thể đến nghe kể chuyện và học hỏi để trở thành trai làng."
+    },
+    {
+      "id": 69025,
+      "text": "Khi có mâu thuẫn giữa các gia đình trong làng, ai sẽ đứng ra giải quyết?",
+      "topic": "Relations with society/neighbors",
+      "order": 25.0,
+      "label": [
+        "25. Mưh đei tơdrong pơgre sơlam lu ŭnh hnam lơ̆m pơlei, bu gô dơ̆ng lang-pơkeh tơdrong?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ng tơdrong plăh prăh jơ̆ng kơnhom hnam trong plơi, đe mâo tơ̆ng ra pơjơh?",
+      "hyp_ba_to_vi": "Khi có việc nghiêm trọng như cháy nhiều nhà trong làng, ai có thể đứng ra xem xét, giải quyết việc đó?"
+    },
+    {
+      "id": 69025,
+      "text": "Người gây lỗi phải xin lỗi công khai và nếu cần sẽ nộp lễ vật chuộc lỗi, như gà, rượu cần hoặc giúp việc nhà người bị hại.",
+      "topic": "Relations with society/neighbors",
+      "order": 27.0,
+      "label": [
+        "27. Bơngai pơm glăi khŏm apĭnh mơnat 'bơ̆t anăp tơpôl păng tơdah kăl gô ăn tơmam huai glăi, thoi kơ iĕr, tơdrô ge dah mă tơgŭm tơdrong jang gah 'bơm răm."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kon pơgơ̆ tơlơi soh hră dăn ăm klăh tơ̆ng năp hơmoi kon; lău hơmâo kơ̆n, hră pơjâu pơ̆ngan pơđền soh, mơ̆ng iar, rơ̆nom hơ̆k jru pơgăp hnam kơ kon tơ̆pơ̆h.",
+      "hyp_ba_to_vi": "Sao các ngươi lo lắng về áo mặc trên thân mình? Hãy xem hoa huệ ngoài đồng mọc lên thế nào: chúng chẳng làm lụng, cũng chẳng se chỉ dệt vải."
+    },
+    {
+      "id": 69025,
+      "text": "Tôi thấy cộng đồng Bahnar rất đoàn kết và nhân văn trong cách sống.",
+      "topic": "Relations with society/neighbors",
+      "order": 28.0,
+      "label": [
+        "28. Ĭnh 'bôh tơpôl Bahnar pôm jơhngơ̆m dêh păng 'lơ̆ng djue bơngai lơ̆m tho arih."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Inh hơ̆mơ̆n kơdrô̆ng Bahnar rơ̆ng gơ̆p jơ̆ng tơ̆ng, jơ̆ng mơ̆nam trong pơjing sống.",
+      "hyp_ba_to_vi": "28. Một số nhóm người Ba Na ngày nay đã hòa nhập với nhiều người."
+    },
+    {
+      "id": 69025,
+      "text": "Dạ, chúng tôi tin rằng sống tốt với hàng xóm, với làng là cách giữ cho tâm mình thanh thản và dòng họ mình được tôn trọng.",
+      "topic": "Relations with society/neighbors",
+      "order": 29.0,
+      "label": [
+        "29. Ŏ, lu nhôn lui ngeh arih 'lơ̆ng hăm jih cham, hăm kon pơlei noh tho bơwei kơ jơhngơ̆m bơ̆n hơ’yơch păng adrĕch adrung bơ̆n gơh đei pơyom."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, hơmơi mơ̆ng hơdip rơngơi hăng mơnuih hơnam jĭt, hăng pơlei, jêng tơlơi gư̆m ăn tơlơ̆m hơmơi djơr lơ̆ng, ăn tơdrong hơmơi kơyă.",
+      "hyp_ba_to_vi": "Ông ấy thật xứng đáng để thầy giúp, vì ông ấy yêu dân ta và đã xây nhà hội cho chúng ta."
+    },
+    {
+      "id": 69025,
+      "text": "Vì vậy, dù đi đâu, người Bahnar cũng luôn nhớ về làng, vì đó là gốc rễ và là nơi chứa đựng tất cả những gì thân thương nhất.",
+      "topic": "Relations with society/neighbors",
+      "order": 30.0,
+      "label": [
+        "30. Thoi noh, mă năm tơ yơ, kon Bahnar kư̆m ling lang 'blŏk kơ pơlei, yua kơ 'noh jơ̆ tơm rơh păng jơ̆ anih mong đĭ đăng dôm tơdrong kiơ 'mêm kơeng loi."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆găh, dăh đi pơ̆đăh, ngăi Bahnar hơ̆măh nhơ̆ pơlei, bơ̆i anei la kơ̆ng răh kơ̆ng rơ̆ng, la jơ̆h pơ̆dơ̆ng tăt cả kơ̆drăh tơ̆m thương nhât.",
+      "hyp_ba_to_vi": "30. Vì thế, bao năm qua, người Ba Na vẫn luôn gắn bó với làng, vì đó là cội nguồn của họ, là nơi cư trú ổn định và có nhiều điều kiện để làm ăn sinh sống."
+    },
+    {
+      "id": 69014,
+      "text": "Chào anh, anh có thể chia sẻ cho tôi biết một chút về phong tục trước khi kết hôn của người Bahnar không ạ?",
+      "topic": "Traditions before marriage",
+      "order": 1.0,
+      "label": [
+        "1, Kơkuh kơ 'nhŏng, ih hăm gơh klah-song kơ ĭnh băt gah tŏsĕt gah tơdrong juăt adrol kơ iŏk ŭnh-om kon Bahnar ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơnam anh, ih gơ̆h pơhiăp ơ̆n inh hơ̆m tơlơi tục lệ adroi kơ đăm kơ bơnă Bahnar hă?",
+      "hyp_ba_to_vi": "Trước hết, anh/chị có thể chia sẻ cho chúng tôi biết về lịch sử và những phong tục truyền thống trong ăn uống của người Bahnar không?"
+    },
+    {
+      "id": 69014,
+      "text": "Dạ được ạ. Trước khi tổ chức đám cưới, hai bên gia đình thường có nghi lễ đám hỏi để chính thức tìm hiểu nhau.",
+      "topic": "Traditions before marriage",
+      "order": 2.0,
+      "label": [
+        "2. Ĭ gơh ngăl. Adrol kơ tơrô̆ tơdrong iŏk ŭnh-om, 'bar pah ŭnh hnam hmă đei pơm giĕng apĭnh jet wă kơ tơpă-sĭt tơlăng-pơnhen dihbăl.",
+        "Ĭ gơh ngăl. Adrol kơ tơrô̆ tơdrong iŏk ŭnh-om, 'bar pah ŭnh hnam hmă đei pơm giĕng apĭnh jet wă kơ tơpă-sĭt tơlăng-pơnhen dih băl."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơh, đă. Tơmơn pơđơ̆ng hơ̆môh, bar boh sang jơ̆l mâ̆t hơ̆dră pơkhui kơ pơgăp hơ̆mông nhau tơdră.",
+      "hyp_ba_to_vi": "2. Người ấy phải làm như sau: Trước khi vào bên trong, người ấy lấy than hồng và hai nắm hương thơm đã nghiền thật mịn, rồi đem vào Nơi Chí Thánh phía sau bức màn."
+    },
+    {
+      "id": 69014,
+      "text": "Vậy nghi lễ đám hỏi được tổ chức như thế nào và có ý nghĩa gì đặc biệt không?",
+      "topic": "Traditions before marriage",
+      "order": 3.0,
+      "label": [
+        "3. Thoi ei giĕng apĭnh jet đei tơrô̆-pơjing thoi yơ păng đei tơdrong anăn kiơ pha kơdih ưh?",
+        "3. Thoi ei giĕng apĭnh jet đei tơrô̆-pơjing thoi yơ păng đei tơdrong anăn kiơ phakơdih ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jơ̆ng, tơlơi pơđăm brâu pơm mơ̆n, la măng tơlơi khăp kơnao hă?",
+      "hyp_ba_to_vi": "3. Làm thế nào tất cả chúng ta có thể cho thấy mình có điều đó đối với người khác?"
+    },
+    {
+      "id": 69014,
+      "text": "Gia đình nhà trai sẽ mang theo lễ vật như rượu cần, heo, gà và vải thổ cẩm sang nhà gái để xin phép hỏi cưới.",
+      "topic": "Traditions before marriage",
+      "order": 4.0,
+      "label": [
+        "4. Ŭnh hnam drŏnglo gô chĕp ba tơmam giĕng thoi lĕ sơdrô ge, nhŭng, iĕr păng che brai-tanh tơ ŭnh hnam drŏkăn wă apĭnh jet pơkong.",
+        "4. Ŭnh hnam drŏnglo gô chĕp ba tơmam giĕng thoi lĕ tơdrô ge, nhŭng, iĕr păng che brai-tanh tơ ŭnh hnam drŏkăn wă apĭnh jet pơkong."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơdrong hnam kon bă sẽ păh tơlơi pơđă mơ̆ rơ̆m cần, sơ̆m, ară kơ̆ păn thổ cẩm sang hnam kon đeh đă pơjing hỏi cưới.",
+      "hyp_ba_to_vi": "4. Một đám cháy rừng có thể bắt đầu chỉ từ một tia lửa nhỏ, nhưng rồi nó có thể lan thành đám cháy lớn và nhanh chóng trở nên khó kiểm soát."
+    },
+    {
+      "id": 69014,
+      "text": "Đây là dịp để hai bên gia đình gặp gỡ, bàn bạc về hôn lễ và thể hiện sự tôn trọng lẫn nhau.",
+      "topic": "Traditions before marriage",
+      "order": 5.0,
+      "label": [
+        "5. 'Nâu jơ̆ hơnang wă kơ 'bar pah hnam dơnŏ tơjrơ̆m tơ'bơ̆p, pơđâu tơdă gah giĕng pơkong păng tơ'bôh tơdrong pơyom dih băl.",
+        "5. 'Nâu jơ̆ hơnang wă kơ 'bar pah hnam dơnŏ tơjrơ̆m tơ'bơ̆p, pơđâu tơdă gah giĕng pơkong păng tơ'bôh tơdrong pơyom dihbăl."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Nây lah kơngai đă bar ană hnam tơpăp, pơjâu pơdrăp yăl pơđăm, ma tơmơ̆ng kơ tơno.",
+      "hyp_ba_to_vi": "5. Những người sống trong hai ngôi nhà sát nhau ấy bắt đầu ra đứng bên hàng rào, trò chuyện vui vẻ với nhau."
+    },
+    {
+      "id": 69014,
+      "text": "Sau đám hỏi, hai bên có tổ chức đính ước không anh?",
+      "topic": "Traditions before marriage",
+      "order": 6.0,
+      "label": [
+        "6. Đơ̆ng rŏng kơ giĕng apĭnh-jet, 'bar pah hăm đei pơjing sơkơ̆t pơkă ưh 'nhŏng?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơlơi pơđăm lĕ, bar bêng hơmâo pơjrao tơlơi đính ước hơ̆ ayông?",
+      "hyp_ba_to_vi": "6. Khi chúng ta kiêng ăn, tại sao không nên làm ra vẻ buồn rầu?"
+    },
+    {
+      "id": 69014,
+      "text": "Có ạ. Đính ước là bước khẳng định mối quan hệ chính thức, thường được tổ chức sau vài tuần hoặc vài tháng sau lễ dạm hỏi.",
+      "topic": "Traditions before marriage",
+      "order": 7.0,
+      "label": [
+        "7. Đei ơơ. Sơkơ̆t pơkă jơ̆ kơnao tơbăt hơđăl tơdrong tơ'bưh tơpă, hmă đei tơrô̆ pơm đơ̆ng rŏng kơ mĭnh 'bar giĕng dah mă mĭnh 'bar khei đơ̆ng rŏng kơ giĕng sơkơ̆t.",
+        "Đei ơơ. Sơkơ̆t pơkă jơ̆ kơnao tơbăt hơđăl tơdrong tơ'bưh tơpă, hmă đei tơrô̆ pơm đơ̆ng rŏng kơ mĭnh 'bar giĕng dah mă mĭnh 'bar khei đơ̆ng rŏng kơ giĕng jet tơ'bưh băl blŭng-a.."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆h. Tơdrŏng pơđăp pơjơ̆p kơ nhau la bươc pơjĕng tơlơi kơđi kơ nhau gơ̆h đơ̆ng, thươ̆ng ngă sau mŏt pơđăp tuân hŏăc mŏt pơđăp khay sau lễ dạm hỏi.",
+      "hyp_ba_to_vi": "Có. Sau khi tiêm chủng, các phản ứng thông thường có thể xuất hiện trong vòng một, hai giờ hoặc một, hai ngày sau khi tiêm cho trẻ."
+    },
+    {
+      "id": 69014,
+      "text": "Trong lễ đính ước, nhà trai sẽ mang thêm lễ vật và có sự chứng kiến của già làng hoặc người lớn có uy tín trong buôn làng.",
+      "topic": "Traditions before marriage",
+      "order": 8.0,
+      "label": [
+        "8. Lơ̆m giĕng kơkơ̆t pơkă, ŭnh hnam drŏnglo chĕp thim tơmam giĕng păng đei tơdrong 'bôh-hơmăt đe kră pơlei dah mă bơngai 'lŏ kră đei grih yom lơ̆m pơlei.",
+        "8. Lơ̆m giĕng sơkơ̆t pơkă, ŭnh hnam drŏnglo chĕp thim tơmam giĕng păng đei tơdrong 'bôh-hơmăt đe kră pơlei dah mă bơngai 'lŏ kră đei grih yom lơ̆m pơlei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆m pơđik hứa pơđăm, sang kon rơk gơ̆r bơ̆ drăp pơjău, hơ̆k ơ̆ bok plei rơh ngăi kră đăk pơjău hơ̆m plei jơ̆ng măt.",
+      "hyp_ba_to_vi": "8. Trong đời sống cộng đồng, bếp lửa nhà rông tiếp thêm sức sống, bởi nơi đó có sự hiện diện của các già làng cùng những người cao tuổi có uy tín trong làng."
+    },
+    {
+      "id": 69014,
+      "text": "Tôi nghe nói người Bahnar có tục trao vòng, anh có thể giải thích thêm về điều đó không?",
+      "topic": "Traditions before marriage",
+      "order": 9.0,
+      "label": [
+        "9. Ĭnh kơtơ̆ng khan kon Bahnar đei tơdrong juăt pơjao kong, ih hăm gơh tơlang thim gah tơdrong 'noh ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Inh hơ̆m pơđă đĭ mơnuih Bahnar geh tơlơi pơtrao kơng; aih hăn pơtơl hơ̆n tơdrong nây hơ̆?",
+      "hyp_ba_to_vi": "9. Khi nghe nói người Bahnar có tục đánh cồng, bạn có muốn tìm hiểu thêm về điều đó không?"
+    },
+    {
+      "id": 69014,
+      "text": "Dạ đúng rồi. Một phong tục rất đặc trưng là việc trao vòng tay hoặc vòng cổ làm biểu tượng của sự gắn kết và tình yêu.",
+      "topic": "Traditions before marriage",
+      "order": 10.0,
+      "label": [
+        "10. Ĭ trŏ bơih. Mĭnh tơdrong juăt adraih-kơdih tơpă noh jơ̆ pơjao kong dah mă kong kiơng pơm tơ'bôh tơdrong tơguăt păng tơdrong hưch 'mêm."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, jơ̆ng hĭ. Mơ̆t tơlơi hơ̆dră pơmang lăi yă trao kơng tay hmă kơng kơ̆l pơm kơdău tơlơi kơ̆t gơ̆l jơ̆ tơlơi yơu.",
+      "hyp_ba_to_vi": "10. Cuối cùng. Những câu chuyện cổ xưa ấy dạy con cháu biết phân biệt điều đúng và điều sai."
+    },
+    {
+      "id": 69014,
+      "text": "Vòng thường được làm bằng bạc hoặc đồng, được đúc công phu, và do chính tay người con trai trao cho cô gái trong lễ đính ước.",
+      "topic": "Traditions before marriage",
+      "order": 11.0,
+      "label": [
+        "11. Kong juăt kơ pơm bih hu dah mam-kong, đe hling pơnhen hơlenh, păng đơ̆ng kơdih ti bơngai tơdăm pơjao kơ adruh lơ̆m giĕng pơkă-sơkơ̆t."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kŏng yơh ngă dơ̆ng prăk atawa đŏng, đuh tơlơi pơjơ̆r, jĕ băl tơngan kon klâu pơgiao kơ kon đeh tơng pơlơi đính ước.",
+      "hyp_ba_to_vi": "Chủ nổi giận, giao hắn cho những kẻ hành hạ cho đến khi hắn trả hết mọi món nợ."
+    },
+    {
+      "id": 69014,
+      "text": "Việc trao vòng có ý nghĩa gì đặc biệt không, hay chỉ mang tính biểu trưng?",
+      "topic": "Traditions before marriage",
+      "order": 12.0,
+      "label": [
+        "12. Pơjao kong hăm đei tơdrong anăn kiơ phakơdih ưh, dah lăp pơgia pơtrŏ đĕch?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơlơi pơjă vòng hă kơ̆ nghĩa gơh brĕh rơ̆ng không, hay jơ̆ng tơlơi biểu trưng thôi?",
+      "hyp_ba_to_vi": "12. Nếu em có điều gì chưa hiểu rõ thì phải hỏi ai?"
+    },
+    {
+      "id": 69014,
+      "text": "Nó mang ý nghĩa rất sâu sắc, như một lời hứa gắn bó trọn đời và cũng là tín vật để khẳng định cô gái đã có người yêu thương.",
+      "topic": "Traditions before marriage",
+      "order": 13.0,
+      "label": [
+        "13. Noh đei tơdrong anăn gĭtkăl, thoi lĕ mĭnh nơ̆r pơkă tơguăt kơjăp đĭ chăl arih păng kư̆m dai tơmam pơkơ̆ng kơnăl bơngai adruh kah đei pơyô bơih."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Âu hơpô̆ng tơlơi kơđĭp jơ̆ng lơ̆m, tơna mơ̆t tơlơi pơkăp pơgăn jă̆ng hơdip, kơ̆ng la gơnam kơtăp pơrơh đe kon bơnai đă băt mơ̆t mơnuih rơ̆ng.",
+      "hyp_ba_to_vi": "13. Vậy, còn lại ba điều này: đức tin, niềm hy vọng và lòng yêu thương; nhưng lớn hơn hết trong ba điều ấy là lòng yêu thương."
+    },
+    {
+      "id": 69014,
+      "text": "Phụ huynh hai bên có can thiệp nhiều vào việc lựa chọn bạn đời không anh?",
+      "topic": "Traditions before marriage",
+      "order": 14.0,
+      "label": [
+        "14. Mĕ 'bă 'bar pah hăm đei atŭt lơ lơ̆m tơdrong rơih chă bơngai bôl chăl arih ưh 'nhŏng?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Bŏk mĕ bar bŏl hơ̆m pơrăh bơ̆ng kơ jơ̆ rơ̆h kơmơi, ayŏng?",
+      "hyp_ba_to_vi": "14. Bạn có thể học được hai điều gì từ sự thật về người chết?"
+    },
+    {
+      "id": 69014,
+      "text": "Thường thì cha mẹ có vai trò định hướng, nhưng thanh niên Bahnar vẫn có quyền chọn người mình yêu thương thật lòng.",
+      "topic": "Traditions before marriage",
+      "order": 15.0,
+      "label": [
+        "15. Hmă jơ̆ mĕ 'bă đei sơnong tơ'bôh trong, mălei adruh tơdăm Bahnar dai oei đei tơdrong trŏ rơih bơngai bơ̆n hưch 'mêm tơpă 'lơ'lŏ mơ̆n."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Bơ̆ng thươ̆ng, bok me kơdră đàng, yơnă rơ̆ngao Bahnar hơ̆ng kơ pơtao chă kon hơ̆m tơlơi lòng.",
+      "hyp_ba_to_vi": "15. Dù có hoàn cảnh sống như thế nào, tất cả người Ba Na đều có quyền được sống như những con người tự do, bình đẳng về nhân phẩm và quyền lợi."
+    },
+    {
+      "id": 69014,
+      "text": "Tuy nhiên, nếu gia đình hai bên có mối quan hệ tốt từ trước thì việc kết đôi thường được khuyến khích để gắn kết cộng đồng.",
+      "topic": "Traditions before marriage",
+      "order": 16.0,
+      "label": [
+        "16. Mă thoi yơ, tơdah hnam dơnŏ 'bar pah đei tơdrong tơ'bưh tơguăt 'lơ̆ng đơ̆ng adrol lei tơdrong pơgơ̆p srôp hmă đei pơtrŭt wă kơ tơguăt kơjăp kon pơlei pơla."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ hă, tơ̆ lĕ hnam bar pơ̆ng hơ̆mŏ kơ̆t rơ̆ngao tŏt tŭ tŏm, pơ̆m pơ̆đăng bar kơ̆đôi lĕ thươ̆ng đươ̆c khơ̆n kơ̆ gắn pơ̆jơ̆p kơ̆ pơlei.",
+      "hyp_ba_to_vi": "16. Vì vậy, nếu gia đình nào giữa hai bên có chuyện mất đoàn kết từ trước thì cần gặp gỡ, cùng nhau giải quyết dứt điểm để tình đoàn kết của bà con trong làng thêm bền chặt."
+    },
+    {
+      "id": 69014,
+      "text": "Qua những chia sẻ của anh, tôi thấy người Bahnar rất coi trọng lễ nghi và sự kết nối cộng đồng.",
+      "topic": "Traditions before marriage",
+      "order": 17.0,
+      "label": [
+        "17. Hlôi kơ tơdrong klah asong đơ̆ng 'nhŏng, ĭnh 'bôh bơngai Bahnar lăng gĭt yom giĕng giang păng tơdrong tơ'bưh kon pơlei pơla."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơm hơ̆m tơlơi ayong pơđi, inh hơm kon Bahnar hơ̆ng kơtơ̆ng pơđăm pơla, la kơđăp kon pơlei.",
+      "hyp_ba_to_vi": "17. So với cuộc sống ngày xưa, ngày nay người Ba Na vẫn biết quý trọng và giữ gìn những phong tục tốt đẹp của buôn làng."
+    },
+    {
+      "id": 69014,
+      "text": "Dạ đúng vậy, hôn nhân không chỉ là chuyện của hai người mà còn là sợi dây gắn kết giữa hai dòng họ trong buôn làng.",
+      "topic": "Traditions before marriage",
+      "order": 18.0,
+      "label": [
+        "18. Ŏ trŏ tơpă, ŭnh-om ưh kơ sĭ lăp tơdrong 'bar 'nu đĕch ôh mădai jơ̆ tơlei tơguăt sơlam 'bar adrĕch adrung lơ̆m pơlei."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ, jơ̆ng hă, tơlơi pơđi pơđam hơ̆m bê̆ tơlơi kơ bar ngai, mă kơ̆ng la tơl pơgơ̆p bar hnam kon trong pơlei.",
+      "hyp_ba_to_vi": "Không ai thắp đèn rồi lấy hũ che lại hoặc đặt dưới giường, nhưng đặt trên chân đèn để những người đi vào nhà thấy ánh sáng."
+    },
+    {
+      "id": 68941,
+      "text": "Chào bạn, hôm nay mình rất muốn tìm hiểu về các món đặc sản của người Bahnar có thể mua về làm quà.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 1.0,
+      "label": [
+        "Hmach kơ ih, năr 'nâu ĭnh 'maih dêh wă kơ băt gah tơmam sa gĭt kon Bahnar gơh răt pơm tơmam-chro."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơơi bơnă, hơ̆nay kơu rơ̆ng khăp pơhiău dơ̆ jơnum kơđăk kơđang gơl Bahnar gơh chuă pơjă.",
+      "hyp_ba_to_vi": "Xin hỏi bạn, hôm nay tôi muốn tìm hiểu về một món ăn mà người Ba Na thường làm là cơm lam."
+    },
+    {
+      "id": 68941,
+      "text": "Chào bạn, người Bahnar có nhiều món ăn truyền thống dân dã nhưng rất ngon, có thể làm quà biếu bạn bè hoặc du khách.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 2.0,
+      "label": [
+        "hmach kơ ih, kon Bahnar đei tơmam sa kon pơlei hmă pơtă anăn mălei nham tơpă, gơh pơm tơmam-chro bôl buăl dah tơmoi truh."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơ hơ̆ anơi, kon Ba Na geh hơmă mơnăm tơlơi yăl pơlei, song hơ̆ng lơ̆, gơ̆t ngă pơjăp jă anơi hăk tơmơi.",
+      "hyp_ba_to_vi": "Nói với bạn, người Bahnar có một phong tục: khi dân làng làm lễ mời ăn uống, họ tổ chức tiệc rượu để vui vẻ trò chuyện với khách đến."
+    },
+    {
+      "id": 68941,
+      "text": "Bạn có thể kể tên một vài món được người ngoài yêu thích và thường mua mang về không?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 3.0,
+      "label": [
+        "Ih hăm gơh roi anăn mĭnh 'bar tơmam sa đei bơngai 'nguaih 'maih wă păng juăt kơ răt chĕp brŏk ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆ hlơi pơjă anăn mơ̆ng rơmăm kon tơmơi hmaih, tơguă hŏm pơ̆ nao glaih hơ̆m?",
+      "hyp_ba_to_vi": "Bạn có thể kể tên tất cả mười hai sứ đồ, trong đó một số là ngư dân và đã quen làm việc vất vả không?"
+    },
+    {
+      "id": 68941,
+      "text": "Cơm lam là món nổi tiếng nhất, được nấu trong ống tre, có mùi thơm rất đặc trưng và bảo quản được vài ngày.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 4.0,
+      "label": [
+        "Pơlah đing jơ̆ tơmam sa đe ang loi, đei prung lơ̆m đing 'lao, 'bâu phu kơdrô̆-kơdih păng 'măn gơh truh tơ 'bar-pêng năr.",
+        "Pơlah đing jơ̆ tơmam sa đe ang loi, đei prung lơ̆m đing 'lao, 'bâu phu kơdrô̆-kơdih păng 'măn gơh truh tơ dôm 'bar-pêng năr."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Pơ̆ lam je pơđăp pơjing hlơh, pă tơ drŏng lơ ô, gơh hơm thơm rơngai kơtang kơ gơh tơdŏng bar pe hơngai.",
+      "hyp_ba_to_vi": "Sau khi con trăn lớn nuốt chửng một người, bụng nó phình ra, nó không thể nhúc nhích được trong khoảng hai, ba ngày."
+    },
+    {
+      "id": 68941,
+      "text": "Nghe hấp dẫn đấy. Cơm lam có đi kèm với món gì khác không bạn?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 5.0,
+      "label": [
+        "Mơ̆ng 'ney lăp-'maih tơpă. Pơlah đing đei hrâu hơdai tơmam sa kiơ nai ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ng hơ̆rơ̆i đă. Kơm lam păh ăn gơ̆l hĭm mơnă pơđah khă hơ̆m, băn?",
+      "hyp_ba_to_vi": "Hôm nay bạn trông mệt quá. Có phải tối qua bạn ngủ không ngon hay mơ thấy điều gì xấu không?"
+    },
+    {
+      "id": 68941,
+      "text": "Thường thì cơm lam ăn kèm muối vừng hoặc thịt heo nướng xiên, nếu mua mang về thì hay gói kèm muối sẵn.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 6.0,
+      "label": [
+        "Hmă jơ̆ pơlah đing sa hrâu rơngâu rơnga tŭl dah 'nhĕm nhŭng 'buh adring, tơdah răt chĕp wih jơ̆ 'nŭng hrâu 'boh đei kơtă."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆năm, kơm lam chă kơ boh lơnga hăh săk trôk pơjuh tơpơ̆; dơ̆h blơi tŏ̆m glăh, hơ̆năm pơhŏm kơ boh rŏ̆.",
+      "hyp_ba_to_vi": "Nếu một vương quốc bị chia rẽ, các phe phái chống đối lẫn nhau, thì vương quốc ấy không thể đứng vững được."
+    },
+    {
+      "id": 68941,
+      "text": "Ngoài cơm lam, còn món nào khác được coi là đặc sản của người Bahnar không bạn?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 7.0,
+      "label": [
+        "'Nguaih pơlah đing, hăm oei đei tơmam sa ayơ nai gơh lăng noh jơ̆ tơmam sa gĭt kon Bahnar ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Jŏng pơ̆ng lam, mơnơm dơ̆ng nao lă mơnơm riêng kơ kon Bahnar hă, pơjâu?",
+      "hyp_ba_to_vi": "Ra ngoài đường, bạn có thấy người nào trông giống người Ba Na không?"
+    },
+    {
+      "id": 68941,
+      "text": "Có món rượu cần làm từ men vỏ cây rừng và gạo nếp, ủ trong ché sành, được nhiều người mang về làm quà quý.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 8.0,
+      "label": [
+        "Đei tơdrô ge pơm đơ̆ng 'buih kơđoh 'long bri păng phe tơyông, pơđih lơ̆m ge, đei lơ bơngai chĕp wih pơm tơmam-chro gĭtkăl."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ăn tơpăi tơng pơgơ̆r tơ̆ bơ̆ng klăh long bri kơ ba klei, hơ̆m năm gơ̆r, bơngai jơ̆p tơ̆ roih sang lăh mơnă yŏh.",
+      "hyp_ba_to_vi": "Họ có những tượng thần tự làm bằng gỗ chặt trong rừng và bằng vàng bạc; họ thờ lạy chúng, rồi nhiều người trong số họ lại quay về làm những điều tội lỗi, ô uế như trước."
+    },
+    {
+      "id": 68941,
+      "text": "Rượu cần có thể vận chuyển xa không? Có dễ mang theo khi đi đường dài không bạn?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 9.0,
+      "label": [
+        "Tơdrô ge gơh chĕp anhăk ataih ưh? Hăm 'bônh kơ chĕp ba mưh yak trong ataih ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơpai cần hơm pơđei kơ xa hă? Hơm ngăi pơđei tơlăp kơ đi đàng dài hă, bă?",
+      "hyp_ba_to_vi": "Bạn có thể tìm được hạnh phúc bền lâu ở đâu? Và bạn cần làm gì để sống mãi mãi?"
+    },
+    {
+      "id": 68941,
+      "text": "Nếu đóng chai kỹ thì vẫn mang đi được, nhưng phải cẩn thận vì hương vị đặc trưng có thể làm nồng mùi trong xe.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 10.0,
+      "label": [
+        "Tơdah jôr tơ getchai hơlen jơ̆ dai gơh chĕp ba, mălei athei pơ'lơ̆ng yua kơ 'bâu phu pha kơdrô̆ pơm 'bâu hĭr lơ̆m gre.",
+        "Tơdah jôr tơ getchai hơlen jơ̆ dai gơh chĕp ba, mălei athei pơ'lơ̆ng yua kơ 'bâu phu phakơdrô̆ pơm 'bâu hĭr lơ̆m gre."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơgu kơp chai jơ̆ng, hơ̆nă pô mang đi đươc, song phải kơtơ̆ng tơ̆păh, kơđah mùi vị riêng pô làm hơ̆ng nồng trong xe.",
+      "hyp_ba_to_vi": "Nếu rác như chai nhựa và giấy có thể tái chế thì cần phải phân loại, để không lẫn với các loại rác gây ô nhiễm môi trường."
+    },
+    {
+      "id": 68941,
+      "text": "Có món ăn khô nào người Bahnar thường làm để bảo quản lâu, phù hợp làm quà cho người xa không?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 11.0,
+      "label": [
+        "Hăm đei tơmam kro ayơ kon Bahnar juăt pơm wă kơ 'măn đunh, trŏ kơ pơm tơmam-chro kơ bơngai đơ̆ng ataih ưh?",
+        "Hăm đei tơmam kro ayơ kon bahnar juăt pơm wă kơ 'măn đunh, trŏ kơ pơm tơmam-chro kơ bơngai đơ̆ng ataih ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Geh drơ̆ng sa rơ̆ng nào ngai Bahnar plơ̆ng tơm đă kră hlâu, dư̆m pơjă kơ̆ kon ơ̆t jơ̆ng hă?",
+      "hyp_ba_to_vi": "Người Bahnar thường làm những món ăn truyền thống nào vào các dịp lễ lớn, nhất là để đãi khách từ xa?"
+    },
+    {
+      "id": 68941,
+      "text": "Có chứ, như cá suối phơi khô, thịt trâu gác bếp, hoặc măng rừng khô – đều rất được khách ưa chuộng.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 12.0,
+      "label": [
+        "Đei ngăl, thoi lĕ ka đak sơ̆k kro, 'nhĕm kơpô sơ̆k adra, dah tơ'băng bri kro – jơ̆ ngăl kơ 'maih wă."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆, mơ̆n ka đăk phơi hơ̆ng, să rơmo gác bếp, hay măng bri hơ̆ng – tơlơi khách hơ̆l rŏ.",
+      "hyp_ba_to_vi": "Trong cơn hạn, nước suối khô cạn, cây cỏ úa vàng, cả rừng cũng khô héo – không thể xanh tươi trở lại được nữa."
+    },
+    {
+      "id": 68941,
+      "text": "Những món khô này có cần cách bảo quản đặc biệt nào khi mang đi xa không bạn?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 13.0,
+      "label": [
+        "Dôm tơmam kro 'nâu hăm kăl tah-'măn phakơdih ayơ mưh anhăk yak ataih ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Mơ̆ng bơ̆ng rơh anai geh kơ̆n kăp păh drăp jơ̆t kơ lăm tơ̆ng hơ̆m xa ơh, sơ̆m?",
+      "hyp_ba_to_vi": "Người ta phải tuân giữ trọn vẹn bao nhiêu điều răn để được sự sống đời đời?"
+    },
+    {
+      "id": 68941,
+      "text": "Chỉ cần gói kín và giữ nơi khô ráo là được, nếu hút chân không thì có thể để cả tháng vẫn ngon.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 14.0,
+      "label": [
+        "Pôm kăl kơ 'nŭng klĕp păng 'măn anih hrĕng jơ huay, tơdah hrip đĭ ayuh-kial jơ̆ gơh 'măn truh tơ khei dai oei mham.",
+        "Pôm kăl kơ 'nŭng klĕp păng 'măn anih hrĕng jơ̆ huay, tơdah hrip đĭ ayuh-kial jơ̆ gơh 'măn truh tơ khei dai oei nham."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆m kơ̆p kơpít la jă pơ anih kroh kră la đă, mơ̆h pơlaih hơang hơ̆l tơ̆ pơđă sa khay hơ̆n jơ̆ng.",
+      "hyp_ba_to_vi": "Cần cất lương thực của mình ở nơi chắc chắn, cao ráo để mưa bão không thể làm ảnh hưởng đến đồ ăn."
+    },
+    {
+      "id": 68941,
+      "text": "Mình rất tò mò về măng rừng khô, hương vị có gì khác với măng ở chợ miền xuôi?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 15.0,
+      "label": [
+        "Ĭnh 'maih hơlen gah tơ'băng bri kro, 'bâu tơdra đei kiơ phara kơ tơ'băng đơ̆ng kơchơ tơring ala ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Inh khăp thâo hlăm pơ măng bri kơh; rơ̆ng sa nơ hơ̆m tơ̆ kră nă pơ măng pơ anơi tơm-tơl teh pơ̆lăh?",
+      "hyp_ba_to_vi": "Ngày mai bạn đi vào rừng sâu, không sợ có chuyện gì nguy hiểm xảy ra ở nơi hoang vắng ấy à?"
+    },
+    {
+      "id": 68941,
+      "text": "Măng rừng thơm hơn, hơi chát nhẹ, khi nấu canh thì ngọt nước tự nhiên, không cần thêm bột ngọt gì cả.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 16.0,
+      "label": [
+        "tơ'băng bri 'bâu phu hloh, sơkip 'biơ̆, mưh pai 'nhot jơ̆ 'ngam đak hmă kơdih, ưh kơ kăl tơpŭng 'ngam kiơ ôh."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Măng bri thơm hloh, chát hơ̆m, jơ̆ pơh canh thì đak ngọt tơ̆ nhiên, ơh cần thim bột ngọt chi.",
+      "hyp_ba_to_vi": "Ở trong rừng không có ai qua lại hay giúp đỡ, nên phải tự mình đi tìm nước uống, không thể trông chờ vào người khác được."
+    },
+    {
+      "id": 68941,
+      "text": "Những món đặc sản này thường do ai trong làng làm để bán vậy bạn?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 17.0,
+      "label": [
+        "Dôm tơmam sa gĭt 'nâu juăt đơ̆ng bu lăm pơlei pơm wă kơ tĕch noh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆m trong plơi thường pơgă ană mơ̆năm đăk sắc ni đă pơbăn, hơ̆?",
+      "hyp_ba_to_vi": "Làm sao biết được ai được dân làng chọn làm công việc đó?"
+    },
+    {
+      "id": 68941,
+      "text": "Thường là do phụ nữ trong làng làm theo nhóm nhỏ, có khi cả làng cùng góp công vào dịp lễ hội.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 18.0,
+      "label": [
+        "Juăt kơ đơ̆ng lu bơngai drŏkăn lăm pơlei pơm khul iĕ, mơ'nah đĭ pơlei hơdai pơgop jang lơ̆m giĕng giang."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Rơhơl, bơnai di pơlei ngă bruă tơpul kơđăk; hơ̆ bơ̆ng, lĕ pơlei hơ̆p ngă bruă tơ̆ng hrơi pơlơng.",
+      "hyp_ba_to_vi": "Huy động được nhiều người dân trong làng làm giếng nước, sau đó cả làng cùng góp công làm đường giao thông."
+    },
+    {
+      "id": 68941,
+      "text": "Ngoài giá trị ẩm thực, những món quà này còn mang ý nghĩa gì trong văn hóa Bahnar không?",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 19.0,
+      "label": [
+        "'Nguaih kơ aneng-gĭt tơmam sa, dôm tơmam-chro 'nâu hăm oei đei chĕp tơdrong wă-khan kiơ lăm jing jar Bahnar ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Mơ̆ng klău gĭa trĭ pơ̆ngan-đăk, hĭnh pơ̆đăp năy hŏm tơ̆ng ý nghĩa hơ̆ trŏng văn hóa Bahnar hă?",
+      "hyp_ba_to_vi": "Ngoài bảng chữ cái cơ bản, những chữ cái và dấu hiệu đặc biệt nào quan trọng khi viết tiếng Bahnar?"
+    },
+    {
+      "id": 68941,
+      "text": "Đó là cách bọn mình gửi gắm tình cảm, lòng hiếu khách và niềm tự hào về núi rừng đến người nhận quà.",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 20.0,
+      "label": [
+        "'noh jơ̆ tho lu nhôn ată atăn 'mêm kơeng, jơhngơ̆m rơhau kơ tơmoi păng tơdrong chhôk-pơư gah groi kông tơ bơngai iŏk tơmam-chro."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ană lă jơ̆ng gơ̆m pơjơ̆r tơlơi rơngot, tơlơi pơđăp mơnuih pơlơi, la tơlơi hơ̆nhăm kơ bơ̆nam bri tơ̆ mơnuih nhăp bơngăh.",
+      "hyp_ba_to_vi": "Sau khi đám đông đã ăn no, Ngài cho họ về nhà, rồi một mình lên núi cầu nguyện."
+    },
+    {
+      "id": 68941,
+      "text": "Cảm ơn bạn rất nhiều vì những chia sẻ chân thành và thú vị, mình sẽ ghé thử các món đặc sản Bahnar khi có dịp!",
+      "topic": "ĐỒ ĂN LƯU NIỆM",
+      "order": 21.0,
+      "label": [
+        "Bơnê kơ ih lơ dêh yua kơ dôm tơdrong klah-song tơpăt păng  iă-djơ̆, ĭnh gô weh-drong pơlomg dôm tơmam sa gĭt Bahnar mưh đei kiăp-hơnang!",
+        "Bơnê kơ ih lơ dêh yua kơ dôm tơdrong klah-song tơpăt păng  iă-djơ̆, ĭnh gô weh-drong pơlong dôm tơmam sa gĭt Bahnar mưh đei kiăp-hơnang!"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơmơn ih hơ̆ băl kơ tơlơi ih pơđiăng jơ̆n thânh la yơ̆ng; tơ̆ng hơ̆p dịp, inh sẽ ghé sa thử pơđak sa riêng Bahnar!",
+      "hyp_ba_to_vi": "Cảm ơn bạn rất nhiều vì những giải thích rõ ràng, chính xác và dễ hiểu; chúng ta hãy cùng gìn giữ tiếng Bahnar của mình để không bị mai một!"
+    },
+    {
+      "id": 69007,
+      "text": "Chào anh, anh có thể chia sẻ quy trình người Bahnar xử lý thi thể khi có người qua đời như thế nào không ạ?",
+      "topic": "Process of dealing with corpse",
+      "order": 1.0,
+      "label": [
+        "1. Hmach kơ 'nhŏng, ih hăm gơh klah-song tơdă-hơrĭ kon Bahnar hơmet atâu mưh đei bơngai hiong thoi yơ ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Chào a, a đăh pơtơm kơ kơu tơlơi kon Bahnar pơm kơ hơ̆măt kon chêt tơ hơ̆m hă?",
+      "hyp_ba_to_vi": "1. Theo bạn, chúng ta có thể bảo tồn văn hóa truyền thống của người Bahnar như thế nào để thế hệ trẻ không bị mai một?"
+    },
+    {
+      "id": 69007,
+      "text": "Trong thời gian đó, gia đình có làm gì đặc biệt không anh?",
+      "topic": "Process of dealing with corpse",
+      "order": 3.0,
+      "label": [
+        "3. Lơ̆m kơplah 'noh, ŭnh hnam hăm đei pơm kiơ phakơdih ưh 'nhŏng?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Tơ̆ng hơ̆m ană, hnam ayong gơh tam hơ̆m jơ̆ng khă hă?",
+      "hyp_ba_to_vi": "3. Trong câu đó, việc làm của chúng ta còn có thể làm cho chúng ta nên thánh không?"
+    },
+    {
+      "id": 69007,
+      "text": "Có ạ. Người thân sẽ thì thầm bên tai người mất, dặn dò những lời cuối cùng và chuẩn bị đồ vật để chôn theo.",
+      "topic": "Process of dealing with corpse",
+      "order": 4.0,
+      "label": [
+        "4. Đei ngăl. 'Nhŏng oh gô pơmơnh 'bơ̆t đon bơngai hiong, pơtă dôm nơ̆r tuch luch păng prŏ hơmet tơmam wă pơgiơ̆.",
+        "4. Đei ngăl. 'Nhŏng oh gô pơmơnh 'bơ̆t đon bơngai hiong, pơtă dôm nơ̆r tuch luch păng prŏ hơmet tơmam wă pơkiơ̆."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơh. Mơnuih hnam pơñă kơmăm kơ tơngia mơnuih mơtai, pơđăk tơlơi kơtuôl hŏ pơdrăp drăp dơ̆ng tơpŭm hơjŭm.",
+      "hyp_ba_to_vi": "4. Hãy cẩn trọng. Vì bạn không thể hiểu hết lòng người khác, hãy tránh những lời nói nhỏ nhặt có thể làm họ tổn thương cả thể xác lẫn tinh thần."
+    },
+    {
+      "id": 69007,
+      "text": "Đồ chôn theo thường là những gì?",
+      "topic": "Process of dealing with corpse",
+      "order": 5.0,
+      "label": [
+        "5. Tơmam pơgiơ̆ juăt noh lu kiơ?",
+        "5. Tơmam pơkiơ̆ juăt noh lu kiơ?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Hơ̆dră tŭp tơ̆ng hăp plĭh hơmâo ănăm?",
+      "hyp_ba_to_vi": "5. Làm thế nào để làm được điều đó?"
+    },
+    {
+      "id": 69007,
+      "text": "Thường là quần áo, vòng tay, dao nhỏ, thậm chí là ống hút thuốc hoặc vật kỷ niệm mà người đó yêu thích lúc còn sống.",
+      "topic": "Process of dealing with corpse",
+      "order": 6.0,
+      "label": [
+        "6. Juăt jơ̆ hơbăn ao, kong, săng iĕ, mă truh kơ tăng et hơ̆t dah mă tơmam sư̆-răk mă bơngai 'noh 'mêm kơeng kơplah oei arih."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Plăh lă ao bok, kòng tĭ, đao kơ̆t, hơ̆m lă klong pơ̆h thuôk hay rơ̆ng kơnhơ̆ kơ ngai ană mơ̆n pơ̆ thoi iă hơ̆ng.",
+      "hyp_ba_to_vi": "6. Giặt sạch chăn, quần áo, khăn tắm và phơi nắng, nhất là những thứ đã dùng chung với người mắc bệnh ngoài da trong nhà."
+    },
+    {
+      "id": 69007,
+      "text": "Người Bahnar tin rằng những món đồ đó sẽ giúp linh hồn người mất có cuộc sống đầy đủ ở thế giới bên kia.",
+      "topic": "Process of dealing with corpse",
+      "order": 7.0,
+      "label": [
+        "7. Kon Bahnar lui ngeh khan dôm tơmam 'noh gô tơgŭm kơ pơhngol bơngai hiong đei tơdrong arih tôm mah tơ dêh char pah to."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kon Bahnar hơ̆măn ră̆ng tơ̆drong anŭn kơ̆ gơ̆p atâu kon djăi jơ̆ng đăp đă̆ng ơ̆ pơlei atâu.",
+      "hyp_ba_to_vi": "7. Người Bahnar gìn giữ tất cả những câu chuyện ấy cũng là để góp phần giáo dục lớp trẻ có lối sống tốt đẹp trong xã hội ngày nay."
+    },
+    {
+      "id": 69007,
+      "text": "Sau đó, thi thể sẽ được chôn như thế nào ạ?",
+      "topic": "Process of dealing with corpse",
+      "order": 8.0,
+      "label": [
+        "8. Đơ̆ng rŏng kơ 'noh, atâu gô đei 'bŭ thoi yơ?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Rơih kơt, săk kơč jĕ pơtŭm kơmơh hă?",
+      "hyp_ba_to_vi": "8. Trong trường hợp đó, chúng ta phải làm thế nào?"
+    },
+    {
+      "id": 69007,
+      "text": "Thi thể được bó gọn bằng chiếu hoặc vải, rồi đặt trong quan tài gỗ đơn sơ, mang ra nghĩa địa của làng để chôn cất.",
+      "topic": "Process of dealing with corpse",
+      "order": 9.0,
+      "label": [
+        "9. Atâu đei pŏ bih sơkok dah mă che, đơ̆ng noh 'măn lăm bong 'long yôkyak, năm tơ anih pơsat pơlei wă 'bŭ hơmet."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Sak khăt đươ̆c kơ̆p gọn bă chiếu adơi bă păn, rŏi pơđăp đŏng hòm gỗ đơn sơ, amang ra pơlei pơsat kơ chŏn.",
+      "hyp_ba_to_vi": "9. Rồi người ấy cạo sạch tóc và râu, sau đó lẩn vào rừng sâu, đi đến một nơi xa làng để không ai nhận ra."
+    },
+    {
+      "id": 69007,
+      "text": "Trước khi chôn, già làng sẽ làm lễ tiễn đưa, đánh cồng chiêng và khấn tổ tiên dẫn dắt linh hồn về thế giới của người đã khuất.",
+      "topic": "Process of dealing with corpse",
+      "order": 10.0,
+      "label": [
+        "10. Adrol kơ 'bŭ, kră pơlei gô pơm yang năm ba, tôn chĭng chêng păng krao wơh yă 'bok sơ̆ki chông ba pơhngol brŏk tơ dêh char lu bơngai hiong."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆đroi kơ̆ chưh, bok plei ngă pơthi pơjao, pơh goong chêng jơ̆ kơ̆u bok yă tơ̆ng adroi dăn rơ̆ng truh lăp plei kon atâu.",
+      "hyp_ba_to_vi": "10. Trước khi đi ngủ, già làng chúng tôi làm lễ cúng thần; tiếng cồng chiêng vang lên quanh nhà và lan khắp núi rừng, khắp vùng, khiến nhiều người nghe thấy."
+    },
+    {
+      "id": 69007,
+      "text": "Sau khi chôn xong, gia đình không quay đầu nhìn lại, để linh hồn người mất không luyến tiếc mà đi thanh thản.",
+      "topic": "Process of dealing with corpse",
+      "order": 11.0,
+      "label": [
+        "11. Đơ̆ng kơ 'bŭ đang, ŭnh hnam ưh kơ hue hơlơ̆k tơ rŏng, wă kơ pơhngol bơngai hiong huay kơ 'mêm hmach na yak năm hơ'yơch jơhngơ̆m."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Rơih pơđăp hơmôn jơ̆ng, tơdră ơh pơlaih kơđâo rŏng glăi, kơ bơngăt pô mơtai ơh hlăm tơmăh, đĭ hơdiăng.",
+      "hyp_ba_to_vi": "Nàng là người ồn ào, bướng bỉnh, chân không chịu ở yên trong nhà; khi thì ngoài đường, khi thì nơi quảng trường, rình rập ở mọi góc phố."
+    },
+    {
+      "id": 69007,
+      "text": "Một thời gian sau, họ sẽ tổ chức lễ bỏ mả để chia tay lần cuối và kết thúc sự gắn bó giữa người sống và người đã khuất.",
+      "topic": "Process of dealing with corpse",
+      "order": 12.0,
+      "label": [
+        "12. Mĭnh hơnang đơ̆ng rŏng, lu sư gô pơm brư̆ yang wă sơlah wơ̆t hơtŭch păng hrĕch kơtĕch tơdrong tơjê̆ băl sơlam bơngai arih păng bơngai hiong."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Kơ̆ tơnah hŏng, hơ̆ pơm pơ thi đă pơđăh hlâu hơm kơ pơtăh pơdrŏng đŏng kon hơ̆ng kơ kon atâu.",
+      "hyp_ba_to_vi": "12. Người lên trời, ngự bên hữu Đức Chúa Cha toàn năng; ngày sau Người sẽ trở lại phán xét kẻ sống và kẻ chết."
+    },
+    {
+      "id": 69018,
+      "text": "Chào anh, anh có thể chia sẻ cách người Bahnar chăm sóc và nuôi dạy trẻ em như thế nào không ạ?",
+      "topic": "How to care for children",
+      "order": 1.0,
+      "label": [
+        "1. Kơkuh kơ 'nhŏng, ih hăm gơh klah asong tho kon Bahnar wei rong păng 'me pơtho hơ'lơ̆p thoi yơ ưh?",
+        "1. Kơkuh kơ 'nhŏng, ih hăm gơh klah asong thoi kon Bahnar wei rong păng 'me pơtho hơ'lơ̆p thoi yơ ưh?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Joh hơ̆, hơ̆ hĭ pơ̆đăh tơlơi ngă Bahnar kơ̆păh, pơ̆nuôi, pơ̆dăy kon anăn hơ̆?",
+      "hyp_ba_to_vi": "1. Câu hỏi dành cho bạn: Theo bạn, có thể làm gì để cải thiện đời sống của người Ba Na, đồng thời giữ gìn nhà rông và văn hóa truyền thống của họ?"
+    },
+    {
+      "id": 69018,
+      "text": "Dạ được ạ. Trẻ em Bahnar không chỉ được cha mẹ chăm sóc, mà cả ông bà, cô dì, chú bác và hàng xóm đều góp phần dạy dỗ.",
+      "topic": "How to care for children",
+      "order": 2.0,
+      "label": [
+        "2. Ĭ ah. Hơ'lơ̆p Bahnar ưh kơ sĭ lăp đei mĕ 'bă wei rong, mădai pơđĭ kơ yă 'bok, duch nă, mih ma păng jih cham hơdai pơgop tơdrong pơtho tơ'bôh."
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơh, khăp. Kon Bahnar tơ̆ hơ̆ng ama ami pơjă pơbăn, mă bŏk yă, ama jă, ami jă, kơ̆p đrăng rơng pơlei hơp hơt pơđih pơdăk.",
+      "hyp_ba_to_vi": "2. Không. Người Ba Na không chỉ biết kính trọng cha mẹ trong gia đình, mà còn phải kính trọng ông bà, anh chị em, bạn bè và những người thường xuyên giúp đỡ, dạy bảo mình điều hay lẽ phải."
+    },
+    {
+      "id": 69018,
+      "text": "Tức là cộng đồng đóng vai trò lớn trong việc nuôi dạy trẻ?",
+      "topic": "How to care for children",
+      "order": 3.0,
+      "label": [
+        "3. Wă khan tơpôl pơlei chĕp sơnong tih lơ̆m tơdrong 'me rong hơ'lơ̆p?"
+      ],
+      "Comments": [],
+      "hyp_vi_to_ba": "Ơ̆t hơ̆, pơlei kơ vai trò prŏng tơ pơjơ̆ng pơhrăm kon đeh?",
+      "hyp_ba_to_vi": "3. Các nguyên tắc Kinh Thánh có thể giúp lương tâm bạn như thế nào trong vấn đề giải trí?"
+    }
+  ]
+}
