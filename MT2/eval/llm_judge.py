@@ -1,200 +1,236 @@
-"""
-LLM-as-a-Judge Evaluation Framework for Low-Resource Languages (Khmer Krom / Bahnar).
-Endpoint: client.responses.create (GPT-5 Reasoning Specification).
-Output path: experiment_results/judge_results.json
-"""
-
-import json, os, sys, time
-from pathlib import Path
+import json
+import os
+import re
+import time
+from collections import defaultdict
 from openai import OpenAI
+from tqdm import tqdm
+from dotenv import load_dotenv
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-sys.stderr.reconfigure(encoding="utf-8", errors="replace")
-os.environ["PYTHONUNBUFFERED"] = "1"
+# Nạp biến môi trường cho dự án dịch máy
+load_dotenv(r"D:\Code\Python\Research\MachineTranslation\MT\MT2\.env")
 
-# Cấu hình đường dẫn hệ thống của bạn
-BASE_DIR = Path(r"D:\Code\Python\Research\MachineTranslation\MT\MT2")
-# Bạn có thể đổi tên file này thành file kết quả Bahnar hoặc Khmer Krom tùy cấu hình test
-INPUT_RESULT_PATH = BASE_DIR / "experiment_results" / "expALL_twoway_zeroshot_gpt5_at_home_test.json"
-OUTPUT_JUDGE_PATH = BASE_DIR / "experiment_results" / "judge_results.json"
+# Khởi tạo OpenAI Client
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-JUDGE_SYSTEM_PROMPT = """You are an elite expert in Computational Linguistics and an Academic Reviewer for Core A* NLP conferences (ACL/EMNLP).
-Your task is to act as a rigorous judge to evaluate the quality of a Machine Translation system for extreme low-resource regional languages (Khmer Krom or Bahnar).
+# --- SYSTEM PROMPT CHUẨN HÓA THANG ĐIỂM QUALITY SCORE 1-5 (ANTI-BIAS) ---
+SYSTEM_PROMPT = """You are an expert Computational Linguist and professional Bilingual Evaluator specializing in the contrastive linguistics of Vietnamese and native Southeast Asian languages (such as Khmer and Bahnar). Your sole task is to strictly evaluate the translation quality of a Machine Translation (MT) hypothesis against a human-verified Gold Standard Reference, using a customized Multidimensional Quality Metrics (MQM) framework.
 
-You will be given:
-1. Source Text (Original sentence)
-2. Ground Truth (Human reference translation)
-3. Hypothesis (Machine translation output)
+To ensure top-tier academic rigor and eliminate any evaluation bias, you MUST strictly adhere to the following execution laws:
+1. NO PRE-CONCEIVED ASSUMPTIONS: Do not assume the translation will suffer from specific errors like repetitive token degeneration, text collapse, or domain shifts unless explicitly evidenced in the exact text segment provided. Evaluate each sample as a completely independent instance.
+2. REFERENCE-ANCHORED VALIDATION: The Human Reference is your absolute semantic ground truth. If the translation introduces fluent but hallucinated phrases (such as general platitudes about preserving culture or protecting forests) that are NOT supported by the human reference, you MUST punish the accuracy score. Do not reward fluency over accuracy.
+3. SCORING RUBRIC (Strict 1-5 Scale):
+   - 5 (Excellent): Perfect translation. Fully preserves semantic meaning, cultural items, and correct structural/grammatical morphology.
+   - 4 (Good): Clear meaning with minor flaws. 1-2 minor morphology, character-spacing, or word-order issues that do not alter the core message.
+   - 3 (Fair): Notable errors. Features mis-translated terminology, wrong classifiers, or register/honorifics mismatch.
+   - 2 (Poor): Severe degradation. Domain mismatch, severe hallucinations, forcing the text into a religious/Biblical context, or minor text repetitions.
+   - 1 (Flawed/Unusable): Completely unusable. Extreme automatic token collapse, infinite repetition loops, gibberish strings, or text that is completely broken/irrelevant.
 
-You must evaluate the Hypothesis based on 4 strict criteria on a scale from 1 to 5 (1: Total failure, 5: Perfect translation):
+OUTPUT FORMAT RULE:
+You must output your final evaluation strictly as a valid JSON object matching the schema below. Do not include any conversational prose outside the JSON markdown block.
 
-1. Semantic Fidelity (Preservation of exact meaning without hallucinating macro-context or expanding stories).
-2. Orthographic Integrity (Correct usage of specific regional diacritics and character blocks, avoiding literal character-by-character transliteration).
-3. Fluency & Degeneracy Prevention (Zero tolerance for autoregressive repetition loops, stuttering, or phrase-level echoing).
-4. Cultural & Local Mapping (Accurate translation of unique cultural entities, local dishes, or geographical terms).
-
-You must output your evaluation strictly in the following JSON format, with absolutely no surrounding text or markdown blocks:
 {
-  "fidelity_score": 5,
-  "orthography_score": 5,
-  "fluency_score": 5,
-  "cultural_score": 5,
-  "rationale_en": "Brief academic justification of the scores."
+  "evaluation_analysis": {
+    "step_1_semantic_deconstruction": "Notes on meaning units of source and reference...",
+    "step_2_target_structural_check": "Technical notes auditing the target translation...",
+    "step_3_cross_lingual_alignment": "Notes mapping meaning and catching hallucinations/shifts...",
+    "step_4_scoring_justification": "Logical justification for the assigned score based on the 1-5 rubric..."
+  },
+  "mqm_report": {
+    "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI | Accuracy > Mistranslation > Domain Mismatch | Fluency > Grammar > Morphology > Affix-Omission | Fluency > Content-Generation > Degenerate Repetition | Style > Register > Honorifics-Mismatch | None",
+    "detected_severity": "Minor | Major | Critical | None",
+    "final_quality_score": 5
+  }
 }"""
 
-def get_client():
-    # Sử dụng chung cấu hình nhận key từ file .env hiện tại của bạn
-    from dotenv import load_dotenv
-    load_dotenv(BASE_DIR / ".env")
-    return OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-def call_judge_gpt5(client, source, reference, hypothesis, direction):
+def call_gpt5(client, system_prompt, user_prompt, max_retries=3):
     """
-    Hàm gọi GPT-5 đóng vai trò Thẩm định viên sử dụng cấu trúc endpoint mới.
+    Hàm gọi API sử dụng endpoint responses.create chuẩn xác của dòng mô hình suy luận gpt-5.5.
     """
-    user_prompt = (
-        f"### EVALUATION CONTEXT:\n"
-        f"Direction: {direction}\n"
-        f"Source Text: \"{source}\"\n"
-        f"Ground Truth Reference: \"{reference}\"\n"
-        f"Machine Hypothesis to Evaluate: \"{hypothesis}\"\n\n"
-        f"Provide your strict JSON evaluation object now:"
-    )
-
-    for attempt in range(3):
+    for attempt in range(max_retries):
         try:
             resp = client.responses.create(
-                model="gpt-5", # Hoặc gpt-5.5 tùy thuộc vào tên model bạn đang trỏ thực tế
-                instructions=JUDGE_SYSTEM_PROMPT,
+                model="gpt-5.5",
+                instructions=system_prompt,
                 input=user_prompt,
-                max_output_tokens=300
             )
-            raw_output = resp.output_text.strip()
-            
-            # Khử định dạng markdown block ```json nếu mô hình vô tình sinh ra
-            raw_json = re.sub(r"```json\s*|\s*```", "", raw_output)
-            return json.loads(raw_json)
+            return resp.output_text or ""
         except Exception as e:
-            print(f"    [Judge Retry {attempt+1}] Lỗi: {str(e)[:60]}... chờ {5 * (2 ** attempt)}s", flush=True)
-            time.sleep(5 * (2 ** attempt))
-    return None
+            wait = 5 * (2 ** attempt)
+            print(f"    [Retry {attempt+1}] {str(e)[:80]}... wait {wait}s", flush=True)
+            time.sleep(wait)
+    return ""
 
-def load_progress():
-    """Cơ chế Strict Resume bảo vệ tiến độ chấm điểm của Judge"""
-    if not OUTPUT_JUDGE_PATH.exists():
-        return {}
+def extract_json_from_text(text):
+    """
+    Bóc tách khối JSON từ chuỗi phản hồi thô của mô hình suy luận gpt-5.5.
+    """
     try:
-        with open(OUTPUT_JUDGE_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except:
-        return {}
-
-def main():
-    if not INPUT_RESULT_PATH.exists():
-        print(f"ERROR: Không tìm thấy file kết quả cần thẩm định tại: {INPUT_RESULT_PATH}")
-        sys.exit(1)
-
-    with open(INPUT_RESULT_PATH, "r", encoding="utf-8") as f:
-        experiment_data = json.load(f)
-
-    samples = experiment_data.get("per_sample", [])
-    print(f"Loaded {len(samples)} samples to evaluate via LLM-as-a-Judge...", flush=True)
-
-    client = get_client()
-    judge_progress_map = load_progress()
-    
-    judge_results = dict(judge_progress_map)
-    evaluated_count = len(judge_results)
-    
-    start_time = time.time()
-
-    for idx, sample in enumerate(samples):
-        sample_id = str(sample.get("id", idx))
-        source_text = sample.get("text", "").strip()
-        # Lấy nhãn sạch đã được tiền xử lý của bạn
-        reference_text = sample.get("label", [""])[0].strip()
-        
-        # Ca bốc tách kết quả dịch thuận và nghịch từ file json cũ của bạn
-        # (Nếu chạy cho Bahnar, bạn đổi key thành 'hyp_vi_to_ba' và 'hyp_ba_to_vi' tương ứng)
-        hyp_fwd = sample.get("hyp_vi_to_km", "").strip()
-        hyp_rev = sample.get("hyp_km_to_vi", "").strip()
-
-        # Nếu mẫu này đã được Judge chấm điểm trước đó, bỏ qua (Resume Mechanism)
-        if sample_id in judge_results:
-            continue
-
-        if (idx + 1) % 10 == 0 or idx == 0:
-            print(f"  [Judge Process] Evaluating sample {idx+1}/{len(samples)} (ID: {sample_id})...", flush=True)
-
-        # Chấm điểm Chiều Thuận (Forward)
-        score_fwd = call_judge_gpt5(client, source_text, reference_text, hyp_fwd, direction="Vietnamese-to-Target")
-        
-        # Chấm điểm Chiều Nghịch (Reverse)
-        score_rev = call_gpt5_fallback_check(client, reference_text, source_text, hyp_rev, source_text, direction="Target-to-Vietnamese")
-
-        judge_results[sample_id] = {
-            "id": sample.get("id"),
-            "text": source_text,
-            "forward_evaluation": score_fwd,
-            "reverse_evaluation": score_rev
+        match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
+        if match:
+            return json.loads(match.group(1))
+        return json.loads(text.strip())
+    except Exception:
+        return {
+            "evaluation_analysis": {"error": "Failed to parse JSON from output text"},
+            "mqm_report": {"primary_error_category": "None", "detected_severity": "None", "final_quality_score": 1}
         }
+
+def evaluate_pipeline(input_file_path, output_file_path):
+    # --- BƯỚC KHỞI TẠO CƠ CHẾ CHECKPOINT (RESUME) ---
+    existing_evaluations = {}
+    if os.path.exists(output_file_path):
+        print(f"[*] Phát hiện file kết quả cũ '{output_file_path}'. Đang tiến hành đọc checkpoint để phục hồi trạng thái...")
+        try:
+            with open(output_file_path, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+                for sample in old_data.get("per_sample", []):
+                    if "judge_evaluation" in sample and "error" not in sample["judge_evaluation"]:
+                        existing_evaluations[sample["id"]] = sample["judge_evaluation"]
+            print(f"[+] Phục hồi thành công! Đã tìm thấy {len(existing_evaluations)} câu đã được chấm điểm trước đó.")
+        except Exception as e:
+            print(f"[Cảnh báo] Không thể đọc checkpoint cũ do lỗi: {str(e)}. Tiến hành chạy mới hoàn toàn.")
+
+    # Đọc file dữ liệu gốc đầu vào
+    print(f"[*] Đang tải dữ liệu thực nghiệm gốc từ file: {input_file_path}", flush=True)
+    with open(input_file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
         
-        # Lưu tiến trình tự động sau mỗi 10 mẫu tránh mất điện hoặc rớt mạng
-        if len(judge_results) % 10 == 0:
-            with open(OUTPUT_JUDGE_PATH, "w", encoding="utf-8") as out_f:
-                json.dump(judge_results, out_f, ensure_ascii=False, indent=2)
-
-    # Ghi file kết quả thẩm định cuối cùng
-    with open(OUTPUT_JUDGE_PATH, "w", encoding="utf-8") as out_f:
-        json.dump(judge_results, out_f, ensure_ascii=False, indent=2)
-
-    # --- TÍNH TOÁN ĐIỂM TRUNG BÌNH TOÀN DIỆN CHO BÀI BÁO KHCN ---
-    print("\n" + "=" * 60)
-    print("      LLM-AS-A-JUDGE ACADEMIC REPORT COMPLED")
-    print("=" * 60)
-    # Đoạn logic tính Mean Score để bạn vẽ biểu đồ cột (Bar Chart) trong luận văn
-    compute_macro_average(judge_results)
-    print(f"Total processing time: {(time.time()-start_time)/60:.1f} mins")
-    print(f"Results successfully saved to: {OUTPUT_JUDGE_PATH}")
-
-def call_gpt5_fallback_check(client, source, reference, hypothesis, origin_src, direction):
-    """Bổ trợ gọi thẩm định chiều nghịch"""
-    return call_judge_gpt5(client, source, reference, hypothesis, direction)
-
-def compute_macro_average(results):
-    """Tính điểm trung bình vĩ mô phục vụ viết báo cáo khoa học"""
-    fwd_metrics = {"fidelity": 0, "orthography": 0, "fluency": 0, "cultural": 0, "count": 0}
-    rev_metrics = {"fidelity": 0, "orthography": 0, "fluency": 0, "cultural": 0, "count": 0}
+    model_name = data["metadata"]["model"]
+    samples = data["per_sample"]
     
-    for k, v in results.items():
-        f = v.get("forward_evaluation")
-        r = v.get("reverse_evaluation")
-        if f:
-            fwd_metrics["fidelity"] += f.get("fidelity_score", 0)
-            fwd_metrics["orthography"] += f.get("orthography_score", 0)
-            fwd_metrics["fluency"] += f.get("fluency_score", 0)
-            fwd_metrics["cultural"] += f.get("cultural_score", 0)
-            fwd_metrics["count"] += 1
-        if r:
-            rev_metrics["fidelity"] += r.get("fidelity_score", 0)
-            rev_metrics["orthography"] += r.get("orthography_score", 0)
-            rev_metrics["fluency"] += r.get("fluency_score", 0)
-            rev_metrics["cultural"] += r.get("cultural_score", 0)
-            rev_metrics["count"] += 1
+    print(f"[+] Mô hình thực nghiệm: {model_name} | Tổng quy mô dataset: {len(samples)} câu.", flush=True)
+    processed_samples = []
+    
+    # Cấu trúc lưu trữ phục vụ báo cáo thống kê cuối cùng
+    topic_scores = defaultdict(list)
+    topic_errors = defaultdict(lambda: defaultdict(int))
+    
+    # Biến cờ kiểm soát lưu lũy tiến cụm 5 mẫu câu
+    new_calls_count = 0
+    unsaved_changes = False
 
-    if fwd_metrics["count"] > 0:
-        print(f"Forward Direction (Vi -> Target) Macro Averages:")
-        print(f"  - Semantic Fidelity: {fwd_metrics['fidelity']/fwd_metrics['count']:.2f} / 5.0")
-        print(f"  - Orthographic Integrity: {fwd_metrics['orthography']/fwd_metrics['count']:.2f} / 5.0")
-        print(f"  - Fluency (No-Loop): {fwd_metrics['fluency']/fwd_metrics['count']:.2f} / 5.0")
-        print(f"  - Cultural Entity Mapping: {fwd_metrics['cultural']/fwd_metrics['count']:.2f} / 5.0")
-    if rev_metrics["count"] > 0:
-        print(f"\nReverse Direction (Target -> Vi) Macro Averages:")
-        print(f"  - Semantic Fidelity: {rev_metrics['fidelity']/rev_metrics['count']:.2f} / 5.0")
-        print(f"  - Orthographic Integrity: {rev_metrics['orthography']/rev_metrics['count']:.2f} / 5.0")
-        print(f"  - Fluency (No-Loop): {rev_metrics['fluency']/rev_metrics['count']:.2f} / 5.0")
-        print(f"  - Cultural Entity Mapping: {rev_metrics['cultural']/rev_metrics['count']:.2f} / 5.0")
+    # Duyệt qua toàn bộ mẫu câu trong bộ dữ liệu sử dụng enumerate để lấy chỉ số vòng lặp
+    for idx, sample in enumerate(tqdm(samples, desc="GPT-5.5 Resume-supported Judge"), start=1):
+        sample_id = sample["id"]
+        topic_name = sample.get("topic") if sample.get("topic") else "Unclassified"
+        
+        # KIỂM TRA CHECKPOINT: Nếu ID đã chạy thành công ở lần trước, lấy kết quả luôn và BỎ QUA call API
+        if sample_id in existing_evaluations:
+            judge_result = existing_evaluations[sample_id]
+            sample["judge_evaluation"] = judge_result
+            
+            # Đưa vào bộ đếm thống kê bình thường để đảm bảo báo cáo cuối cùng đủ mẫu
+            score = judge_result.get("mqm_report", {}).get("final_quality_score", 1)
+            error_cat = judge_result.get("mqm_report", {}).get("primary_error_category", "None")
+            topic_scores[topic_name].append(score)
+            if error_cat != "None" and error_cat != "":
+                topic_errors[topic_name][error_cat] += 1
+                
+            processed_samples.append(sample)
+            continue # Nhảy sang câu kế tiếp lập tức
+            
+        # NẾU CHƯA CHẠY: Tiến hành thiết lập ngữ cảnh để gọi API gpt-5.5
+        source_vi = sample["text"]
+        reference_target = sample["label"][0] if isinstance(sample["label"], list) else sample["label"]
+        
+        # Thích ứng linh hoạt cấu trúc file Bahnar hoặc Khmer của anh
+        hypothesis_target = ""
+        if "hyp_vi_to_ba" in sample:
+            hypothesis_target = sample["hyp_vi_to_ba"]
+        elif "hyp_vi_to_km" in sample:
+            hypothesis_target = sample["hyp_vi_to_km"]
+        else:
+            hypothesis_target = sample.get("translation", "")
+            
+        user_content = f"[Source Vietnamese]: {source_vi}\n[Human Reference]: {reference_target}\n[Translation Hypothesis]: {hypothesis_target}"
+        
+        # Gọi mô hình suy luận gpt-5.5
+        raw_output = call_gpt5(client, SYSTEM_PROMPT, user_content)
+        
+        if raw_output:
+            judge_result = extract_json_from_text(raw_output)
+            sample["judge_evaluation"] = judge_result
+            
+            score = judge_result.get("mqm_report", {}).get("final_quality_score", 1)
+            error_cat = judge_result.get("mqm_report", {}).get("primary_error_category", "None")
+            
+            topic_scores[topic_name].append(score)
+            if error_cat != "None" and error_cat != "":
+                topic_errors[topic_name][error_cat] += 1
+        else:
+            print(f"\n[Lỗi Kết Nối] Không nhận được phản hồi từ gpt-5.5 cho câu ID {sample_id}", flush=True)
+            sample["judge_evaluation"] = {"error": "Empty response from gpt-5.5 API"}
+            topic_scores[topic_name].append(1.0)
+            
+        processed_samples.append(sample)
+        new_calls_count += 1
+        unsaved_changes = True
+        
+        # --- CƠ CHẾ LƯU LŨY TIẾN MỖI 5 SAMPLES ---
+        if new_calls_count % 5 == 0:
+            temp_data = dict(data)
+            temp_data["per_sample"] = processed_samples + samples[len(processed_samples):]
+            with open(output_file_path, 'w', encoding='utf-8') as f:
+                json.dump(temp_data, f, ensure_ascii=False, indent=2)
+            unsaved_changes = False
 
+    # LƯU ĐỢT CUỐI: Đảm bảo nếu tổng số câu gọi mới không chia hết cho 5 thì vẫn được lưu trọn vẹn
+    if unsaved_changes:
+        print("\n[*] Đang lưu các mẫu câu cuối cùng vào checkpoint...", flush=True)
+        temp_data = dict(data)
+        temp_data["per_sample"] = processed_samples + samples[len(processed_samples):]
+        with open(output_file_path, 'w', encoding='utf-8') as f:
+            json.dump(temp_data, f, ensure_ascii=False, indent=2)
+            
+    # --- TÍNH TOÁN VÀ ĐÓNG GÓI BÁO CÁO TỔNG KẾT CUỐI CÙNG (SAU KHI TOÀN BỘ DATASET HOÀN THÀNH) ---
+    print("\n" + "="*60, flush=True)
+    print("📊 BÁO CÁO THỐNG KÊ CHẤT LƯỢNG DỊCH GPT-5.5 JUDGE THEO CHỦ ĐỀ (TOPIC)", flush=True)
+    print("="*60, flush=True)
+    
+    stats_summary = {}
+    for topic, scores in topic_scores.items():
+        avg_score = sum(scores) / len(scores) if scores else 0
+        total_samples_in_topic = len(scores)
+        
+        print(f"\n📌 Topic: {topic} (Tổng số mẫu: {total_samples_in_topic})", flush=True)
+        print(f"   └── Điểm Chất lượng Trung bình (1-5): {avg_score:.2f} / 5.0", flush=True)
+        print(f"   └── Phân phối lỗi MQM phát hiện bởi GPT-5.5:", flush=True)
+        
+        errors_dict = dict(topic_errors[topic])
+        if errors_dict:
+            for err, count in errors_dict.items():
+                print(f"       * {err}: {count} lần", flush=True)
+        else:
+            print("       * Không phát hiện lỗi hệ thống nghiêm trọng.", flush=True)
+            
+        stats_summary[topic] = {
+            "average_quality_score": round(avg_score, 2),
+            "total_samples": total_samples_in_topic,
+            "detected_error_distribution": errors_dict
+        }
+
+    # Đóng gói và lưu trữ báo cáo hoàn chỉnh cuối cùng vào file đầu ra
+    data["per_sample"] = processed_samples
+    data["metadata"]["judge_model"] = "gpt-5.5"
+    data["metadata"]["judge_status"] = "fully_evaluated_by_llm_as_a_judge"
+    data["metadata"]["score_range"] = "1-5 (Likert Quality Scale)"
+    data["topic_analysis_report"] = stats_summary
+    
+    with open(output_file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        
+    print("\n" + "="*60, flush=True)
+    print(f"[+] Pipeline hoàn tất thành công 100% dataset! Không có mẫu nào bị bỏ sót.", flush=True)
+    print(f"[+] File kết quả làm giàu cuối cùng lưu tại: {output_file_path}", flush=True)
+    print("="*60, flush=True)
+
+# --- KHỞI CHẠY PIPELINE ---
 if __name__ == "__main__":
-    import re
-    main()
+    input_file = r"D:\Code\Python\Research\MachineTranslation\MT\MT2\bahnar\results\expALL_twoway_zeroshot_bahnar_gpt5_at_home.json"
+    output_file = r"D:\Code\Python\Research\MachineTranslation\MT\MT2\eval\results\evaluated_bahnar_quality_score_1_5_gpt5.json"
+    
+    if os.path.exists(input_file):
+        evaluate_pipeline(input_file, output_file)
+    else:
+        print(f"[Lỗi] Không tìm thấy file dữ liệu gốc '{input_file}'. Hãy kiểm tra lại cấu trúc đường dẫn.")

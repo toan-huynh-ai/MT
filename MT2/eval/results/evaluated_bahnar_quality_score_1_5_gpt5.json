@@ -1,7 +1,7 @@
 {
   "metadata": {
     "model": "gpt-5",
-    "total_samples": 220,
+    "total_samples": 120,
     "status": "completed"
   },
   "metrics": {
@@ -25,7 +25,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Tơ̆ anih pơm bơ̆ng kơ kon Bahnar, plơi hơ̆ng hơ̆rê pơgŏn pơm bơ̆ng mơnă ih thâi jăp-kơđăp hơnŏng đơ̆i hrơi-hrơi?",
-      "hyp_ba_to_vi": "Trong nhà của người Ba Na, thường có nhiều loại đồ dùng ăn uống và công cụ lao động mà bạn thấy gắn liền với sinh hoạt hằng ngày phải không?"
+      "hyp_ba_to_vi": "Trong nhà của người Ba Na, thường có nhiều loại đồ dùng ăn uống và công cụ lao động mà bạn thấy gắn liền với sinh hoạt hằng ngày phải không?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -37,7 +50,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Hơ̆m hay pơdùng gŏ tơnah, chảo gang, klŏng tre kơ vĭ pơđŏt tre – krăp đêh gơ̆n gũi kơ tơlơi kông glai.",
-      "hyp_ba_to_vi": "Nhiều người thường dùng cồng chiêng, trống, đàn đing lao-pơo cùng đủ loại hoa văn để làm đẹp cho lễ hội và đời sống."
+      "hyp_ba_to_vi": "Nhiều người thường dùng cồng chiêng, trống, đàn đing lao-pơo cùng đủ loại hoa văn để làm đẹp cho lễ hội và đời sống.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -49,7 +75,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ih ơi, pơm yơ̆ng drăp adroi nư̆h geh pơm khăc jơ̆ng mơn sa hơm?",
-      "hyp_ba_to_vi": "Tại sao các môn đồ của thầy lại không rửa tay trước khi ăn?"
+      "hyp_ba_to_vi": "Tại sao các môn đồ của thầy lại không rửa tay trước khi ăn?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -61,7 +100,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ơh, tơp bă gŏng tơnah hay klŏng tre pơm kơ̆p hơm thơm tơlơi tơnam, pơm mơ̆ng ăn đậm đà hơn hơnh gŏng tơnap.",
-      "hyp_ba_to_vi": "Vì vậy, ta bảo anh em: đừng lo lắng cho mạng sống mình rằng sẽ ăn gì, uống gì, cũng đừng lo cho thân thể mình rằng sẽ mặc gì."
+      "hyp_ba_to_vi": "Vì vậy, ta bảo anh em: đừng lo lắng cho mạng sống mình rằng sẽ ăn gì, uống gì, cũng đừng lo cho thân thể mình rằng sẽ mặc gì.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -73,7 +125,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Kon Bahnar geh tơ̆m pơkăp hơđŏ pơ̆h bơ̆ng tơ̆ng ti kơ, lăh pơđăp teh ơ̆ chơ̆ lăh ơ̆ anih kơđeh?",
-      "hyp_ba_to_vi": "Người Ba Na có thể gìn giữ và phát triển tiếng nói, chữ viết của mình được không, khi việc đó từ xưa đến nay rất khó?"
+      "hyp_ba_to_vi": "Người Ba Na có thể gìn giữ và phát triển tiếng nói, chữ viết của mình được không, khi việc đó từ xưa đến nay rất khó?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -86,7 +151,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Nar hơ̆mă, bơnă pơm kơtăng geh păng hơ̆dăk — tơ̆ gùi, rổ, trô̆ng pă cơm — yă pơm băl tĕ tơ̆m geh kơtei tâm hồn jơ̆ng pơđơ̆m.",
-      "hyp_ba_to_vi": "Con người sản xuất lương thực – từ săn bắt, hái lượm đến trồng trọt, chăn nuôi – vì quá trình sản xuất có tác động đến môi trường tự nhiên."
+      "hyp_ba_to_vi": "Con người sản xuất lương thực – từ săn bắt, hái lượm đến trồng trọt, chăn nuôi – vì quá trình sản xuất có tác động đến môi trường tự nhiên.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68942,
@@ -98,7 +176,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Inh kơtang hơ̆jơ̆ng kơ đươ̆ng kon Bahnar pơjing mơ̆t tơdrong pơ̆h sa truh tơdrong bok yă hơdip, hơmâo adăt pơlei hơ̆ng rơwai kon Bahnar.",
-      "hyp_ba_to_vi": "Chúng ta cần cùng với đồng bào Ba Na sửa đổi mọi điều sai trái của mình thành những điều tốt đẹp trong cuộc sống ấm no và bảo vệ phong tục, luật tục của buôn làng."
+      "hyp_ba_to_vi": "Chúng ta cần cùng với đồng bào Ba Na sửa đổi mọi điều sai trái của mình thành những điều tốt đẹp trong cuộc sống ấm no và bảo vệ phong tục, luật tục của buôn làng.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asserts: yes/certainly; cooking with a clay pot or bamboo tube helps retain the natural aroma; this makes the dish much richer/more flavorful than when using a modern pot. The human reference preserves these meaning units, including the affirmative opening, traditional cooking vessels, retention of natural smell/aroma, enhanced flavor, and contrast with modern cookware.",
+          "step_2_target_structural_check": "The hypothesis broadly follows the source sentence structure and includes recognizable elements for clay pot, bamboo tube, natural aroma, richer taste, and comparison with a modern pot. However, it contains substantial Vietnamese lexical intrusion/code-mixing such as 'hay', 'tre', 'thơm', 'ăn', and 'đậm đà hơn', which weakens target-language naturalness and morphology. Some target terms also diverge from the reference forms, e.g. the rendering of bamboo tube and modern pot.",
+          "step_3_cross_lingual_alignment": "Core semantics are mostly recoverable: affirmative response, traditional cookware, aroma retention, and improved flavor compared with modern cookware. There is no major hallucinated content or domain shift. However, the hypothesis is not fully aligned with the human reference because several important lexical items are left in Vietnamese or rendered through non-reference calques, especially culturally specific cooking items and flavor description.",
+          "step_4_scoring_justification": "The translation is understandable and preserves the general message, but it has notable terminology and target-language rendition problems, especially code-mixed Vietnamese words and less accurate cultural/lexical choices. These are more than minor fluency issues but do not make the translation unusable. Under the rubric, this fits score 3: fair, with notable errors in terminology and structural/lexical naturalness."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -110,7 +201,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Jơ̆ hă, hngai ni inh mơ̆n hiău tơnap rơ̆ng bơ̆a cha măng kơ kon Bơhnar, hă bơ̆l pơđi mŏt pơ̆t kơ inh hơ̆?",
-      "hyp_ba_to_vi": "Xin lỗi bạn, hôm nay tôi muốn tìm hiểu thêm về đời sống văn hóa của người Bahnar, bạn có thể giải thích rõ hơn không?"
+      "hyp_ba_to_vi": "Xin lỗi bạn, hôm nay tôi muốn tìm hiểu thêm về đời sống văn hóa của người Bahnar, bạn có thể giải thích rõ hơn không?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source is a polite casual request: greeting the interlocutor, stating that today the speaker wants to learn more about the Bahnar people's dinner/evening meal, and asking whether the interlocutor can share a little. The human reference preserves these units: greeting, 'today I want to know/learn more', 'about the evening meal of the Bahnar people', and 'can you share/tell a little?'.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent and maintains a question form. It uses pronouns corresponding to 'you' and 'I', temporal expression 'today', a learning/understanding verb, an expression for evening meal, and a request to tell/share a little. There are some non-reference lexical and orthographic choices, such as 'Jơ̆ hă' instead of the reference greeting, 'Bơhnar' instead of 'Bahnar', and a more calqued phrasing for 'share a little'.",
+          "step_3_cross_lingual_alignment": "The hypothesis aligns with the main meaning of the reference: greeting, desire to learn about Bahnar dinner, and request for a short explanation. No major hallucinated content or domain shift is present. However, the rendering appears less idiomatic than the reference and includes minor lexical/orthographic deviations and possible Vietnamese-influenced calques, especially around 'want to understand/learn' and 'one bit/share'.",
+          "step_4_scoring_justification": "The translation preserves the core message accurately and remains understandable, with only minor lexical, orthographic, and idiomatic issues. These flaws do not materially alter the request, so it fits the 4 = Good category rather than 5 = Excellent."
+        },
+        "mqm_report": {
+          "primary_error_category": "Fluency > Grammar > Morphology > Affix-Omission",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -122,7 +226,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Jơ̆h hă, rơp bơ̆ng măng kơ kon Bahnar tơ̆ kơđơn bơ̆ng hŭp, jơ̆ng tơ̆m pơjâu đơ̆ng hnam.",
-      "hyp_ba_to_vi": "Ngày nay, sống trong thời đại mới, con em Ba Na không được quên dù chỉ một chút những giá trị văn hóa truyền thống của quê hương."
+      "hyp_ba_to_vi": "Ngày nay, sống trong thời đại mới, con em Ba Na không được quên dù chỉ một chút những giá trị văn hóa truyền thống của quê hương.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source states: (1) an affirmation 'Of course'; (2) dinner/evening meal for Bahnar people; (3) is not only eating and drinking; (4) it is also a time for family gathering/togetherness. The human reference preserves these units, including the contrastive structure 'not only ... but also' and the culturally specific mention of Bahnar people.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent and uses Bahnar-like lexical material. It contains an opening affirmation, a phrase for evening meal, the Bahnar people, a 'not only eat/drink' construction, and a final clause relating to time/activity with family/household. No degenerate repetition or gibberish is present.",
+          "step_3_cross_lingual_alignment": "The hypothesis aligns well with the reference on the core meaning: dinner for Bahnar people is not merely eating and drinking, but connected to family time. However, the final phrase is less explicit than the reference regarding 'quây quần bên gia đình' / gathering together with family, and the opening 'Jơ̆h hă' is slightly weaker or more generic than the reference's 'Gơh ngăl' for 'Dĩ nhiên rồi'. These are minor semantic/lexical precision issues rather than major mistranslations.",
+          "step_4_scoring_justification": "The translation preserves the main proposition and cultural reference with good fluency and no hallucinated content. Minor issues involve less precise rendering of 'of course' and the family-gathering nuance. Under the rubric, this fits score 4: good translation with minor flaws that do not alter the core message."
+        },
+        "mqm_report": {
+          "primary_error_category": "None",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -134,7 +251,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Kon Bahnar tơ̆ng chă đĭh măng lơ̆m pơ̆ nâo giờ, kơ hơ̆m thói quen tơ̆ đặc biệt hă?",
-      "hyp_ba_to_vi": "Người Ba Na thường sống ở vùng nào và họ có phong tục gì đặc biệt không?"
+      "hyp_ba_to_vi": "Người Ba Na thường sống ở vùng nào và họ có phong tục gì đặc biệt không?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asks two linked questions: (1) at approximately what time Bahnar people usually eat dinner, and (2) whether they have any special habits/customs related to this. The human reference encodes the habitual aspect, evening meal, approximate time, and the existence of special/customary practices.",
+          "step_2_target_structural_check": "The hypothesis preserves the general interrogative structure and mentions Bahnar people, eating in the evening/night, time, and special habits. However, it contains several Vietnamese lexical intrusions such as 'giờ', 'thói quen', and 'đặc biệt', which weakens target-language naturalness and indicates incomplete lexical transfer into Bahnar. The phrasing is structurally less idiomatic than the reference.",
+          "step_3_cross_lingual_alignment": "Semantically, the hypothesis broadly aligns with the source/reference: it asks when Bahnar people usually eat dinner and whether they have special habits. There is no major hallucination or unrelated domain shift. However, the reference-specific terms for habitual action and special/customary practice are not properly rendered; instead, Vietnamese words are inserted, causing terminology and cultural-rendition weakness.",
+          "step_4_scoring_justification": "The core message remains understandable, but the translation is not fully natural or properly localized into Bahnar due to untranslated Vietnamese vocabulary and less accurate idiomatic structure. These are notable terminology and register/fluency issues rather than minor surface errors, so the appropriate score is 3 rather than 4."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -146,7 +276,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Pơđi, hăi cha bơ̆ măng jơ̆ kơ̆ trôk măng hĭp, kơ̆ prău truh pơh jơ, la hĭnh kơ̆m mơ̆ng hnam kơtang.",
-      "hyp_ba_to_vi": "Vào buổi sáng trước khi đi làm rẫy, khoảng từ 6 đến 7 giờ, mọi người thường cùng nhau ăn sáng trong nhà."
+      "hyp_ba_to_vi": "Vào buổi sáng trước khi đi làm rẫy, khoảng từ 6 đến 7 giờ, mọi người thường cùng nhau ăn sáng trong nhà.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source states: usually/typically, the speaker's group eats dinner after it is fully dark, around 6 to 7 o'clock, and they always eat together inside a stilt house. The human reference preserves these units: habitual frequency, eating dinner, after complete darkness, approximate time range 6-7, always together, inside the stilt house.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent and not degenerate. It appears to express 'we eat in the evening/night after it is dark' and a time range from six to seven. However, the final clause is less structurally aligned with the reference: it does not clearly reproduce the reference's explicit 'always eat together' construction, and 'hnam kơtang' appears to render the house as a 'high/tall house' rather than the culturally specific stilt-house term used in the reference.",
+          "step_3_cross_lingual_alignment": "Core temporal and activity meaning is mostly retained: habitual dinner after darkness and roughly 6-7 o'clock. There is no hallucinated religious or unrelated content. The main semantic weaknesses are partial loss or weakening of 'always together' and an imprecise cultural rendering of 'nhà sàn' compared with the reference 'hnam kơ'như̆'. The hypothesis is understandable but less faithful in culturally specific terminology and some clause-level details.",
+          "step_4_scoring_justification": "Because the translation preserves the main event and time frame but has notable terminology and alignment issues, especially the culturally specific rendering of 'stilt house' and the explicit 'always eat together' component, it fits the rubric's score 3: Fair, with mistranslated terminology/cultural item and some semantic weakening, but not severe enough for a score of 2."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -158,7 +301,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Tơm sa jơ̆ bữa măng kơđă hơ̆ kơ bữa trưa, ih?",
-      "hyp_ba_to_vi": "Món ăn trong bữa sáng có khác với bữa tối không?"
+      "hyp_ba_to_vi": "Món ăn trong bữa sáng có khác với bữa tối không?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asks whether the food in the evening meal/dinner is different compared with the noon meal/lunch, with an informal address particle 'bạn'. The human reference preserves the interrogative structure, the notion of food/meal, dinner/evening meal, comparison/difference, lunch/noon meal, and final question marking.",
+          "step_2_target_structural_check": "The hypothesis contains target-like elements such as 'Tơm sa' and an informal final address/question marker 'ih', but it also leaves Vietnamese lexical material untranslated, especially 'bữa' and 'bữa trưa'. The phrase structure is less natural than the reference and appears partially code-mixed. 'Tơm' is also less precise than the reference form 'Tơmam' for food.",
+          "step_3_cross_lingual_alignment": "The broad intended question is still partly recoverable: it refers to food/eating, an evening meal, comparison/difference, and lunch. However, the hypothesis does not fully match the reference because key meal terms are borrowed from Vietnamese rather than rendered in the target language, and the comparison structure is compressed/awkward. There are no unsupported hallucinations, religious/domain shifts, or degenerate repetitions.",
+          "step_4_scoring_justification": "Because the main meaning is partially conveyed but with notable lexical mistranslation/code-mixing and unnatural structure, the output is not a good target-language translation. The errors are more than minor but not severe enough to make the sentence completely unusable. This corresponds to a Fair score of 3."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Mistranslation > Domain Mismatch",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -170,7 +326,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Gơ̆h hŏ jơ̆ng hơ̆, yăh rĕng hrăng lơ̆h mơ̆t pơ̆t, dăh chơ̆ng pơm hŏm đăk hla kơ̆ ka pơ̆h bơh.",
-      "hyp_ba_to_vi": "Kẻ lười biếng thò tay vào đĩa, nhưng đến cả việc đưa tay lên miệng cũng thấy quá mệt."
+      "hyp_ba_to_vi": "Kẻ lười biếng thò tay vào đĩa, nhưng đến cả việc đưa tay lên miệng cũng thấy quá mệt.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source states: the item/meal is also quite similar, but usually a little simpler; it may be only rice with vegetable soup and salty braised fish. The human reference preserves these units: similarity, slight simplification, possibility/limitation to rice, vegetable soup, and salty braised fish.",
+          "step_2_target_structural_check": "The hypothesis appears structurally coherent and attempts to render the comparative opening and the idea of being simpler. It also includes a food list resembling rice, leafy/vegetable soup or water, and fish. However, the final food item is not rendered with the same specificity as the reference, especially the culturally specific preparation 'cá kho mặn' / salty braised fish.",
+          "step_3_cross_lingual_alignment": "The hypothesis broadly aligns with the source on 'similar' and 'simpler' and partially aligns with 'rice with vegetable soup and fish.' However, it appears to omit or mistranslate the 'kho mặn' component, which is semantically important because it specifies the fish preparation as salty braised fish, not merely fish. No major hallucinated content is introduced, but there is notable loss of culinary specificity.",
+          "step_4_scoring_justification": "Because the translation retains the general meaning but fails to accurately preserve an important culturally specific food term, it falls below Good. The error is notable but not completely destructive to comprehension, so a Fair score is appropriate."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -182,7 +351,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Bơ̆ng măng kơ tơ̆mơ̆ng ngă ơ̆ ngăl trôk hăl ơ̆ jơ̆ng unh hă?",
-      "hyp_ba_to_vi": "Các em có thể làm gì để tránh bị bỏng do lửa?"
+      "hyp_ba_to_vi": "Các em có thể làm gì để tránh bị bỏng do lửa?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asks whether dinner is ever organized/held outdoors or beside a fire/hearth. Core units: evening meal/dinner, occasional/ever occurrence, being held/organized, outdoors, or beside the fire/fireplace, interrogative polarity.",
+          "step_2_target_structural_check": "The hypothesis is structurally interrogative and contains recognizable elements corresponding to evening eating/dinner, occasionality, doing/holding, outside/open air, alternative conjunction, and near fire. The syntax is generally coherent, though the rendering of 'bếp lửa' appears closer to simply 'fire' rather than the fuller notion of fireplace/hearth.",
+          "step_3_cross_lingual_alignment": "The hypothesis aligns well with the reference meaning: dinner/evening meal, possibility/ever, outdoor setting, and by the fire are all represented. No unsupported hallucinated content or irrelevant domain shift is present. The main semantic weakening is the less precise cultural/lexical rendering of 'bếp lửa' as fire rather than hearth/fireplace.",
+          "step_4_scoring_justification": "The translation preserves the core question and is intelligible, with only minor lexical/structural imprecision. Because the meaning is substantially correct but not perfectly matched to the reference's more specific hearth/fireplace expression, it merits a Good score rather than Excellent."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -194,7 +376,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ơ, kơtơm yă̆ng rơ̆t, dơnơng hnam đơk jơ̆r apuih, chă pơngan mơ̆ng jang pơđăp tơlơi, ơ̆m rơngơ̆t klă.",
-      "hyp_ba_to_vi": "Cũng vậy, cái lưỡi tuy là một bộ phận nhỏ trong thân thể, nhưng lại khoe khoang những chuyện lớn lao. Hãy xem, chỉ một đốm lửa nhỏ mà đốt cháy cả khu rừng lớn biết bao!"
+      "hyp_ba_to_vi": "Cũng vậy, cái lưỡi tuy là một bộ phận nhỏ trong thân thể, nhưng lại khoe khoang những chuyện lớn lao. Hãy xem, chỉ một đốm lửa nhỏ mà đốt cháy cả khu rừng lớn biết bao!",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "Source/reference meaning units: affirmative response; especially during the cold season; the whole family sits around the fire/hearth; they eat dinner while talking; the atmosphere is very warm/cozy.",
+          "step_2_target_structural_check": "The hypothesis is structurally fluent and appears to maintain a natural clause sequence: affirmative opening, seasonal/cold context, family sitting near/around fire, eating and conversing, concluding with a cozy/warm description. No evidence of degenerate repetition, gibberish, or severe grammatical collapse.",
+          "step_3_cross_lingual_alignment": "The hypothesis aligns with most major semantic units of the reference. It conveys affirmation, cold/seasonal emphasis, family/household gathering, sitting around fire, eating, talking, and coziness. Some lexical choices diverge from the reference, such as the exact expression for 'especially in the cold season' and 'around the hearth/fireplace,' but these do not substantially change the core meaning. The nuance 'cả nhà' / whole family is somewhat less explicit but still implied by the family/household phrase.",
+          "step_4_scoring_justification": "This is a good translation with the main message preserved. The differences are mostly minor lexical or phrasing deviations rather than major mistranslations. There is no hallucinated content or domain shift. Because of some non-identical cultural/lexical rendering and slightly reduced explicitness, it falls short of a perfect score."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -207,7 +402,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ănĭ geh pơyan kơtuŏ̆ng, hŏ̆p pơyan pơmă pơđi yơh geh brăh kơnyă, bơn kuăl mơnuih hnam kơjŏ tơ bơng tơdrong rơngơi hơ̆ng.",
-      "hyp_ba_to_vi": "Dù cuộc sống có bận rộn, khó khăn đến đâu, hễ có khách đến, chúng tôi cũng mời họ vào nhà, cùng ăn uống và trò chuyện thật chân tình."
+      "hyp_ba_to_vi": "Dù cuộc sống có bận rộn, khó khăn đến đâu, hễ có khách đến, chúng tôi cũng mời họ vào nhà, cùng ăn uống và trò chuyện thật chân tình.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source and human reference convey: conditional marker 'if/when'; existence of a special occasion; examples include after the harvest season and when there are honored/important guests; the speaker group invites neighbors; they come/eat together; the atmosphere is very joyful.",
+          "step_2_target_structural_check": "The hypothesis is structurally fluent and target-like, with no evidence of token collapse, repetition, or gibberish. It preserves a conditional opening, a special/important time, an invitation to nearby household people/neighbors, and communal eating in a happy manner.",
+          "step_3_cross_lingual_alignment": "The broad social action is aligned: inviting neighbors to eat together happily on an important occasion. However, the hypothesis appears to render the examples inaccurately: 'after harvest season' is weakened/generalized as something like after finishing work, and the reference's 'honored guests' is not preserved, apparently shifted to a rice-related phrase such as 'new rice'. This loses a key semantic unit from the source/reference.",
+          "step_4_scoring_justification": "Because the hypothesis preserves the main frame of a special occasion and inviting neighbors to eat together happily, it is not poor or unusable. However, a notable mistranslation/omission affects the listed occasions, especially the loss of 'honored guests', which is a substantive semantic error. This fits the rubric's Fair level with notable terminology/meaning errors."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -219,7 +427,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Pơ bơ̆ng măng, hă pơhiăp tơlơi, hơri lă pơm tơdră kơ pơlei hơ̆?",
-      "hyp_ba_to_vi": "Trong vòng một năm vừa qua, bạn đã làm việc giúp cộng đồng trong bao nhiêu ngày?"
+      "hyp_ba_to_vi": "Trong vòng một năm vừa qua, bạn đã làm việc giúp cộng đồng trong bao nhiêu ngày?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source asks whether, during dinner, there is storytelling, singing, or any activity of a communal/community nature. The human reference encodes the dinner setting, an existential/interrogative structure, storytelling, singing, and doing collective/community activities.",
+          "step_2_target_structural_check": "The hypothesis renders the dinner context as 'Pơ bơ̆ng măng' and includes story-talking, singing, and doing activities related to the village/community. The structure is generally grammatical, though it shifts from the reference's existential 'is there/are there' framing toward a more participant-addressed formulation with 'hă'.",
+          "step_3_cross_lingual_alignment": "Core meaning is largely preserved: dinner, storytelling/talking stories, singing, and community/village-oriented activity are all present. Minor semantic weakening occurs because 'pơhiăp tơlơi' is closer to 'talk about stories' than the reference's clearer 'tell stories', and 'kơ pơlei' narrows community to village. No hallucinated domain, religious shift, or degenerate repetition is present.",
+          "step_4_scoring_justification": "The translation is understandable and semantically close to the human reference, with only minor structural and lexical deviations that do not seriously alter the core message. Under the 1-5 rubric, this merits a Good score rather than Excellent."
+        },
+        "mqm_report": {
+          "primary_error_category": "None",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -231,7 +452,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ơh, băl kơniêm pơđơ̆ng hơmon hơbâu, kon đêk hơri, kơđôi khi păh čing čêng lăh ngày hội hay kuôl tuần.",
-      "hyp_ba_to_vi": "Anh em đã nghe người xưa được dạy rằng: “Chớ giết người.”"
+      "hyp_ba_to_vi": "Anh em đã nghe người xưa được dạy rằng: “Chớ giết người.”",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source states: affirmative response; elders/old people tell old stories; children sing; sometimes they play gongs; this occurs on festival/holiday occasions or on weekends. The human reference preserves these units with terms corresponding to 'yes', 'old people', 'tell old stories', 'children sing', 'sometimes', 'play gongs', and 'if it is a festival occasion or weekend'.",
+          "step_2_target_structural_check": "The hypothesis is partially intelligible but structurally mixed. It uses some target-like forms for 'yes', 'elders', 'story', 'children', 'song/sing', and 'gongs', but it also retains or semi-adapts Vietnamese expressions such as 'kơđôi khi', 'ngày hội hay', and 'tuần'. This creates code-mixing and weak target-language morphology. The phrase for 'old stories' is not clearly equivalent to the reference's 'tơdrong kră sơ̆', and 'kon đêk hơri' is compressed compared with the reference's fuller 'children sing'.",
+          "step_3_cross_lingual_alignment": "Core meaning is mostly recoverable: elders tell stories, children sing, and gongs are played sometimes during holidays or weekends. However, several elements are less accurately rendered than the reference: 'old stories' is not clearly preserved, 'sometimes' and 'holiday/weekend' are partly left in Vietnamese, and the conditional/occasion structure 'if it is a festival or weekend' is weakened. There is no major hallucinated content, religious shift, or repetition, but the translation is not fully natural or reference-aligned.",
+          "step_4_scoring_justification": "Because the hypothesis preserves the general scenario but contains notable lexical, morphological, and code-mixing errors, it falls into the Fair range. The errors are more than minor, but the output is not unusable and does not severely distort the domain. A score of 3 is appropriate."
+        },
+        "mqm_report": {
+          "primary_error_category": "Fluency > Grammar > Morphology > Affix-Omission",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 68923,
@@ -244,7 +478,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Jơ̆h nơ̆, bơ̆ng pơđêm hơ̆m chỉ kơ sa hơp, mă kơ̆n lă thơi pơjăp bok me, kon čau tơ̆ng hnam hăng plơi.",
-      "hyp_ba_to_vi": "Khi một người không có việc gì làm, người ấy sẽ bắt đầu sắp xếp chỗ ngủ và đồ đạc trong nhà cho gọn gàng, ngăn nắp."
+      "hyp_ba_to_vi": "Khi một người không có việc gì làm, người ấy sẽ bắt đầu sắp xếp chỗ ngủ và đồ đạc trong nhà cho gọn gàng, ngăn nắp.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source states that dinner is not merely eating and drinking, but also an occasion to connect generations within the family and the community. The human reference preserves these units: evening meal/dinner, negation of 'only eating', an additional social function, bonding/connecting multiple generations, and the domains of family and community.",
+          "step_2_target_structural_check": "The hypothesis is structurally fluent and mostly intelligible. It renders 'dinner/evening meal' as 'bơ̆ng pơđêm', 'not only eating and drinking' as 'hơ̆m chỉ kơ sa hơp', and 'but also an occasion/time to connect' as 'mă kơ̆n lă thơi pơjăp'. There is some Vietnamese-influenced lexical/structural calquing such as 'chỉ', but it does not break comprehension.",
+          "step_3_cross_lingual_alignment": "The core semantic content aligns well with the reference. However, 'các thế hệ' / 'dôm jơhnơr' is rendered more concretely as 'bok me, kon čau' meaning parents and children/grandchildren, which narrows the general concept of generations. 'Cộng đồng' is rendered as 'plơi' meaning village, which is culturally plausible but slightly narrower than community. No unsupported hallucination or domain shift is present.",
+          "step_4_scoring_justification": "The translation preserves the main meaning and communicative intent with only minor lexical narrowing and some calque-like phrasing. These issues do not substantially alter the core message. According to the rubric, this fits score 4: good translation with minor flaws."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 68923,
@@ -256,7 +503,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Chơ̆ng hơ̆ng, tơ̆ bơhnă, kơm rơpô la jơ̆ pơtŭp mơ̆t nar pơm pơyă kơ pơchia hơ̆lim pơ mơnuih rơngơi.",
-      "hyp_ba_to_vi": "Sớm muộn gì, đối với nhiều người, cuộc sống có thể hoàn toàn đổi khác chỉ trong một ngày vì cái chết chia lìa họ với người thân yêu trong gia đình."
+      "hyp_ba_to_vi": "Sớm muộn gì, đối với nhiều người, cuộc sống có thể hoàn toàn đổi khác chỉ trong một ngày vì cái chết chia lìa họ với người thân yêu trong gia đình.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The Vietnamese source conveys: affirmation 'Chính xác'; perspective 'đối với chúng mình'; 'bữa tối' as dinner/evening meal; dinner is the moment marking the end of a working day; and it is a time to share joy with loved ones. The human reference preserves these units, including the dinner/evening-meal expression, completion of a work day, sharing joy, and beloved family/relatives.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent and not degenerate. It appears to maintain the clause sequence: affirmation, for-us framing, meal/time statement, end of a work day, and sharing happiness with dear people. Orthography and morphology are generally plausible, with no repetition or text collapse.",
+          "step_3_cross_lingual_alignment": "The hypothesis aligns with the core meaning: 'correct/exactly', a collective perspective, a meal as the point of ending a work day, and sharing joy/happiness with beloved people. However, compared with the reference, 'bữa tối' is less explicitly rendered as an evening/dinner meal, and the phrase for 'người thân yêu' is somewhat generalized as 'dear/loved people' rather than the more specific familial/close-kin nuance in the reference. These are semantic narrowing/generalization issues, not hallucinations.",
+          "step_4_scoring_justification": "The translation is largely accurate and fluent, with the main message preserved. Minor lexical/cultural nuance losses occur around the dinner/evening-meal term and the precise rendering of loved relatives. These flaws do not substantially alter the core message, so the appropriate score is 4 rather than 5."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 69025,
@@ -268,7 +528,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Kơđei a, nar nĭ inh rơ̆ng pơyău mơ̆ng yơ̆h hơ̆m tơdră pơlăh tơnah kon Bahnar hơ̆p pơlei la kon hnam pơgăn tơmăng.",
-      "hyp_ba_to_vi": "Hãy trao đổi với bạn: ngày nay, em nghĩ mình có thể biết được những phong tục truyền thống nào của người Ba Na mà cộng đồng họ vẫn còn gìn giữ?"
+      "hyp_ba_to_vi": "Hãy trao đổi với bạn: ngày nay, em nghĩ mình có thể biết được những phong tục truyền thống nào của người Ba Na mà cộng đồng họ vẫn còn gìn giữ?",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source/reference contains these meaning units: a polite greeting to an elder/male addressee; temporal framing 'today'; speaker's strong desire/hope; the act of learning/finding out; the relationship/connection between Bahnar people and their community plus surrounding neighbors.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent and not degenerate. It preserves a greeting-like opening and includes 'today', first-person intent, 'kon Bahnar', and nearby social entities. However, several lexical choices diverge from the reference, especially around the key phrase for 'relationship between the Bahnar and the community/neighbors'. The hypothesis uses terms suggestive of village/households rather than the reference's community/group and surrounding neighbors.",
+          "step_3_cross_lingual_alignment": "Major semantic elements are partially aligned: greeting, time, speaker intent, Bahnar people, and surrounding social context are present. However, the hypothesis does not closely match the reference wording for 'mối quan hệ' and 'cộng đồng và hàng xóm xung quanh'. It appears to shift 'community and neighbors around' toward 'village and households nearby', which is related but less accurate. There is no severe hallucination, religious/domain shift, or repetition.",
+          "step_4_scoring_justification": "The translation is usable and broadly conveys the topic, but it contains notable lexical/semantic inaccuracies in the central relational phrase and in the rendition of community/neighborhood entities. These are more than minor morphology or word-order issues, but the sentence is not severely degraded. According to the rubric, this fits a Fair score."
+        },
+        "mqm_report": {
+          "primary_error_category": "Accuracy > Cultural Rendition > Mistranslated CSI",
+          "detected_severity": "Major",
+          "final_quality_score": 3
+        }
+      }
     },
     {
       "id": 69025,
@@ -280,7 +553,20 @@
       ],
       "Comments": [],
       "hyp_vi_to_ba": "Ơ, kon Bahnar hơm hơdră tơ̆ng plơi, kơpơ plơi-kon yă pơ̆n hlăp lơ̆m hơdră hngăi-hngăi.",
-      "hyp_ba_to_vi": "Vì vậy, người Ba Na sống gắn bó với buôn làng, và dân làng luôn đoàn kết, đùm bọc nhau trong cuộc sống hằng ngày."
+      "hyp_ba_to_vi": "Vì vậy, người Ba Na sống gắn bó với buôn làng, và dân làng luôn đoàn kết, đùm bọc nhau trong cuộc sống hằng ngày.",
+      "judge_evaluation": {
+        "evaluation_analysis": {
+          "step_1_semantic_deconstruction": "The source states: polite discourse marker 'Dạ'; 'we Bahnar people'; live according to/in village communities; and regard the community as a very important part of daily life. The human reference preserves these units with 'Ŏ ah', 'kon Bahnar nhôn', 'arih kiơ̆ kơ kon pơlei', and 'kon pơlei noh jơ̆ mĭnh jăl gĭtgăl lơ̆m chăl arih rim năr'.",
+          "step_2_target_structural_check": "The hypothesis is structurally coherent in Bahnar-like phrasing: 'Ơ' corresponds to the initial acknowledgment; 'kon Bahnar' is retained; 'tơ̆ng plơi' expresses living in/within the village; 'plơi-kon' attempts to render community; 'pơ̆n hlăp' conveys importance; and 'hngăi-hngăi' conveys daily/everyday. No degenerate repetition or irrelevant domain shift is present.",
+          "step_3_cross_lingual_alignment": "The main semantic content aligns with the reference: Bahnar people, village-based living, community importance, and daily life are all present. Minor deviations include a less explicit rendering of 'chúng tôi/we' compared with the reference's 'nhôn', and the phrase 'coi cộng đồng là một phần rất quan trọng' is somewhat compressed into 'community is important in daily living', losing the explicit 'as a part of life' nuance. Cultural item 'buôn làng/community' is broadly preserved through 'plơi/plơi-kon'.",
+          "step_4_scoring_justification": "The translation is clear and largely faithful, with only minor structural and semantic compression issues. It does not hallucinate unsupported content and does not exhibit severe fluency problems. Because the core message is preserved but not perfectly matched in possessive/inclusive marking and the 'part of daily life' construction, it merits a Good score rather than Excellent."
+        },
+        "mqm_report": {
+          "primary_error_category": "Fluency > Grammar > Morphology > Affix-Omission",
+          "detected_severity": "Minor",
+          "final_quality_score": 4
+        }
+      }
     },
     {
       "id": 69025,
@@ -1479,1223 +1765,6 @@
       "Comments": [],
       "hyp_vi_to_ba": "Rơngai tơ̆ bar truh pe hrơi, jơ̆ng đŏ dơ̆n kon mơtai đi pơchôn, pơjơnum pơ thi tơ̆ môt hrơi kơtăh, tơ̆ng pơgang hơ̆ mơ̆i plơi.",
       "hyp_ba_to_vi": "12. Tục làm lễ hội thường kéo dài từ hai đến bốn ngày; tùy nơi, nếu có đâm trâu thì người ta làm lễ cúng Giàng như vậy theo phong tục của từng làng."
-    },
-    {
-      "id": 69003,
-      "text": "Chào anh, hôm nay tôi rất mong được nghe anh chia sẻ về phong tục khi tổ chức đám cưới của người Bahnar.",
-      "topic": "Traditions when getting married",
-      "order": 1.0,
-      "label": [
-        "1. Kơkuh kơ 'nhŏng, năr 'nâu ĭnh hơmĕng dêh gơh mơ̆ng ih klah-song gah tơdrong juăt mưh pơjing et-sa pơkong kon Bahnar."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kơ hơ̆ ayông, tơ̆ngăi ni inh rơ̆ng mơ̆ng gơh tơnghe ayông pơhiăp tơlơi adăt pơjă kơđăm kơđei kơ kon Bahnar.",
-      "hyp_ba_to_vi": "1. Câu hỏi thứ nhất, hôm nay chúng tôi muốn được nghe anh/chị chia sẻ về phong tục tập quán và cách làm ăn, sinh sống của người Bahnar."
-    },
-    {
-      "id": 69003,
-      "text": "Dạ, đám cưới của người Bahnar rất náo nhiệt và mang đậm nét cộng đồng, mọi người trong làng đều tham gia chuẩn bị.",
-      "topic": "Traditions when getting married",
-      "order": 2.0,
-      "label": [
-        "2. Ĭ ah, tơdrong pơkong kon Bahnar rơđŭk rơđăk tơpă păng tơ'bôh rơđah tơdrong atŭm adrŭm tơpôl, rim 'nu lăm pơlei gơh hơdai prŏ hơmet."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, pơđăm jơ̆u kơ kon Bahnar rơngai hrơ̆h đăh tơ̆m pơlei rơ̆ng, tăt cả kon trong plei đều pơgóp pơngă chuẩn bị.",
-      "hyp_ba_to_vi": "2. Vì vậy, phong tục tập quán của người Bahnar rất phong phú, đa dạng, có nhiều nét đẹp trong sinh hoạt cộng đồng; mọi người trong làng cần biết gìn giữ cẩn thận."
-    },
-    {
-      "id": 69003,
-      "text": "Anh có thể kể cụ thể một số công việc chuẩn bị quan trọng trước ngày cưới không?",
-      "topic": "Traditions when getting married",
-      "order": 3.0,
-      "label": [
-        "3. Ih hăm gơh roi adraih mĭnh 'biơ̆ tơdrong jang prŏ hơmet gĭt kăl adrol kơ pơkong ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ay gơh pơma rơ̆ng rơ̆ng mơ̆ng tơlơi pơgăt tơlơi kơdrăh kơ tơngăi pơđi hơ?",
-      "hyp_ba_to_vi": "Bạn có thể tự mình chọn những công việc quan trọng cần ưu tiên làm trước cho hội thánh không?"
-    },
-    {
-      "id": 69003,
-      "text": "Một trong những việc đầu tiên là chặt củi. Thanh niên trong làng sẽ cùng nhau vào rừng lấy củi để nấu nướng trong lễ cưới.",
-      "topic": "Traditions when getting married",
-      "order": 4.0,
-      "label": [
-        "4. Mĭnh lơ̆m lu tơdrong jang tơmmơm jơ̆ kăl 'long ŭnh. Đe adruh tơdăm lăm pơlei gô hơdai băl năm tơ bri iŏk 'long ŭnh wă pai 'buh lăm giĕng pơkong."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Sa yă adrol la păh long ŭnh. Đeh tơdrong pơlei tơdơ̆ng mŭt bri hlăp long ŭnh đă pơhăm sa dơ̆ pơtơlơ̆ng.",
-      "hyp_ba_to_vi": "4. Một trong những công việc quan trọng ngày xưa là chặt củi. Sáng sớm, các gia đình trong làng cùng nhau vào rừng lấy củi rồi đem về chất trong bếp."
-    },
-    {
-      "id": 69003,
-      "text": "Việc chặt củi không chỉ để dùng mà còn thể hiện sự chung tay góp sức, gắn kết của cộng đồng trong việc vui chung.",
-      "topic": "Traditions when getting married",
-      "order": 5.0,
-      "label": [
-        "5. Tơdrong kăl 'long ŭnh ưh kơsĭ lăp wă yua đĕch ôh mă kư̆m tơ'bôh tơdrong hơdai pơm-pel tơgop jơhngơ̆m pran."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơlơi kăh pơ̆ng hăñ jĭ kơ̆ dŏng dơ̆ng, mă kơ̆ tơ̆l tơ̆ bơh rơ̆ng hơ̆p, hơ̆p jơng hơ̆p rai, kơ̆t kơ̆đê plơi trong tơlơi vui hơ̆p.",
-      "hyp_ba_to_vi": "5. Đừng để những lời xấu xa ra khỏi miệng anh em, nhưng hãy chỉ nói những lời tốt lành để xây dựng và đem ích lợi cho người nghe."
-    },
-    {
-      "id": 69003,
-      "text": "Vậy còn việc dựng rạp cưới thì sao ạ?",
-      "topic": "Traditions when getting married",
-      "order": 6.0,
-      "label": [
-        "6. Ley bĭ tơdrong tơiung adrang pơkong thoi yơ?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ană, bơ̆ ngă hnam pơđei mă hă?",
-      "hyp_ba_to_vi": "6. Lễ bỏ mả cho người đã khuất diễn ra như thế nào?"
-    },
-    {
-      "id": 69003,
-      "text": "Làm rạp cưới cũng là một hoạt động tập thể. Mọi người sẽ dùng tre, nứa và lá để dựng rạp ngay tại sân nhà hoặc bãi đất trống.",
-      "topic": "Traditions when getting married",
-      "order": 7.0,
-      "label": [
-        "7. Pơm adrang pơkong kư̆m jơ̆ mĭnh tơdrong jang tơpôl. Rim 'nu gô yua kram, hơ'yơl păng hla wă kơ tơiung adrang kơtă lăm cham hnam dah mă anih teh glă hoh."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Pơm hnam pơđăm kơ laih sa tơlơi pơm jơnum. Bơngai hơmă să tre, nứa la hla đê pơm hnam pơđăm glăi ơ̆ kơtu hnam tơm ơ̆ tơnah hơngă.",
-      "hyp_ba_to_vi": "7. Làm đường giao thông cũng là một công việc tập thể. Mỗi người đều mang cuốc, phát quang cây cỏ hai bên đường, từ trong làng, quanh nhà cho đến những nơi nương rẫy xa gần."
-    },
-    {
-      "id": 69003,
-      "text": "Rạp cưới được trang trí bằng vải thổ cẩm, hoa rừng và các vật dụng truyền thống mang nét văn hóa riêng.",
-      "topic": "Traditions when getting married",
-      "order": 8.0,
-      "label": [
-        "8. Adrang pơkong đei pơgong khăn tanh, pơkao bri păng tơmam ată anăn chĕp rơđah jing jar kơdih."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Hnam pơjâu pơkrăh bă̆ng tơng hơgăm, bông bri la kơđơ̆ng tơlơi adơi hơmâo săk văn hóa riêng.",
-      "hyp_ba_to_vi": "8. Ngài gọi cái vòm đó là trời. Rồi có buổi chiều và buổi sáng; đó là ngày thứ hai."
-    },
-    {
-      "id": 69003,
-      "text": "Khi đến ngày cưới, thường sẽ diễn ra những hoạt động gì?",
-      "topic": "Traditions when getting married",
-      "order": 9.0,
-      "label": [
-        "9. Mưh truh năr etsa pơkong, juăt gô đei lu tơdrong pơm jang kiơ?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng truh hơngơi pơdăm, hơmâo pơm ăn?",
-      "hyp_ba_to_vi": "9. Khi đến ngày nghỉ, chúng ta thường có nhiều việc phải làm như thế nào?"
-    },
-    {
-      "id": 69003,
-      "text": "Ngày cưới thường bắt đầu từ sáng sớm, nhà trai mang lễ vật sang nhà gái, có chiêng trống dẫn đầu đoàn rước dâu.",
-      "topic": "Traditions when getting married",
-      "order": 10.0,
-      "label": [
-        "10. Năr etsa pơkong juăt pơtơm đơ̆ng pơgê hrôi, hnam dơnŏ drŏnglo chĕp tơmam giĕng năm tơ hnam dơnŏ drŏkăn, đei chĭng chêng sơgơ̆r ba adrol kơ khul sơ̆ng mŏmai.",
-        "10. Năr etsa pơkong juăt pơtơm đơ̆ng pơgê hrôih, hnam dơnŏ drŏnglo chĕp tơmam giĕng năm tơ hnam dơnŏ drŏkăn, đei chĭng chêng sơgơ̆r ba adrol kơ khul sơng mŏmai."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Nar pơđăm gơ̆ tơmăt tŭ hơmănh rơngơ̆i, hnam rơkơi pơđeh jơnum truh hnam kơmơi, ching hơgơr tơ̆ng kơđrông pơđăp kơmơi.",
-      "hyp_ba_to_vi": "Sau ngày Sa-bát, vào sáng sớm ngày thứ nhất trong tuần, khi trời còn tối, Ma-ri Ma-đơ-len đi đến mộ và thấy tảng đá đã được lăn ra khỏi cửa mộ."
-    },
-    {
-      "id": 69003,
-      "text": "Sau nghi lễ chính, đôi vợ chồng mới sẽ ra mắt cộng đồng và cùng tham gia nghi lễ buộc chỉ cổ tay chúc phúc.",
-      "topic": "Traditions when getting married",
-      "order": 11.0,
-      "label": [
-        "11. Đơ̆ng rŏng pơm giĕng tơm, bre klo-kăn 'nao gô pơdah muhmăt 'bơ̆t anăp đe tơpôl păng hơdai pơm giĕng chô̆ brai tơ akŏng sơkat pŭn hiôk."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơlơi hơmon kơđi, băl kơnuă kơdăm bơjău tơngă pơyă kơ kon plơi, ôh tơdră hơmon tơpăt jơ̆ng tơngan kơ pơgơ̆l pơmơn.",
-      "hyp_ba_to_vi": "Khi làm việc lành, phải cẩn thận đừng phô trương trước mặt người ta để họ thấy; nếu không, anh em sẽ không được Cha trên trời ban thưởng."
-    },
-    {
-      "id": 69003,
-      "text": "Tôi nghe nói lễ cưới của người Bahnar có phần đãi tiệc rất đặc biệt?",
-      "topic": "Traditions when getting married",
-      "order": 12.0,
-      "label": [
-        "12. Ĭnh kơtơ̆ng khan giĕng pơkong kon Bahnar đei dă et-sa phakơdih dêh ah?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Gơh tơ̆ng pơh pơđăm ngăi Bahnar ă tơlơi chă nhăm hĭam hơ̆lă hă?",
-      "hyp_ba_to_vi": "Bạn nghĩ việc gìn giữ tiếng Bahnar của người Bahnar nên được thực hiện như thế nào cho tốt hơn?"
-    },
-    {
-      "id": 69003,
-      "text": "Đúng vậy. Bữa tiệc cưới rất quan trọng và được chuẩn bị kỹ càng với các món đặc sản như cơm lam, gà nướng, rượu cần,…",
-      "topic": "Traditions when getting married",
-      "order": 13.0,
-      "label": [
-        "13. Trŏ bơih. Et-sa pơkong gĭtgăl tơpă păng đei prŏ hơmet hơlen tơnen hăm lu tơmam sa gĭt thoi lĕ pơlah đing, iĕr 'buh, tơdrô ge,…"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, đăh. Bơna pơjâu pơxăm kơtang hĕ, dŏk pơdơ̆ng hrih hreh kơnhăm mơn cha pơđeh tơnah pơngă lam, manuk pơgang, rơnum tơ̆ng,…",
-      "hyp_ba_to_vi": "13. Thợ săn. Ê-sau lớn lên trở thành một thợ săn giỏi; anh thường dùng cung tên và nhiều dụng cụ khác để săn bắt các loài thú rừng, chim chóc,…"
-    },
-    {
-      "id": 69003,
-      "text": "Có mời cả người trong và ngoài làng không anh?",
-      "topic": "Traditions when getting married",
-      "order": 15.0,
-      "label": [
-        "15. Hăm đei wơ̆n lu bơngai lăm păng 'nguaih pơlei hloi ưh 'nhŏng?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ayŏng kơu krăp mơnuih kơ̆nŏng kon hăm kơ̆rao kon hơ̆?",
-      "hyp_ba_to_vi": "Đã có nhiều người đi ra ngoài làng chưa?"
-    },
-    {
-      "id": 69003,
-      "text": "Qua những gì anh kể, tôi cảm nhận được sự gắn bó và chan hòa trong văn hóa cưới hỏi của người Bahnar.",
-      "topic": "Traditions when getting married",
-      "order": 17.0,
-      "label": [
-        "17. Hlôi đơ̆ng dôm tơdrong ih tơroi, ĭnh mơn đei tơjê̆ păng mơ̆t hơdai lơ̆m jing jar tơoei pơkong kon Bahnar hloi."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng lơ̆m ih pơtô, inh tơ̆m gơ̆h pơ̆găp pơ̆jăp la pơ̆hơ̆p trong pơđĭp pơ̆xat pơ̆xoi kon Bahnar.",
-      "hyp_ba_to_vi": "17. Sau khi nghe hết những điều bạn nói, tôi cũng nhận ra rằng ngày nay tiếng nói của người Ba Na đang dần bị mai một trong đời sống rồi."
-    },
-    {
-      "id": 69003,
-      "text": "Dạ, với chúng tôi, đám cưới không chỉ là ngày vui của hai người, mà là ngày hội lớn của cả buôn làng.",
-      "topic": "Traditions when getting married",
-      "order": 18.0,
-      "label": [
-        "18. Ŏ, hăm lu nhôn, et-sa pơkong ưh kơ sĭ lăp năr chơt kơ bre sư đĕch ôh, kư̆m dai năr giĕng giang tih kơ đĭ đăng kon pơlei.",
-        "18. Ŏ, hăm lu nhôn, et-sa pơkong ưh kơsĭ lăp năr chơt kơ bre sư đĕch ôh, kư̆m dai năr giĕng giang tih kơ đĭ đăng kon pơlei."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, jing hơm, pơđam kơđam hông jêng hơngai rơmơ̆t gơ bar kơdră, ma jêng hơngai pơyơ̆ prŏng gơ tơlơi pơlei.",
-      "hyp_ba_to_vi": "18. Nếu có thể được, về phần anh em, hãy sống hòa thuận với mọi người."
-    },
-    {
-      "id": 69024,
-      "text": "Chào anh, anh có thể chia sẻ với tôi về mối quan hệ trong gia đình lớn của người Bahnar không ạ?",
-      "topic": "Relationships in the extended family",
-      "order": 1.0,
-      "label": [
-        "1. Kơkuh kơ 'nhŏng, ih hăm gơh klah asong hăm ĭnh gah tơdrong tơ'bưh lơ̆m hnam dơnŏ tih kon Bahnar ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Chào ayong, ayong hơ̆m tơ̆m chia sẻ kơ tôi vê̆ pơđăp pơđŏng trong hnam rông tơdră Bahnar hă?",
-      "hyp_ba_to_vi": "1. Trước hết, bạn có thể chia sẻ với chúng tôi về những nét đẹp trong đời sống của người Bahnar không?"
-    },
-    {
-      "id": 69024,
-      "text": "Dạ được ạ. Trong văn hóa Bahnar, gia đình không chỉ giới hạn ở cha mẹ và con cái, mà còn bao gồm cả cô dì, chú bác, anh em họ.",
-      "topic": "Relationships in the extended family",
-      "order": 2.0,
-      "label": [
-        "2. Ŏ gơh ngăl. Lơ̆m jing jar Bahnar, hnam dơnŏ ưh kơ sĭ hơgăt lăp 'bơ̆t mĕ 'bă păng kon hơ'lơ̆p đĕch ôh, mălei dai hơbĭ đĭ kơ duch yăng, mih ma, 'nhŏng oh adrĕch 'năi mơ̆n.",
-        "2. Ŏ gơh ngăl. Lơ̆m jing jar Bahnar, hnam dơnŏ ưh kơ sĭ hơgăt lăpz 'bơ̆t mĕ 'bă păng kon hơ'lơ̆p đĕch ôh, mălei dai hơbĭ đĭ kơ duch yăng, mih ma, 'nhŏng oh adrĕch 'năi mơ̆n."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, gơh. Tŏ tơlơi hơdip Bahnar, hơnam tơ̆h đơ̆ng bok me kar kon, bơ̆ng hơmâo đô̆ng ayong adơi kơ bok me kar kon kơ hĭ.",
-      "hyp_ba_to_vi": "2. Không được quên. Trong xã hội làng Bahnar, gia đình không chỉ là nơi ông bà, cha mẹ và con cái quây quần bên nhau, mà còn là nơi người ta nhớ đến thần linh, tổ tiên và cả anh em họ hàng nữa."
-    },
-    {
-      "id": 69024,
-      "text": "Vậy người Bahnar gọi các cô dì, chú bác như thế nào?",
-      "topic": "Relationships in the extended family",
-      "order": 3.0,
-      "label": [
-        "3. Ley kon Bahnar krao đe duch yăng, mih ma thoi yơ?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Nơ̆, kon Bahnar gơ̆i kơ bô̆, kơ amăng lăh hơ̆?",
-      "hyp_ba_to_vi": "3. Theo bạn, vì sao người Ba Na xưa cúng Yàng?"
-    },
-    {
-      "id": 69024,
-      "text": "Cô, dì bên mẹ và bác, chú bên cha đều được gọi theo thứ bậc, ví dụ \"dì cả\", \"chú út\", và luôn xưng hô với sự kính trọng.",
-      "topic": "Relationships in the extended family",
-      "order": 4.0,
-      "label": [
-        "4. Duch, yăng gah mĕ păng mih, ma gah 'bă tă krao kiơ̆ kơ kơnao, pơtih gia “yang kơdră”, “ma sơdruch”, păng ling lang krao pao hăm tơdrong pơyom.",
-        "4. Duch, yăng gah mĕ păng mih, ma gah 'bă tă krao kiơ̆ kơ kơnao, pơtih gia “yăng kơdră”, “ma sơdruch”, păng ling lang krao pao hăm tơdrong pơyom."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yă gah amĭ hla bok gah ama dơ̆ng kơjơ̆h tơ̆ng tơdră, tơ̆mư̆h “yă kơđăk”, “bok kơút”, hla rơ̆ng kơjơ̆h kơ hơ̆nam.",
-      "hyp_ba_to_vi": "4. Linh hồn, dù ở trong thân xác con người hay đã thoát ra ngoài, được gọi là “thần lành”, “ma dữ”; chúng lang thang khắp nơi cùng với những điều xấu xa."
-    },
-    {
-      "id": 69024,
-      "text": "Trong làng, khi gặp cô dì, chú bác, dù không sống chung nhà, chúng tôi vẫn chào hỏi và giúp đỡ nhau như ruột thịt.",
-      "topic": "Relationships in the extended family",
-      "order": 5.0,
-      "label": [
-        "5. Lơ̆m pơlei, mưh tơ'bơ̆p duch yăng, mih ma, mă ưh kơ oei hơdai pôm hnam, lu nhôn oei jet gia păng tơgŭm dihbăl thoi mĭnh akâu akar."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ pơlei, hơ̆ păpăh kơ cô dì, chú bác, mă ơh hơdip tơ̆ mơ̆t hnam, gơm kơnh pơđiăp tơlơi la jŭp kơ nhau tơ̆ bà con mơ̆t hơmam.",
-      "hyp_ba_to_vi": "5. Trong làng, mỗi khi có lễ cúng Giàng, tang ma hay có người làm nhà, mọi người đều kéo đến tụ họp, đùm bọc nhau như anh em một nhà."
-    },
-    {
-      "id": 69024,
-      "text": "Còn anh em họ thì sao, có thân thiết như anh em ruột không anh?",
-      "topic": "Relationships in the extended family",
-      "order": 6.0,
-      "label": [
-        "6. Bĭ 'nhŏng oh yă'bok lei lơliơ, hăm juăt jue thoi 'nhŏng oh pôm mĕ'bă ưh 'nhŏng?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yua băl ayông-adei hơpông hơmă, jĕt khăp kơđăi băl ayông-adei đơ̆ng bă mĭ ơh, ayông?",
-      "hyp_ba_to_vi": "6. Chúng ta có thể nhìn thấy Đức Chúa Trời rõ ràng và chạm vào Ngài như chạm vào cha mẹ chúng ta không?"
-    },
-    {
-      "id": 69024,
-      "text": "Rất thân ạ. Anh em họ thường lớn lên cùng nhau, đi học, đi rẫy chung và xem nhau như anh chị em ruột.",
-      "topic": "Relationships in the extended family",
-      "order": 7.0,
-      "label": [
-        "7. Juăt jue dêh. 'Nhŏng oh yă'bok hmă tih 'lŏ hơdai, năm pơhrăm, năm jang mir chŭn hơdai păng lăng thoi 'nhŏng mơmai oh kơdih."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Thân khăp ạ. Ayông adơi kơđông thươ̆ng lơ̆n tơpŏl, ba hră, ba mir chung, kơđei pơlei tơpăh ayông adơi ruột.",
-      "hyp_ba_to_vi": "7. Rèn luyện thân thể. Việc các em giúp cha mẹ làm việc nhà, đi học, đi làm rẫy hằng ngày cũng là cách rèn luyện để thân thể các em khỏe mạnh."
-    },
-    {
-      "id": 69024,
-      "text": "Khi có việc trong nhà, chẳng hạn như đám cưới hay ma chay, họ hàng đều góp sức, không phân biệt gần hay xa.",
-      "topic": "Relationships in the extended family",
-      "order": 8.0,
-      "label": [
-        "8. Mưh đei tơdrong jang lơ̆m hnam, pơtih thoi etsa pơkong dah kơnê̆ akâu, krung kơtum pơgop jơhngơ̆m, ưh kơ tơklah pơdê jê̆ dah ataih."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng hnam kơ brŭă, mơ̆ng pơđăm lăp pơthi, ading adai tơngia dơ̆ng pơjru, ơh pơlah jăp lăp ngai.",
-      "hyp_ba_to_vi": "8. Khi trong gia đình có công việc, phải bàn bạc với nhau, cùng đoàn kết góp sức, không phân biệt bà con gần hay xa."
-    },
-    {
-      "id": 69024,
-      "text": "Vậy có vai trò nào đặc biệt dành cho cô dì chú bác trong việc nuôi dạy con cháu không?",
-      "topic": "Relationships in the extended family",
-      "order": 9.0,
-      "label": [
-        "9. Ley hăm đei sơnong ayơ phakơdih kơ duch nă, mih ma lơ̆m tơdrong 'me rong pơtho kon mon ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Anơ̆h, hĭa rơmă hĭa rơgơ̆i jă tơdrŏng kơ̆đi dơ̆h hlăm kơ̆ pơgơ̆m pơđă kon jău hă?",
-      "hyp_ba_to_vi": "Có nguyên tắc nào trong bài học này mà các bậc cha mẹ có thể áp dụng khi dạy dỗ con cái không?"
-    },
-    {
-      "id": 69024,
-      "text": "Có chứ. Nếu cha mẹ đi làm xa, thì chú bác, cô dì là người chăm sóc, dạy dỗ con cháu như con mình.",
-      "topic": "Relationships in the extended family",
-      "order": 10.0,
-      "label": [
-        "10. Đei ngăl. Tơdah mĕ 'bă năm jangsa ataih, lei mih ma, duch nă jơ̆ bơngai wei rong, pơtho kon mon nhen kon kơdih."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ŏh, kơ. Kăn ama amí tơ̆ pơgĕh hlơ̆, thĭ bok jă, amang, cô dì la bơngai kơchăm, pơđăh kon kră như kon hĭnh.",
-      "hyp_ba_to_vi": "10. Biết lo liệu. Nếu cha mẹ đi làm ăn xa, không ở nhà, cần nhờ người trông nom nhà cửa và dạy dỗ con trai, con gái."
-    },
-    {
-      "id": 69024,
-      "text": "Trẻ em Bahnar được nuôi dạy bởi cả cộng đồng, nên đứa trẻ nào hư cũng là trách nhiệm chung của đại gia đình.",
-      "topic": "Relationships in the extended family",
-      "order": 11.0,
-      "label": [
-        "11. Kon hơ'lơ̆p Bahnar đei 'me rong pơtho hăm đĭ đăng tơpôl pơlei, na hơ'lơ̆p ayơ kơchu kư̆m dai pŭ sơnong hơdai ŭnh hnam tih gră."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kon Bơhnar do krăp bơngai pơlei pơmăn pơđăk; kơ̆ nŏ, kon nao ngă tơdrong ơh đĭk hơ̆m krăp hnam rơngai pơđŏng hơ̆.",
-      "hyp_ba_to_vi": "11. Học sinh Bahnar có nhiều cơ hội học tập và tham gia vào cộng đồng làng, để các em biết giữ gìn tốt những phong tục, truyền thống như bếp lửa, mái nhà của ông bà xưa."
-    },
-    {
-      "id": 69024,
-      "text": "Trong những dịp lễ Tết, gia đình mở rộng có tụ họp lại không anh?",
-      "topic": "Relationships in the extended family",
-      "order": 12.0,
-      "label": [
-        "12. Lơ̆m lu hơnang giĕng Têt, ŭnh hnam pơih sa hăm đei akŭm pơpôi hơdai ưh 'nhŏng?",
-        "12. Lơ̆m lu hơnang giĕng Têt, ŭnh hnam pơih să hăm đei akŭm pơpôi hơdai ưh 'nhŏng?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng hơ̆mŏng pơthi kơtê, hnam kon kơđang pă jŭm pơđăh lăi hơ̆m, anh?",
-      "hyp_ba_to_vi": "12. Trong những ngày Tết, gia đình có quây quần ăn uống với nhau đông đủ không?"
-    },
-    {
-      "id": 69024,
-      "text": "Có ạ. Lễ hội là dịp sum họp đông đủ nhất, mọi người cùng ăn uống, kể chuyện cũ, ôn lại truyền thống và kết nối thế hệ.",
-      "topic": "Relationships in the extended family",
-      "order": 13.0,
-      "label": [
-        "13. Đei ngăl. Giĕng giang jơ̆ hơnang jơnum hium pơpôi tôm loi, rim hơdai 'nu et sa, ră roi tơdrong so, tơ'blŏk tơdrong pơsư̆ ată păng pơtrơp jơhnơr.",
-        "13. Đei ngăl. Giĕng giang jơ̆ hơnang jơnum hium pơpôi tôm loi, rim hơdai 'nu et sa, ră roi tơdrong so, tơ'blŏk tơdrong pơsư̆ ată păng pơtrơ̆p jơhnơr."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆. Pơlơi juh jŏng la hơdrôm pơm pơđŏng hơnam, hơmoi gơ̆l kơđi sa đak, pơđi tơlơi hlâu, hơ̆ng tơlơi pơtao xưa, păh kơđi anei anei.",
-      "hyp_ba_to_vi": "13. Muối. Anh em là muối cho đời. Nhưng nếu muối mà nhạt đi, thì lấy gì làm cho nó mặn lại được? Nó chẳng còn ích gì nữa, chỉ đáng bị ném ra ngoài cho người ta chà đạp."
-    },
-    {
-      "id": 69024,
-      "text": "Có mâu thuẫn nào xảy ra trong họ hàng không, và nếu có thì giải quyết như thế nào?",
-      "topic": "Relationships in the extended family",
-      "order": 14.0,
-      "label": [
-        "14. Hăm đei tơdrong mơgre ayơ truh lăm krung kơtum ưh, păng tơdah đei lei lang hơmet thoi yơ?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Hăp jơ̆ tơlơ̆-pơh lơ̆m bơnăl jơ̆ng jă, ơ̆n bă hăp, pơjing hơ̆m nơ̆?",
-      "hyp_ba_to_vi": "Khi có tai họa xảy ra trong khu vực của bạn, bạn có thể làm gì?"
-    },
-    {
-      "id": 69024,
-      "text": "Nếu có hiểu lầm, già làng hoặc người lớn trong họ sẽ đứng ra giảng hòa, vì người Bahnar luôn ưu tiên sự đoàn kết.",
-      "topic": "Relationships in the extended family",
-      "order": 15.0,
-      "label": [
-        "15. Tơdah đei hlôh 'bơm glăi, kră pơlei dah mă bơngai 'lŏ kră lăm adrĕch gô dơ̆ng sơlam pơ'lơ̆ng, yua kơ kon Bahnar ling lang 'măn adrol tơdrong tơguăt agŏm."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Jơ̆ dăh tơlơi hơdră klăm, bok prŏng kon bă ngăi prŏng ơ̆i tơdring chơ̆ng ra pơlơi pơhơm, yơh ngăi Bahnar kơnhăm pơđăk tơlơi kơđŏng kơtăp truh lơ̆ng.",
-      "hyp_ba_to_vi": "15. Khi việc nương rẫy đã xong, già làng cùng nhiều người cao tuổi trong làng thường ngồi quây quần bên bếp lửa đêm, kể cho con cháu Bahnar lắng nghe những câu chuyện cổ xưa của cha ông."
-    },
-    {
-      "id": 69024,
-      "text": "Chúng tôi tin rằng nếu họ hàng bất hòa thì dòng tộc sẽ suy yếu, con cháu sau này cũng không yên ổn.",
-      "topic": "Relationships in the extended family",
-      "order": 16.0,
-      "label": [
-        "16. Lu nhôn lui ngeh tơdah krung kơtum kơgơh tơpong dihbăl lei adrĕch gô rơdu tơrăn, kon sâu ning mônh kư̆m ưh kơ hiôk hơdơ̆ng.",
-        "16. Lu nhôn lui ngeh tơdah krung kơtum kơgơh tơpong dihbăl lei adrĕch gô rơdu tơrăn, kon sâu ning mônh kư̆m ưh kơ hiôk hơđơ̆ng."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Gơp kơtĭn ră tơdăh bă kon tơlă mham hơ̆ mô̆t mơnŭm, tơlă mham hơ̆ rơ̆ng, kon jău tơ̆ng kơna lĕ hơ̆ đei bơnăm hiam.",
-      "hyp_ba_to_vi": "16. Nhân danh Ta, họ sẽ nói những thứ tiếng mới lạ; họ có quyền trên ma quỷ và tà linh cùng mọi quyền lực của kẻ thù; rắn và bò cạp cũng không làm hại được họ."
-    },
-    {
-      "id": 69024,
-      "text": "Tôi rất ấn tượng với cách người Bahnar duy trì sự gắn bó trong đại gia đình.",
-      "topic": "Relationships in the extended family",
-      "order": 17.0,
-      "label": [
-        "17. Ĭnh 'nhơ̆k jơhngơ̆m tơpă hăm tho kon Bahnar bơwei tơdrong chô̆ pơpôi lăm ŭnh hnam tih gră."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kâo rơngot mănh kơ pơcăt bơngai Bahnar păh tơlơi rơngao tơ̆ hơnam kơdrông.",
-      "hyp_ba_to_vi": "Chúng tôi thật sự vui mừng cùng toàn thể người Ba Na về nếp sống trong những ngôi nhà truyền thống lớn."
-    },
-    {
-      "id": 69024,
-      "text": "Dạ, với người Bahnar, họ hàng không chỉ là máu mủ mà còn là chỗ dựa tinh thần và là nơi gìn giữ cội nguồn văn hóa.",
-      "topic": "Relationships in the extended family",
-      "order": 18.0,
-      "label": [
-        "18. Ŏ, hăm kon Bahnar, krung kơtum ưh kơ sĭ lăp pôm pham jăr mădai anih agơn gơning đon-jơhngơ̆m păng jơ̆ anih bơwei tu-tơm jing jar."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, kơ kon Bahnar, hơđong hơđeh hơm chỉ là drăh mủ, mà kòn là chỗ nương nhờ yàng hồn, là nơi giữ gốc rễ tơlơi adăt.",
-      "hyp_ba_to_vi": "Ôi, với người Ba Na, Kon Tum không thể phôi phai theo năm tháng; đó là nơi tiếng nói, suy nghĩ và tâm hồn của họ đã được kết tụ, hình thành từ thuở ban đầu."
-    },
-    {
-      "id": 69017,
-      "text": "Chào chị, chị có thể chia sẻ cách người Bahnar chăm sóc trẻ nhỏ, đặc biệt là giai đoạn các bé mới biết đi không ạ?",
-      "topic": "How to care for toddlers",
-      "order": 1.0,
-      "label": [
-        "1. Kơkuh kơ mơmai, ih hăm gơh klah-song tho kon Bahnar wei rong hơ'lơ̆p, phakơdih jơ̆ kơplah hơnang đe sư 'nao gơh nơnăm ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơi ayong kơmơi, ayong tơ̆l pơjrao tơlơi kơnuơi Bahnar gơ̆m kon tơmăt, hơ̆nhăm kơ dơ̆ng kon hơ̆ mơ̆i tơ̆l đi hă?",
-      "hyp_ba_to_vi": "Nhìn về tương lai, anh/chị có thể chia sẻ với người Ba Na đang sống trong xã hội hiện nay, đặc biệt là làm thế nào để giữ gìn bản sắc của mình không?"
-    },
-    {
-      "id": 69017,
-      "text": "Dạ được ạ. Khi trẻ bắt đầu biết đứng, người Bahnar thường để bé đi chân đất trên nền đất mềm để cảm nhận mặt đất và giữ thăng bằng tốt hơn.",
-      "topic": "How to care for toddlers",
-      "order": 2.0,
-      "label": [
-        "2. Ŏ gơh mơ̆n. Mưh hơ'lơ̆p gơh dơ̆ng, kon Bahnar hmă lê̆ kơ sư nơnăm jơ̆ng hoh tơ ană teh rơmuăn wă kơ mơn ană teh păng dơ̆ng kơjăp hloh 'biơ̆."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, đăh. Hơ̆m kon pơ̆lơ̆m bêt đơ̆ng, ngai Ba Na rŏng pơ̆ kon đi jơ̆ng tơ̆ng lơ̆ đeh mơ̆m, đê̆ kon rơngăl măt đeh la đơ̆ng jŏh hơn.",
-      "hyp_ba_to_vi": "2. Không thể quên. Dù có chuyện gì xảy ra, người Bahnar đã bao đời sinh sống trên mảnh đất quê hương, và tình yêu của họ dành cho đất đai vẫn luôn vô cùng bền chặt."
-    },
-    {
-      "id": 69017,
-      "text": "Vậy việc tập đi có được hỗ trợ bởi người lớn không?",
-      "topic": "How to care for toddlers",
-      "order": 3.0,
-      "label": [
-        "3. Ley tơdrong pơhrăm nơnăm hăm đei tơgŭm đơ̆ng bơngai 'lŏ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆n, gơnam hơ̆k hăn gơh bơngai prong gŭp hă?",
-      "hyp_ba_to_vi": "3. Chúng ta học được điều gì khi sống chung với người khác?"
-    },
-    {
-      "id": 69017,
-      "text": "Có chứ. Người mẹ hoặc bà thường nắm tay bé tập đi mỗi ngày, nhưng để bé đi tự nhiên, không ép buộc hay dùng xe tập đi.",
-      "topic": "How to care for toddlers",
-      "order": 4.0,
-      "label": [
-        "4. Đei ngăl. Bơngai mĕ dahmă yă juăt kơ rôp ti hơ'lơ̆p pơhrăm nơnăm rim năr, mălei lê̆ kơ sơ'lơ̆p noh yak kơdih, ưh kơ pơgŏ dah mă yua gre pơhrăm nơnăm.",
-        "4. Đei ngăl. Bơngai mĕ dahmă yă juăt kơ rôp ti hơ'lơ̆p pơhrăm nơnăm rim năr."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆, geh. Amí lăh yă mơnar kăp tơngan kon pơtăp đi, song an kon đi tơlơi kơ nơ, đă pơjôh lăh gơ̆m xe pơtăp đi.",
-      "hyp_ba_to_vi": "4. Lười biếng. Cha mẹ ngày nào cũng đưa nó vào lớp học chữ, nhưng ở trường nó chỉ ngồi một chỗ, chẳng tiến bộ gì vì lười học chữ."
-    },
-    {
-      "id": 69017,
-      "text": "Trong thời gian bé chưa biết đi, người Bahnar có hay dùng địu không ạ?",
-      "topic": "How to care for toddlers",
-      "order": 5.0,
-      "label": [
-        "5. Lơ̆m hơnang hơ'lơ̆p tam gơh nơnăm, kon Bahnar hăm tơgăm pŭ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ tơlơi kon bơ̆ gơh pơđi, tơdrong Bahnar thường yơ̆ng địu hơ̆m?",
-      "hyp_ba_to_vi": "5. Trong những năm gần đây, người Ba Na có thay đổi gì không?"
-    },
-    {
-      "id": 69017,
-      "text": "Có, địu là vật dụng rất quan trọng. Mẹ dùng khăn địu vải thổ cẩm đeo sau lưng, vừa làm việc vừa giữ con bên mình.",
-      "topic": "How to care for toddlers",
-      "order": 6.0,
-      "label": [
-        "6. Đei, khăn pŭ jơ̆ tơmam yua gĭtkăl. Bơngai mĕ yua khăn pŭ brai tanh pŭ tơ rŏng, jang rah bơwei rah kon tơ kơdih."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, abăn kơ̆p kon jing tơdrong rơ̆ng hĭam. Me yơ̆ng abăn hơ̆chăm kơ̆p kon pơ kơ̆ng, ngă bruă hăng kơ̆p kon dŏ pơ me.",
-      "hyp_ba_to_vi": "6. Vậy, anh em được Thánh Linh dẫn dắt. Ngài không làm cho anh em trở lại làm nô lệ trong sợ hãi, nhưng nhận anh em làm con cái của Đức Chúa Trời."
-    },
-    {
-      "id": 69017,
-      "text": "Trẻ có quen được địu như vậy không chị?",
-      "topic": "How to care for toddlers",
-      "order": 7.0,
-      "label": [
-        "7. Hơ'lơ̆p hăm juăt đei pŭ thoi noh ưh mơmai?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kon rơ̆ng pơđiŭ đơ̆ng năy hơ̆m, ay?",
-      "hyp_ba_to_vi": "7. Tại sao chúng ta không thể tiếp tục làm như vậy nữa?"
-    },
-    {
-      "id": 69017,
-      "text": "Rất quen ạ. Trẻ ngủ ngon trên lưng mẹ và cảm thấy an toàn nhờ nhịp tim và hơi ấm quen thuộc.",
-      "topic": "How to care for toddlers",
-      "order": 8.0,
-      "label": [
-        "8. Juăt dêh. hơ'lơ̆p tep hiôk kơpal kơdŭ mĕ păng mơn hơdơ̆ng yua kơ pơpeh pleinuih păng ayuh tơnŏ juăt jue.",
-        "8. Juăt dêh. hơ'lơ̆p tep hiôk kơpal kơdŭ mĕ păng mơn hơđơ̆ng yua kơ pơpeh pleinuih păng ayuh tơnŏ juăt jue."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kơ̆mŏh klă. Kon dơ̆k rơ̆ng tơ̆ng kŏng amĭ, pơ̆ng pơjơnum jơ̆n tĕng jơnum lă hơ̆m kơ̆mŏh.",
-      "hyp_ba_to_vi": "8. Điều răn thứ tám dạy chúng ta không được làm chứng gian dối để hại người khác."
-    },
-    {
-      "id": 69017,
-      "text": "Địu còn giúp gắn kết tình cảm mẹ con và giữ bé tránh xa những nguy hiểm trong lúc mẹ làm nương rẫy.",
-      "topic": "How to care for toddlers",
-      "order": 9.0,
-      "label": [
-        "9. Pŭ kon tơgŭm tơguăt tơdrong 'mêm mĕ kon păng bơwei sư hơdĕ ataih đơ̆ng krê hơmơt kơplah mĕ jang mir chŭn."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bă kon hŏ brơi amí hĭ kon tơpơgơ̆l tơlơi ayŏng, la gih kon alăh kơ tơdră hơ̆m tơklă amí pơm hma.",
-      "hyp_ba_to_vi": "9. Lũ trẻ xúm xít quây quần bên mẹ, nghe mẹ kể chuyện ngày xưa: ở một nơi xa xôi, có một người mẹ đi làm rẫy mới."
-    },
-    {
-      "id": 69017,
-      "text": "Có bài hát hay trò chơi nào đi kèm trong lúc tập đi hoặc địu bé không?",
-      "topic": "How to care for toddlers",
-      "order": 10.0,
-      "label": [
-        "10. Hăm đei 'bai hơri dah pơchơt ayơ năm kiơ̆ kơplah pơhrăm nơnăm dahmă pŭ hơ'lơ̆p ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Hơ̆m bài hát hay trò chơi nao rơng lơ̆m lúc tập hăn hơ̆l địu kon không?",
-      "hyp_ba_to_vi": "10. Ngài đã ở trong mồ bao nhiêu ngày từ khi chết cho đến khi sống lại?"
-    },
-    {
-      "id": 69017,
-      "text": "Có những bài hát ru bằng tiếng Bahnar mà người mẹ vừa địu vừa hát, giúp bé cảm nhận ngôn ngữ và văn hóa từ nhỏ.",
-      "topic": "How to care for toddlers",
-      "order": 11.0,
-      "label": [
-        "11. Đei lu 'bai hơri pơlung hăm nơ̆r Bahnar mă bơngai mĕ pŭ rah hơri rah, tơgŭm hơ'lơ̆p mơn băt nơ̆r pơma păng jing jar đơ̆ng hơ’yĕ."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Đei hơ̆môn pơdih kon jĭ tơlơi Bahnar; amí bŏng kon kơ̆ hơ̆môn, pơgă kon kăp tơlơi kơ̆ kơtŭm tơ̆ hơ̆năm nhŏ.",
-      "hyp_ba_to_vi": "11. Hiện nay có nhiều người trẻ Bahnar không dùng tiếng Bahnar hằng ngày; thậm chí có người không biết tiếng mẹ đẻ của mình, khiến tiếng mẹ đẻ trở nên xa lạ với họ."
-    },
-    {
-      "id": 69017,
-      "text": "Việc chăm sóc trẻ nhỏ với người Bahnar không chỉ là nuôi nấng, mà còn là truyền lại sự gắn bó và bản sắc dân tộc.",
-      "topic": "How to care for toddlers",
-      "order": 12.0,
-      "label": [
-        "12. Tơdrong wei rong hơ'lơ̆p hăm kon Bahnar ưh kơ sĭ lăp 'me rong, mădai jơ̆ pơsư̆ ming tơdrong tơguăt kơjăp păng hơgăl-kơnăl adrĕch adrung."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ mơnuih Ba Na, pơkơ̆m pơnuôi kon jơla hơ̆m yơ̆ pơnuôi đăh, mă còn pơjău lăi rơngol găn bó kơ bản sắc jơlơ̆ng dân tộc.",
-      "hyp_ba_to_vi": "12. Những câu chuyện kể dân gian gắn bó với người Ba Na không chỉ để giải trí, mà còn truyền dạy những bài học quý báu về phong tục, tập quán của cha ông."
-    },
-    {
-      "id": 69023,
-      "text": "Chào chị, chị có thể chia sẻ cho tôi biết một số phong tục của người Bahnar sau khi sinh con không ạ?",
-      "topic": "Traditions after birth",
-      "order": 1.0,
-      "label": [
-        "1. Hmach kơ mơmai, ih hăm gơh klah asong kơ ĭnh băt 'biơ̆ tơdrong juăt kon Bahnar đơ̆ng rŏng kơ rơneh kon ưh?",
-        "1. Hmach kơ mơmai, ih hăm gơh klah asong kơ ĭnh băt 'biơ̆ tơdrong juăt kon Bahnar đơ̆ng rŏng kơ tơpŭ kon ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ay ơi, ay ăt pơjâu kơ inh đĭ tơlơi jơ̆ng kơ bơngai Bahnar rơih đeh kon hơ̆?",
-      "hyp_ba_to_vi": "Ngày mai, bạn có thể kể cho tôi biết về những phong tục truyền thống của người Ba Na trong làng của bạn không?"
-    },
-    {
-      "id": 69023,
-      "text": "Dạ được ạ. Sau khi sinh, vai trò của bà đỡ rất quan trọng, thường là người phụ nữ lớn tuổi có kinh nghiệm trong làng giúp đỡ suốt quá trình sinh nở.",
-      "topic": "Traditions after birth",
-      "order": 2.0,
-      "label": [
-        "2. Ŏ gơh ngăl. Đơ̆ng rŏng kơ rơneh, chĕp sơnong yă tơ'mĭn gĭtkăl dêh, hmă jơ̆ bơngai drŏkăn 'lŏ kră đei tơdrong hlôi hloh lơ̆m pơlei tơgŭm hơnang kơplah rơneh băl."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, đăh. Hnuă đeh kon, tơdră ngă kơ me pơjăp đeh kon gơ̆h rơgơi lă̆m, thươ̆ng jĭng me kra kơ plơi, ăn tơmăn, pơjăp tŭm jơlan đeh kon.",
-      "hyp_ba_to_vi": "2. Đừng quên tiếp đãi khách lạ, vì nhờ làm như vậy, có người đã tiếp đãi các thiên sứ mà không biết."
-    },
-    {
-      "id": 69023,
-      "text": "Vậy bà đỡ có được trả công gì không chị?",
-      "topic": "Traditions after birth",
-      "order": 3.0,
-      "label": [
-        "3. Ley yă tơ'mĭn hăm đei kla anăp jang kiơ ưh mơmai?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yơh, yă jŭp tơkơn kon hŏm prăk mơ̆ hơ̆, amai?",
-      "hyp_ba_to_vi": "Tại sao chúng ta phải suy nghĩ trước khi làm điều không tốt?"
-    },
-    {
-      "id": 69023,
-      "text": "Thường thì không tính công bằng tiền, mà gia đình cảm ơn bằng gạo, gà, rượu cần hoặc những sản vật có sẵn trong nhà.",
-      "topic": "Traditions after birth",
-      "order": 4.0,
-      "label": [
-        "4. Hmă jơ̆ ưh kơ đei jô̆ anăp jang bih jên, mălei ŭnh hnam bơnê hăm phe, iĕr, tơdrô ge dahmă lu tơmam đei kơtă lơ̆m hnam."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Thường thường, hơ̆ kơpăh kông bơ̆ng prăk, ră ană hnam kơmơn bơ̆ng bă, mơnuk, rơ̆u cần lơh hơ̆drăh jing sẵn tơ hnam.",
-      "hyp_ba_to_vi": "4. Làm chuồng trại không để gần nhà ở; không nuôi nhốt lợn, gà, trâu bò dưới gầm nhà vì chúng mang nhiều mầm bệnh vào nhà."
-    },
-    {
-      "id": 69023,
-      "text": "Sau sinh, sản phụ có phải kiêng cữ gì đặc biệt không?",
-      "topic": "Traditions after birth",
-      "order": 5.0,
-      "label": [
-        "5. Đơ̆ng kơ rơneh, bơngai rơneh hăm đei kơ̆m giĕng kiơ phakơdih ưh?",
-        "5. Đơ̆ng rŏng kơ rơneh, bơngai rơneh hăm đei kơ̆m giĕng kiơ phakơdih ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Jơ̆p đeh kon, mơnuih đeh kon gơ̆h pơđăp hơ̆nă tơ̆m kơ̆đi hơ̆?",
-      "hyp_ba_to_vi": "5. Về chủng tộc, có người nào cao hơn người khác không?"
-    },
-    {
-      "id": 69023,
-      "text": "Có ạ. Mẹ mới sinh phải ở cữ ít nhất hai tuần, không được ra gió, không làm việc nặng, và được chăm sóc rất kỹ.",
-      "topic": "Traditions after birth",
-      "order": 6.0,
-      "label": [
-        "6. Đei ngăl. Mĕ 'nao rơneh khŏm oei kơ̆m tŏsĕt ngei 'bar giĕng, ưh kơ gơh lĕch tơ kial, ưh kơ jang trăp, păng đei wei rong hơlen."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆. Ame hơ̆r đe kon pơđăh tơ̆ hnam hơ̆ng tơdik jăt puăn hngai, hơ̆ng gơh lăh pơ kơyal, hơ̆ng gơh pơgăh tơdră jơ̆ng, la gơh pơkăn pơmang lơ̆m.",
-      "hyp_ba_to_vi": "6. Cái bóng. Khi ta đi, nó luôn ở sát bên đôi chân, không thể bị gió thổi bay, không thể nắm bắt, nó cứ theo ta khắp nơi."
-    },
-    {
-      "id": 69023,
-      "text": "Trong thời gian ở cữ, sản phụ không ăn đồ sống hay lạnh, mà chủ yếu ăn cháo nóng, uống nước lá và ăn thịt nướng khô.",
-      "topic": "Traditions after birth",
-      "order": 7.0,
-      "label": [
-        "7. Lơ̆m hơnang oei kơ̆m, bơngai rơneh ưh kơ gơh sa tơmam adrih dah tơ'nhĕt, mălei ling sa ate tŏ, nhă đak hla păng sa 'nhem 'buh kro.",
-        "7. Lơ̆m hơnang oei kơ̆m, bơngai rơneh ưh kơ gơh sa tơmam adrih dah tơnhĕt, mălei ling sa ate tŏ, nhă đak hla păng sa 'nhem 'buh kro."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng jơ̆ hơ̆m đeh kon, bơ̆ngai kơmăn đeh kon ơ̆h pơ̆ng đơ̆ng tơ̆m hăng đơ̆ng hơ̆t, chơ̆ng pơ̆ng bơbôr hơngơ̆h, mơ̆nhum đak hla lă pơ̆ng xăk pơđang hơ̆ng.",
-      "hyp_ba_to_vi": "Cũng vậy, không ai lấy miếng vải mới vá vào áo cũ, cũng không đổ rượu mới vào bầu da cũ, vì rượu sẽ làm bầu da nứt vỡ."
-    },
-    {
-      "id": 69023,
-      "text": "Tại sao lại là thịt nướng khô, thưa chị?",
-      "topic": "Traditions after birth",
-      "order": 8.0,
-      "label": [
-        "8. Yua kơ kiơ tă kơ ‘nhĕm 'buh kro, 'noh mơmai?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yơ̆ng mơ̆h lă xă pơgang rơh, ayŏng?",
-      "hyp_ba_to_vi": "Tại sao chúng ta phải rửa tay trước khi ăn, và rửa như thế nào?"
-    },
-    {
-      "id": 69023,
-      "text": "Vì thịt nướng khô dễ tiêu, không bị ôi thiu, và người Bahnar tin rằng giúp làm ấm cơ thể, tốt cho mẹ sau sinh.",
-      "topic": "Traditions after birth",
-      "order": 9.0,
-      "label": [
-        "9. Yua kơ 'nhĕm 'buh kro 'bônh kơ hach, ưh kơ đei ôm, păng kon Bahnar lui ngeh khan tơgŭm pơm tơnŏ akâu, 'lơ̆ng kơ mĕ đơ̆ng rŏng kơ rơneh."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bơ hơ̆ xăk hơngam rơhai gơ̆h kơ pŏng, hă rơmih, ană Ba Na đăm gơ̆h no jơ̆p hơm gơnăm, tơ̆ng kơ ami lĕ pơjă kon.",
-      "hyp_ba_to_vi": "9. Vì thấy chúng ta nghèo khổ, chẳng còn gì, người Bahnar chúng ta hãy cùng nhau đoàn kết, làm cho đầu óc sáng suốt, nhớ mẹ và yêu cuộc sống."
-    },
-    {
-      "id": 69023,
-      "text": "Ngoài ra, còn có tục đốt than hồng trong nhà để giữ ấm, tránh gió độc làm ảnh hưởng đến sức khỏe của cả mẹ và con.",
-      "topic": "Traditions after birth",
-      "order": 10.0,
-      "label": [
-        "10. 'Nguaih kơ 'noh, oei đei tơdrong juăt rŭk ngar lơ̆m hnam wă kơ bơwei tơnŏ, hơdĕ kial pơnhŭl pơm tơ'bơm tơ jơhngơ̆m pran pơđĭ kơ mĕ păng kon."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Rơ̆ng gơ̆, hơ̆m adăt chuh arăng apui tơ̆ hnam đă pơjơ̆m hơ̆ng, pơjing kơyăl jơh pơm me kơ kon kơtih.",
-      "hyp_ba_to_vi": "10. Ngoài ra, còn có những điều kiêng kỵ trong công việc nhà và đối với người chồng, vì sợ gió độc làm ảnh hưởng đến sức khỏe của mẹ và con."
-    },
-    {
-      "id": 69023,
-      "text": "Trẻ sơ sinh có được làm lễ gì đặc biệt không?",
-      "topic": "Traditions after birth",
-      "order": 11.0,
-      "label": [
-        "11. Kon nge hăm đei pơm giĕng kiơ phakơdih ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kon tơdrăh hơ̆m geh pơjâu tơlơi kơđăk hă?",
-      "hyp_ba_to_vi": "11. Con người có thể làm gì để được nên thánh sạch không?"
-    },
-    {
-      "id": 69023,
-      "text": "Dạ có. Sau vài ngày, gia đình sẽ làm lễ đặt tên và buộc chỉ cổ tay để chúc bé khỏe mạnh, được tổ tiên che chở.",
-      "topic": "Traditions after birth",
-      "order": 12.0,
-      "label": [
-        "12. Ŏ đei. Đơ̆ng rŏng kơ 'biơ̆ năr, ŭnh hnam gô pơm giĕng krao anăn păng chô̆ brai tơ akŏng wă sơkat kơ nge pran jăng, đei yă 'bok sơ̆ki wei lăng."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆, hơ̆. Tơ̆l mơ̆t pơ̆ nar, pôl hnam tơ̆ pơjă yang pơđă anăn, pơtăk tơ̆ng kơti, hơdă kon bơ̆ng rơ̆ng, bok kơi kơbăp kơđăp.",
-      "hyp_ba_to_vi": "12. Hãy nghỉ ngơi. Trong sáu ngày, ngươi hãy làm công việc của mình, nhưng ngày thứ bảy phải nghỉ, để bò và lừa của ngươi được nghỉ, và con của nữ tỳ cùng khách ngoại bang được lại sức."
-    },
-    {
-      "id": 68921,
-      "text": "Chào bạn, mình rất sẵn lòng chia sẻ. Bữa trưa là một phần quan trọng trong đời sống hàng ngày của chúng mình.",
-      "topic": "BỮA TRƯA",
-      "order": 2.0,
-      "label": [
-        "Kơkuh kơ ih, ĭnh lăp đon klah-song. Sŏng sa 'năr dơ̆ng jơ̆ mĭnh jăl gĭtkăl lơ̆m chăl arih rim năr lu nhôn."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kơu ih, inh rŏh mơ̆ng hơ̆m pơ̆đah. Sa tơ̆ng hnar lă mŏt pơ̆n jơ̆ng rŏh tơ̆ hơ̆dip jă hnar hơ̆n.",
-      "hyp_ba_to_vi": "Cảm ơn bạn, tôi rất vui. Đó là một ngày mà mình sẽ nhớ mãi trong cuộc sống thường ngày của con người."
-    },
-    {
-      "id": 68921,
-      "text": "Bữa trưa của người Bahnar thường được chuẩn bị như thế nào? Có gì đặc biệt so với các dân tộc khác không?",
-      "topic": "BỮA TRƯA",
-      "order": 3.0,
-      "label": [
-        "Sŏng sa 'năr dơ̆ng kon Bahnar hmă đei prŏ-hơmet toi yơ?",
-        "Sŏng sa 'năr dơ̆ng kon Bahnar hmă đei prŏ-hơmet toi yơ? Hăm đei phara kiơ kơ lu adrĕch noh nai ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bơ̆ng hngăi kơ kon Ba Na thươ̆ng pơjru nơ̆ mơ̆h? Hơ̆m jing mơ̆h khăc kơ kon tơring kơđi kơm?",
-      "hyp_ba_to_vi": "Hằng năm, người Ba Na tổ chức những lễ hội gì? Họ có mời nhiều khách đến dự những lễ ấy không?"
-    },
-    {
-      "id": 68921,
-      "text": "Thường thì người phụ nữ trong gia đình sẽ nấu ăn, dùng nguyên liệu sẵn có như rau rừng, cá suối hoặc thịt heo nuôi.",
-      "topic": "BỮA TRƯA",
-      "order": 4.0,
-      "label": [
-        "Hmă jơ̆ bơngai drŏkăn Bahnar lơ̆m hnam dơnŏ gô pai-sa, yua tơmam đei kơtă thoi lĕ 'nhot bri, ka đak dah 'nhĕm nhŭng rong."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yơh yơh, mơnuih đeh tơ̆ng hnam gơ̆ pơđăp sa, mă rơ̆mŏng pơđăp hơ̆m hơ̆ kơ hla bri, ka đăk ălă xăk jru tơ̆ng hnam.",
-      "hyp_ba_to_vi": "Đời sống của người lao động Ba Na ngày xưa không dễ dàng, vì khắp nơi đều là núi rừng và sông suối sâu rộng."
-    },
-    {
-      "id": 68921,
-      "text": "Mình nghe nói người Bahnar thích dùng thực phẩm từ thiên nhiên, điều đó có đúng không bạn?",
-      "topic": "BỮA TRƯA",
-      "order": 5.0,
-      "label": [
-        "Ĭnh kơtơ̆ng khan kon Bahnar 'maih yua tơmam sa iŏk đơ̆ng bribrah, tơdrong noh hăm trŏ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Inh tơ̆ng pơđi kon Bahnar kơh djă pơđam tơ̆ bri hơ̆, đăp hơ̆ ih?",
-      "hyp_ba_to_vi": "Bạn nghĩ người Bahnar ngày nay vẫn dùng tiếng mẹ đẻ trong đời sống, điều đó có đúng không?"
-    },
-    {
-      "id": 68921,
-      "text": "Đúng rồi, bọn mình ưu tiên đồ ăn sạch, tươi từ rẫy hoặc bắt được trong rừng, không dùng nhiều đồ công nghiệp.",
-      "topic": "BỮA TRƯA",
-      "order": 6.0,
-      "label": [
-        "Trŏ bơih, lu nhôn 'măn blŭng tơmam sa rơgoh, adrih đơ̆ng mir dah đei rôp đơ̆ng bri, ưh kơ yua tơmam đe pơm lơ."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, hơ̆m chŏn đŏ chă sạch, tươi tơ̆ pơ mir hăy păt đươ̆c pơ bri, hơ̆m khơng dŭng nhiều đŏ nhà máy.",
-      "hyp_ba_to_vi": "Trước đây, nhiều người vẫn vứt rác bừa bãi ngoài ruộng và những chỗ rậm rạp trong rừng, không dùng rác để làm phân bón."
-    },
-    {
-      "id": 68921,
-      "text": "Vậy món ăn nào là phổ biến nhất trong bữa trưa của gia đình Bahnar?",
-      "topic": "BỮA TRƯA",
-      "order": 7.0,
-      "label": [
-        "ley tơmam sa ayơ jơ̆ jrah loi lơ̆m sŏng sa 'năr dơ̆ng hnam dơnŏ Bahnar?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Jơ̆ nơ̆, mơnăm sa nă kon hnam Bahnar sa lơ̆m pơ̆ng tơ̆ lơ̆m sa klang hngai?",
-      "hyp_ba_to_vi": "Làm thế nào để bạn có thể viết những câu về cuộc sống hằng ngày ở nhà bằng tiếng Ba Na?"
-    },
-    {
-      "id": 68921,
-      "text": "Cơm là món chính, ăn kèm với cá nướng, canh rau rừng và đôi khi có thêm món mắm ớt giã tay.",
-      "topic": "BỮA TRƯA",
-      "order": 8.0,
-      "label": [
-        "Mơh jơ̆ tơmam sa tơm, sa hrâu hăm ka 'buh, 'nhot bri păng mơ'nah đei klăm bih măm amrĕ tŭl."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bai jơ̆ bơng chă tơ̆m, chă kơp kă ang, đăk hla glai, ô mŏng-mŏng geh măm mrĭch pŏh ti.",
-      "hyp_ba_to_vi": "Khi mọc lên thành một cây có cành lá, chim rừng đều có thể đến làm tổ dưới bóng nó."
-    },
-    {
-      "id": 68921,
-      "text": "Khi ăn trưa, mọi người trong gia đình có ngồi ăn cùng nhau không?",
-      "topic": "BỮA TRƯA",
-      "order": 9.0,
-      "label": [
-        "Mưh sŏng sa 'năr dơ̆ng, rim 'nu lơ̆m hnam dơnŏ hăm đei hơoei sa hơdai ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ bơng trưa, tăt cả mơnuih trong hnam kơ dŏk bơng kơpơ hăng?",
-      "hyp_ba_to_vi": "Mỗi ngày, mọi người trong gia đình bạn có thường ăn cùng nhau không?"
-    },
-    {
-      "id": 68921,
-      "text": "Có chứ, người Bahnar rất coi trọng việc sum họp gia đình, bữa trưa là lúc mọi người cùng ngồi quây quần bên mâm cơm.",
-      "topic": "BỮA TRƯA",
-      "order": 10.0,
-      "label": [
-        "Đei ngăl, kon Bahnar lăng yom dêh tơdrong pơpôi atŭm hnam dơnŏ, sŏng sa 'năr dơ̆ng hơnang rim 'nu hơoei pơpôi hơdai 'bơ̆t hlak dă mơh.",
-        "Đei ngăl, kon Bahnar lăng yom dêh tơdrong pơpôi atŭm hnam dơnŏ, sŏng sa 'năr dơ̆ng hơnang rim 'nu hơoei pơpôi hơdai 'bơ̆t hlakdă mơh."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆, kon Bahnar hơ̆m pơgơm nê̆ pơjâu hnam; tơ̆ng trưa, tơdrong hơ̆ng ngồi pơkơl bơ̆l dơm kơm.",
-      "hyp_ba_to_vi": "Từ xưa, người Bahnar đã rất coi trọng truyền thống đoàn kết trong buôn làng, cùng sống chan hòa để mọi người luôn nhớ đến những phong tục tốt đẹp của mình."
-    },
-    {
-      "id": 68921,
-      "text": "Các món ăn có được trình bày theo cách đặc biệt nào không bạn? Dôm tơmam sa đei dă kiơ̆ phakơdih ayơ ưh?",
-      "topic": "BỮA TRƯA",
-      "order": 11.0,
-      "label": [
-        "Dôm tơmam sa đei dă kiơ̆ phakơdih ayơ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Dôm tơmam sa đei dă kiơ̆ phakơdih ayơ ưh?",
-      "hyp_ba_to_vi": "Bạn có ăn uống đầy đủ để khỏe mạnh không?"
-    },
-    {
-      "id": 68921,
-      "text": "Mâm cơm thường dùng cái nia, bát đĩa mộc mạc, ngày xưa người Bahnar không có nhiều bát đĩa như bây giờ. Chúng tôi dùng lá chuối, lá cây dầu rái trải trên cái nia, cả nhà ăn chung và ăn bốc bằng tay.",
-      "topic": "BỮA TRƯA",
-      "order": 12.0,
-      "label": [
-        "Hlakdă mơh juăt kơ yua kơđum, pơnhan khiĕr yôkyak, sơ̆ kon Bahnar ưh kơ đei lơ pơnhan khiĕr thoi dang ei. Lu nhôn yua hla prit, hla tơpang dă kơpal kơđum, đĭ đăng hnam dơnŏ sa hơdai păng sa bih ti hoh."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Rơ̆ng sa pơ̆ng thường bơ̆ nia; chô̆ bơ̆l dơ̆ng dơ̆ng, hơm tơ̆dră kon Bơhnar hơ̆m kơ̆ hlăm chô̆ bơ̆l hơ̆ng hăp ni. Gơm bơ̆ hla pơring, hla chơrai pơlăh lơ̆ nia; bră hnam sa jơ̆u, sa bơ̆ tơngan.",
-      "hyp_ba_to_vi": "Bánh đă không cầu kỳ về gạo nếp hay nhân bánh, vì người Ba Na không có nhiều loại nhân như vậy. Họ chỉ dùng lá prit, lá tơpang để gói nếp, rồi treo lên gác bếp, ăn dần cho đến khi hết."
-    },
-    {
-      "id": 68921,
-      "text": "Trong bữa trưa, có quy tắc hay kiêng kỵ gì mà người ngoài cần lưu ý không?",
-      "topic": "BỮA TRƯA",
-      "order": 13.0,
-      "label": [
-        "Lăm sŏng sa 'năr dơ̆ng, hăm đei tơdrong hơgăt dah kơ̆m giĕng kiơ mă bơngai 'nguaih kăl kơ kơchăng ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆ hơ̆m sa tơm-ngai, iă kơtơ̆m ma đăk kơh mă mơnuih tơ̆ng gơ̆ pơlei kă pơđing hơ̆?",
-      "hyp_ba_to_vi": "Trong một ngày qua, bạn có gặp khó khăn khi nói chuyện với người khác như bình thường không?"
-    },
-    {
-      "id": 68921,
-      "text": "Có một vài điều, như không nên gắp thức ăn trước người lớn tuổi, và không được làm rơi vãi cơm ra ngoài mâm.",
-      "topic": "BỮA TRƯA",
-      "order": 14.0,
-      "label": [
-        "Đei mĭnh 'bar tơdrong, thoi lĕ ưh kơ gơh kep tơmam sa adrol bơngai 'lŏ kră, păng ưh kơ gơh pơm tơsĭ mơh tơhrĭm tơhrăm 'nguaih kơ hlakdă."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Hơ̆m vài tơlơi, jơh kơ đă gắp đồ hnam trươ̆c pô kơtul, yŏh kơ đă cơm rơi vãi ra ngoăi mâm.",
-      "hyp_ba_to_vi": "Có người nói rằng, nếu không thể cho một người nghèo khổ ăn, thì người ấy không thể làm được điều gì tốt đẹp, lớn lao cho đời."
-    },
-    {
-      "id": 68921,
-      "text": "Điều đó thể hiện sự tôn trọng đúng không bạn?",
-      "topic": "BỮA TRƯA",
-      "order": 15.0,
-      "label": [
-        "Tơdrong 'noh tơ'bôh tơdrong pơyom hăm trŏ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơdrong nơ̆h pơlơi sự kính trọng, đăh hă, mei?",
-      "hyp_ba_to_vi": "Điều đó có phải là điều tốt và đúng đắn không?"
-    },
-    {
-      "id": 68921,
-      "text": "Đúng rồi, với người Bahnar, tôn trọng bữa ăn là tôn trọng tổ tiên và đất trời đã nuôi sống mình.",
-      "topic": "BỮA TRƯA",
-      "order": 16.0,
-      "label": [
-        "Trŏ bơih, hăm kon Bahnar, pơyom 'bơ̆t sŏng sa jơ̆ pơyom yă 'bok sơ̆ki păng plĕnh teh kah 'me rong bơ̆n."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆, đơ̆ng tơdrong Bahnar, kơtŭng mơnam pơngan nơ kơtŭng bok yă pơtao bă tơnah-trôk đă pơrơngơi hơ̆.",
-      "hyp_ba_to_vi": "Từ thuở xa xưa, với người Bahnar, tiếng cồng chiêng như lời của ông bà tổ tiên, thần linh, trời đất và Mẹ núi rừng."
-    },
-    {
-      "id": 68921,
-      "text": "Mình nghe nói người Bahnar có dùng rượu cần trong bữa ăn, có đúng không?",
-      "topic": "BỮA TRƯA",
-      "order": 17.0,
-      "label": [
-        "Ĭnh kơtơ̆ng khan kon Bahnar đei yua tơdrô ge lăm sŏng sa, hăm trŏ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Inh tơ̆ng tơlơi pơhiam mơ̆ngơi Bơhnar ñum tơ nơm tơdang sa, jơ̆n hă?",
-      "hyp_ba_to_vi": "Bạn có nghĩ người Ba Na nên sử dụng tiếng nói của mình trong đời sống hằng ngày không?"
-    },
-    {
-      "id": 68921,
-      "text": "Đúng, nhưng thường là trong dịp lễ hội hoặc khách đến chơi nhà, chứ bữa trưa hàng ngày thì hiếm khi có rượu cần.",
-      "topic": "BỮA TRƯA",
-      "order": 18.0,
-      "label": [
-        "Trŏ bơih, mălei juăt jơ̆ lăm năr giĕng giang dah tơmoi năm ngôi tơ hnam, kơsĭ sŏng sa 'năr dơ̆ng rim năr jơ̆ hui kơ đei tơdrô ge."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Jơ̆ng, song jĕ plăh lơ̆m kơ̆l pơyău lăh kơch pơ̆l hnam; pơ sa tơngai mơ̆i nar mănh-mănh hu rơ̆m tơpai.",
-      "hyp_ba_to_vi": "Trước hết, vào ngày lễ thờ Giàng và khi có khách đến nhà, chúng ta thường lo cơm nước cho họ một ngày, rồi ngày nào cũng hỏi xem họ cần gì."
-    },
-    {
-      "id": 68921,
-      "text": "Thức ăn có cay không? Người Bahnar có ăn nhiều ớt như một số dân tộc Tây Nguyên khác không?",
-      "topic": "BỮA TRƯA",
-      "order": 19.0,
-      "label": [
-        "Tơmam sa hăm hơ̆ ưh? Kon Bahnar hăm đei sa hơ̆ dêh thoi adrĕch Groi Kông nai mơ'nah ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Đơ̆ng sa hơ̆t hă? Kon Bơ̆nar sa mơ̆téh jŏ̆ng như mơ̆t số kon tơlơi Tây Nguyên kơ̆đi hă?",
-      "hyp_ba_to_vi": "Sao mày không ăn thịt tao? Mày là người Ba Na, cũng có thể ăn thịt tao như con quỷ Grơi Kông này, phải không?"
-    },
-    {
-      "id": 68921,
-      "text": "Bọn mình ăn cay vừa phải, nhưng rất thích mắm ớt giã tay, thường ăn kèm cơm rất ngon và đưa cơm lắm.",
-      "topic": "BỮA TRƯA",
-      "order": 20.0,
-      "label": [
-        "Lu nhôn sa hơ̆ lơlăp đĕch, mălei 'maih sa dêh ka kro amrĕ tŭl, juăt sa bih mơh nham dêh păng lŭ tơpă."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Gơ̆i cha pơgơr tơ̆mang, yơh khăp hơ̆ng măm ơ̆t pơ̆h bă ti, hrơi hrơi cha kơp bai; bơni hơ̆ng, tơ̆m gơ̆i muôn cha bai lă.",
-      "hyp_ba_to_vi": "Nhiều người sống rất giàu sang, nhưng cũng có người nghèo khổ đến nỗi không có gì ăn để nuôi thân."
-    },
-    {
-      "id": 68921,
-      "text": "Cảm ơn bạn vì những chia sẻ rất thú vị về bữa trưa của người Bahnar, mình học được rất nhiều điều mới hôm nay.",
-      "topic": "BỮA TRƯA",
-      "order": 21.0,
-      "label": [
-        "Bơnê kơ ih yua kơ dôm tơdrong klah-song iă chơt gah sŏng sa 'năr dơ̆ng kon Bahnar, ĭnh đei pơhrăm iŏk lơ dêh tơdrong 'nao năr 'nâu."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơn ih yơh anih pơjâu rơ̆ng rơngăl kơ pơsa tơngai kon Bahnar; inh hŏc rơbang tơdrŏng mơ̆i hrơi ni.",
-      "hyp_ba_to_vi": "Cảm ơn bạn vì những chia sẻ rất bổ ích về đời sống hằng ngày của người Bahnar, chúng tôi đã học được thêm nhiều điều mới hôm nay."
-    },
-    {
-      "id": 69020,
-      "text": "Chào anh, anh có thể chia sẻ cho tôi biết về mối quan hệ giữa các thành viên trong gia đình của người Bahnar được không?",
-      "topic": "Relationships within the main family",
-      "order": 1.0,
-      "label": [
-        "1. Kơkuh kơ 'nhŏng, ih hăm gơh klah-song kơ ĭnh băt gah tơdrong tơ'bưh sơlam lu bơngai lơ̆m hnam dơnŏ kon Bahnar ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kơ hơ̆ a, a hơ̆mơi pơđiă tơlơi kơđi kơnam jing bơngai hlăm hnam kon Ba Na kơ gơ̆ bĭt đư̆h hă?",
-      "hyp_ba_to_vi": "Trước hết, anh/chị có thể chia sẻ cho chúng tôi biết về việc tạc tượng người trong nhà mồ của người Bahnar không?"
-    },
-    {
-      "id": 69020,
-      "text": "Dạ, người Bahnar rất coi trọng sự gắn bó giữa các thế hệ trong gia đình, từ ông bà, cha mẹ đến con cháu.",
-      "topic": "Relationships within the main family",
-      "order": 2.0,
-      "label": [
-        "2. Ĭ ah, kon Bahnar lăng gĭt tơdrong tơguăt kơjăp sơlam dôm jơhnơr lơ̆m hnam dơnŏ, đơ̆ng yă 'bok, mĕ 'bă truh tơ kon sâu."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, bơ̆ngai Bahnar rơ̆ng kơđiêp pơjing pơjơ̆ng tơlơi kơđŏng kơđaih pơlơi hnam, tơ̆ bok yă, ama me truh kon čau.",
-      "hyp_ba_to_vi": "Vì vậy, người Bahnar vẫn biết giữ gìn những phong tục, nề nếp tốt đẹp trong gia đình qua nhiều thế hệ, từ ông bà, cha mẹ đến con cháu."
-    },
-    {
-      "id": 69020,
-      "text": "Vậy ông bà thường giữ vai trò gì trong đời sống gia đình ạ?",
-      "topic": "Relationships within the main family",
-      "order": 3.0,
-      "label": [
-        "Thoi ei yă 'bok hmă chĕp sơnong kiơ lơ̆m chăl arih hnam dơnŏ 'noh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ană, bok yă lĕ pơm bruă đe hơ̆m tơlơi hring kơ hnam?",
-      "hyp_ba_to_vi": "Vì sao cha mẹ lại tổ chức ăn mừng trong ngày vào nhà mới ấy?"
-    },
-    {
-      "id": 69020,
-      "text": "Ông bà là người giữ lửa, truyền lại kinh nghiệm sống, tri thức dân tộc và các phong tục tập quán cho con cháu.",
-      "topic": "Relationships within the main family",
-      "order": 4.0,
-      "label": [
-        "4. Yă 'bok jơ̆ bơwei ŭnh, pơtho ming găn-hlôi arih, hlôh hơgei adrĕch păng lu tơdrong juăt kơ kon sâu."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bok yă jĭ pơjăp ŭnh, pơđăm lăi tơlơi hơdip, tơlơi khôn kơ jơlan dân tộc, kă tơlơi pơtục pơlăk kơ kon čău.",
-      "hyp_ba_to_vi": "Hỡi những người làm cha, đừng chọc giận con cái mình, nhưng hãy nuôi dạy chúng bằng sự sửa dạy và khuyên bảo của Chúa."
-    },
-    {
-      "id": 69020,
-      "text": "Tuy nhiên, họ không có tiếng nói trong các quyết định lớn như dựng vợ gả chồng, dựng nhà, giải quyết xung đột của con cháu.",
-      "topic": "Relationships within the main family",
-      "order": 5.0,
-      "label": [
-        "5. Mă thoi yơ, đe sư không kơ đei nơ̆r pơma lơ̆m dôm tơdrong achơ̆t tih thoi pơjing klokăn, pơjing hnam, pơkeh tơklang tơdrong mơgre đe kon sâu.",
-        "5. Mă thoi yơ, đe sư ưh kơ đei nơ̆r pơma lơ̆m dôm tơdrong achơ̆t tih thoi pơjing klokăn, pơjing hnam, pơkeh tơklang tơdrong mơgre đe kon sâu."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yơn, hơ̆ bơ̆ geh tơlơi pơhiăp kơ tơdrong kơđai nư pơđăm ur đơ̆ng ơđơ, tơm hnam, pơglăh tơdrong tơgăl kơ kon xau.",
-      "hyp_ba_to_vi": "Vì vậy, đừng nói những lời về các chuyện đáng xấu hổ, như nói tục, nói nhảm, hay bỡn cợt thô tục, là những điều không xứng hợp với con cái thánh."
-    },
-    {
-      "id": 69020,
-      "text": "Còn cha mẹ thì sao, vai trò của họ có gì đặc biệt?",
-      "topic": "Relationships within the main family",
-      "order": 6.0,
-      "label": [
-        "6. Bĭ mĕ 'bă lei liơ, sơnong bre sư hăm đei kiơ phakơdih ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Dah ama ami hơ̆, tơl jang kơ gơ̆ hơ̆ mơ̆ng rơngiao?",
-      "hyp_ba_to_vi": "Bạn ăn cơm rồi, sao không rửa tay cho sạch?"
-    },
-    {
-      "id": 69020,
-      "text": "Cha mẹ là trụ cột của gia đình. Người cha thường lo việc nương rẫy, săn bắt, còn người mẹ lo việc nhà và nuôi dạy con cái.",
-      "topic": "Relationships within the main family",
-      "order": 7.0,
-      "label": [
-        "7. Mĕ 'bă jơ̆ dơngơ̆l jrăng hnam dơnŏ. Bơngai 'bă juăt hmă bơngơ̆t tơdrong mir chŭn, hơnguang sa, na bơngai mĕ bơngơ̆t tơdrong jang lơ̆m hnam păng 'me pơtho kon hơ'lơ̆p.",
-        "7. Mĕ 'bă jơ̆ dơngơ̆l jrăng hnam dơnŏ. Bơngai 'bă juăt hmă bơngơ̆t tơdrong mir chŭn, hơnguang sa, nà bơngai mĕ bơngơ̆t tơdrong jang lơ̆m hnam păng 'me pơtho kon hơ'lơ̆p."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ama mĕ jing jŏng kơt tơ̆ng sang hnam. Ama hơ̆mơn lo kơông hơ̆ma, đơ̆p rơ̆ng; mĕ lo kơông sang hnam, pơrăp tơ̆dăh kon.",
-      "hyp_ba_to_vi": "7. Cha mẹ là trụ cột của gia đình. Đàn ông thường đảm đương mọi công việc ngoài nương rẫy, kiếm cái ăn, còn phụ nữ làm việc trong nhà và chăm sóc, dạy dỗ con nhỏ."
-    },
-    {
-      "id": 69020,
-      "text": "Tuy vậy, cả hai đều dạy con bằng gương mẫu chứ ít khi la mắng hay đánh đòn, họ dạy bằng lời nói nhẹ nhàng và câu chuyện dân gian.",
-      "topic": "Relationships within the main family",
-      "order": 8.0,
-      "label": [
-        "8. Mă thoi ei, bre sư hơdai pơtho kon bih pơm amĭl rok'boi kơna hui hil adrăi đah tôn, bre sư pơtho bih nơ̆r pơma dardeh păng tơdrong hơ'mon krăsơ̆."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Yă hơ, bar kơ pơhrăm anăk bă bruă đei; jơ̆ng hơnhăm atao pơpah, đơ̆ng pơhrăm bă tơlơi hơgam hơ̆ng tơlơi hơmon pơlei.",
-      "hyp_ba_to_vi": "8. Vậy, hãy tỏ mình làm gương về việc lành trong mọi sự; trong sự dạy dỗ, hãy dùng lời nói đúng đắn và giáo lý lành mạnh, để những kẻ chống đối chúng ta phải hổ thẹn."
-    },
-    {
-      "id": 69020,
-      "text": "Mối quan hệ giữa cha mẹ và con cái có khắt khe như trong một số nền văn hóa khác không anh?",
-      "topic": "Relationships within the main family",
-      "order": 9.0,
-      "label": [
-        "9. Tơdrong tơ'bưh sơlam mĕ 'bă păng kon hơ'lơ̆p hăm gơret thoi lơ̆m mĭnh 'biơ̆ ană jing jar nai ưh 'nhŏng?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơdrŏng pơgăp jơ̆ng ama-amí hĭ kon đei kơđăh kơnhăc tơdră pơ̆ mơ̆ng tơlơi adăt kơđi hă, aih?",
-      "hyp_ba_to_vi": "Bổn phận trước tiên là cha mẹ và con cái phải yêu thương, kính trọng nhau trong một gia đình nhỏ, phải không?"
-    },
-    {
-      "id": 69020,
-      "text": "Không ạ. Con cái được nuôi dạy trong tình yêu thương và sự tôn trọng, các em được khuyến khích phát biểu ý kiến từ nhỏ.",
-      "topic": "Relationships within the main family",
-      "order": 10.0,
-      "label": [
-        "10. Ưh ôh. Kon hơ'lơ̆p đei potho lơ̆m tơdrong 'mêm kơeng păng tơdrong pơyom, đe oh đei pơtrŭt pơma tơ'bôh tơdrong tơchĕng đơ̆ng oei iĕ."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh. Kon đĭ được pơnuôi pơdăy lơ̆m kơtuơng đă kơyơh; tơ rơngơ̆t hăp được pơjơh ăm pơhiăp rơ̆ng hăp mơ̆ng.",
-      "hyp_ba_to_vi": "10. Không. Người học Kinh Thánh phải tách khỏi tôn giáo sai lầm và những việc xấu xa của nó, vì không thể cùng một lúc làm tôi hai chủ."
-    },
-    {
-      "id": 69020,
-      "text": "Dù vậy, con cái cũng phải lễ phép, biết chào hỏi, không được ngồi nói chuyện khi chưa mời, và phải xin phép khi ra khỏi nhà.",
-      "topic": "Relationships within the main family",
-      "order": 11.0,
-      "label": [
-        "11. Mă thoi ei, kon hơ'lơ̆p dai khŏm chu yom, băt kơkuh jetgia, ưh kơ gơh pơma tơnuh mưh tam krao tơkơi, păng khŏm apĭnh jet mưh lĕch tơ'nguaih kơ hnam."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆ng anŭh, kon ană kỡng gơ̆h ănăp, gơ̆h tơm chào, kăp dơ̆ng pơjâu tơ̆m hơ̆k mời, laih gơ̆h pơ̆m phép tơ̆m lơ̆h hnam.",
-      "hyp_ba_to_vi": "Vì vậy, các bạn trẻ phải khiêm nhường, biết kính trọng người già, không được nói năng hỗn xược hay cãi lại, mà phải cư xử tốt với mọi người trong nhà."
-    },
-    {
-      "id": 69020,
-      "text": "Con cái có trách nhiệm gì với ông bà, cha mẹ khi họ lớn tuổi?",
-      "topic": "Relationships within the main family",
-      "order": 12.0,
-      "label": [
-        "12. Kon hơ'lơ̆p đei chu sơnong kiơ hăm yă 'bok, mĕ 'bă mưh lu sư kră bơih?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kon đei ngă mơh kơ bok yă, ama amí tơdang hơ̆ rơlau?",
-      "hyp_ba_to_vi": "12. Trẻ em phải cư xử thế nào đối với ông bà, cha mẹ và những người lớn tuổi?"
-    },
-    {
-      "id": 69020,
-      "text": "Dạ có. Con cháu phải chăm sóc ông bà, cha mẹ khi họ già yếu, đó là đạo lý không ai dạy cũng tự biết phải làm.",
-      "topic": "Relationships within the main family",
-      "order": 13.0,
-      "label": [
-        "13. Ŏ đei. Kon sâu khŏm wei rong yă 'bok, mĕ 'bă mưh lu sư kră păkĕ, 'noh jơ̆ trong lăp'blep ưh kơ đei bu pơtho kư̆m băt kơdih athei pơm kiơ."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơh, geh. Kon jâu đei rơngai bok yă, ba me tơ̆ng hĭ kra yu; anei tơlơi pơjing hơ̆ geh ăi pơto kơđă băt pơm.",
-      "hyp_ba_to_vi": "13. Hiếu thảo. Con cháu phải chăm sóc ông bà, cha mẹ khi tuổi già sức yếu; đó là việc phải tự biết mà làm, không cần ai dạy bảo."
-    },
-    {
-      "id": 69020,
-      "text": "Khi ông bà mất, con cháu còn làm lễ cúng giỗ hằng năm để tưởng nhớ, thể hiện lòng biết ơn và duy trì sự kết nối tâm linh.",
-      "topic": "Relationships within the main family",
-      "order": 14.0,
-      "label": [
-        "14. Mưh yă 'bok hiong, kon sâu oei pơm yang soi 'blŏk rim sơnăm wă kơ 'blŏk hơdơ̆r, tơ'bôh jơhngơ̆m băt bơnê păng bơwei pơgei tơdrong tơguăt pơtrơp pơhngol."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Tơ̆m bok ja pơđi, kon xau hơ̆m pô lễ pơjing giỗ hằng năm đơ̆i hơ̆ng nhớ, tơpô̆ng lòng ơ̆n hơ̆m dơ̆ng sơ̆n kơ̆t nối hơmon.",
-      "hyp_ba_to_vi": "14. Đối với ông bà tổ tiên đã khuất, con cháu phải làm lễ cúng ăn cơm mới hằng năm vào dịp lúa mới, để bày tỏ lòng biết ơn và cầu xin những điều tốt lành, sự chở che phù hộ."
-    },
-    {
-      "id": 69020,
-      "text": "Gia đình Bahnar có sống nhiều thế hệ cùng nhau không anh?",
-      "topic": "Relationships within the main family",
-      "order": 15.0,
-      "label": [
-        "15. Hnam dơnŏ Bahnar đei arih lơ jơhnơr hơdai dihbăl ưh 'nhŏng?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Hnam Ba Na hơ̆m hơ̆ng đơ̆i tơ̆m jơ̆ng hă, ay?",
-      "hyp_ba_to_vi": "15. Nhà truyền thống của người Ba Na còn tồn tại như thế nào trong đời sống hiện đại?"
-    },
-    {
-      "id": 69020,
-      "text": "Có ạ. Nhiều gia đình sống ba thế hệ cùng nhà, không gian tuy không lớn nhưng mọi người chia sẻ, nhường nhịn lẫn nhau.",
-      "topic": "Relationships within the main family",
-      "order": 16.0,
-      "label": [
-        "16. Đei ngăl. Lơ hnam dơnŏ arih pêng jơhnơr hơdoi hnam, mă khan anih hnam ưh kơ să ră mălei rim 'nu băt klah asong băl, tơjruh đon dih băl.",
-        "16. Đei ngăl. Lơ hnam dơnŏ arih pêng jơhnơr hơdoi hnam."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ̆. Đơ̆ng hơđĭnh ơ̆m pe tơdroi lăp môt hnam, anŭk hnam tơ̆ kơ̆l, song tơdră kon pơchia, pơjă blang anăn.",
-      "hyp_ba_to_vi": "16. Tình yêu thương. Trong một gia đình, mọi người cùng chung sống với nhau; vì vậy, gia đình không chỉ là nơi ăn ở, mà mọi người còn phải biết chia sẻ, giúp đỡ và quan tâm lẫn nhau."
-    },
-    {
-      "id": 69020,
-      "text": "Tôi cảm thấy mối quan hệ gia đình trong văn hóa Bahnar rất ấm áp và giàu tính nhân văn.",
-      "topic": "Relationships within the main family",
-      "order": 17.0,
-      "label": [
-        "17. Ĭnh mơn 'bôh tơdrong tơguăt tơ'bưh hnam dơnŏ lơ̆m jing jar Bahnar tơnŏ hiôk păng mơdrong 'lơ̆ng hơ'yă kon bơngai."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Inh kơmăng tơlơi pơđăp hnam-sang tơ̆ pơtục Bơhnar hơmâo hơmai kơtang, hơmâo jâu tơlơi yău mơnuih.",
-      "hyp_ba_to_vi": "17. Tôi muốn xây một ngôi nhà rông cao lớn ở giữa làng Bahnar để mọi người có thể tụ họp cùng nhau."
-    },
-    {
-      "id": 69020,
-      "text": "Dạ đúng vậy, với người Bahnar, gia đình là nền tảng của mọi giá trị, là nơi con người học cách sống tử tế và có trách nhiệm với cộng đồng.",
-      "topic": "Relationships within the main family",
-      "order": 18.0,
-      "label": [
-        "18. Ŏ trŏ tơpă, hăm kon Bahnar, hnam dơnŏ jơ̆ ană atur kơ dôm gĭt yom, jơ̆ anih kon bơngai pơhrăm tho arih 'lơ̆ng tơpăt păng đei chu sơnong hăm pơlei pơla."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, tơ̆ng mơ̆h; đă kon Bahnar, sang hnam kơtơ̆m kơpă rơngơi, nơi kon kơdih hơruă đàng hơdip jơ̆ng, biết lo pơgăt đă pơlei.",
-      "hyp_ba_to_vi": "Thật vậy, đối với người Ba Na, nhà rông là biểu tượng của nhiều điều quan trọng, là nơi con người học cách sống đúng đắn để có trách nhiệm với buôn làng."
-    },
-    {
-      "id": 69022,
-      "text": "Chào anh, anh có thể chia sẻ cách người Bahnar giải quyết vấn đề thừa kế tài sản trong gia đình không ạ?",
-      "topic": "Inheritance matters",
-      "order": 1.0,
-      "label": [
-        "1. Kơkuh kơ 'nhŏng, ih hăm gơh klah asong tho kon Bahnar yaih pơkeh tơdrong iŏk mŭk pơsư̆ lơ̆m hnam dơnŏ ưh?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Kơơi anh, anh hơ̆đei pơ̆ngak tơ̆m klăp kon Bahnar pơ̆chia đơ̆ng hơ̆nam brih jơ̆ng ama ami kơ anak adơi trong hơnam đei hơ̆?",
-      "hyp_ba_to_vi": "1. Câu hỏi thứ nhất: Anh/chị có thể kể về đời sống của người Bahnar hiện nay còn gìn giữ những truyền thống do tổ tiên để lại không?"
-    },
-    {
-      "id": 69022,
-      "text": "Dạ, với người Bahnar, tài sản thường được truyền lại từ cha mẹ cho con cái, nhưng quá trình đó phải có sự đồng thuận và chứng kiến của già làng.",
-      "topic": "Inheritance matters",
-      "order": 2.0,
-      "label": [
-        "2. Ŏ, hăm kon Bahnar, mŭk drăm juăt hmă đei pơsư̆ đơ̆ng mĕ 'bă ăn kơ kon hơ'lơ̆p, mălei kơplah 'noh khŏm đei tơdrong lăpđon đơ̆ng ‘bar pah păng hơmăt kră pơlei."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Ơ, dơ̆ng mơnuih Bahnar, kơdrăp thươ̆ng pơđăp tơ̆ ama-ina pơ kon, yơn việc anih geh bok pơlei kơtơm hơmă hơnhăp.",
-      "hyp_ba_to_vi": "Vâng, đối với người Ba Na, theo phong tục, tài sản cha mẹ cho con khi con lập gia đình, nếu sau này phân chia thì phải có sự chứng kiến của hai bên trước mặt già làng."
-    },
-    {
-      "id": 69022,
-      "text": "Già làng đóng vai trò gì trong việc chia tài sản?",
-      "topic": "Inheritance matters",
-      "order": 3.0,
-      "label": [
-        "3. Kră pơlei chĕp sơnong kiơ lơ̆m tơdrong klah asong băl mŭk drăm?"
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bok plơi ngă mơ̆ng kơ tơ̆l pơ̆chă drăp?",
-      "hyp_ba_to_vi": "3. Làng hiện nay có gì khác so với làng của người xưa?"
-    },
-    {
-      "id": 69022,
-      "text": "Già làng là người đại diện cho công bằng và uy tín, nên thường được mời đến chứng kiến việc chia của để tránh mâu thuẫn trong dòng họ.",
-      "topic": "Inheritance matters",
-      "order": 4.0,
-      "label": [
-        "4. Kră pơlei jơ̆ tang măt kơ tơdrong atŏ dang ăi păng grih yom, na juăt kơ đe wơ̆n năm dơ̆ng sơlam tơdrong klah asong mŭk wă kơ wer kơ tơdrong mơgre dihbăl lơ̆m adrĕch."
-      ],
-      "Comments": [],
-      "hyp_vi_to_ba": "Bok plei jing bơngai tơm kơ tơlơi tơdrong hă đŏng yơ̆ng, kơtơ̆ thoi kon plei gơ̆i tơ̆ chơ̆ng rơih drăp, dă hơ̆ng hơ̆mâo tơpơl tơng djuai.",
-      "hyp_ba_to_vi": "4. Già làng thấy trách nhiệm trước mắt mình quá lớn nên rất lo lắng; ông bèn xin được ban cho sự khôn ngoan để biết phân biệt điều tốt điều xấu và giải quyết những vụ việc khó khăn trong xét xử."
     }
   ]
 }
