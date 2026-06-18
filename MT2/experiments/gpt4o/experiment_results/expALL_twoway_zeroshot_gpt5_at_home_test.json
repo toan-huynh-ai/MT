@@ -6,12 +6,12 @@
   },
   "metrics": {
     "vietnamese_to_khmer": {
-      "bleu": 0.0,
-      "chrf++": 0.0
+      "bleu": 29.85,
+      "chrf++": 38.87
     },
     "khmer_to_vietnamese": {
-      "bleu": 0.0,
-      "chrf++": 0.0
+      "bleu": 40.7,
+      "chrf++": 61.7
     }
   },
   "per_sample": [

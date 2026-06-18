@@ -6,12 +6,12 @@
   },
   "metrics": {
     "vietnamese_to_bahnar": {
-      "bleu": 0.15,
-      "chrf++": 10.07
+      "bleu": 0.16,
+      "chrf++": 8.27
     },
     "bahnar_to_vietnamese": {
       "bleu": 1.64,
-      "chrf++": 18.89
+      "chrf++": 17.13
     }
   },
   "per_sample": [

@@ -117,11 +117,35 @@ def load_existing_results():
         return {}, None
 
 
-def compute_metrics(hypotheses, references):
+def compute_metrics(hypotheses, references, target_lang="vi"):
+    """
+    Tính toán BLEU và chrF++ chính xác cho từng ngôn ngữ đích cụ thể.
+    """
     if not hypotheses or not references:
         return {"bleu": 0.0, "chrf++": 0.0}
-    bleu = sacrebleu.corpus_bleu(hypotheses, [references])
-    chrf = sacrebleu.corpus_chrf(hypotheses, [references])
+    
+    # 1. Chọn Tokenizer tối ưu dựa trên ngôn ngữ đích
+    if target_lang == "km":
+        # Tiếng Khmer viết liền, bắt buộc sử dụng flores200 (SentencePiece)
+        # hoặc tự động fallback về "char" nếu phiên bản Sacrebleu cục bộ chưa tải được mô hình SPM
+        tokenize_method = "flores200"
+    else:
+        # Tiếng Việt phân tách bằng khoảng trắng, dùng 13a tiêu chuẩn
+        tokenize_method = "13a"
+        
+    try:
+        bleu = sacrebleu.corpus_bleu(hypotheses, [references], tokenize=tokenize_method)
+    except Exception as e:
+        print(f"[WARN] Tokenizer '{tokenize_method}' gặp lỗi: {e}. Tự động fallback về 'char' (char-BLEU).", flush=True)
+        bleu = sacrebleu.corpus_bleu(hypotheses, [references], tokenize="char")
+        
+    # 2. Tính chrF++ thực sự (bằng cách truyền tham số word_order=2)
+    try:
+        chrf = sacrebleu.corpus_chrf(hypotheses, [references], word_order=2)
+    except TypeError:
+        # Tương thích ngược với các phiên bản SacreBLEU cũ hơn
+        chrf = sacrebleu.corpus_chrf(hypotheses, [references])
+        
     return {"bleu": round(bleu.score, 2), "chrf++": round(chrf.score, 2)}
 
 
