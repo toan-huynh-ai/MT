@@ -16,12 +16,12 @@ from openai import OpenAI
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 os.environ["PYTHONUNBUFFERED"] = "1"
-load_dotenv(r"D:\Code\Python\Research\MachineTranslation\MT\MT2\.env")
+load_dotenv(r"E:\Low-resource-NMT\HuynhToan\MT\MT2\.env")
 
 RESULTS_DIR = Path(__file__).parent / "experiment_results"
 RESULTS_DIR.mkdir(exist_ok=True)
 
-DATA_FILE_PATH = r"D:\Code\Python\Research\MachineTranslation\MT\MT2\data\all_cleaned2.jsonl"
+DATA_FILE_PATH = r"E:\Low-resource-NMT\HuynhToan\MT\MT2\data\all_cleaned2.jsonl"
 OUTPUT_FILE_PATH = RESULTS_DIR / "expALL_twoway_zeroshot_gpt5_at_home_test.json"
 
 PROMPTS = {

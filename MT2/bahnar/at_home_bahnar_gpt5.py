@@ -16,13 +16,14 @@ from openai import OpenAI
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 os.environ["PYTHONUNBUFFERED"] = "1"
-load_dotenv(r"D:\Code\Python\Research\MachineTranslation\MT\MT2\.env")
+load_dotenv(r"E:\Low-resource-NMT\HuynhToan\MT\MT2\.env")
 
 RESULTS_DIR = Path(__file__).parent / "results"
 RESULTS_DIR.mkdir(exist_ok=True)
 
 # Cấu hình lại đường dẫn file input và file kết quả theo ngữ cảnh Bahnar
-DATA_FILE_PATH = r"D:\Code\Python\Research\MachineTranslation\MT\MT2\bahnar\data\vi_bahnar.jsonl"
+# Sử dụng đường dẫn tương đối để đảm bảo hoạt động trên mọi máy
+DATA_FILE_PATH = Path(__file__).parent / "data" / "vi_bahnar.jsonl"
 OUTPUT_FILE_PATH = RESULTS_DIR / "expALL_twoway_zeroshot_bahnar_gpt5_at_home.json"
 
 PROMPTS = {
