@@ -9,6 +9,7 @@ Output path: experiment_results/expALL_twoway_zeroshot_gpt5_at_home_test.json
 
 import json, os, sys, time, re
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 import sacrebleu
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -16,13 +17,13 @@ from openai import OpenAI
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 os.environ["PYTHONUNBUFFERED"] = "1"
-load_dotenv(r"E:\Low-resource-NMT\HuynhToan\MT\MT2\.env")
+load_dotenv(r"D:\Code\Python\Research\MachineTranslation\MT\MT2\.env")
 
 RESULTS_DIR = Path(__file__).parent / "experiment_results"
 RESULTS_DIR.mkdir(exist_ok=True)
 
-DATA_FILE_PATH = r"E:\Low-resource-NMT\HuynhToan\MT\MT2\data\all_cleaned2.jsonl"
-OUTPUT_FILE_PATH = RESULTS_DIR / "expALL_twoway_zeroshot_gpt5_at_home_test.json"
+DATA_FILE_PATH = r"D:\Code\Python\Research\MachineTranslation\MT\MT2\data\all_cleaned2.jsonl"
+OUTPUT_FILE_PATH = RESULTS_DIR / "expALL_twoway_zeroshot_gpt5_at_home_full.json"
 
 PROMPTS = {
     "vi_to_km": {
@@ -53,7 +54,7 @@ def call_gpt5(client, system_prompt, user_prompt, max_retries=3):
     for attempt in range(max_retries):
         try:
             resp = client.responses.create(
-                model="gpt-5.5",
+                model="gpt-5",
                 instructions=system_prompt,
                 input=user_prompt,
             )
@@ -153,7 +154,7 @@ def save_progress(processed_samples, metrics_fwd=None, metrics_rev=None):
     """Ghi trực tiếp vào file output đích, bảo toàn cấu trúc tổng hợp"""
     summary = {
         "metadata": {
-            "model": "gpt-5.5",
+            "model": "gpt-5",
             "total_samples": len(processed_samples),
             "status": "running" if (metrics_fwd is None) else "completed"
         },
@@ -168,12 +169,35 @@ def save_progress(processed_samples, metrics_fwd=None, metrics_rev=None):
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
 
+def process_sample(args):
+    i, d, existing_results, client = args
+    raw_text = d.get("text", "").strip()
+    raw_ref = get_clean_reference(d.get("label", []))
+
+    if not raw_text or not raw_ref:
+        return None
+
+    current_sample = dict(d)
+
+    if raw_text in existing_results:
+        old_sample = existing_results[raw_text]
+        current_sample["hyp_vi_to_km"] = old_sample.get("hyp_vi_to_km", "")
+        current_sample["hyp_km_to_vi"] = old_sample.get("hyp_km_to_vi", "")
+        return (current_sample, False)
+
+    hyp_fwd = call_gpt5(client, PROMPTS['vi_to_km']['system'], f"{PROMPTS['vi_to_km']['prefix']}{raw_text}")
+    hyp_rev = call_gpt5(client, PROMPTS['km_to_vi']['system'], f"{PROMPTS['km_to_vi']['prefix']}{raw_ref}")
+
+    current_sample["hyp_vi_to_km"] = hyp_fwd
+    current_sample["hyp_km_to_vi"] = hyp_rev
+    return (current_sample, True)
+
+
 def main():
     print(f"Loading data from: {DATA_FILE_PATH} ...", flush=True)
     raw_data = load_data()
     print(f"Total raw samples loaded from JSONL: {len(raw_data)}", flush=True)
 
-    # Đọc tiến trình đã chạy trước đó
     existing_results, old_metrics = load_existing_results()
     if existing_results:
         print(f"Found existing progress! {len(existing_results)} samples already processed.", flush=True)
@@ -183,44 +207,26 @@ def main():
     new_runs_count = 0
     start_time = time.time()
 
-    for i, d in enumerate(raw_data):
-        raw_text = d.get("text", "").strip()
-        raw_ref = get_clean_reference(d.get("label", []))
-        
-        if not raw_text or not raw_ref:
-            continue
-        
-        current_sample = dict(d)
-        
-        # 1. KIỂM TRA XEM MẪU NÀY ĐÃ ĐƯỢC CHẠY TRƯỚC ĐÓ CHƯA
-        if raw_text in existing_results:
-            old_sample = existing_results[raw_text]
-            current_sample["hyp_vi_to_km"] = old_sample.get("hyp_vi_to_km", "")
-            current_sample["hyp_km_to_vi"] = old_sample.get("hyp_km_to_vi", "")
-            all_samples_progress.append(current_sample)
-            continue
-            
-        # 2. NẾU CHƯA CÓ, TIẾN HÀNH DỊCH 2 CHIỀU BẰNG GPT-5.5
-        new_runs_count += 1
-        if new_runs_count % 5 == 0 or new_runs_count == 1:
-            print(f"  [API Call] Processing new sample {i+1}/{len(raw_data)}...", flush=True)
-            
-        # Chiều thuận: Việt -> Khmer Krom
-        hyp_fwd = call_gpt5(client, PROMPTS['vi_to_km']['system'], f"{PROMPTS['vi_to_km']['prefix']}{raw_text}")
-        
-        # Chiều nghịch: Khmer Krom -> Việt
-        hyp_rev = call_gpt5(client, PROMPTS['km_to_vi']['system'], f"{PROMPTS['km_to_vi']['prefix']}{raw_ref}")
-        
-        current_sample["hyp_vi_to_km"] = hyp_fwd
-        current_sample["hyp_km_to_vi"] = hyp_rev
-        all_samples_progress.append(current_sample)
-        
-        # Duy trì m_fwd và m_rev cũ trong suốt quá trình lưu tiến độ tự động
-        if new_runs_count % 20 == 0:
-            m_fwd = old_metrics["vietnamese_to_khmer"] if old_metrics else None
-            m_rev = old_metrics["khmer_to_vietnamese"] if old_metrics else None
-            save_progress(all_samples_progress, m_fwd, m_rev)
-            print(f"    --> Automatically checkpointed at new sample {new_runs_count}", flush=True)
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        tasks = [(i, d, existing_results, client) for i, d in enumerate(raw_data)]
+        results = executor.map(process_sample, tasks)
+
+        for i, result in enumerate(results):
+            if result is None:
+                continue
+            sample, is_new = result
+            all_samples_progress.append(sample)
+
+            if is_new:
+                new_runs_count += 1
+                if new_runs_count % 5 == 0 or new_runs_count == 1:
+                    print(f"  [API Call] Processing new sample {i+1}/{len(raw_data)}...", flush=True)
+
+                if new_runs_count % 20 == 0:
+                    m_fwd = old_metrics["vietnamese_to_khmer"] if old_metrics else None
+                    m_rev = old_metrics["khmer_to_vietnamese"] if old_metrics else None
+                    save_progress(all_samples_progress, m_fwd, m_rev)
+                    print(f"    --> Automatically checkpointed at new sample {new_runs_count}", flush=True)
 
     # --- TÍNH TOÁN METRICS TRÊN TOÀN BỘ TẬP DỮ LIỆU ---
     print("\nCalculating final metrics...", flush=True)

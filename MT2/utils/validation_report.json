@@ -1,0 +1,294 @@
+[
+  {
+    "type": "empty_headwords",
+    "count": 27,
+    "sample": [
+      {
+        "page_number": 5,
+        "entry_number": 134,
+        "raw_lines": [
+          "(ពារ់រណ្តៅ លតខ) giữa tháng"
+        ]
+      },
+      {
+        "page_number": 48,
+        "entry_number": 1404,
+        "raw_lines": [
+          "(ក្សីខូច) gái hư, gái điếm"
+        ]
+      },
+      {
+        "page_number": 51,
+        "entry_number": 1506,
+        "raw_lines": [
+          "(នាងខ) tôi (từ xưng hô nữ)"
+        ]
+      },
+      {
+        "page_number": 55,
+        "entry_number": 1628,
+        "raw_lines": [
+          "(ចំដហៀវោល ញ់) thắng mỡ"
+        ]
+      },
+      {
+        "page_number": 60,
+        "entry_number": 1771,
+        "raw_lines": [
+          "(ទីសៅីក្ដរគណៈរដាមក្នីៅ) Văn phòng nội các"
+        ]
+      },
+      {
+        "page_number": 105,
+        "entry_number": 3127,
+        "raw_lines": [
+          "(អម) cây bần"
+        ]
+      },
+      {
+        "page_number": 107,
+        "entry_number": 3160,
+        "raw_lines": [
+          "ឧ. សរដសរជាអរែរ viết thành chữ"
+        ]
+      },
+      {
+        "page_number": 114,
+        "entry_number": 3374,
+        "raw_lines": [
+          "ឧ. ខជនះរាល់ឧបសគគ cố gắng khắc phục mọi khó khăn"
+        ]
+      },
+      {
+        "page_number": 114,
+        "entry_number": 3382,
+        "raw_lines": [
+          "ឧ. ជរតទារលយ bắt cóc tống tiền"
+        ]
+      },
+      {
+        "page_number": 114,
+        "entry_number": 3387,
+        "raw_lines": [
+          "ឧ. ជួយរ៉ុញដអាយមានជរល dùm đẩy để có trớn"
+        ]
+      },
+      {
+        "page_number": 123,
+        "entry_number": 3665,
+        "raw_lines": [
+          "ឧ.ោល់មួយដដ đấm một tay"
+        ]
+      },
+      {
+        "page_number": 124,
+        "entry_number": 3666,
+        "raw_lines": [
+          "ឧ.ោល់អំប៉ុរ giã cốm dẹp"
+        ]
+      },
+      {
+        "page_number": 187,
+        "entry_number": 5549,
+        "raw_lines": [
+          "ឧ. បណ្តៅ លឱយមានដក្ោះថាន រ់ gây ra tai nạn"
+        ]
+      },
+      {
+        "page_number": 202,
+        "entry_number": 6005,
+        "raw_lines": [
+          "ឧ. ដបាះដតអី đóng ghế"
+        ]
+      },
+      {
+        "page_number": 210,
+        "entry_number": 6242,
+        "raw_lines": [
+          "ឧ. ម៉ុខមានក្បជាក្បិយភាព mặt có duyên"
+        ]
+      },
+      {
+        "page_number": 210,
+        "entry_number": 6244,
+        "raw_lines": [
+          "ឧ. អរែរសិលប៍ក្បជាក្បិយ văn học dân gian"
+        ]
+      },
+      {
+        "page_number": 285,
+        "entry_number": 8490,
+        "raw_lines": [
+          "ឧ. ផ្ទក ដរាយ hoa tàn"
+        ]
+      },
+      {
+        "page_number": 285,
+        "entry_number": 8491,
+        "raw_lines": [
+          "ឧ. ដរាយក្សូវ giê lúa"
+        ]
+      },
+      {
+        "page_number": 285,
+        "entry_number": 8492,
+        "raw_lines": [
+          "ឧ. ដរាយដក្មច rắc tiêu"
+        ]
+      },
+      {
+        "page_number": 285,
+        "entry_number": 8494,
+        "raw_lines": [
+          "ឧ. ដរាលដភលើង hơ lửa"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "empty_meanings",
+    "count": 169,
+    "sample": [
+      {
+        "page_number": 10,
+        "entry_number": 281,
+        "raw_lines": [
+          "រមជា Cam-pu-chia"
+        ]
+      },
+      {
+        "page_number": 13,
+        "entry_number": 372,
+        "raw_lines": [
+          "រសិរមមពដនចរ di canh?"
+        ]
+      },
+      {
+        "page_number": 15,
+        "entry_number": 426,
+        "raw_lines": [
+          "ក្ដតាលររជវៈ = អង់ហែឹម enzym"
+        ]
+      },
+      {
+        "page_number": 16,
+        "entry_number": 442,
+        "raw_lines": [
+          "ក្ដបូន cacbon"
+        ]
+      },
+      {
+        "page_number": 23,
+        "entry_number": 670,
+        "raw_lines": [
+          "រូរា ន = រួរអាន (គមពីររូរា ន) kinh Koran (Qur'an)"
+        ]
+      },
+      {
+        "page_number": 25,
+        "entry_number": 730,
+        "raw_lines": [
+          "តរប"
+        ]
+      },
+      {
+        "page_number": 25,
+        "entry_number": 731,
+        "raw_lines": [
+          "តរវ ly"
+        ]
+      },
+      {
+        "page_number": 27,
+        "entry_number": 789,
+        "raw_lines": [
+          "រំដរ"
+        ]
+      },
+      {
+        "page_number": 32,
+        "entry_number": 924,
+        "raw_lines": [
+          "ក្ដំរសមីឡាតស tia Laser"
+        ]
+      },
+      {
+        "page_number": 32,
+        "entry_number": 925,
+        "raw_lines": [
+          "ក្ដំរសមីអ៉ុិច X quang"
+        ]
+      },
+      {
+        "page_number": 32,
+        "entry_number": 936,
+        "raw_lines": [
+          "យរសករដៅដក្ដះទឹររ៉ុំឲ្យក្សដមាចដរាម"
+        ]
+      },
+      {
+        "page_number": 33,
+        "entry_number": 949,
+        "raw_lines": [
+          "ក្ដៅ ម cua"
+        ]
+      },
+      {
+        "page_number": 34,
+        "entry_number": 983,
+        "raw_lines": [
+          "រង trong"
+        ]
+      },
+      {
+        "page_number": 37,
+        "entry_number": 1094,
+        "raw_lines": [
+          "ក្រវាត់ bao xung quanh"
+        ]
+      },
+      {
+        "page_number": 41,
+        "entry_number": 1198,
+        "raw_lines": [
+          "ក្រុមយ៉ុវជនក្ដយឫទធិ"
+        ]
+      },
+      {
+        "page_number": 41,
+        "entry_number": 1214,
+        "raw_lines": [
+          "ក្រូចឆាម រ chanh"
+        ]
+      },
+      {
+        "page_number": 42,
+        "entry_number": 1216,
+        "raw_lines": [
+          "ក្រូចដពាធ្សាត់ cam"
+        ]
+      },
+      {
+        "page_number": 42,
+        "entry_number": 1243,
+        "raw_lines": [
+          "ដក្ក្ដយ sau"
+        ]
+      },
+      {
+        "page_number": 43,
+        "entry_number": 1253,
+        "raw_lines": [
+          "រលន"
+        ]
+      },
+      {
+        "page_number": 44,
+        "entry_number": 1288,
+        "raw_lines": [
+          "រអរ ho"
+        ]
+      }
+    ]
+  }
+]

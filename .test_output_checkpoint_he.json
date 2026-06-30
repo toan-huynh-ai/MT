@@ -1,0 +1,953 @@
+{
+  "last_page": 9,
+  "results": [
+    {
+      "page_number": 2,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 3,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 4,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 5,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 6,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 7,
+      "total_entries_found": 0,
+      "dictionary_entries": []
+    },
+    {
+      "page_number": 8,
+      "total_entries_found": 30,
+      "entries": [
+        {
+          "entry_number": 76,
+          "khmer_headword": "កង្កែប",
+          "word_class": null,
+          "main_vietnamese_meaning": "con ếch",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": "= frog"
+        },
+        {
+          "entry_number": 77,
+          "khmer_headword": "កែកិន",
+          "word_class": null,
+          "main_vietnamese_meaning": "sự ô nhiễm",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 78,
+          "khmer_headword": "កែកិនបរិស្ថាន",
+          "word_class": null,
+          "main_vietnamese_meaning": "ô nhiễm môi trường",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": "= Environmental pollution"
+        },
+        {
+          "entry_number": 79,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "băn khoăn, lo lắng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 80,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "cây móc tai hoặc cua",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 81,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "thiếu việc làm",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 82,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "bất lực, không đủ tư cách, sự bất tài",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 83,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "gậy sắt, gậy grec (để thuần voi)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 84,
+          "khmer_headword": "កង្ហារ",
+          "word_class": null,
+          "main_vietnamese_meaning": "cái chong chóng, cái quạt",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 85,
+          "khmer_headword": "កង្ហារអគ្គិសនី",
+          "word_class": null,
+          "main_vietnamese_meaning": "quạt điện",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 86,
+          "khmer_headword": "កញ្ចក់",
+          "word_class": null,
+          "main_vietnamese_meaning": "tấm kính, tấm kiếng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 87,
+          "khmer_headword": "កញ្ចក់សង្គម",
+          "word_class": null,
+          "main_vietnamese_meaning": "góc nhìn xã hội",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 88,
+          "khmer_headword": "កញ្ចប់",
+          "word_class": null,
+          "main_vietnamese_meaning": "cái gói, cái bọc",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 89,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "con chàng hiu, con chẫu chàng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 90,
+          "khmer_headword": "",
+          "word_class": "(គ.)",
+          "main_vietnamese_meaning": "cũ",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 91,
+          "khmer_headword": "",
+          "word_class": "(ន.)",
+          "main_vietnamese_meaning": "cái ót (của người)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 92,
+          "khmer_headword": "កង្កែង",
+          "word_class": "(ត្រី)",
+          "main_vietnamese_meaning": "cá chốt",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 93,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "phao câu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 94,
+          "khmer_headword": "",
+          "word_class": "(សត្វ)",
+          "main_vietnamese_meaning": "con bọ (bọ dừa, bọ thốt nốt...)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 95,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "cái còi, cái tu huýt",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 96,
+          "khmer_headword": "កណ្ដុំ",
+          "word_class": null,
+          "main_vietnamese_meaning": "chùm (trái cây hoặc hoa)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 97,
+          "khmer_headword": "កន្ទៀង",
+          "word_class": null,
+          "main_vietnamese_meaning": "cái sẹo",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 98,
+          "khmer_headword": "កន្ទក់",
+          "word_class": null,
+          "main_vietnamese_meaning": "giật (giật lấy)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 99,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "giật tả tơi (cơn gió)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 100,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "thùng, lùng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 101,
+          "khmer_headword": "កញ្ឆា",
+          "word_class": null,
+          "main_vietnamese_meaning": "cây cần sa",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 102,
+          "khmer_headword": "កោងកៀរ",
+          "word_class": null,
+          "main_vietnamese_meaning": "méo mó",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 103,
+          "khmer_headword": "កន្សែក",
+          "word_class": null,
+          "main_vietnamese_meaning": "cần xé",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 104,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "rau nhút",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 105,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "dại dột, dễ dụ",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "total_entries_found": 30,
+      "entries": [
+        {
+          "entry_number": 106,
+          "khmer_headword": "កន្ទក់",
+          "word_class": null,
+          "main_vietnamese_meaning": "bã",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 107,
+          "khmer_headword": "កន្ទក់អំពៅ",
+          "word_class": null,
+          "main_vietnamese_meaning": "bã mía",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 108,
+          "khmer_headword": "កន្ទក់ស្លា",
+          "word_class": null,
+          "main_vietnamese_meaning": "bã trầu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 109,
+          "khmer_headword": "ខាន់លា = ( ខ៊ុន )",
+          "word_class": null,
+          "main_vietnamese_meaning": "bệnh hắc lào, bệnh lác",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 110,
+          "khmer_headword": "កន្ត្រក",
+          "word_class": null,
+          "main_vietnamese_meaning": "cái thúng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 111,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "đầy tớ, a hoàn",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 112,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "bừa bãi, lộn xộn",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 113,
+          "khmer_headword": "កន្ទួល",
+          "word_class": null,
+          "main_vietnamese_meaning": "bệnh sởi, ban đỏ",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 114,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "cái sàng gạo",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 115,
+          "khmer_headword": "កន្ត្រាក់",
+          "word_class": null,
+          "main_vietnamese_meaning": "sục",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 116,
+          "khmer_headword": "កញ្ជ្រា",
+          "word_class": null,
+          "main_vietnamese_meaning": "con chồn, con cáo, hồ ly",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 117,
+          "khmer_headword": "កញ្ជ្រាបិសាច",
+          "word_class": null,
+          "main_vietnamese_meaning": "hồ ly tinh",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 118,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "vỏ",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 119,
+          "khmer_headword": "កញ្ញា",
+          "word_class": null,
+          "main_vietnamese_meaning": "cô gái, thanh nữ, thiếu nữ",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 120,
+          "khmer_headword": "កញ្ញាសំដែងម៉ូត, កញ្ញាបង្ហាញម៉ូត",
+          "word_class": null,
+          "main_vietnamese_meaning": "người mẫu, người biểu diễn thời trang",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 121,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "Á hậu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 122,
+          "khmer_headword": "កថិន",
+          "word_class": null,
+          "main_vietnamese_meaning": "Kathina, dâng y Cà Sa",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 123,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "vũng nước",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 124,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "rách rưới, rách buơm",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 125,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "rối",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 126,
+          "khmer_headword": "សក់កន្លោចៗ",
+          "word_class": null,
+          "main_vietnamese_meaning": "tóc rối",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 127,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "bó (mạ, lúa)",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 128,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "cái niền",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 129,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "niền nia, niền cái nia",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 130,
+          "khmer_headword": null,
+          "word_class": null,
+          "main_vietnamese_meaning": "niền thúng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 131,
+          "khmer_headword": "កណ្ដាប់ដៃ",
+          "word_class": null,
+          "main_vietnamese_meaning": "nắm trong tay, trong vòng tay",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 132,
+          "khmer_headword": "កណ្ដាល",
+          "word_class": null,
+          "main_vietnamese_meaning": "giữa, trung tâm",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 133,
+          "khmer_headword": "កណ្ដាលស្ទឹង",
+          "word_class": null,
+          "main_vietnamese_meaning": "giữa sông",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 134,
+          "khmer_headword": "(កណ្ដាលខែ)",
+          "word_class": null,
+          "main_vietnamese_meaning": "giữa tháng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 135,
+          "khmer_headword": "កណ្ដាលទីក្រុង",
+          "word_class": null,
+          "main_vietnamese_meaning": "trung tâm thành phố",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "total_entries_found": 30,
+      "entries": [
+        {
+          "entry_number": 136,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "sặc mùi, nhầy mùi",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 137,
+          "khmer_headword": "កណ្ដឹង",
+          "word_class": null,
+          "main_vietnamese_meaning": "lục lạc, cái chuông",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 138,
+          "khmer_headword": "កណ្ដុរ",
+          "word_class": null,
+          "main_vietnamese_meaning": "con chuột",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 139,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "chuột nhắt",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 140,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "chuột cống",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 141,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "chuột chù",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 142,
+          "khmer_headword": "កណ្ដុរស្រែ",
+          "word_class": null,
+          "main_vietnamese_meaning": "chuột đồng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 143,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "con cào cào, con châu chấu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 144,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "bọ ngựa",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 145,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "cây chi thiên",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 146,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "burng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 147,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "burng cà om, thắt lưng",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 148,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "con mối",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 149,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "vòng gặt, lưỡi liềm, lưỡi hái",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 150,
+          "khmer_headword": "កណ្ឌ",
+          "word_class": null,
+          "main_vietnamese_meaning": "chương, mục, đoạn, tập",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 151,
+          "khmer_headword": "កត់",
+          "word_class": null,
+          "main_vietnamese_meaning": "ghi chép",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 152,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "người báo hiếu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 153,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "sự báo hiếu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 154,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "sự hiếu thảo",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 155,
+          "khmer_headword": "កោតគុណ - អកោតគុណ",
+          "word_class": null,
+          "main_vietnamese_meaning": "hiếu thảo - bất hiếu",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 156,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "hồ sơ vụ kiện",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 157,
+          "khmer_headword": "កិច្ចសន្យា",
+          "word_class": null,
+          "main_vietnamese_meaning": "điều khoản, điều ước, công ước",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 158,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "hủy công ước, không được thực thi",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 159,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "công ước",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 160,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "quyền ưu tiên, quyền ưu đãi",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 161,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "hủy công ước, không được thực thi",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 162,
+          "khmer_headword": "កត្តា",
+          "word_class": null,
+          "main_vietnamese_meaning": "yếu tố, nhân tố",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 163,
+          "khmer_headword": "កត្តានយោបាយ",
+          "word_class": null,
+          "main_vietnamese_meaning": "yếu tố chính trị",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": false,
+          "notes": null
+        },
+        {
+          "entry_number": 164,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "yếu tố gây hại, loài gây hại",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": null
+        },
+        {
+          "entry_number": 165,
+          "khmer_headword": "",
+          "word_class": null,
+          "main_vietnamese_meaning": "yếu tố hữu sinh",
+          "sub_entries": [],
+          "examples": [],
+          "uncertain_text": true,
+          "notes": "Eng. biotic factor"
+        }
+      ]
+    }
+  ]
+}
